@@ -35,19 +35,32 @@ type RegExpression = {field: string, regExp: string, bankname: string}
  * Change params to achieve required results
  */
 function getParams() {
-    const filterCondition = `description ilike '%direct%debit%'`
+    // const filterCondition = `description ilike '%direct%debit%'`
+    //
+    // const regExpressions: RegExpression[] = [
+    //     { field: 'ma1', regExp: 'Direct Debit to (.*)[\\s|\\n]Ref', bankname: 'Barclays Bank UK PLC' },
+    //     { field: 'ma2', regExp: 'Direct Debit (.*) \\d{16} DDR', bankname: 'Barclays Bank UK PLC' },
+    //     { field: 'ma3', regExp: 'Direct Debit (.*) OSOMELTD', bankname: 'Barclays Bank UK PLC' },
+    //     { field: 'ma4', regExp: '\\A\\w{3}\\d{14,}\\sDirect Debit (.*) \\S*\\,', bankname: 'Metro Bank PLC' },
+    //     { field: 'ma5', regExp: 'GBR\\nDirect Debit (.*),', bankname: 'Metro Bank PLC' },
+    //     { field: 'ma6', regExp: '\\ADirect Debit ([A-Z -]*),', bankname: 'Metro Bank PLC' },
+    //     { field: 'ma7', regExp: '(.*) \\(Direct Debit\\)', bankname: 'Monzo Bank Limited' },
+    //     { field: 'ma8', regExp: 'L\\w{2}ns (.*) DIRECT DEBIT', bankname: 'OCBC Pte. Ltd.' },
+    //     { field: 'ma9', regExp: 'DEBIT\\d+ (.*) DIRECT DEBIT', bankname: 'OVERSEA-CHINESE BANKING CORPORATION' },
+    //     { field: 'ma10', regExp: 'DIRECT DEBIT PAYMENT TO (.*) REF[\\s|\\n]\\S+,', bankname: 'Santander' },
+    // ]
 
-    const regExpressions: RegExpression[] = [
-        { field: 'ma1', regExp: 'Direct Debit to (.*)[\\s|\\n]Ref', bankname: 'Barclays Bank UK PLC' },
-        { field: 'ma2', regExp: 'Direct Debit (.*) \\d{16} DDR', bankname: 'Barclays Bank UK PLC' },
-        { field: 'ma3', regExp: 'Direct Debit (.*) OSOMELTD', bankname: 'Barclays Bank UK PLC' },
-        { field: 'ma4', regExp: '\\A\\w{3}\\d{14,}\\sDirect Debit (.*) \\S*\\,', bankname: 'Metro Bank PLC' },
-        { field: 'ma5', regExp: 'GBR\\nDirect Debit (.*),', bankname: 'Metro Bank PLC' },
-        { field: 'ma6', regExp: '\\ADirect Debit ([A-Z -]*),', bankname: 'Metro Bank PLC' },
-        { field: 'ma7', regExp: '(.*) \\(Direct Debit\\)', bankname: 'Monzo Bank Limited' },
-        { field: 'ma8', regExp: 'L\\w{2}ns (.*) DIRECT DEBIT', bankname: 'OCBC Pte. Ltd.' },
-        { field: 'ma9', regExp: 'DEBIT\\d+ (.*) DIRECT DEBIT', bankname: 'OVERSEA-CHINESE BANKING CORPORATION' },
-        { field: 'ma10', regExp: 'DIRECT DEBIT PAYMENT TO (.*) REF[\\s|\\n]\\S+,', bankname: 'Santander' },
+    const filterCondition = `description ilike '%bill%payment%'`
+
+    const regExpressions = [
+        { field: 'mb1', regExp: 'Bill Payment to[\\n|\\s](.*)[\\n|\\s]Ref:', bankname: 'Barclays Bank UK PLC' },
+        { field: 'mb2', regExp: 'Bill Payment From[\\n|\\s](.*)[\\n|\\s]Ref', bankname: 'Barclays Bank UK PLC' },
+        { field: 'mb3', regExp: 'Payment Bill User Payment:[\\n|\\s](.*)[\\n|\\s]ID:', bankname: 'PayPal, Inc.' },
+        { field: 'mb4', regExp: '\\ABILL PAYMENT TO (.*) REFERENCE', bankname: 'Santander' },
+        { field: 'mb5', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander' },
+        { field: 'mb6', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander UK plc' },
+        { field: 'mb7', regExp: 'Outward Faster Payment (.*)\\n', bankname: 'Metro Bank PLC' },
+        { field: 'mb8', regExp: 'Bill Payment[\\n|\\s](.*)[\\n|\\s]INV', bankname: 'Barclays Bank UK PLC' },
     ]
 
     return {filterCondition, regExpressions}
