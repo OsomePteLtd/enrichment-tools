@@ -19,15 +19,9 @@ class TodosController {
         }
     }
 
-    public async escape(req: Request, res: Response) {
+    public async coverage(req: Request, res: Response) {
         try {
-            const regex = req.query.regex as string
-
-            if (!regex) {
-                throw new Error('You should set regex')
-            }
-
-            res.json(escapeRegex(regex));
+            res.json(await coverage());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);
@@ -35,29 +29,25 @@ class TodosController {
     }
 }
 
+type RegExpression = {field: string, regExp: string, bankname: string}
+
 /**
  * Change params to achieve required results
  */
 function getParams() {
-    const filterCondition = `description ilike '%bill%payment%'`
+    const filterCondition = `description ilike '%direct%debit%'`
 
-    const regExpressions = [
-        // { field: 'ma1', regExp: 'Direct Debit to (.*)[\s|\n]Ref' },
-        // { field: 'ma2', regExp: 'Direct Debit (\\w{3,}\\s\\w{3,}) \\d+' },
-        // { field: 'ma3', regExp: 'Direct Debit (.*)[\\s|\\n]BUSINESS' },
-        // { field: 'ma4', regExp: 'GBR\\nDirect Debit (.*),' },
-        // { field: 'ma5', regExp: '\\ADirect Debit ([A-Z -]*),' },
-        // { field: 'ma6_santander', regExp: '\\ADirect Debit \\S+ ([A-Z]*)LTD', bankname: 'Santander' },
-        // { field: 'ma6_metro', regExp: '\ADirect Debit ([A-Z -]*),', bankname: 'Metro Bank PLC' },
-
-        { field: 'mb1', regExp: 'Bill Payment to[\\n|\\s](.*)[\\n|\\s]Ref:', bankname: 'Barclays Bank UK PLC' },
-        { field: 'mb2', regExp: 'Bill Payment From[\\n|\\s](.*)[\\n|\\s]Ref', bankname: 'Barclays Bank UK PLC' },
-        { field: 'mb3', regExp: 'Payment Bill User Payment:[\\n|\\s](.*)[\\n|\\s]ID:', bankname: 'PayPal, Inc.' },
-        { field: 'mb4', regExp: '\\ABILL PAYMENT TO (.*) REFERENCE', bankname: 'Santander' },
-        { field: 'mb5', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander' },
-        { field: 'mb6', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander UK plc' },
-        { field: 'mb7', regExp: 'Outward Faster Payment (.*)\\n', bankname: 'Metro Bank PLC' },
-        { field: 'mb8', regExp: 'Bill Payment[\\n|\\s](.*)[\\n|\\s]INV', bankname: 'Barclays Bank UK PLC' },
+    const regExpressions: RegExpression[] = [
+        { field: 'ma1', regExp: 'Direct Debit to (.*)[\\s|\\n]Ref', bankname: 'Barclays Bank UK PLC' },
+        { field: 'ma2', regExp: 'Direct Debit (.*) \\d{16} DDR', bankname: 'Barclays Bank UK PLC' },
+        { field: 'ma3', regExp: 'Direct Debit (.*) OSOMELTD', bankname: 'Barclays Bank UK PLC' },
+        { field: 'ma4', regExp: '\\A\\w{3}\\d{14,}\\sDirect Debit (.*) \\S*\\,', bankname: 'Metro Bank PLC' },
+        { field: 'ma5', regExp: 'GBR\\nDirect Debit (.*),', bankname: 'Metro Bank PLC' },
+        { field: 'ma6', regExp: '\\ADirect Debit ([A-Z -]*),', bankname: 'Metro Bank PLC' },
+        { field: 'ma7', regExp: '(.*) \\(Direct Debit\\)', bankname: 'Monzo Bank Limited' },
+        { field: 'ma8', regExp: 'L\\w{2}ns (.*) DIRECT DEBIT', bankname: 'OCBC Pte. Ltd.' },
+        { field: 'ma9', regExp: 'DEBIT\\d+ (.*) DIRECT DEBIT', bankname: 'OVERSEA-CHINESE BANKING CORPORATION' },
+        { field: 'ma10', regExp: 'DIRECT DEBIT PAYMENT TO (.*) REF[\\s|\\n]\\S+,', bankname: 'Santander' },
     ]
 
     return {filterCondition, regExpressions}
@@ -120,8 +110,49 @@ async function getMatchedRows(field: string, offset: number, limit: number) {
     }
 }
 
-function escapeRegex(s: string) {
-    return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+async function coverage() {
+    const client = await pool.connect();
+
+    const {filterCondition, regExpressions} = getParams()
+
+    const sql = `
+        SELECT 
+            document_id, bankname, description
+        FROM 
+            "MY_TABLE" t 
+        WHERE 
+            ${filterCondition}
+        ORDER BY 
+            bankname, description
+        `;
+    const {rows} = await client.query(sql);
+
+    const matchedDocumentIds = new Set();
+    for (const {field, regExp, bankname} of regExpressions) {
+        const sql = `
+        SELECT 
+            document_id, bankname, description, ${field}
+        FROM 
+            "MY_TABLE" t, 
+           ${'regexp_match(description, \''+regExp+ '\') as ' + field}
+        WHERE 
+            ${filterCondition} AND ${field} is not null AND bankname = '${bankname}'
+        ORDER BY 
+            bankname, description
+        `;
+        const {rows: matchedRows} = await client.query(sql);
+        matchedRows.forEach(({document_id, description}) => {
+            matchedDocumentIds.add({document_id, description})
+        })
+    }
+
+    client.release();
+
+    return {
+        totalRows: rows.length,
+        coveredRows: matchedDocumentIds.size,
+        percentage: (matchedDocumentIds.size / rows.length).toLocaleString("en", {style: "percent"})
+    }
 }
 
 export default TodosController;

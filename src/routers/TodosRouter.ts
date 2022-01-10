@@ -5,6 +5,6 @@ const router = Router();
 const todosController = new TodosController();
 
 router.get('/', todosController.get);
-router.get('/escape', todosController.escape);
+router.get('/coverage', todosController.coverage);
 
 export default router;
