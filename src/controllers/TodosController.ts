@@ -63,6 +63,45 @@ function getParams() {
         { field: 'mb8', regExp: 'Bill Payment[\\n|\\s](.*)[\\n|\\s]INV', bankname: 'Barclays Bank UK PLC' },
     ]
 
+    // const filterCondition = `bankname ilike '%PayPal%'`
+    // const regExpressions = [
+    //     { field: 'ms1', regExp: 'Express Checkout Payment:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms2', regExp: 'Direct Credit Card Payment:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms3', regExp: 'Website Payment:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms4', regExp: 'Payment Review Release\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms5', regExp: 'Payment Refund:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms6', regExp: 'Mobile Payment:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms7', regExp: 'Chargeback:\\s(.*)\\sID', bankname: 'PayPal, Inc.' },
+    //     { field: 'ms8', regExp: '\\d{2}/\\d{2}/\\d{4}\\s\\d{2}:\\d{2}:\\d{2}\\sSGT\\s(.*)', bankname: 'PayPal Inc,' },
+    // ]
+
+    // const filterCondition = `bankname ilike '%DBS Bank Ltd.%'`
+    // const regExpressions = [
+    //     { field: 'mp1', regExp: '(?<=Card payment Card:\\s)(.*)(?=,\\s[xX]{4}\\s\\d{4})', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp2', regExp: '(?<=Card payment Card\\s:\\s)(.*)(?=\\s,\\s[xX]{4}\\s\\d{4})', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp4', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp5', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]HO[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp6', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]LO[\\s|\\n]ND)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp7', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]LU[\\s|\\n]XE)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp8', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]DU[\\s|\\n]BL)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp9', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]KI[\\s|\\n]TC)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp10', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]MI[\\s|\\n]NA)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp11', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]\\-\\d{9}REF)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp12', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]TO[\\s|\\n]RO)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp13', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]SH[\\s|\\n]EN)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp14', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]GO[\\s|\\n]RO)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp15', regExp: '(?<=TRANSACTION BAT[\\s|\\n])([^\\*0-9\\-\\_]+)(?=[\\s|\\n]\\d{3}\\-\\d{3}\\-\\d{4})', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp16', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=\\*[\\s|\\n]\\d{9}[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp17', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=[\\s|\\n]\\*[\\s|\\n]\\w\\d{4}\\w{5}[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp18', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=[\\s|\\n]INTERNET\\sPAYMEN[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp19', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=\\s\\-\\sONLINE[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp20', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=[\\s|\\*\\s]IOS.*[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp21', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=\\sA\\-2HK.*[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp22', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=\\*\\w+[\\s|\\n]\\w+[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp23', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=XTRA\\-JURONG[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    //     { field: 'mp24', regExp: '(?<=TRANSACTION BAT[\\s|\\n])(.*)(?=SG\\-ADC\\s\\=[\\s|\\n]SI[\\s|\\n]NG)', bankname: 'DBS Bank Ltd.' },
+    // ]
+
     return {filterCondition, regExpressions}
 }
 
