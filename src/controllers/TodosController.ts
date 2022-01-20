@@ -50,17 +50,36 @@ function getParams() {
     //     { field: 'ma10', regExp: 'DIRECT DEBIT PAYMENT TO (.*) REF[\\s|\\n]\\S+,', bankname: 'Santander' },
     // ]
 
-    const filterCondition = `description ilike '%bill%payment%'`
+    // const filterCondition = `description ilike '%bill%payment%'`
+    //
+    // const regExpressions = [
+    //     { field: 'mb1', regExp: 'Bill Payment to[\\n|\\s](.*)[\\n|\\s]Ref:', bankname: 'Barclays Bank UK PLC' },
+    //     { field: 'mb2', regExp: 'Bill Payment From[\\n|\\s](.*)[\\n|\\s]Ref', bankname: 'Barclays Bank UK PLC' },
+    //     { field: 'mb3', regExp: 'Payment Bill User Payment:[\\n|\\s](.*)[\\n|\\s]ID:', bankname: 'PayPal, Inc.' },
+    //     { field: 'mb4', regExp: '\\ABILL PAYMENT TO (.*) REFERENCE', bankname: 'Santander' },
+    //     { field: 'mb5', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander' },
+    //     { field: 'mb6', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander UK plc' },
+    //     { field: 'mb7', regExp: 'Outward Faster Payment (.*)\\n', bankname: 'Metro Bank PLC' },
+    //     { field: 'mb8', regExp: 'Bill Payment[\\n|\\s](.*)[\\n|\\s]INV', bankname: 'Barclays Bank UK PLC' },
+    // ]
+
+    const filterCondition = `description ilike '%transfer%'`
 
     const regExpressions = [
-        { field: 'mb1', regExp: 'Bill Payment to[\\n|\\s](.*)[\\n|\\s]Ref:', bankname: 'Barclays Bank UK PLC' },
-        { field: 'mb2', regExp: 'Bill Payment From[\\n|\\s](.*)[\\n|\\s]Ref', bankname: 'Barclays Bank UK PLC' },
-        { field: 'mb3', regExp: 'Payment Bill User Payment:[\\n|\\s](.*)[\\n|\\s]ID:', bankname: 'PayPal, Inc.' },
-        { field: 'mb4', regExp: '\\ABILL PAYMENT TO (.*) REFERENCE', bankname: 'Santander' },
-        { field: 'mb5', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander' },
-        { field: 'mb6', regExp: '\\ABILL PAYMENT VIA FASTER PAYMENT TO (.*) REFERENCE.*MANDATE', bankname: 'Santander UK plc' },
-        { field: 'mb7', regExp: 'Outward Faster Payment (.*)\\n', bankname: 'Metro Bank PLC' },
-        { field: 'mb8', regExp: 'Bill Payment[\\n|\\s](.*)[\\n|\\s]INV', bankname: 'Barclays Bank UK PLC' },
+        { field: 'mc1', regExp: 'Pay \\w{3}\\s\\d{1,}.\\d{2}\\sto\\s(.*),', bankname: 'Airwallex' },
+        { field: 'mc2', regExp: '\\|\\s[G][A]\\s(.*)\\s-\\s', bankname: 'Airwallex' },
+        { field: 'mc3', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]USD[\\s|\\n]', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_1', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]SGD[\\s|\\n]\\d{1,},', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_2', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]SGD[\\s|\\n]\\d{2,}\\.\\d{2}\\,', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_3', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]HKD[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_4', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]INR[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_5', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]NZD[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_6', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]USD[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_7', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]CNH[\\s|\\n]\\d{1,}\\.\\d{2}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_8', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]GBP[\\s|\\n]\\d{1,}\\.\\d{2}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_9', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]AED[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_10', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]SGD[\\s|\\n]\\d{1,}\\.\\d{2}[\\s|\\n][Aa][Tt][\\s|\\n]USD', bankname: 'DBS Bank Ltd.' },
+        { field: 'mc4_11', regExp: '0016[01TI][01TI]\\d{7}[\\n|\\s](.*)[\\s|\\n]HKD[\\s|\\n]\\d{1,}[\\s|\\n][Aa][Tt][\\s|\\n]SGD', bankname: 'DBS Bank Ltd.' },
     ]
 
     // const filterCondition = `bankname ilike '%PayPal%'`
