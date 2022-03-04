@@ -1,12 +1,17 @@
 import pool from "../dbconfig/dbConnector";
 
-export async function dbsBank() {
+export async function uobBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'DBS', 'DBS Bank', 'DBS Bank (Hong Kong) Limited', 'DBS Bank Ltd', 'DBS Bank Ltd.', 'DBS Bank Ltd. ', 'DBS BANK LTD', 'DBS Bank Ltd. STRIPE', 'DBS Eank Ltd', 'DBS(Hong Kong) Limited', 'DBSSSGSGXXX 8850 6500 4482 0483 5'
+        'United Overseas Bank', 'United Overseas Bank imited', 'United Overseas Bank limited', 'United Overseas Bank Limited', 'United Overseas Bank Limited, Singapore', 'UNITED OVERSEAS BANK LIMITED SINGAPORE', 'UOB Bank'
     ]
-    const transactionCodes: string[] = []
+    const transactionCodes: string[] = [
+        'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
+        'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
+        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INTE', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
+        'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
+    ]
     const commands = [
         'CALL', 'A\/C', 'A \/ C', 'TT', 'DEP', 'WDL',
         'CHECK', 'CHECKING',
@@ -63,7 +68,15 @@ export async function dbsBank() {
         'IDEAL PURCHASE SALE OF GOODS', 'IDEAL MONTHLY SERVICE FEE',
         'PLUS ATM Transaction Cash Withdrawal', 'Service Charge', 'ATM Transaction', 'Cash Withdrawal',
         'FAST Payment \/ Receipt',
-        'Advice Service Charge for Processing of Ideal Transactions'
+        'Advice Service Charge for Processing of Ideal Transactions',
+
+        'FUNDS TRANSFER', 'FUNDS TRF', 'Funds Trf', 'FUNDS TRA', 'FUNDS TRE',
+        'Inward Cr', 'Inward CR', 'Inward DR', 'Inward Credit', 'INWARD TRF', 'Inward TT', 'Outward TT', 'Misc DR',
+        'SERV CHARGE', 'Service Charge',
+        'Misc Credit BIL', 'Misc Debit', 'Misc Credit', 'Misc DR\-Debit Card', 'Misc DR \- Debit Card',
+        'PAYNOW', 'CR Retail', 'IPT',
+        'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
+        'Point of Sale Transaction', 'NETS Debit'
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`

@@ -2,6 +2,7 @@ import {Request, Response} from 'express';
 import pool from '../dbconfig/dbConnector';
 import {ocbcBank} from "../services/ocbcPatterns.service";
 import {dbsBank} from "../services/dbsPatterns.service";
+import {uobBank} from "../services/uobPatterns.service";
 
 class TodosController {
 
@@ -42,6 +43,15 @@ class TodosController {
     public async dbs(req: Request, res: Response) {
         try {
             res.json(await dbsBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async uob(req: Request, res: Response) {
+        try {
+            res.json(await uobBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

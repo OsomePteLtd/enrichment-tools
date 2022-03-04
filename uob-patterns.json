@@ -1,0 +1,3190 @@
+{
+  "totalRows": 58161,
+  "coveredRows": 43523,
+  "percentage": "74.83%",
+  "patternsCount": 86,
+  "patterns": [
+    {
+      "pattern": "Inward Credit FAST PAYNOW OTHR",
+      "counter": 4796,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit-FAST Angie Mok PAYNOW OTHR CNY 2 pax, 2021-02-04",
+          "amount": 88,
+          "link": "https://agent.osome.team/companies/422926/documents/889111",
+          "document_id": 889111
+        },
+        {
+          "description": "LOAN 190121120375 ABWIN PTE LTD ABWIN AUTO LOAN Inward Credit - FAST PAYNOW OTHR YUSRIZAN BIN MISRAN 26 34 20, 2021-02-24",
+          "amount": 80,
+          "link": "https://agent.osome.team/companies/7662/documents/521549",
+          "document_id": 521549
+        },
+        {
+          "description": "Inward Credit - FAST PAYNOW OTHR PayLah ! Roy 08204, 2021-02-24",
+          "amount": 44.5,
+          "link": "https://agent.osome.team/companies/155289/documents/758804",
+          "document_id": 758804
+        },
+        {
+          "description": "Inward Credit-FAST Moon PAYNOW OTHR NA, 2021-02-27",
+          "amount": 24.2,
+          "link": "https://agent.osome.team/companies/422926/documents/889111",
+          "document_id": 889111
+        },
+        {
+          "description": "Inward Credit - FAST PAYNOW OTHR LIM YONG CHING EUNIC Eunice, 2020-11-16",
+          "amount": 26,
+          "link": "https://agent.osome.team/companies/155289/documents/758806",
+          "document_id": 758806
+        }
+      ]
+    },
+    {
+      "pattern": "Misc DR",
+      "counter": 4365,
+      "type": "",
+      "examples": [
+        {
+          "description": "Misc DR - Debit Card 05 JAN 7373 2136367 Grab * - 18720683-9-1516 Singapore SG, 2021-01-07",
+          "amount": -7.3,
+          "link": "https://agent.osome.team/companies/250635/documents/706693",
+          "document_id": 706693
+        },
+        {
+          "description": "03 JAN 6957 7521350 ZOOM.US 888-799-9666 8887999666 US Misc DR - Debit Card USD 20.00 04 JAN 6957 7464214 WEBFLOW.COM 4159640555 US, 6957-01-06",
+          "amount": -27.23,
+          "link": "https://agent.osome.team/companies/204404/documents/462789",
+          "document_id": 462789
+        },
+        {
+          "description": "Misc DR - Debit Card USD 6.42 02 SEP 2604 3198723 Google SG SG, 2021-09-04",
+          "amount": -8.81,
+          "link": "https://agent.osome.team/companies/25923/documents/907836",
+          "document_id": 907836
+        },
+        {
+          "description": "Misc DR - Debit Card EUR 15.99 03 MAR 9746 9311096 NETFLIX.COM 18665797172 ES, 2021-03-05",
+          "amount": -26.49,
+          "link": "https://agent.osome.team/companies/37003/documents/536007",
+          "document_id": 536007
+        },
+        {
+          "description": "Misc DR - Debit Card USD 121.00 01 APR 5918 2333854 MINDBODY , INC 805-4762700 US, 2020-04-04",
+          "amount": -178.55,
+          "link": "https://agent.osome.team/companies/229344/documents/465906",
+          "document_id": 465906
+        }
+      ]
+    },
+    {
+      "pattern": "FUNDS TRF TT",
+      "counter": 3911,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUNDS TRF - TT 10R905060679C01 NONE FERRA MAKINA ITHALAT IHRACAT, 2019-05-06",
+          "amount": -150000,
+          "link": "https://agent.osome.team/companies/173287/documents/1070035",
+          "document_id": 1070035
+        },
+        {
+          "description": "FUNDS TRF - TT FT21060110695328 1OR106182847C01 Frederick Stremme, 2021-06-18",
+          "amount": -3488.68,
+          "link": "https://agent.osome.team/companies/135234/documents/1137060",
+          "document_id": 1137060
+        },
+        {
+          "description": "FUNDS TRF - TT 1OR 103220597001 FT21030100895208 Juan Choconat SAS, 2021-03-22",
+          "amount": -846.06,
+          "link": "https://agent.osome.team/companies/118993/documents/538727",
+          "document_id": 538727
+        },
+        {
+          "description": "FUNDS TRF - TT FT, 2022-01-18",
+          "amount": -24500,
+          "link": "https://agent.osome.team/companies/269459/documents/1182358",
+          "document_id": 1182358
+        },
+        {
+          "description": "FUNDS TRF - TT 1OR 103190419C01 FT21030100535400 Smartsatulab Ltd, 2021-03-19",
+          "amount": -63402,
+          "link": "https://agent.osome.team/companies/112837/documents/538701",
+          "document_id": 538701
+        }
+      ]
+    },
+    {
+      "pattern": "SERV CHARGE",
+      "counter": 3885,
+      "type": "",
+      "examples": [
+        {
+          "description": "SERV CHARGE 10R912033929001 NONE AYHAN 34 TARIM URUNLERI ITH . IHR ., 2019-12-03",
+          "amount": -46.01,
+          "link": "https://agent.osome.team/companies/173287/documents/1070521",
+          "document_id": 1070521
+        },
+        {
+          "description": "SERV CHARGE 1OR109230320C01 FT21090122940189 PE RUDYKH VLADIMIR VLADISLAVOVICH, 2021-09-23",
+          "amount": -47.33,
+          "link": "https://agent.osome.team/companies/2584/documents/907569",
+          "document_id": 907569
+        },
+        {
+          "description": "SERV CHARGE 10R810240754001 NONE Great ROC Technology ( HK ) Co. , Ltd, 2018-10-24",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/149880/documents/476251",
+          "document_id": 476251
+        },
+        {
+          "description": "SERV CHARGE FT21010093854925 1OR101180024C01 BLACK DOTS MARKETING SDN BHD, 2021-01-18",
+          "amount": -20,
+          "link": "https://agent.osome.team/companies/140773/documents/458665",
+          "document_id": 458665
+        },
+        {
+          "description": "SERV CHARGE 1OR 108250215C01 FT21080119173423 FBO AngelList Clients, 2021-08-25",
+          "amount": -68.02,
+          "link": "https://agent.osome.team/companies/4185/documents/833691",
+          "document_id": 833691
+        }
+      ]
+    },
+    {
+      "pattern": "Misc DR-Debit Card",
+      "counter": 2450,
+      "type": "",
+      "examples": [
+        {
+          "description": " Misc DR-Debit Card 30 DEC 2604 1784943 USD 99.00  , 2021-01-04",
+          "amount": -135.49,
+          "link": "https://agent.osome.team/companies/25923/documents/791912",
+          "document_id": 791912
+        },
+        {
+          "description": "Misc DR-Debit Card 25 JUL 1427 6241736 USD 11.98 MSFT * MSBILL.INFO SG, 2021-07-28",
+          "amount": -16.6,
+          "link": "https://agent.osome.team/companies/135234/documents/1137060",
+          "document_id": 1137060
+        },
+        {
+          "description": "Misc DR-Debit Card 04 DEC 9280 0288388 USD 16.04 ZOOM.US 8887999666 US, 2020-12-08",
+          "amount": -22.08,
+          "link": "https://agent.osome.team/companies/5545/documents/458409",
+          "document_id": 458409
+        },
+        {
+          "description": "Misc DR-Debit Card, 2021-12-16",
+          "amount": -181.55,
+          "link": "https://agent.osome.team/companies/680/documents/1160214",
+          "document_id": 1160214
+        },
+        {
+          "description": "Misc DR-Debit Card 03 MAR 9556 0562942 MYR 70.00 GRAB ECOM SSL-EC PETALING JAYAMY, 2020-03-05",
+          "amount": -23.92,
+          "link": "https://agent.osome.team/companies/3977/documents/447568",
+          "document_id": 447568
+        }
+      ]
+    },
+    {
+      "pattern": "INWARD TRF TT",
+      "counter": 2384,
+      "type": "",
+      "examples": [
+        {
+          "description": "INWARD TRF - TT 1IR010197300C01 H01010196164369 1 / UAB BALTIKPAS, 2020-10-19",
+          "amount": 30510,
+          "link": "https://agent.osome.team/companies/173287/documents/1070299",
+          "document_id": 1070299
+        },
+        {
+          "description": "INWARD TRF - TT 11R112085283C01 2021120800514768 KENJI TECHNOLOGY SDN BHD, 2021-12-08",
+          "amount": 249557.62,
+          "link": "https://agent.osome.team/companies/106948/documents/1156232",
+          "document_id": 1156232
+        },
+        {
+          "description": "INWARD TRF - TT 11R001106881C01 F50110683804000 SUNBAY BV, 2020-01-13",
+          "amount": 245886.58,
+          "link": "https://agent.osome.team/companies/173287/documents/1070340",
+          "document_id": 1070340
+        },
+        {
+          "description": "INWARD TRF - TT HIRO12310982001 9796294365FS TAV TEPE AKFEN INVESTMENT CONSTRUC, 2021-01-06",
+          "amount": 550000,
+          "link": "https://agent.osome.team/companies/173287/documents/1070592",
+          "document_id": 1070592
+        },
+        {
+          "description": "INWARD TRF - TT 11R112075245C01 C104701 BBK120721 MHC DIGITAL FINANCE PTY LTD, 2021-12-07",
+          "amount": 5000,
+          "link": "https://agent.osome.team/companies/84739/documents/1156097",
+          "document_id": 1156097
+        }
+      ]
+    },
+    {
+      "pattern": "Service Charge",
+      "counter": 1989,
+      "type": "",
+      "examples": [
+        {
+          "description": "Service Charge, 2021-06-30",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/37003/documents/695590",
+          "document_id": 695590
+        },
+        {
+          "description": "Service Charge - PLUS 5592212010349078, 2019-06-17",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        },
+        {
+          "description": "Service Charge, 2020-07-30",
+          "amount": -28,
+          "link": "https://agent.osome.team/companies/129660/documents/941729",
+          "document_id": 941729
+        },
+        {
+          "description": "Service Charge - PLUS 5592212010349078, 2018-12-26",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/173287/documents/897638",
+          "document_id": 897638
+        },
+        {
+          "description": "Service Charge, 2021-06-30",
+          "amount": -28,
+          "link": "https://agent.osome.team/companies/147759/documents/694404",
+          "document_id": 694404
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST OTHR",
+      "counter": 1518,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit-FAST HOSKING MICHAEL DESM OTHR Other Hosking half kilo, 2021-10-05",
+          "amount": 38018.4,
+          "link": "https://agent.osome.team/companies/135234/documents/1137061",
+          "document_id": 1137061
+        },
+        {
+          "description": "Inward Credit-FAST GPAY NETWORK (S) PT OTHR Other Septemb57247 September Toas, 2021-02-16",
+          "amount": 6.04,
+          "link": "https://agent.osome.team/companies/422926/documents/889111",
+          "document_id": 889111
+        },
+        {
+          "description": "Inward Credit-FAST TAN HUI KUN GAIL OTHR Other Transfer, 2021-04-19",
+          "amount": 2700,
+          "link": "https://agent.osome.team/companies/184635/documents/1172908",
+          "document_id": 1172908
+        },
+        {
+          "description": "Inward Credit - FAST OTHR Other GPAY NETWORK ( S ) PT, 2021-02-08",
+          "amount": 24.03,
+          "link": "https://agent.osome.team/companies/86218/documents/1112065",
+          "document_id": 1112065
+        },
+        {
+          "description": "Inward Credit - FAST OTHR Other GPAY NETWORK ( S ) PT, 2020-12-21",
+          "amount": 37.48,
+          "link": "https://agent.osome.team/companies/86218/documents/1033919",
+          "document_id": 1033919
+        }
+      ]
+    },
+    {
+      "pattern": "CR Retail NETS",
+      "counter": 1256,
+      "type": "",
+      "examples": [
+        {
+          "description": "CR Retail - NETS 27NOV 11169448200, 2020-11-28",
+          "amount": 552.35,
+          "link": "https://agent.osome.team/companies/86218/documents/1033920",
+          "document_id": 1033920
+        },
+        {
+          "description": "CR Retail-NETS 30NOV 11169932100, 2020-12-01",
+          "amount": 135.1,
+          "link": "https://agent.osome.team/companies/422926/documents/1005828",
+          "document_id": 1005828
+        },
+        {
+          "description": "CR Retail - NETS 19OCT 561110694482, 2020-10-20",
+          "amount": 20.7,
+          "link": "https://agent.osome.team/companies/258655/documents/1041166",
+          "document_id": 1041166
+        },
+        {
+          "description": "CR Retail - NETS 19MAR 11169791000, 2021-03-20",
+          "amount": 66.01,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "GPAY NETWORK ( S ) PT CR Retail - NETS 10SEP 561110694482, 2020-09-11",
+          "amount": 6.45,
+          "link": "https://agent.osome.team/companies/86218/documents/1033922",
+          "document_id": 1033922
+        }
+      ]
+    },
+    {
+      "pattern": "FUNDS TRANSFER",
+      "counter": 1110,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUNDS TRANSFERFT20120089613975101012070225C01EMBLEM OF STRENGTH &COURAGE, 2020-12-07",
+          "amount": 10,
+          "link": "https://agent.osome.team/companies/142492/documents/558438",
+          "document_id": 558438
+        },
+        {
+          "description": "FUNDS TRANSFER FT21020096254608 101102050264C01 KOTOBA TRANSLATION PTE. LTD.",
+          "amount": -979.58,
+          "link": "https://agent.osome.team/companies/3977/documents/590739",
+          "document_id": 590739
+        },
+        {
+          "description": "FUNDS TRANSFER 101009030196001 Internal Trans CONNECT EAST HOLDINGS PTE LTD, 2020-09-03",
+          "amount": -221.75,
+          "link": "https://agent.osome.team/companies/94339/documents/924904",
+          "document_id": 924904
+        },
+        {
+          "description": "FUNDS TRANSFER 101008050067001 FT20080078923017 ENGISCENT PTE . LTD ., 2020-08-05",
+          "amount": -440.24,
+          "link": "https://agent.osome.team/companies/250635/documents/705445",
+          "document_id": 705445
+        },
+        {
+          "description": "FUNDS TRANSFER 101110050032C01 FT21100124634461 DATA MOTION PTE LTD, 2021-10-05",
+          "amount": 3000,
+          "link": "https://agent.osome.team/companies/25923/documents/995597",
+          "document_id": 995597
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg",
+      "counter": 784,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg, 2020-09-14",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/348192/documents/1048943",
+          "document_id": 1048943
+        },
+        {
+          "description": "SVC Chg, 2019-01-10",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/96332/documents/754059",
+          "document_id": 754059
+        },
+        {
+          "description": "FT20110087698622 SVC Chg GEBFT20110087698622 FT20110087698622, 2020-11-18",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/155289/documents/758806",
+          "document_id": 758806
+        },
+        {
+          "description": "SVC Chg, 2021-02-24",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/34347/documents/497192",
+          "document_id": 497192
+        },
+        {
+          "description": " SVC Chg children Charity GEBFT20110088181615  , 2020-11-23",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/170873/documents/598808",
+          "document_id": 598808
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Transfer-IB",
+      "counter": 775,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Transfer-IB 377360655201005 FT21040103217738 377360655201005, 2021-04-12",
+          "amount": -15000,
+          "link": "https://agent.osome.team/companies/238104/documents/605084",
+          "document_id": 605084
+        },
+        {
+          "description": "Funds Transfer-IB jun factory rent FT21050108525956 jun factory rental, 2021-05-31",
+          "amount": -3210,
+          "link": "https://agent.osome.team/companies/170873/documents/1145704",
+          "document_id": 1145704
+        },
+        {
+          "description": "Funds Transfer-IB ToUOBOne FT21050106982282 FrmWNCFIP, 2021-05-19",
+          "amount": -60000,
+          "link": "https://agent.osome.team/companies/199788/documents/1084846",
+          "document_id": 1084846
+        },
+        {
+          "description": "Funds Transfer-IB FT21090123005039 FT21090123005039, 2021-09-23",
+          "amount": -30000,
+          "link": "https://agent.osome.team/companies/158699/documents/932391",
+          "document_id": 932391
+        },
+        {
+          "description": "Funds Transfer-IB REIMBURSE PROCUR FT20110088971077 REIMBURSE PROCURE",
+          "amount": -11100,
+          "link": "https://agent.osome.team/companies/193716/documents/508799",
+          "document_id": 508799
+        }
+      ]
+    },
+    {
+      "pattern": "Misc Debit",
+      "counter": 700,
+      "type": "",
+      "examples": [
+        {
+          "description": "Misc Debit Rev entry due to wrong posting, 2020-12-22",
+          "amount": -1.5,
+          "link": "https://agent.osome.team/companies/155289/documents/758803",
+          "document_id": 758803
+        },
+        {
+          "description": "Misc Debit PMRACCASC / 0120 PMRSG09012020005740 Annual ant Fee, 2020-01-10",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/107795/documents/684592",
+          "document_id": 684592
+        },
+        {
+          "description": "Misc Debit PMAACCASC / 0121 PMRSG16012021022654 Account Annual Service Foo, 2021-01-18",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/29535/documents/448262",
+          "document_id": 448262
+        },
+        {
+          "description": "Misc Debit BIL : 1CEOC303319 CI0922021 WT - SPP INDUSIND BANK LTD, 2021-07-26",
+          "amount": -92.6,
+          "link": "https://agent.osome.team/companies/95225/documents/753239",
+          "document_id": 753239
+        },
+        {
+          "description": "Misc Debit PMRSG16012021064145 PMRACCASC/0121 Account Annual Service Fee, 2021-01-18",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/199788/documents/1084846",
+          "document_id": 1084846
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg IVPT",
+      "counter": 636,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg GEBFT20020067553108 FT20020067553108 IVPT INV FEB 20, 2020-02-28",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/348192/documents/1051194",
+          "document_id": 1051194
+        },
+        {
+          "description": "SVC Chg FT21040103923634 GEBFT21040103923634 IVPT Invoice 21INV008, 2021-04-21",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/112837/documents/583383",
+          "document_id": 583383
+        },
+        {
+          "description": "SVC Chg GEBFT21010092893992 FT21010092893992 IVPT Accounting Invoice 190612, 2021-01-06",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/2584/documents/556878",
+          "document_id": 556878
+        },
+        {
+          "description": "SVC Chg FT20070077656337 GEBFT20070077656337 IVPT A36520, 2020-07-22",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/144312/documents/483650",
+          "document_id": 483650
+        },
+        {
+          "description": "SVC Chg FT21080119659432 GEBFT21080119659432 IVPT SCORPI TECH PTE LTD TIV21080424, 2021-08-27",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/203792/documents/908764",
+          "document_id": 908764
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg BEXP",
+      "counter": 635,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21120136671412 GEBFT21120136671412 BEXP Freight - WM25 - 2021.12, 2021-12-30",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/1168030",
+          "document_id": 1168030
+        },
+        {
+          "description": "SVC Chg GEBFT21090124188471 FT21090124188471 BEXP OSOME ACCOUNTING:Q-AS-05796, 2021-10-01",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/121397/documents/995142",
+          "document_id": 995142
+        },
+        {
+          "description": "SVC Chg Q-AS-04810 GEBFT21080117957504 BEXP Q-AS-04810, 2021-08-14",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/412102/documents/873070",
+          "document_id": 873070
+        },
+        {
+          "description": "SVC Chg FT21070113890072 GEBFT21070113890072 BEXP Steel Plate 25mm X 1.5m X 3m (2pcs), 2021-07-13",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/121397/documents/863589",
+          "document_id": 863589
+        },
+        {
+          "description": "SVC Chg FT21030101190158 GEBFT21030101190158 BEXP INV 083517, 2021-03-24",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/11104/documents/547957",
+          "document_id": 547957
+        }
+      ]
+    },
+    {
+      "pattern": "Misc Credit FAST",
+      "counter": 574,
+      "type": "",
+      "examples": [
+        {
+          "description": "Misc Credit PMRBUNDFR / 0121 PMRSG31012021128341 FAST Transaction Rebate, 2021-02-05",
+          "amount": 0.5,
+          "link": "https://agent.osome.team/companies/83661/documents/484978",
+          "document_id": 484978
+        },
+        {
+          "description": "Misc Credit PMRBUNDFR / 0221 PMRSG28022021034686 FAST Transaction Rebate, 2021-03-05",
+          "amount": 1,
+          "link": "https://agent.osome.team/companies/126268/documents/542299",
+          "document_id": 542299
+        },
+        {
+          "description": "Misc Credit PMRSG31012021124864 PMRBUNDFR/0121 FAST Transaction Rebate",
+          "amount": 2,
+          "link": "https://agent.osome.team/companies/835/documents/484848",
+          "document_id": 484848
+        },
+        {
+          "description": "Misc Credit PMRBUNDFR / 0121 PMRSG3 101202 1129026 FAST Transaction Rebate, 2021-02-05",
+          "amount": 1,
+          "link": "https://agent.osome.team/companies/76950/documents/484974",
+          "document_id": 484974
+        },
+        {
+          "description": "Misc Credit PMRBUNDFR / 0721 PMRSG31072021030527 FAST Transaction Rebate, 2021-08-06",
+          "amount": 3,
+          "link": "https://agent.osome.team/companies/133211/documents/833529",
+          "document_id": 833529
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST PAYMENT CSDB",
+      "counter": 536,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit-FAST STRIPE PAYMENTS SING CSDB Cash Disb STRIPE rMM9WMLB9, 2021-02-09",
+          "amount": 1009.29,
+          "link": "https://agent.osome.team/companies/415268/documents/974151",
+          "document_id": 974151
+        },
+        {
+          "description": "Inward Credit-FAST STRIPE PAYMENTS SING CSDB Cash Disb STRIPE eY5tBrrym, 2020-11-11",
+          "amount": 1059.16,
+          "link": "https://agent.osome.team/companies/415268/documents/974155",
+          "document_id": 974155
+        },
+        {
+          "description": "Inward Credit-FAST STRIPE PAYMENTS SING CSDB Cash Disb Shopify Bar z5uU, 2021-06-22",
+          "amount": 561.47,
+          "link": "https://agent.osome.team/companies/238104/documents/845682",
+          "document_id": 845682
+        },
+        {
+          "description": "Inward Credit-FAST STRIPE PAYMENTS SING CSDB Cash Disb Shopify PB MWRTa, 2021-04-30",
+          "amount": 211.44,
+          "link": "https://agent.osome.team/companies/238104/documents/605084",
+          "document_id": 605084
+        },
+        {
+          "description": "Inward Credit-FAST STRIPE PAYMENTS SING CSDB Cash Disb Shopify Bar tqQB, 2021-06-11",
+          "amount": 554.39,
+          "link": "https://agent.osome.team/companies/238104/documents/845682",
+          "document_id": 845682
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST CSDB PAYMENT",
+      "counter": 529,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit - FAST CSDB Cash Disb STRIPE PAYMENTS SING MINDBODY S6wApEM, 5918-03-16",
+          "amount": 2568.98,
+          "link": "https://agent.osome.team/companies/229344/documents/465914",
+          "document_id": 465914
+        },
+        {
+          "description": "Inward Credit - FAST CSDB Cash Disb STRIPE PAYMENTS SING STRIPE wxLXpV8sQ, 2021-12-17",
+          "amount": 297.54,
+          "link": "https://agent.osome.team/companies/32743/documents/1164560",
+          "document_id": 1164560
+        },
+        {
+          "description": "Inward Credit - FAST CSDB Cash Disb STRIPE PAYMENTS SING STRIPE aDpRcm384, 2021-11-22",
+          "amount": 28.48,
+          "link": "https://agent.osome.team/companies/415268/documents/1089876",
+          "document_id": 1089876
+        },
+        {
+          "description": "Inward Credit - FAST CSDB Cash Disb STRIPE PAYMENTS SING STRIPE ZOSTIs Y4g, 2020-08-04",
+          "amount": 24.22,
+          "link": "https://agent.osome.team/companies/123015/documents/603934",
+          "document_id": 603934
+        },
+        {
+          "description": "Inward Credit - FAST CSDB Cash Disb STRIPE PAYMENTS SING STRIPE 8TPOYADPQ, 2020-11-04",
+          "amount": 168.46,
+          "link": "https://agent.osome.team/companies/123015/documents/584814",
+          "document_id": 584814
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg SUPP",
+      "counter": 425,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg EASTERN CRAFT GEBFT21060109318562 SUPP EASTERN CRAFT TRADING PTE LTD, 2021-06-07",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/415268/documents/974154",
+          "document_id": 974154
+        },
+        {
+          "description": "SVC Chg FT21100126009173 GEBFT21100126009173 SUPP MUA fee Lishan, 2021-10-14",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151091",
+          "document_id": 1151091
+        },
+        {
+          "description": "SVC Chg FT21070113791055 GEBFT21070113791055 SUPP Q-AS-02729 ACCOUNTING SERVICES, 2021-07-12",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/62228/documents/780424",
+          "document_id": 780424
+        },
+        {
+          "description": "SVC Chg GEBFT21030099366464 FT21030099366464 SUPP OSAKAKUMA, 2021-03-04",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "SVC Chg FT21080118517012 GEBFT21080118517012 SUPP IKEA photo shoot studio, 2021-08-19",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151089",
+          "document_id": 1151089
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST BEXP",
+      "counter": 402,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT21030098886160 FT21030098886160 BEXP RussellTaylors Transport 2021.02.15, 2021-03-01",
+          "amount": -1712.16,
+          "link": "https://agent.osome.team/companies/140773/documents/535884",
+          "document_id": 535884
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21040105270299 FT21040105270299 BEXP SHIPPING, 2021-04-30",
+          "amount": -2583.84,
+          "link": "https://agent.osome.team/companies/422926/documents/917136",
+          "document_id": 917136
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21030099644787 FT21030099644787 BEXP PPC , Rental , Claim ( Ivan ), 2021-03-08",
+          "amount": -4468.34,
+          "link": "https://agent.osome.team/companies/185886/documents/535603",
+          "document_id": 535603
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT20070077070014 0320-104 BEXP 0320-104, 2020-07-13",
+          "amount": -267.5,
+          "link": "https://agent.osome.team/companies/432562/documents/994953",
+          "document_id": 994953
+        },
+        {
+          "description": "Funds Trf - FAST INV2021030410 GEBFT21040103217381 BEXP DDUCARGO, 2021-04-12",
+          "amount": -117.96,
+          "link": "https://agent.osome.team/companies/238104/documents/605084",
+          "document_id": 605084
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST IVPT",
+      "counter": 393,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT21120134833204 Inv Q - AS - 06871 IVPT Osome Inv Payment Q - AS - 06871, 2021-12-17",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/132498/documents/1152277",
+          "document_id": 1152277
+        },
+        {
+          "description": "Funds Trf - FAST FT21120132557896 GEBFT21120132557896 IVPT INV 2984, 2021-12-06",
+          "amount": -1200,
+          "link": "https://agent.osome.team/companies/246106/documents/1131796",
+          "document_id": 1131796
+        },
+        {
+          "description": "Funds Trf - FAST FT21010092788102 GEBFT21010092788102 IVPT SISIN12083760, 2021-01-11",
+          "amount": -1152.1,
+          "link": "https://agent.osome.team/companies/235367/documents/1096663",
+          "document_id": 1096663
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21070115139769 FT21070115139769 IVPT BHP 01748, 2021-07-26",
+          "amount": -2140,
+          "link": "https://agent.osome.team/companies/246106/documents/804692",
+          "document_id": 804692
+        },
+        {
+          "description": "Funds Trf - FAST Server room GEBFT19050048424118 IVPT INVTGE/19-145, 2019-06-24",
+          "amount": -570,
+          "link": "https://agent.osome.team/companies/239783/documents/495583",
+          "document_id": 495583
+        }
+      ]
+    },
+    {
+      "pattern": "Misc Credit",
+      "counter": 392,
+      "type": "",
+      "examples": [
+        {
+          "description": "Misc Credit PMRRTISGPRR / 1020 PMRSG31102020020648 Single Svc Reb, 2020-11-06",
+          "amount": 0.5,
+          "link": "https://agent.osome.team/companies/94339/documents/924929",
+          "document_id": 924929
+        },
+        {
+          "description": "Misc Credit PMRRTISGPRR / 0620 PMRSG30062020013212 Single Svc Reb -, 2020-07-06",
+          "amount": 0.5,
+          "link": "https://agent.osome.team/companies/233704/documents/644273",
+          "document_id": 644273
+        },
+        {
+          "description": "Misc Credit PMRRTISGPRA / 0320 PMRSG31032020013776 Single Svc Reb, 2020-04-06",
+          "amount": 1,
+          "link": "https://agent.osome.team/companies/4185/documents/982464",
+          "document_id": 982464
+        },
+        {
+          "description": "Misc Credit PMRRTISGPRR / 0719 PMRSG31072019017384 Single Svc Reb, 2019-08-06",
+          "amount": 1.5,
+          "link": "https://agent.osome.team/companies/233704/documents/498858",
+          "document_id": 498858
+        },
+        {
+          "description": "Misc Credit PMRRTISGPRR / 0220 PMRSG29022020020586 Single Svc Reb, 5918-03-06",
+          "amount": 0.5,
+          "link": "https://agent.osome.team/companies/229344/documents/465914",
+          "document_id": 465914
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST",
+      "counter": 391,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW - FAST GEBFT20110086666880 FT20110086666880, 2020-11-05",
+          "amount": -11.24,
+          "link": "https://agent.osome.team/companies/155289/documents/758806",
+          "document_id": 758806
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21010093119336 FT21010093119336, 2021-01-08",
+          "amount": -91.29,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21050107252257 FT21050107252257, 2021-05-21",
+          "amount": -299.6,
+          "link": "https://agent.osome.team/companies/121397/documents/642679",
+          "document_id": 642679
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT20110088504855 FT20110088504855, 2020-11-26",
+          "amount": -63.24,
+          "link": "https://agent.osome.team/companies/155289/documents/758806",
+          "document_id": 758806
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21010093316143 FT21010093316143, 2021-01-11",
+          "amount": -100.14,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg OTHR",
+      "counter": 353,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg GEBFT21080117270010 FT21080117270010 OTHR July Expenses, 2021-08-10",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/169222/documents/1172646",
+          "document_id": 1172646
+        },
+        {
+          "description": "SVC Chg FT21010093789423 GEBFT21010093789423 OTHR Sponsorship, 2021-01-15",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/112832/documents/998126",
+          "document_id": 998126
+        },
+        {
+          "description": "SVC Chg GEBFT21010092947067 FT21010092947067 OTHR Lucky Cat, 2021-01-06",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "SVC Chg FT21060111143674 GEBFT21060111143674 OTHR Billpay volopay, 2021-06-23",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/82007/documents/697238",
+          "document_id": 697238
+        },
+        {
+          "description": "SVC Chg FT20120090165689 GEBFT20120090165689 OTHR QBECP201211235316760",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/30663/documents/521405",
+          "document_id": 521405
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST SUPP",
+      "counter": 314,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21010094330209 GEBFT21010094330209 SUPP Indo embassy + taxi, 2021-01-21",
+          "amount": -354.6,
+          "link": "https://agent.osome.team/companies/198156/documents/1151095",
+          "document_id": 1151095
+        },
+        {
+          "description": "PAYNOW-FAST FT21100124439420 GEBFT21100124439420 SUPP Ikea fest photos, 2021-10-02",
+          "amount": -300,
+          "link": "https://agent.osome.team/companies/198156/documents/1151091",
+          "document_id": 1151091
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21050106272195 WATERING HOLE PT SUPP WATERING HOLE PTE LTD, 2021-05-10",
+          "amount": -933.04,
+          "link": "https://agent.osome.team/companies/415268/documents/948711",
+          "document_id": 948711
+        },
+        {
+          "description": "PAYNOW-FAST S-CHEM GEBFT21040102739249 SUPP 21/162990, 2021-04-06",
+          "amount": -1020.78,
+          "link": "https://agent.osome.team/companies/415268/documents/974153",
+          "document_id": 974153
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21050106271910 EAST OF AVALON SUPP EAST OF AVALON WINES PTE LTD, 2021-05-10",
+          "amount": -261.08,
+          "link": "https://agent.osome.team/companies/415268/documents/948713",
+          "document_id": 948713
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg SALA Salary",
+      "counter": 314,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21110128670219 GEBFT21110128670219 SALA October Salary, 2021-11-03",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/135234/documents/1137061",
+          "document_id": 1137061
+        },
+        {
+          "description": "SVC Chg FT21050108287211 GEBFT21050108287211 SALA Salary, 2021-07-31",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239783/documents/743726",
+          "document_id": 743726
+        },
+        {
+          "description": "SVC Chg FT21010092887680 GEBFT21010092887680 SALA Salary, 2021-07-31",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/204404/documents/758680",
+          "document_id": 758680
+        },
+        {
+          "description": "SVC Chg FT21120132798984 GEBFT21120132798984 SALA Salary Sept and Oct, 2021-12-02",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/412102/documents/1129171",
+          "document_id": 1129171
+        },
+        {
+          "description": "SVC Chg FT21060109739097 GEBFT21060109739097 SALA Salary, 2021-06-09",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239783/documents/689866",
+          "document_id": 689866
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR GIRO OTHR",
+      "counter": 306,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - GIRO OTHR Other AMERICAN EXPRESS INT 980116056540466007, 2021-02-16",
+          "amount": 129.71,
+          "link": "https://agent.osome.team/companies/202823/documents/528856",
+          "document_id": 528856
+        },
+        {
+          "description": "Inward CR - GIRO C K TANG LIMITED OTHR Other 2PV12-047702 049521, 2020-08-17",
+          "amount": 94.09,
+          "link": "https://agent.osome.team/companies/96332/documents/458424",
+          "document_id": 458424
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other CLASSPASS SINGAPORE SCCS 110620349288, 2020-11-10",
+          "amount": 4273.5,
+          "link": "https://agent.osome.team/companies/229344/documents/465916",
+          "document_id": 465916
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other, 2021-08-14",
+          "amount": 1065,
+          "link": "https://agent.osome.team/companies/40887/documents/626660",
+          "document_id": 626660
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other GEMS WORLD ACADEMY ( 2021, 2021-05-19",
+          "amount": 327.4,
+          "link": "https://agent.osome.team/companies/415268/documents/948713",
+          "document_id": 948713
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg SALA",
+      "counter": 266,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21060109672649 GEBFT21060109672649 SALA part time work angela, 2021-06-09",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/170873/documents/1145706",
+          "document_id": 1145706
+        },
+        {
+          "description": "SVC Chg FT21070116167922 GEBFT21070116167922 SALA July, 2021-07-31",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/422926/documents/889110",
+          "document_id": 889110
+        },
+        {
+          "description": "SVC Chg FT21090123747765 GEBFT21090123747765 SALA Sept 2021, 2021-09-28",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/835/documents/917216",
+          "document_id": 917216
+        },
+        {
+          "description": "SVC Chg GEBFT21080120055088 FT21080120055088 SALA B447748, 2021-08-31",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/204404/documents/837010",
+          "document_id": 837010
+        },
+        {
+          "description": "SVC Chg GEBFT20090083307375 FT20090083307375 SALA P17914712, 2020-09-28",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/147759/documents/593614",
+          "document_id": 593614
+        }
+      ]
+    },
+    {
+      "pattern": "Cash Withdrawal ATM",
+      "counter": 264,
+      "type": "",
+      "examples": [
+        {
+          "description": "Cash Withdrawal - IATM 5592212010349078, 2019-06-17",
+          "amount": -116.96,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        },
+        {
+          "description": "Cash Withdrawal - IATM 5592212010349078, 2019-10-23",
+          "amount": -937.99,
+          "link": "https://agent.osome.team/companies/173287/documents/1070613",
+          "document_id": 1070613
+        },
+        {
+          "description": "Cash Withdrawal - IATM 5592212010349078, 2019-06-17",
+          "amount": -116.96,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        },
+        {
+          "description": "Cash Withdrawal - IATM 5592212010349078, 2019-03-29",
+          "amount": -520.57,
+          "link": "https://agent.osome.team/companies/173287/documents/902912",
+          "document_id": 902912
+        },
+        {
+          "description": "Cash Withdrawal - IATM 5592212010349078, 2019-06-06",
+          "amount": -258.22,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST BEXP",
+      "counter": 236,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21060108545562 GEBFT21060108545562 BEXP Transport, 2021-06-01",
+          "amount": -500,
+          "link": "https://agent.osome.team/companies/198156/documents/1151086",
+          "document_id": 1151086
+        },
+        {
+          "description": "PAYNOW - FAST . GEBFT21110131142197 FT21110131142197 BEXP Five yards claims, 2021-11-23",
+          "amount": -60848.45,
+          "link": "https://agent.osome.team/companies/271985/documents/1086254",
+          "document_id": 1086254
+        },
+        {
+          "description": "PAYNOW-FAST No.167329 GEBFT21070114659602 BEXP 9 hours lorry+dump 1 load(19/07/21), 2021-07-21",
+          "amount": -445,
+          "link": "https://agent.osome.team/companies/121397/documents/863589",
+          "document_id": 863589
+        },
+        {
+          "description": "PAYNOW-FAST FT21070113396077 GEBFT21070113396077 BEXP THOMAS DIR FEE, 2021-07-08",
+          "amount": -5000,
+          "link": "https://agent.osome.team/companies/11104/documents/919865",
+          "document_id": 919865
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21080119989395 FT21080119989395 BEXP 8-868-45933 invoice, 2021-08-30",
+          "amount": -1084.8,
+          "link": "https://agent.osome.team/companies/118993/documents/831142",
+          "document_id": 831142
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST SALA Salary",
+      "counter": 234,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT19080053916330 FT19080053916330 SALA Munirul Islam Salary",
+          "amount": -1376,
+          "link": "https://agent.osome.team/companies/94523/documents/517223",
+          "document_id": 517223
+        },
+        {
+          "description": "Funds Trf - FAST Benedict Salary GEBFT21070112978866 SALA ONUS Salary, 2021-12-27",
+          "amount": -1599.5,
+          "link": "https://agent.osome.team/companies/4328/documents/1142069",
+          "document_id": 1142069
+        },
+        {
+          "description": "Funds Trf - FAST FT21090123727716 GEBFT21090123727716 SALA Sep 2021 Salary, 2021-09-30",
+          "amount": -14447,
+          "link": "https://agent.osome.team/companies/201584/documents/900762",
+          "document_id": 900762
+        },
+        {
+          "description": "Funds Trf - FAST FT21030101583894 GEBFT21030101583894 SALA March 2021 Salary, 2021-03-26",
+          "amount": -6098,
+          "link": "https://agent.osome.team/companies/199154/documents/554574",
+          "document_id": 554574
+        },
+        {
+          "description": "Funds Trf - FAST FT20120089383819 GEBFT20120089383819 SALA SOMIN Salary NOV 2020, 2020-12-04",
+          "amount": -2358,
+          "link": "https://agent.osome.team/companies/239783/documents/495590",
+          "document_id": 495590
+        }
+      ]
+    },
+    {
+      "pattern": "FUNDS TRF",
+      "counter": 233,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUNDS TRF - IT 1OR111303592C01 FT21110132296573 BLACK DOTS MARKETING SDN BHD, 2021-11-30",
+          "amount": -18972,
+          "link": "https://agent.osome.team/companies/140773/documents/1082399",
+          "document_id": 1082399
+        },
+        {
+          "description": "26/08/2021 08:41:12 AM FUNDS TRF -0.00, 2021-08-26",
+          "amount": -204.63,
+          "link": "https://agent.osome.team/companies/9918/documents/829806",
+          "document_id": 829806
+        },
+        {
+          "description": "FUNDS TRF - IT 10R101261321001 FT21010093619200 BULUT MARKETING AND SOFTWARE, 2021-01-26",
+          "amount": -200000,
+          "link": "https://agent.osome.team/companies/173287/documents/1070602",
+          "document_id": 1070602
+        },
+        {
+          "description": "FUNDS TRF - IT 10R101040488C01 FT20120092327294 Hubei Xusheng Import and export, 2021-01-04",
+          "amount": -2000000,
+          "link": "https://agent.osome.team/companies/133316/documents/446670",
+          "document_id": 446670
+        },
+        {
+          "description": "FUNDS TRF - IT 10R103181094C01 FT21030100440793 FOSHAN GAOMING KOMFORT IMP AND EXP, 2021-03-18",
+          "amount": -68163,
+          "link": "https://agent.osome.team/companies/173287/documents/1070600",
+          "document_id": 1070600
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST IVPT",
+      "counter": 223,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW - FAST GEBFT20120090333377 FT20120090333377 IVPT 168972, 2020-12-14",
+          "amount": -84.64,
+          "link": "https://agent.osome.team/companies/155289/documents/758803",
+          "document_id": 758803
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21010095036340 FT21010095036340 IVPT FF - 068868, 2021-01-27",
+          "amount": -131.61,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "PAYNOW-FAST FT21110131140271 GEBFT21110131140271 IVPT IN-MBF-2111-0085, 2021-11-23",
+          "amount": -164.78,
+          "link": "https://agent.osome.team/companies/135234/documents/1137061",
+          "document_id": 1137061
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21010092645501 FT21010092645501 IVPT 0716, 2021-01-04",
+          "amount": -344.7,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "PAYNOW-FAST FT22010138126012 GEBFT22010138126012 IVPT AF 212223, 2022-01-11",
+          "amount": -963,
+          "link": "https://agent.osome.team/companies/426539/documents/1165504",
+          "document_id": 1165504
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST OTHR",
+      "counter": 218,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST Director Fee GEBFT21030099433907 OTHR Director Fee, 2021-03-06",
+          "amount": -5000,
+          "link": "https://agent.osome.team/companies/4509/documents/750092",
+          "document_id": 750092
+        },
+        {
+          "description": "Funds Trf - FAST FT21100126103614 GEBFT21100126103614 OTHR Invoice SINR009422164, 2021-10-19",
+          "amount": -91.41,
+          "link": "https://agent.osome.team/companies/112837/documents/973762",
+          "document_id": 973762
+        },
+        {
+          "description": "Funds Trf - FAST _— Director Fee GEBFT20110088317724 OTHR Director Fee, 2020-11-25",
+          "amount": -5000,
+          "link": "https://agent.osome.team/companies/4509/documents/750086",
+          "document_id": 750086
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21030099228371 FT21030099228371 OTHR Billpay volopay, 2021-03-04",
+          "amount": -3000,
+          "link": "https://agent.osome.team/companies/82007/documents/535626",
+          "document_id": 535626
+        },
+        {
+          "description": "Funds Trf - FAST beebz GEBFT20100085695819 OTHR anil, 2020-10-27",
+          "amount": -700,
+          "link": "https://agent.osome.team/companies/85269/documents/960078",
+          "document_id": 960078
+        }
+      ]
+    },
+    {
+      "pattern": "NETS",
+      "counter": 210,
+      "type": "",
+      "examples": [
+        {
+          "description": "NETS Debit-Consumer 5592212010499386 CHOO CHIAN16054200",
+          "amount": -37.45,
+          "link": "https://agent.osome.team/companies/121397/documents/527308",
+          "document_id": 527308
+        },
+        {
+          "description": "NTUC FP - 316 BDMER SI NG 02JUL 4098-3820-1531-4769 Point of Sale Transaction ( NETS ) 153 14789 PRATAS & CURRIES",
+          "amount": -27.6,
+          "link": "https://agent.osome.team/companies/104221/documents/818932",
+          "document_id": 818932
+        },
+        {
+          "description": "NETS Debit - Consumer CHALLENGER21088900 5592212010499386, 2021-09-22",
+          "amount": -129.51,
+          "link": "https://agent.osome.team/companies/121397/documents/907788",
+          "document_id": 907788
+        },
+        {
+          "description": "NETS Debit - Consumer AIK CHIN 16202300 5592212010499386, 2021-08-03",
+          "amount": -29.96,
+          "link": "https://agent.osome.team/companies/121397/documents/828603",
+          "document_id": 828603
+        },
+        {
+          "description": "NETS Debit - Consumer CHOO CHIAN15364200 5592212010499386, 2021-05-18",
+          "amount": -422.86,
+          "link": "https://agent.osome.team/companies/121397/documents/642679",
+          "document_id": 642679
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST COLL",
+      "counter": 195,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit-FAST CHIA YING YING (XIE COLL CollPymt CM sales collect 5th Oct, 2020-10-05",
+          "amount": 334.45,
+          "link": "https://agent.osome.team/companies/415268/documents/974156",
+          "document_id": 974156
+        },
+        {
+          "description": "Inward Credit-FAST ALIPAY MERCHANT SERV COLL CollPymt S50490000425478, 2021-10-04",
+          "amount": 340.71,
+          "link": "https://agent.osome.team/companies/440902/documents/1147072",
+          "document_id": 1147072
+        },
+        {
+          "description": "Inward Credit-FAST CHIA YING YING (XIE COLL CollPymt 0000000000 L458 CM sales collect 29th Jun, 2021-06-30",
+          "amount": 255.75,
+          "link": "https://agent.osome.team/companies/415268/documents/974154",
+          "document_id": 974154
+        },
+        {
+          "description": "Inward Credit - FAST COLL CollPymt CHIA YING YING ( XIE CM sales collect 22.6.21, 2021-06-23",
+          "amount": 533.05,
+          "link": "https://agent.osome.team/companies/415268/documents/948712",
+          "document_id": 948712
+        },
+        {
+          "description": "Inward Credit - FAST COLL CollPymt ALIPAY MERCHANT SERV S50640000397985, 2021-08-11",
+          "amount": 3.24,
+          "link": "https://agent.osome.team/companies/140773/documents/830486",
+          "document_id": 830486
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR GIRO SUPP",
+      "counter": 193,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - GIRO SUPP Supplier Pynt PAYPAL PTE LTD 1012034619009, 2021-01-26",
+          "amount": 8.73288,
+          "link": "https://agent.osome.team/companies/62228/documents/448266",
+          "document_id": 448266
+        },
+        {
+          "description": "Inward CR - GIRO SUPP SupplierPymt PAYPAL PTE LTD 46KVDTKS5P23C, 2019-03-26",
+          "amount": 0.08,
+          "link": "https://agent.osome.team/companies/5877/documents/974525",
+          "document_id": 974525
+        },
+        {
+          "description": "Inward CR - GIRO SUPP Supplier Pymt AIG ASIA PACIFIC 80504679991D PYMT 071621, 2021-07-22",
+          "amount": 513.71,
+          "link": "https://agent.osome.team/companies/99658/documents/975765",
+          "document_id": 975765
+        },
+        {
+          "description": "Inward CR - GIRO BEACON PROPERTIES PT SUPP SupplierPymt BEACON-PAYMT FOR INV- 21-00490CTH-L, 2021-12-01",
+          "amount": 1123.5,
+          "link": "https://agent.osome.team/companies/139963/documents/1175908",
+          "document_id": 1175908
+        },
+        {
+          "description": "Inward CR - GIRO BOSCHMAN SUPP SupplierPymt Payt for Inv#BPS-INV- 20213219, 2021-08-27",
+          "amount": 80.25,
+          "link": "https://agent.osome.team/companies/11104/documents/919840",
+          "document_id": 919840
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg RENT",
+      "counter": 183,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg Niche Commerce GEBFT21040102289783 RENT Rent Tagore 0412, 2021-04-01",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/238104/documents/605084",
+          "document_id": 605084
+        },
+        {
+          "description": "SVC Chg FT21050106975820 GEBFT21050106975820 RENT Bootcamp - 11th May, 2021-05-18",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/159846/documents/696615",
+          "document_id": 696615
+        },
+        {
+          "description": "SVC Chg GEBFT20120089317676 FT20120089317676 RENT September rental for Dec, 2020-12-03",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/422926/documents/1005828",
+          "document_id": 1005828
+        },
+        {
+          "description": "SVC Chg FT21020095604466 GEBFT21020095604466 RENT September 15/02- 14/03, 2021-02-01",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/422926/documents/889111",
+          "document_id": 889111
+        },
+        {
+          "description": "SVC Chg FT20020067351986 GEBFT20020067351986 RENT CBINV-32894, 2020-02-28",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239871/documents/507524",
+          "document_id": 507524
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST SALA",
+      "counter": 177,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT20040071079586 FT20040071079586 SALA WARRIORONLINE, 2020-04-21",
+          "amount": -45,
+          "link": "https://agent.osome.team/companies/229344/documents/465906",
+          "document_id": 465906
+        },
+        {
+          "description": "Funds Trf - FAST FT21010092865191 GEBFT21010092865191 SALA Jan-Mar, 2021-01-06",
+          "amount": -3900,
+          "link": "https://agent.osome.team/companies/254883/documents/794981",
+          "document_id": 794981
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21010092569658 FT21010092569658 SALA Rashi WS Dec 20 Payroll, 2021-01-04",
+          "amount": -179,
+          "link": "https://agent.osome.team/companies/229344/documents/465911",
+          "document_id": 465911
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21020095715683 FT21020095715683 SALA Lucky Cat, 2021-02-01",
+          "amount": -522,
+          "link": "https://agent.osome.team/companies/155289/documents/758804",
+          "document_id": 758804
+        },
+        {
+          "description": "Funds Trf - FAST FT21010092922382 GEBFT21010092922382 SALA T01097414E, 2021-01-06",
+          "amount": -79.5,
+          "link": "https://agent.osome.team/companies/104742/documents/455422",
+          "document_id": 455422
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST SUPP",
+      "counter": 172,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit - FAST SUPP Supplier Pymt DELIVERY HERO ( SINGA 608000168490, 2021-02-20",
+          "amount": 12.97,
+          "link": "https://agent.osome.team/companies/86218/documents/1112065",
+          "document_id": 1112065
+        },
+        {
+          "description": "Inward Credit-FAST DELIVERY HERO (SINGA SUPP SupplierPymt O40I610000342786, 2021-07-06",
+          "amount": 6.05,
+          "link": "https://agent.osome.team/companies/422926/documents/889110",
+          "document_id": 889110
+        },
+        {
+          "description": "Inward Credit - FAST SUPP SupplierPymt DELIVERY HERO ( SINGA 608000153368, 2021-01-26",
+          "amount": 14.12,
+          "link": "https://agent.osome.team/companies/86218/documents/1033918",
+          "document_id": 1033918
+        },
+        {
+          "description": "Inward Credit-FAST DELIVERY HERO (SINGA SUPP SupplierPymt O40I638000307779, 2021-06-03",
+          "amount": 18.96,
+          "link": "https://agent.osome.team/companies/422926/documents/889110",
+          "document_id": 889110
+        },
+        {
+          "description": "Inward Credit - FAST SUPP SupplierPymt DELIVERY HERO ( SINGA 608000153368, 2021-01-26",
+          "amount": 14.12,
+          "link": "https://agent.osome.team/companies/258655/documents/1041163",
+          "document_id": 1041163
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST",
+      "counter": 166,
+      "type": "",
+      "examples": [
+        {
+          "description": "N7EB622000198393 Inward Credit - FAST",
+          "amount": 5,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "Inward Credit-FAST, 2021-01-18",
+          "amount": 1480,
+          "link": "https://agent.osome.team/companies/175234/documents/603196",
+          "document_id": 603196
+        },
+        {
+          "description": "Inward Credit-FAST, 2020-12-21",
+          "amount": 2400,
+          "link": "https://agent.osome.team/companies/175234/documents/603196",
+          "document_id": 603196
+        },
+        {
+          "description": "Inward Credit - FAST, 2021-04-26",
+          "amount": 92.21,
+          "link": "https://agent.osome.team/companies/86218/documents/1112060",
+          "document_id": 1112060
+        },
+        {
+          "description": "Inward Credit - FAST OTHA Other TransferWise YAMINOTE PTE LTD . 129536124, 2020-07-20",
+          "amount": 4054.24,
+          "link": "https://agent.osome.team/companies/4185/documents/982454",
+          "document_id": 982454
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST OTHR",
+      "counter": 156,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21030100188421 GEBFT21030100188421 OTHR 18-08-144, 2021-03-13",
+          "amount": -267.04,
+          "link": "https://agent.osome.team/companies/190386/documents/1083628",
+          "document_id": 1083628
+        },
+        {
+          "description": "PAYNOW-FAST FT21100127944342 GEBFT21100127944342 OTHR QBECP211028232559850, 2021-10-29",
+          "amount": -1152,
+          "link": "https://agent.osome.team/companies/428269/documents/1185653",
+          "document_id": 1185653
+        },
+        {
+          "description": "PAYNOW-FAST PIB2006113795369332 A.1 BUSINESS PTE. LT OTHR Niche Commerce Secretarial svcs, 2020-06-11",
+          "amount": -360,
+          "link": "https://agent.osome.team/companies/238108/documents/500202",
+          "document_id": 500202
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT20120090532927 FT20120090532927 OTHR Monthly Contract, 2021-03-17",
+          "amount": -1687.5,
+          "link": "https://agent.osome.team/companies/244292/documents/706827",
+          "document_id": 706827
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21070112738780 June 2021 cpf OTHR QBECP210703143445466, 2021-07-03",
+          "amount": -558,
+          "link": "https://agent.osome.team/companies/121397/documents/755554",
+          "document_id": 755554
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf",
+      "counter": 153,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - F, 2021-07-01",
+          "amount": -300,
+          "link": "https://agent.osome.team/companies/203792/documents/721292",
+          "document_id": 721292
+        },
+        {
+          "description": "12:21:33 AM Funds Trf - FA0.00, 2021-10-01",
+          "amount": -2520.54,
+          "link": "https://agent.osome.team/companies/169041/documents/1121635",
+          "document_id": 1121635
+        },
+        {
+          "description": "Funds Trf -",
+          "amount": 95.21,
+          "link": "https://agent.osome.team/companies/11104/documents/919833",
+          "document_id": 919833
+        },
+        {
+          "description": "Funds Trf -, 2020-12-04",
+          "amount": 10000,
+          "link": "https://agent.osome.team/companies/348192/documents/1048950",
+          "document_id": 1048950
+        },
+        {
+          "description": "Funds Trf, 2021-01-06",
+          "amount": 0.5,
+          "link": "https://agent.osome.team/companies/202823/documents/492396",
+          "document_id": 492396
+        }
+      ]
+    },
+    {
+      "pattern": "FAST CSDB",
+      "counter": 151,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Cr - FAST ShopeePay Private L CSDB Cash Disbursem SHOPEE WDRL 258829243, 2021-12-09",
+          "amount": 9999,
+          "link": "https://agent.osome.team/companies/140773/documents/1168030",
+          "document_id": 1168030
+        },
+        {
+          "description": "Inward Cr - - FAST ShopeePay Private L CSDB Cash Disbursem SHOPEE WDRL 240125870, 2021-10-08",
+          "amount": 9999,
+          "link": "https://agent.osome.team/companies/140773/documents/1168032",
+          "document_id": 1168032
+        },
+        {
+          "description": "Inward Cr - FAST CSDB Cash Disbursem ShopeePay Private L SHOPEE WDRL 258829243, 2021-12-09",
+          "amount": 9999,
+          "link": "https://agent.osome.team/companies/140773/documents/1163482",
+          "document_id": 1163482
+        },
+        {
+          "description": "Inward Cr - FAST ShopeePay Private L CSDB Cash Disbursem SHOPEE WDRL 231906867, 2021-09-10",
+          "amount": 200.11,
+          "link": "https://agent.osome.team/companies/235367/documents/1019573",
+          "document_id": 1019573
+        },
+        {
+          "description": "Inward Cr - FAST CSDB Cash Disbursem ShopeePay Private L SHOPEE WDRL 229705803, 2021-09-02",
+          "amount": 9999,
+          "link": "https://agent.osome.team/companies/140773/documents/907807",
+          "document_id": 907807
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST RENT",
+      "counter": 146,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT19120063505650 FT19120063505650 RENT SG - INV - 11479, 2019-12-31",
+          "amount": -1301.12,
+          "link": "https://agent.osome.team/companies/348192/documents/1051153",
+          "document_id": 1051153
+        },
+        {
+          "description": "Funds Trf - FAST FT20120091633318 GEBFT20120091633318 RENT Niche Commerce Rent Tagore 8 0412, 2021-01-02",
+          "amount": -3049.5,
+          "link": "https://agent.osome.team/companies/238104/documents/605085",
+          "document_id": 605085
+        },
+        {
+          "description": "Funds Trf - FAST FT21040102192375 GEBFT21040102192375 RENT Rent Apr 2021, 2021-04-03",
+          "amount": -1605,
+          "link": "https://agent.osome.team/companies/835/documents/687087",
+          "document_id": 687087
+        },
+        {
+          "description": "Funds Trf - FAST FT21010092699140 GEBFT21010092699140 RENT invoices for Oct and Dec (966 304), 2021-01-05",
+          "amount": -856,
+          "link": "https://agent.osome.team/companies/239783/documents/495575",
+          "document_id": 495575
+        },
+        {
+          "description": "Funds Trf - FAST FT21090120983987 GEBFT21090120983987 RENT Stratford Court (SD), 2021-09-06",
+          "amount": -7000,
+          "link": "https://agent.osome.team/companies/267319/documents/906093",
+          "document_id": 906093
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR",
+      "counter": 144,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - (, 2020-10-22",
+          "amount": 0.14,
+          "link": "https://agent.osome.team/companies/169041/documents/472446",
+          "document_id": 472446
+        },
+        {
+          "description": "Inward CR, 2021-01-05",
+          "amount": -7115.32,
+          "link": "https://agent.osome.team/companies/202823/documents/492396",
+          "document_id": 492396
+        },
+        {
+          "description": "Inward CR, 2021-02-18",
+          "amount": -977.05,
+          "link": "https://agent.osome.team/companies/202823/documents/492400",
+          "document_id": 492400
+        },
+        {
+          "description": "Inward CR, 2021-01-08",
+          "amount": -127.47,
+          "link": "https://agent.osome.team/companies/202823/documents/492396",
+          "document_id": 492396
+        },
+        {
+          "description": "Inward CR - G1,, 2020-12-21",
+          "amount": 1096.71,
+          "link": "https://agent.osome.team/companies/96332/documents/458423",
+          "document_id": 458423
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT",
+      "counter": 143,
+      "type": "",
+      "examples": [
+        {
+          "description": "Bulk - FAST BK21070112413439 GEB21070112413439 PAYMENTS, 2021-07-01",
+          "amount": -8783,
+          "link": "https://agent.osome.team/companies/239783/documents/743726",
+          "document_id": 743726
+        },
+        {
+          "description": "Bulk - FAST BK20120091471634 GEB20120091471634 PAYMENTS, 2020-12-31",
+          "amount": -2856,
+          "link": "https://agent.osome.team/companies/181956/documents/654129",
+          "document_id": 654129
+        },
+        {
+          "description": "Bulk - FAST GEB21030098871355 BK21030098871355 PAYMENTS, 2021-03-01",
+          "amount": -122740,
+          "link": "https://agent.osome.team/companies/116593/documents/536020",
+          "document_id": 536020
+        },
+        {
+          "description": "Bulk - FAST GEB21070114742719 BK21070114742719 PAYMENTS, 2021-07-21",
+          "amount": -4560,
+          "link": "https://agent.osome.team/companies/286571/documents/902692",
+          "document_id": 902692
+        },
+        {
+          "description": "Bulk - FAST GEB21020098672584 BK21020098672584 PAYMENTS, 2021-02-26",
+          "amount": -32765.36,
+          "link": "https://agent.osome.team/companies/202823/documents/528856",
+          "document_id": 528856
+        }
+      ]
+    },
+    {
+      "pattern": "INWARD TRF TT INTE",
+      "counter": 130,
+      "type": "",
+      "examples": [
+        {
+          "description": "INWARD TRF - TT 11R112241074C01 CA211223195166 ICS INTERNATIONAL CARRIER SERV, 2021-12-24",
+          "amount": 2992.58,
+          "link": "https://agent.osome.team/companies/40385/documents/1156252",
+          "document_id": 1156252
+        },
+        {
+          "description": "INWARD TRF - TT S0602202807C01 1IR008116589C01 STONEBRIDGE GUITARS INTERNATIONAL, 2020-08-11",
+          "amount": 1023.27,
+          "link": "https://agent.osome.team/companies/1999/documents/862702",
+          "document_id": 862702
+        },
+        {
+          "description": "INWARD TRF - TT 1IRO 10205214C01 4190695294FS GAP INTERNATIONAL LIMITED, 2020-10-20",
+          "amount": 107857.77,
+          "link": "https://agent.osome.team/companies/134098/documents/759142",
+          "document_id": 759142
+        },
+        {
+          "description": "INWARD TRF - TT 1 IR 108174452C01 2021081700081296 NEXRISE INTERNATIONAL LTD , ADD ., 2021-08-17",
+          "amount": 11367.78,
+          "link": "https://agent.osome.team/companies/95225/documents/834000",
+          "document_id": 834000
+        },
+        {
+          "description": "INWARD TRF - TT 11R109011630001 S06124331D8101 TARGRAY INTERNATIONAL INC ., 2021-09-01",
+          "amount": 1097.3,
+          "link": "https://agent.osome.team/companies/39091/documents/910863",
+          "document_id": 910863
+        }
+      ]
+    },
+    {
+      "pattern": "Inward DR GIRO COLL",
+      "counter": 127,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward DR - GIRO COLL HSAO2000 Health Sciences Auth P201000001454, 2020-10-07",
+          "amount": -790,
+          "link": "https://agent.osome.team/companies/254233/documents/1082625",
+          "document_id": 1082625
+        },
+        {
+          "description": "Inward DR - GIRO M1 LIMITED COLL 603528090 603528090, 2021-06-25",
+          "amount": -99,
+          "link": "https://agent.osome.team/companies/835/documents/687089",
+          "document_id": 687089
+        },
+        {
+          "description": "Inward DR - GIRO COLL HSAO2000 Health Sci ces Auth 1900449709, 2020-05-28",
+          "amount": -1868,
+          "link": "https://agent.osome.team/companies/254233/documents/1082728",
+          "document_id": 1082728
+        },
+        {
+          "description": "Inward DR - GIRO Singapore Telecommun COLL 84078662 100021134188, 2021-05-14",
+          "amount": -128.2,
+          "link": "https://agent.osome.team/companies/203792/documents/695801",
+          "document_id": 695801
+        },
+        {
+          "description": "Inward DR - GIRO COLL HSAO2000 Health Sciences Auth 1900440120, 2020-03-04",
+          "amount": -88,
+          "link": "https://agent.osome.team/companies/254233/documents/1082726",
+          "document_id": 1082726
+        }
+      ]
+    },
+    {
+      "pattern": "Serv Charge PAYMENT",
+      "counter": 121,
+      "type": "",
+      "examples": [
+        {
+          "description": "Serv Charge GEB21030101471110 BK21030101471110 PAYMENTS, 2021-03-26",
+          "amount": -4,
+          "link": "https://agent.osome.team/companies/118971/documents/535878",
+          "document_id": 535878
+        },
+        {
+          "description": "Serv Charge BK21110131140031 GEB21110131140031 PAYMENTS, 2021-11-30",
+          "amount": -1,
+          "link": "https://agent.osome.team/companies/135234/documents/1137061",
+          "document_id": 1137061
+        },
+        {
+          "description": "Serv Charge BK21010095317820 GEB21010095317820 PAYMENTS, 2021-01-29",
+          "amount": -2,
+          "link": "https://agent.osome.team/companies/181956/documents/654129",
+          "document_id": 654129
+        },
+        {
+          "description": "Serv Charge BK21050108529255 GEB21050108529255 PAYMENTS, 2021-06-01",
+          "amount": -2,
+          "link": "https://agent.osome.team/companies/174371/documents/851368",
+          "document_id": 851368
+        },
+        {
+          "description": "Serv Charge BK21120133306138 GEB21120133306138 PAYMENTS, 2021-12-06",
+          "amount": -4,
+          "link": "https://agent.osome.team/companies/239783/documents/1137728",
+          "document_id": 1137728
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST SUPP",
+      "counter": 115,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST GEBFT21 100126362063 FT21100126362063 SUPP 0029603, 2021-10-18",
+          "amount": -5527.78,
+          "link": "https://agent.osome.team/companies/422926/documents/1005825",
+          "document_id": 1005825
+        },
+        {
+          "description": "Funds Trf - FAST FT21040104057016 GEBFT21040104057016 SUPP edwin jobsite, 2021-04-20",
+          "amount": -285,
+          "link": "https://agent.osome.team/companies/170873/documents/1145705",
+          "document_id": 1145705
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT20100085399437 GL SUPP JM, 2020-11-30",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/244345/documents/706801",
+          "document_id": 706801
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT201 10088759319 BDS SUPP vendor cost, 2020-11-28",
+          "amount": -18416.84,
+          "link": "https://agent.osome.team/companies/432562/documents/994962",
+          "document_id": 994962
+        },
+        {
+          "description": "Funds Trf - FAST FT20090083149027 GEBFT20090083149027 SUPP RMB48839-CHINA, 2020-09-26",
+          "amount": -9821.52,
+          "link": "https://agent.osome.team/companies/1999/documents/862703",
+          "document_id": 862703
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg REFU",
+      "counter": 114,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21010093455464 GEBFT21010093455464 REFU russelltaylors BM10 refund, 2021-01-12",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/458665",
+          "document_id": 458665
+        },
+        {
+          "description": "SVC Chg FT21120136664523 GEBFT21120136664523 REFU russell taylors erc30 refund, 2021-12-30",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/1168030",
+          "document_id": 1168030
+        },
+        {
+          "description": "SVC Chg FT21110131400754 GEBFT21110131400754 REFU russelltaylors pc60 refund, 2021-11-24",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/1168031",
+          "document_id": 1168031
+        },
+        {
+          "description": "SVC Chg refund GEBFT20080079736524 REFU beebizzle refund, 2020-08-17",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/85269/documents/960078",
+          "document_id": 960078
+        },
+        {
+          "description": "SVC Chg FT21110131056536 GEBFT21110131056536 REFU russelltaylors erc30 refund, 2021-11-22",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/1168031",
+          "document_id": 1168031
+        }
+      ]
+    },
+    {
+      "pattern": "SUPP",
+      "counter": 111,
+      "type": "",
+      "examples": [
+        {
+          "description": "O/W Trf Rev-Chg FT21010092646787 GEBFT21010092646787 SUPP Laptop Purchase for JJ, 2021-01-04",
+          "amount": 1799,
+          "link": "https://agent.osome.team/companies/199154/documents/473599",
+          "document_id": 473599
+        },
+        {
+          "description": "SUPP SupplierPymt DELIVERY HERO ( SINGA N7E8636000357054",
+          "amount": -58.95,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "SUPP SupplierPymt DELIVERY HERO ( SINGA N7EB626000127383, 2021-03-01",
+          "amount": 33.48,
+          "link": "https://agent.osome.team/companies/86218/documents/1112062",
+          "document_id": 1112062
+        },
+        {
+          "description": "SUPP Supplier Pymt",
+          "amount": -5.3,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "SUPP SupplierPymt",
+          "amount": -99.28,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        }
+      ]
+    },
+    {
+      "pattern": "CHAR",
+      "counter": 111,
+      "type": "",
+      "examples": [
+        {
+          "description": "SERV CHARG ., 2021-11-17",
+          "amount": -22.26,
+          "link": "https://agent.osome.team/companies/9812/documents/1136397",
+          "document_id": 1136397
+        },
+        {
+          "description": "SERV CHARG ., 2021-11-01",
+          "amount": -239.04,
+          "link": "https://agent.osome.team/companies/9812/documents/1136397",
+          "document_id": 1136397
+        },
+        {
+          "description": "SERV CHARG ., 2021-11-12",
+          "amount": -47.33,
+          "link": "https://agent.osome.team/companies/9812/documents/1136397",
+          "document_id": 1136397
+        },
+        {
+          "description": "SERV CHARG",
+          "amount": -243.7,
+          "link": "https://agent.osome.team/companies/9812/documents/1136399",
+          "document_id": 1136399
+        },
+        {
+          "description": "SERV CHAR, 2021-04-26",
+          "amount": -55.82,
+          "link": "https://agent.osome.team/companies/9812/documents/1136398",
+          "document_id": 1136398
+        }
+      ]
+    },
+    {
+      "pattern": "FUNDS TRF TT INTE",
+      "counter": 109,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUNDS TRF - TT 1OR101200309C01 FT21010094081244 NINGBO YOUNGOR INTERNATIONAL TRADE, 2021-01-20",
+          "amount": -13441,
+          "link": "https://agent.osome.team/companies/173287/documents/1070271",
+          "document_id": 1070271
+        },
+        {
+          "description": "FUNDS TRF - TT TOR902070756001 NONE GOLDEN CATTLE DESIGN INTEGRATED, 2019-02-07",
+          "amount": -16198,
+          "link": "https://agent.osome.team/companies/173287/documents/902916",
+          "document_id": 902916
+        },
+        {
+          "description": "FUNDS TRF - TT 10R106240186C01 FT21060110358313 INTERNET CORPORATION FOR ASSIGNED, 2021-06-24",
+          "amount": -93750,
+          "link": "https://agent.osome.team/companies/173287/documents/1070572",
+          "document_id": 1070572
+        },
+        {
+          "description": "FUNDS TRF - TT FT20110087097002 1OR011103274C01 ENRICH INTERNATIONAL GROUP LTD, 2020-11-10",
+          "amount": -2646.74,
+          "link": "https://agent.osome.team/companies/101906/documents/431944",
+          "document_id": 431944
+        },
+        {
+          "description": "FUNDS TRF - TT 10R 101131738C01 FT21010093485363 XUEMEI INTERNATIONAL, 2021-01-13",
+          "amount": -5400,
+          "link": "https://agent.osome.team/companies/134141/documents/453050",
+          "document_id": 453050
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg REFU Refund",
+      "counter": 108,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg GEBFT21090120470035 FT21090120470035 REFU Russell Taylors AF50 Refund, 2021-09-02",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/907807",
+          "document_id": 907807
+        },
+        {
+          "description": "SVC Chg FT21040104427779 GEBFT21040104427779 REFU RussellTaylors PC60 Refund, 2021-04-23",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/581052",
+          "document_id": 581052
+        },
+        {
+          "description": "SVC Chg FT21080119920987 GEBFT21080119920987 REFU RussellTaylors AF50 Refund, 2021-08-30",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/923521",
+          "document_id": 923521
+        },
+        {
+          "description": "SVC Chg GEBFT21060110266094 FT21060110266094 REFU Russell Taylors ERC30 Refund, 2021-06-15",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/695484",
+          "document_id": 695484
+        },
+        {
+          "description": "SVC Chg FT21050107703450 GEBFT21050107703450 REFU Russell Taylors BM10 Refund, 2021-05-25",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/140773/documents/652238",
+          "document_id": 652238
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR GIRO SUPP PAYMENT",
+      "counter": 108,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - GIRO SUPP SupplierPymt GLOBAL PAYMENTS AP ( 0000065006913001, 2021-10-12",
+          "amount": 3348.98,
+          "link": "https://agent.osome.team/companies/422926/documents/1005825",
+          "document_id": 1005825
+        },
+        {
+          "description": "Inward CR - GIRO SUPP Supplier Pymt GLOBAL PAYMENTS AP ( 0000065006493001, 2021-03-19",
+          "amount": 701.77,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "Inward CR - GIRO SUPP SupplierPymt GLOBAL PAYMENTS AP ( 0000065006493001, 2021-03-02",
+          "amount": 7934.13,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "Inward CR - GIRO SUPP Supplier Pymt GLOBAL PAYMENTS AP ( 0000065006493001, 2021-03-15",
+          "amount": 1371.7,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "Inward CR - GIRO SUPP Supplier Pymt GLOBAL PAYMENTS AP ( 0000065006493002, 2021-03-04",
+          "amount": 1135.99,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf GIRO",
+      "counter": 108,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - GIRO GEBFT18080033764147 FT18080033764147, 2018-08-28",
+          "amount": -25.68,
+          "link": "https://agent.osome.team/companies/149880/documents/476167",
+          "document_id": 476167
+        },
+        {
+          "description": "Funds Trf - GIRO GEBFT21110129258667 FT21110129258667, 2021-11-08",
+          "amount": -3540,
+          "link": "https://agent.osome.team/companies/109643/documents/1082656",
+          "document_id": 1082656
+        },
+        {
+          "description": "Funds Trf - GIRO GEBFT210100934 13649 FT210100934 13649, 2021-01-12",
+          "amount": -520,
+          "link": "https://agent.osome.team/companies/118993/documents/449897",
+          "document_id": 449897
+        },
+        {
+          "description": "Funds Trf - GIRO GEBFT18080033012418 FT18080033012418, 2018-08-13",
+          "amount": -8.56,
+          "link": "https://agent.osome.team/companies/149880/documents/476167",
+          "document_id": 476167
+        },
+        {
+          "description": "Funds Trf - GIRO GEBFT19120063387954 Claims Dec, 2021-01-07",
+          "amount": -519.4,
+          "link": "https://agent.osome.team/companies/255093/documents/858869",
+          "document_id": 858869
+        }
+      ]
+    },
+    {
+      "pattern": "INWARD TRF TT TRAD",
+      "counter": 106,
+      "type": "",
+      "examples": [
+        {
+          "description": "INWARD TRF - TT 11R102020885C01 1463964032FS M / S BAITAK TRADING WLL, 2021-02-02",
+          "amount": 22353.64,
+          "link": "https://agent.osome.team/companies/173287/documents/1070601",
+          "document_id": 1070601
+        },
+        {
+          "description": "INWARD TRF - TT 11R106143013001 03MT210611673801 BLANTON TRADE LIMITED, 2021-06-14",
+          "amount": 44990,
+          "link": "https://agent.osome.team/companies/173287/documents/1070262",
+          "document_id": 1070262
+        },
+        {
+          "description": "INWARD TRF - TT 11R005262382C01 6228400143FC MEAT + FOOD TRADING LP, 2020-05-26",
+          "amount": 140834.07,
+          "link": "https://agent.osome.team/companies/173287/documents/1070336",
+          "document_id": 1070336
+        },
+        {
+          "description": "INWARD TRF - TT 11R901228232001 H01901216134185 MIRAMAX TRADE LTD , INN 9909495501 ,, 2019-01-22",
+          "amount": 340968.46,
+          "link": "https://agent.osome.team/companies/173287/documents/902915",
+          "document_id": 902915
+        },
+        {
+          "description": "INWARD TRF - TT 1IR011271419C01 9319775332FS BEARCO TRADING LIMITED, 2020-11-30",
+          "amount": 60011.52,
+          "link": "https://agent.osome.team/companies/173287/documents/1070354",
+          "document_id": 1070354
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW",
+      "counter": 102,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FA, 2021-02-15",
+          "amount": 7,
+          "link": "https://agent.osome.team/companies/202823/documents/492400",
+          "document_id": 492400
+        },
+        {
+          "description": "PAYNOW-FAS0.00",
+          "amount": -2800.61,
+          "link": "https://agent.osome.team/companies/34347/documents/497190",
+          "document_id": 497190
+        },
+        {
+          "description": "PAYNOW-FAS0.00",
+          "amount": -1803.82,
+          "link": "https://agent.osome.team/companies/34347/documents/497193",
+          "document_id": 497193
+        },
+        {
+          "description": "13/05/2021 04:35:14 PM PAYNOW-FAS0.00, 2021-05-14",
+          "amount": -40,
+          "link": "https://agent.osome.team/companies/9918/documents/830077",
+          "document_id": 830077
+        },
+        {
+          "description": "PAYNOW-FA",
+          "amount": -614.04,
+          "link": "https://agent.osome.team/companies/204404/documents/461933",
+          "document_id": 461933
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit",
+      "counter": 102,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit",
+          "amount": 270.18,
+          "link": "https://agent.osome.team/companies/34347/documents/497190",
+          "document_id": 497190
+        },
+        {
+          "description": "Inward Credit",
+          "amount": 2601.5,
+          "link": "https://agent.osome.team/companies/34347/documents/497190",
+          "document_id": 497190
+        },
+        {
+          "description": "03:0 :08 PM Inward Credit31, 2021-10-08",
+          "amount": 319.32,
+          "link": "https://agent.osome.team/companies/169041/documents/1121635",
+          "document_id": 1121635
+        },
+        {
+          "description": "19/08/2021 11:13:31 AM Inward Credit816.00, 2021-08-19",
+          "amount": 816,
+          "link": "https://agent.osome.team/companies/9918/documents/829806",
+          "document_id": 829806
+        },
+        {
+          "description": "14/01/2021 01:27:58 PM Inward Credit322.82, 2021-01-14",
+          "amount": 322.82,
+          "link": "https://agent.osome.team/companies/9918/documents/830098",
+          "document_id": 830098
+        }
+      ]
+    },
+    {
+      "pattern": "SERV CHARGE INTE",
+      "counter": 101,
+      "type": "",
+      "examples": [
+        {
+          "description": "SERV CHARGE 1OR901250309C01 NONE KIMIX INTERNATIONAL COMPANY LIMITE, 2019-01-25",
+          "amount": -79.59,
+          "link": "https://agent.osome.team/companies/173287/documents/1070039",
+          "document_id": 1070039
+        },
+        {
+          "description": "SERV CHARGE 10R009142483C01 FT20090081605780 SHANGHAI HAITAI STEEL INTERNATIONA, 2020-09-14",
+          "amount": -18.73,
+          "link": "https://agent.osome.team/companies/173287/documents/1070302",
+          "document_id": 1070302
+        },
+        {
+          "description": "SERV CHARGE 1ORO02190559C01 NONE A.G. ANKOR INTERNATIONAL LTD, 2020-02-19",
+          "amount": -31.71,
+          "link": "https://agent.osome.team/companies/173287/documents/1070339",
+          "document_id": 1070339
+        },
+        {
+          "description": "SERV CHARGE 10R103250400C01 FT21030101245121 HANZHONG JINGBO INTELLIGENCE, 2021-03-25",
+          "amount": -116.43,
+          "link": "https://agent.osome.team/companies/173287/documents/1070600",
+          "document_id": 1070600
+        },
+        {
+          "description": "SERV CHARGE 10R107070593C01 FT21070113125611 ARAM INTERNATIONAL TURIZM VE, 2021-07-07",
+          "amount": -66.09,
+          "link": "https://agent.osome.team/companies/173287/documents/1070261",
+          "document_id": 1070261
+        }
+      ]
+    },
+    {
+      "pattern": "Inward DR GIRO CPF COLL",
+      "counter": 101,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward DR - GIRO CPF COLL 201543514M BFWL, 2020-07-17",
+          "amount": -1371.15,
+          "link": "https://agent.osome.team/companies/415268/documents/974152",
+          "document_id": 974152
+        },
+        {
+          "description": "Inward DR - GIRO CPF . COLL 201921938E BFWL, 2021-02-17",
+          "amount": -1300,
+          "link": "https://agent.osome.team/companies/170873/documents/598814",
+          "document_id": 598814
+        },
+        {
+          "description": "Inward DR - GIRO CPF COLL 201807094E BIZ, 2021-10-06",
+          "amount": -2981,
+          "link": "https://agent.osome.team/companies/835/documents/1101757",
+          "document_id": 1101757
+        },
+        {
+          "description": "Inward DR - GIRO CPF COLL 201721105K BIZ, 2021-07-30",
+          "amount": -3166.5,
+          "link": "https://agent.osome.team/companies/239783/documents/743726",
+          "document_id": 743726
+        },
+        {
+          "description": "Inward DR - GIRO CPF COLL 201707121N . BIZ, 2021-11-18",
+          "amount": -745.5,
+          "link": "https://agent.osome.team/companies/4328/documents/1065721",
+          "document_id": 1065721
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST REFU Refund",
+      "counter": 100,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21050107703450 GEBFT21050107703450 REFU Russell Taylors BM10 Refund, 2021-05-25",
+          "amount": -92.9,
+          "link": "https://agent.osome.team/companies/140773/documents/652238",
+          "document_id": 652238
+        },
+        {
+          "description": "PAYNOW-FAST FT21050105761634 GEBFT21050105761634 REFU RussellTaylors PC60 Refund, 2021-05-05",
+          "amount": -20,
+          "link": "https://agent.osome.team/companies/140773/documents/652238",
+          "document_id": 652238
+        },
+        {
+          "description": "PAYNOW-FAST FT21010093999500 GEBFT21010093999500 REFU RussellTaylors AF34 Refund, 2021-01-18",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/140773/documents/458665",
+          "document_id": 458665
+        },
+        {
+          "description": "PAYNOW-FAST FT21080118054001 GEBFT21080118054001 REFU Russell Taylors AF50 Refund, 2021-08-16",
+          "amount": -197.29,
+          "link": "https://agent.osome.team/companies/140773/documents/923521",
+          "document_id": 923521
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21060110266933 FT21060110266933 REFU RussellTaylors WM25 Refund, 2021-06-15",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/140773/documents/695484",
+          "document_id": 695484
+        }
+      ]
+    },
+    {
+      "pattern": "INWARD TRF",
+      "counter": 99,
+      "type": "",
+      "examples": [
+        {
+          "description": "INWARD TRF2",
+          "amount": 203958,
+          "link": "https://agent.osome.team/companies/9812/documents/1136399",
+          "document_id": 1136399
+        },
+        {
+          "description": "INWARD TRF2",
+          "amount": 24461.53,
+          "link": "https://agent.osome.team/companies/9812/documents/1136399",
+          "document_id": 1136399
+        },
+        {
+          "description": "INWARD TRF - IT 1IR002281667001 03MT200225196237 BEJBY S.R.O., 2020-02-28",
+          "amount": 53550,
+          "link": "https://agent.osome.team/companies/173287/documents/1070490",
+          "document_id": 1070490
+        },
+        {
+          "description": "INWARD TRF",
+          "amount": 1845,
+          "link": "https://agent.osome.team/companies/34347/documents/497191",
+          "document_id": 497191
+        },
+        {
+          "description": "INWARD TRF",
+          "amount": 2382,
+          "link": "https://agent.osome.team/companies/34347/documents/497189",
+          "document_id": 497189
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg FCPM",
+      "counter": 90,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg GEBFT21110130557740 FT21110130557740 FCPM INVOICE 118 / AA / 2021-1, 2021-11-17",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/62228/documents/1082648",
+          "document_id": 1082648
+        },
+        {
+          "description": "SVC Chg FT20040071094342 GEBFT20040071094342 FCPM payment for audit confirmation, 2020-04-29",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/144315/documents/491936",
+          "document_id": 491936
+        },
+        {
+          "description": "SVC Chg GEBFT19020043455820 ‘er sagaredseed FCPM 10682 UPC - 15931 ., 2019-02-11",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/96332/documents/754061",
+          "document_id": 754061
+        },
+        {
+          "description": "SVC Chg NicheCom D Fee GEBFT21040102291100 FCPM Shaune Director Fees, 2021-04-01",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/238104/documents/605084",
+          "document_id": 605084
+        },
+        {
+          "description": "SVC Chg FT21110129512619 GEBFT21110129512619 FCPM 18-08-144, 2021-11-09",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/190386/documents/1090898",
+          "document_id": 1090898
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST OTHR OTHR",
+      "counter": 90,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit - FAST OTHR OTHR Other GPAY NETWORK ( S ) PT, 2020-10-19",
+          "amount": 15.89,
+          "link": "https://agent.osome.team/companies/86218/documents/1033921",
+          "document_id": 1033921
+        },
+        {
+          "description": "Inward Credit - FAST OTHR OTHR Other GPAY NETWORK ( S ) PT, 2020-10-09",
+          "amount": 15.2,
+          "link": "https://agent.osome.team/companies/86218/documents/1033921",
+          "document_id": 1033921
+        },
+        {
+          "description": "Inward Credit - FAST OTHR OTHR Other GPAY NETWORK ( S ) PT, 2020-10-06",
+          "amount": 13.04,
+          "link": "https://agent.osome.team/companies/86218/documents/1033921",
+          "document_id": 1033921
+        },
+        {
+          "description": "Inward Credit - FAST OTHR OTHR Other BEECONOMIC SINGAPORE FAVE-SGVDLSA4PY, 2020-10-26",
+          "amount": 1906.11,
+          "link": "https://agent.osome.team/companies/258655/documents/1041166",
+          "document_id": 1041166
+        },
+        {
+          "description": "Inward Credit - FAST OTHR OTHR Other GPAY NETWORK ( S ) PT, 2020-10-08",
+          "amount": 22.54,
+          "link": "https://agent.osome.team/companies/258655/documents/1041166",
+          "document_id": 1041166
+        }
+      ]
+    },
+    {
+      "pattern": "Inward DR GIRO COLL CPF",
+      "counter": 85,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward DR - GIRO COLL 202009524W CPF BIZ, 2021-01-14",
+          "amount": -4728.6,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "Inward DR - GIRO COLL 201839609Z CPF BIZ, 2020-11-19",
+          "amount": -4853,
+          "link": "https://agent.osome.team/companies/233704/documents/644277",
+          "document_id": 644277
+        },
+        {
+          "description": "Inward DR - GIRO COLL 201839609Z CPF BIZ, 2020-07-09",
+          "amount": -5223,
+          "link": "https://agent.osome.team/companies/233704/documents/644273",
+          "document_id": 644273
+        },
+        {
+          "description": "Inward DR - GIRO COLL 201839609Z CPF BIZ, 2019-11-20",
+          "amount": -7517,
+          "link": "https://agent.osome.team/companies/233704/documents/498866",
+          "document_id": 498866
+        },
+        {
+          "description": "Inward DR - GIRO COLL 201919367W CPF BIZ, 2021-12-31",
+          "amount": -4083,
+          "link": "https://agent.osome.team/companies/83559/documents/1162205",
+          "document_id": 1162205
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR",
+      "counter": 85,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR Other GPAY NETWORK ( S ) PT",
+          "amount": 64.58,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "OTHR Other BEECONOMIC SINGAPORE FAVE - SGXA6ZX2XI",
+          "amount": -2140.92,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "OTHR Other GPAY NETWORK ( S ) PT",
+          "amount": -71.16,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "OTHR Other GPAY NETWORK ( S ) PT",
+          "amount": 74.97,
+          "link": "https://agent.osome.team/companies/86218/documents/1108725",
+          "document_id": 1108725
+        },
+        {
+          "description": "OTHR Other GPAY NETWORK ( S ) PT, 2021-07-31",
+          "amount": 57.22,
+          "link": "https://agent.osome.team/companies/86218/documents/1112052",
+          "document_id": 1112052
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST SALA",
+      "counter": 83,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21060109708838 GEBFT21060109708838 SALA May 2021, 2021-06-09",
+          "amount": -3998.5,
+          "link": "https://agent.osome.team/companies/835/documents/687089",
+          "document_id": 687089
+        },
+        {
+          "description": "PAYNOW-FAST FT21070113642038 GEBFT21070113642038 SALA June 2021, 2021-07-10",
+          "amount": -10768.09,
+          "link": "https://agent.osome.team/companies/835/documents/917187",
+          "document_id": 917187
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21010092495872 FT21010092495872 SALA Lucky Cat, 2021-01-04",
+          "amount": -2400,
+          "link": "https://agent.osome.team/companies/155289/documents/758805",
+          "document_id": 758805
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT20110086247202 FT20110086247202 SALA Oct 2020, 2020-11-02",
+          "amount": -2374,
+          "link": "https://agent.osome.team/companies/155289/documents/758806",
+          "document_id": 758806
+        },
+        {
+          "description": "PAYNOW-FAST FT21090120743247 GEBFT21090120743247 SALA August 2021, 2021-09-04",
+          "amount": -3998.5,
+          "link": "https://agent.osome.team/companies/835/documents/917216",
+          "document_id": 917216
+        }
+      ]
+    },
+    {
+      "pattern": "Inward DR GIRO LOAN",
+      "counter": 83,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward DR - GIRO LOAN 190121120375 ABWIN PTE LTD ABWIN AUTO LOAN, 2020-02-21",
+          "amount": -991,
+          "link": "https://agent.osome.team/companies/7662/documents/577236",
+          "document_id": 577236
+        },
+        {
+          "description": "Inward DR - GIRO Cor LOAN 190121120376 ABWIN PTE LTD ABWIN AUTO LOAN, 2020-11-23",
+          "amount": 991,
+          "link": "https://agent.osome.team/companies/7662/documents/577245",
+          "document_id": 577245
+        },
+        {
+          "description": "Inward DR - GIRO LOAN 190121120375 ABWIN PTE LTD ABWIN AUTO LOAN, 2020-12-21",
+          "amount": -991,
+          "link": "https://agent.osome.team/companies/7662/documents/518383",
+          "document_id": 518383
+        },
+        {
+          "description": "Inward DR - GIRO Cor ABWIN PTE LTD LOAN 190121120376 ABWIN AUTO LOAN, 2021-06-21",
+          "amount": 991,
+          "link": "https://agent.osome.team/companies/7662/documents/700306",
+          "document_id": 700306
+        },
+        {
+          "description": "Inward DR - GIRO LOAN 190121120376 ABWIN PTE LTD ABWIN AUTO LOAN, 2020-06-22",
+          "amount": -991,
+          "link": "https://agent.osome.team/companies/7662/documents/577240",
+          "document_id": 577240
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR GIRO OTHR NETS",
+      "counter": 82,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - GIRO OTHR Other NETS ( S ) PTE LTD 027000506219, 2020-10-28",
+          "amount": 212.48,
+          "link": "https://agent.osome.team/companies/132182/documents/458083",
+          "document_id": 458083
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other NETS ( S ) PTE LTD 017005538413, 2020-10-19",
+          "amount": 454.48,
+          "link": "https://agent.osome.team/companies/132182/documents/455963",
+          "document_id": 455963
+        },
+        {
+          "description": "Inward CR - GIRO - OTHR - Other NETS ( S ) PTE LTD 103000505819, 2020-11-04",
+          "amount": 38.72,
+          "link": "https://agent.osome.team/companies/132182/documents/458082",
+          "document_id": 458082
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other NETS ( S ) PTE LTD 218000507376, 2020-12-21",
+          "amount": 145.2,
+          "link": "https://agent.osome.team/companies/132182/documents/458081",
+          "document_id": 458081
+        },
+        {
+          "description": "Inward CR - GIRO OTHR Other NETS ( S ) PTE LTD 025000507080, 2020-10-27",
+          "amount": 99.7,
+          "link": "https://agent.osome.team/companies/132182/documents/455963",
+          "document_id": 455963
+        }
+      ]
+    },
+    {
+      "pattern": "Inward Credit FAST BEXP",
+      "counter": 80,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward Credit - FAST BEXP BizExpenses MADE AND MAKE PTE . L Made and Make CV20-011, 2020-02-01",
+          "amount": 632.9,
+          "link": "https://agent.osome.team/companies/348192/documents/1051194",
+          "document_id": 1051194
+        },
+        {
+          "description": "Inward Credit-FAST MUIS - STAFF BEXP BizExpenses EBGPP10107816595, 2021-01-07",
+          "amount": 250,
+          "link": "https://agent.osome.team/companies/100447/documents/435515",
+          "document_id": 435515
+        },
+        {
+          "description": "Inward Credit - FAST BEXP BizExpenses QXPRESS PTE . LTD . EBGPP00414538252, 2021-04-15",
+          "amount": -11519.65,
+          "link": "https://agent.osome.team/companies/7662/documents/593059",
+          "document_id": 593059
+        },
+        {
+          "description": " Inward Credit-FAST DISENAR CONTRACTS PT BEXP BizExpenses  , 2020-10-02",
+          "amount": 340,
+          "link": "https://agent.osome.team/companies/170873/documents/598809",
+          "document_id": 598809
+        },
+        {
+          "description": "Inward Credit-FAST LU AI SING SHIRLEY BEXP BizExpenses The Sleek Hound #2, 2021-05-10",
+          "amount": 1572.97,
+          "link": "https://agent.osome.team/companies/238104/documents/637460",
+          "document_id": 637460
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST REFU",
+      "counter": 80,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW - FAST GEBFT21030099192829 FT21030099192829 REFU OSAKAKUMA, 2021-03-03",
+          "amount": -41.02,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21040104684922 FT21040104684922 REFU Over payment, 2021-04-26",
+          "amount": -2,
+          "link": "https://agent.osome.team/companies/235367/documents/883153",
+          "document_id": 883153
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21110131055554 FT21110131055554 REFU russelltaylors erc30 refund, 2021-11-22",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/140773/documents/1082399",
+          "document_id": 1082399
+        },
+        {
+          "description": "PAYNOW - FAST GEBFT21030099177479 FT21030099177479 REFU OSAKAKUMA, 2021-03-03",
+          "amount": -10.98,
+          "link": "https://agent.osome.team/companies/202823/documents/551008",
+          "document_id": 551008
+        },
+        {
+          "description": "PAYNOW-FAST FT21110131056536 GEBFT21110131056536 REFU russelltaylors erc30 refund, 2021-11-22",
+          "amount": -25,
+          "link": "https://agent.osome.team/companies/140773/documents/1168031",
+          "document_id": 1168031
+        }
+      ]
+    },
+    {
+      "pattern": "Debit Adj ATM",
+      "counter": 79,
+      "type": "",
+      "examples": [
+        {
+          "description": "Debit Adj - IATM, 2019-06-18",
+          "amount": -2.92,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        },
+        {
+          "description": "Debit Adj - IATM, 2019-04-09",
+          "amount": -2.81,
+          "link": "https://agent.osome.team/companies/173287/documents/902911",
+          "document_id": 902911
+        },
+        {
+          "description": "Debit Adj - IATM, 2021-01-08",
+          "amount": -257,
+          "link": "https://agent.osome.team/companies/7706/documents/450022",
+          "document_id": 450022
+        },
+        {
+          "description": "Debit Adj - IATM, 2019-06-18",
+          "amount": -2.92,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        },
+        {
+          "description": "Debit Adj - IATM, 2019-06-18",
+          "amount": -2.92,
+          "link": "https://agent.osome.team/companies/173287/documents/1070547",
+          "document_id": 1070547
+        }
+      ]
+    },
+    {
+      "pattern": "CR Retail",
+      "counter": 78,
+      "type": "",
+      "examples": [
+        {
+          "description": "CR Retail-NE, 2021-02-08",
+          "amount": -440.4,
+          "link": "https://agent.osome.team/companies/202823/documents/492400",
+          "document_id": 492400
+        },
+        {
+          "description": "CR Retail-NE",
+          "amount": -389.5,
+          "link": "https://agent.osome.team/companies/202823/documents/462208",
+          "document_id": 462208
+        },
+        {
+          "description": "CR Retail-NE",
+          "amount": -185.7,
+          "link": "https://agent.osome.team/companies/202823/documents/462208",
+          "document_id": 462208
+        },
+        {
+          "description": "CR Retail-NET, 2021-01-22",
+          "amount": -101.89,
+          "link": "https://agent.osome.team/companies/202823/documents/492396",
+          "document_id": 492396
+        },
+        {
+          "description": "CR Retail-NE",
+          "amount": -39.8,
+          "link": "https://agent.osome.team/companies/202823/documents/462208",
+          "document_id": 462208
+        }
+      ]
+    },
+    {
+      "pattern": "PAYNOW FAST SALA Salary",
+      "counter": 72,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYNOW-FAST FT21010092465768 GEBFT21010092465768 SALA Salary December",
+          "amount": -5500,
+          "link": "https://agent.osome.team/companies/204404/documents/488645",
+          "document_id": 488645
+        },
+        {
+          "description": "PAYNOW-FAST FT21100124376975 GEBFT21100124376975 SALA Salary, 2021-10-02",
+          "amount": -1200,
+          "link": "https://agent.osome.team/companies/198156/documents/1151091",
+          "document_id": 1151091
+        },
+        {
+          "description": "PAYNOW-FAST FT21030098933546 GEBFT21030098933546 SALA Feb 2021 Salary, 2021-03-02",
+          "amount": -6392.4,
+          "link": "https://agent.osome.team/companies/835/documents/687086",
+          "document_id": 687086
+        },
+        {
+          "description": "PAYNOW-FAST FT21080120134596 GEBFT21080120134596 SALA Salary Ragav, 2021-12-31",
+          "amount": -7000,
+          "link": "https://agent.osome.team/companies/204404/documents/1167460",
+          "document_id": 1167460
+        },
+        {
+          "description": "PAYNOW-FAST FT21050105796146 GEBFT21050105796146 SALA Salary Apr 2021, 2021-05-05",
+          "amount": -3998.5,
+          "link": "https://agent.osome.team/companies/835/documents/687088",
+          "document_id": 687088
+        }
+      ]
+    },
+    {
+      "pattern": "SERV CHARGE TRAD",
+      "counter": 68,
+      "type": "",
+      "examples": [
+        {
+          "description": "SERV CHARGE 1 OR011110171001 FT20110086853479 LOK WING TRADING LIMITED, 2020-11-11",
+          "amount": -46.26,
+          "link": "https://agent.osome.team/companies/173287/documents/1070354",
+          "document_id": 1070354
+        },
+        {
+          "description": "SERV CHARGE 10R006120502001 FT20060074821514 HK JINGPENG TRADE CO . , LIMITED, 2020-06-12",
+          "amount": -76.45,
+          "link": "https://agent.osome.team/companies/173287/documents/1070334",
+          "document_id": 1070334
+        },
+        {
+          "description": "SERV CHARGE 10R105040129001 FT21040105126132 NINEROBOT ( HK ) TRADING LIMITED, 2021-05-04",
+          "amount": -127.66,
+          "link": "https://agent.osome.team/companies/173287/documents/1070573",
+          "document_id": 1070573
+        },
+        {
+          "description": "SERV CHARGE 10R911220343C01 NONE LOK WING TRADING LTD, 2019-11-22",
+          "amount": -58.05,
+          "link": "https://agent.osome.team/companies/173287/documents/1070522",
+          "document_id": 1070522
+        },
+        {
+          "description": "SERV CHARGE 1 OR104222039C01 FT21040104242404 SHANGHAI KNOWHOW TRADE CO . , LTD, 2021-04-22",
+          "amount": -166.38,
+          "link": "https://agent.osome.team/companies/173287/documents/1070574",
+          "document_id": 1070574
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST FCPM",
+      "counter": 68,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST FT20090081630860 GEBFT20090081630860 FCPM UPC-61704, 11345, 2020-09-07",
+          "amount": -273.2,
+          "link": "https://agent.osome.team/companies/96332/documents/458424",
+          "document_id": 458424
+        },
+        {
+          "description": "Funds Trf - FAST FT19060050777200 GEBFT19060050777200 FCPM 18488 UPC -10798, 2019-06-17",
+          "amount": -302.8,
+          "link": "https://agent.osome.team/companies/96332/documents/755217",
+          "document_id": 755217
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21090122840723 FT21090122840723 FCPM Invoice 01 / 1009-21, 2021-09-28",
+          "amount": -148,
+          "link": "https://agent.osome.team/companies/112837/documents/907862",
+          "document_id": 907862
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT21110129597174 FT21110129597174 FCPM Singzyme upfront fee Inv1018000291, 2021-11-10",
+          "amount": -8025,
+          "link": "https://agent.osome.team/companies/200964/documents/1108171",
+          "document_id": 1108171
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT20090081195502 ICE IQEQ FCPM C2020 / 7265N Cycling Execs, 2020-09-02",
+          "amount": -2793.45,
+          "link": "https://agent.osome.team/companies/236379/documents/1069410",
+          "document_id": 1069410
+        }
+      ]
+    },
+    {
+      "pattern": "Funds Trf FAST",
+      "counter": 67,
+      "type": "",
+      "examples": [
+        {
+          "description": "Funds Trf - FAST, 2021-02-16",
+          "amount": -4658.72,
+          "link": "https://agent.osome.team/companies/121397/documents/485313",
+          "document_id": 485313
+        },
+        {
+          "description": "Funds Trf - FAST Quickbook fee GEBFT19060050291869, 2019-06-07",
+          "amount": -171.2,
+          "link": "https://agent.osome.team/companies/239783/documents/495583",
+          "document_id": 495583
+        },
+        {
+          "description": "Funds Trf - FAST, 2020-11-09",
+          "amount": -460,
+          "link": "https://agent.osome.team/companies/175234/documents/603196",
+          "document_id": 603196
+        },
+        {
+          "description": "Funds Trf - FAST GEBFT20010065587660, 2020-01-31",
+          "amount": -1325,
+          "link": "https://agent.osome.team/companies/348192/documents/1051209",
+          "document_id": 1051209
+        },
+        {
+          "description": "Funds Trf - FAST, 2018-09-21",
+          "amount": -357.3,
+          "link": "https://agent.osome.team/companies/96332/documents/754055",
+          "document_id": 754055
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg COMM",
+      "counter": 65,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21110131203153 GEBFT21110131203153 COMM Director's fee, 2021-11-23",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151092",
+          "document_id": 1151092
+        },
+        {
+          "description": "SVC Chg FT21110128287654 GEBFT21110128287654 COMM Commission, 2021-11-01",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151092",
+          "document_id": 1151092
+        },
+        {
+          "description": "SVC Chg FT21120136604932 GEBFT21120136604932 COMM Commission, 2021-12-29",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151093",
+          "document_id": 1151093
+        },
+        {
+          "description": "SVC Chg FT21070112766847 GEBFT21070112766847 COMM Commission, 2021-07-05",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/198156/documents/1151087",
+          "document_id": 1151087
+        },
+        {
+          "description": "SVC Chg GEBFT20120091403922 FT20120091403922 COMM KAPLAN REF FEE, 2020-12-23",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/133211/documents/417436",
+          "document_id": 417436
+        }
+      ]
+    },
+    {
+      "pattern": "Inward CR GIRO IVPT",
+      "counter": 64,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward CR - GIRO ENTERPRISE SINGAPORE IVPT Invoice Payment 13327-039, 2021-04-22",
+          "amount": 4032,
+          "link": "https://agent.osome.team/companies/835/documents/687087",
+          "document_id": 687087
+        },
+        {
+          "description": "Inward CR - GIRO MOTHERCARE (S) PTE L IVPT Invoice Payment INVOICE NO:INV- 202105240001, 2021-06-21",
+          "amount": 7332.32,
+          "link": "https://agent.osome.team/companies/239783/documents/689866",
+          "document_id": 689866
+        },
+        {
+          "description": "Inward CR - GIRO IVPT Invoice Payment STAR FURNITURE PTEL 00001, 2021-07-21",
+          "amount": 69582.1,
+          "link": "https://agent.osome.team/companies/180180/documents/771904",
+          "document_id": 771904
+        },
+        {
+          "description": "Inward CR - GIRO ENTERPRISE SINGAPORE IVPT Invoice Payment 13226-121, 2021-02-23",
+          "amount": 5440,
+          "link": "https://agent.osome.team/companies/422926/documents/889111",
+          "document_id": 889111
+        },
+        {
+          "description": "Inward CR - GIRO Singapore Business F IVPT Invoice Payment FOR SGUT ONLINE SEPTEMBER B19, 2021-09-15",
+          "amount": 2000,
+          "link": "https://agent.osome.team/companies/204404/documents/893479",
+          "document_id": 893479
+        }
+      ]
+    },
+    {
+      "pattern": "FUNDS TRF TT TRAD",
+      "counter": 63,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUNDS TRF - TT 1OR011032857C01 FT20110086463365 TRADIUM GMBH, 2020-11-03",
+          "amount": -75000,
+          "link": "https://agent.osome.team/companies/173287/documents/1070298",
+          "document_id": 1070298
+        },
+        {
+          "description": "FUNDS TRF - TT OMTELENTIA 1OR003024441C01 FAIRTRADE SOLUTIONS PTE LTD, 2020-03-02",
+          "amount": -10540.6,
+          "link": "https://agent.osome.team/companies/31657/documents/726230",
+          "document_id": 726230
+        },
+        {
+          "description": "FUNDS TRF - TT 10R001092657C01 NONE LOK WING TRADING LTD, 2020-01-09",
+          "amount": -195231,
+          "link": "https://agent.osome.team/companies/173287/documents/1070340",
+          "document_id": 1070340
+        },
+        {
+          "description": "FUNDS TRF - TT 1OR102220421001 FT21020097568866 HUBEI DONGBEI TRADING CO . . , LTD, 2021-02-22",
+          "amount": -103885,
+          "link": "https://agent.osome.team/companies/173287/documents/1070601",
+          "document_id": 1070601
+        },
+        {
+          "description": "FUNDS TRF - TT 10R105103489C01 FT21050106218706 SHANGHAI KNOWHOW TRADE CO . , LTD, 2021-05-10",
+          "amount": -78863,
+          "link": "https://agent.osome.team/companies/173287/documents/1070573",
+          "document_id": 1070573
+        }
+      ]
+    },
+    {
+      "pattern": "SVC Chg SALA SALARY",
+      "counter": 62,
+      "type": "",
+      "examples": [
+        {
+          "description": "SVC Chg FT21070115921434 GEBFT21070115921434 SALA JUDE SALARY, 2021-07-29",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/11104/documents/919865",
+          "document_id": 919865
+        },
+        {
+          "description": "SVC Chg FT20070076494741 GEBFT20070076494741 SALA SOMIN PTE LTD SALARY JUNE 2020, 2020-07-03",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239783/documents/495582",
+          "document_id": 495582
+        },
+        {
+          "description": "SVC Chg FT20120089384108 GEBFT20120089384108 SALA SALARY SOMIN PTE LTD NOV 2020, 2020-12-04",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239783/documents/495590",
+          "document_id": 495590
+        },
+        {
+          "description": "SVC Chg FT20110086440418 GEBFT20110086440418 SALA SALARY SOMIN PTE LTD OCT 2020, 2020-11-03",
+          "amount": -0.5,
+          "link": "https://agent.osome.team/companies/239783/documents/495590",
+          "document_id": 495590
+        },
+        {
+          "description": "SVC Chg GEBFT19110060114321 SALA SALARY RAJU, 2019-11-11",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/233704/documents/498866",
+          "document_id": 498866
+        }
+      ]
+    },
+    {
+      "pattern": "Misc Credit BIL",
+      "counter": 61,
+      "type": "",
+      "examples": [
+        {
+          "description": "Misc Credit BIL : 1CEOC296213 21102 BO32 THE HONGKONG AND SHANGHAI BANKING, 2021-01-22",
+          "amount": -89299.03,
+          "link": "https://agent.osome.team/companies/29955/documents/546219",
+          "document_id": 546219
+        },
+        {
+          "description": "Misc Credit BIL : 1CEOC304348 C11022021 WT - SBP KOTAK MAHINDRA BANK LIMITED, 2021-09-18",
+          "amount": 30509.13,
+          "link": "https://agent.osome.team/companies/95225/documents/907303",
+          "document_id": 907303
+        },
+        {
+          "description": "Misc Credit BIL : 1CEOC303319 C10922021 / WT - SPP INDUSIND BANK LTD, 2021-08-06",
+          "amount": 18623.91,
+          "link": "https://agent.osome.team/companies/95225/documents/833832",
+          "document_id": 833832
+        },
+        {
+          "description": "Misc Credit BIL:1CMIL211947 BA/2020/108, 2020-04-22",
+          "amount": 36000,
+          "link": "https://agent.osome.team/companies/432562/documents/994966",
+          "document_id": 994966
+        },
+        {
+          "description": "Misc Credit BIL : 1CEOC303597 C10542021 / WT - KVI THE FEDERAL BANK LTD, 2021-08-18",
+          "amount": 23014.48,
+          "link": "https://agent.osome.team/companies/95225/documents/834000",
+          "document_id": 834000
+        }
+      ]
+    },
+    {
+      "pattern": "Inward DR GIRO OTHR",
+      "counter": 59,
+      "type": "",
+      "examples": [
+        {
+          "description": "Inward DR - GIRO AMERICAN EXPRESS OTHR 37736049198 215736049198, 2021-08-10",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/4328/documents/820537",
+          "document_id": 820537
+        },
+        {
+          "description": "Inward DR - GIRO SINGAPORE CUSTOMS OTHR 201718891Z IG0I289212X, 2020-09-03",
+          "amount": -490.32,
+          "link": "https://agent.osome.team/companies/1999/documents/862703",
+          "document_id": 862703
+        },
+        {
+          "description": "Inward DR - GIRO SINGAPORE CUSTOMS OTHR 201718891Z IG0G845331L, 2020-07-03",
+          "amount": -86.06,
+          "link": "https://agent.osome.team/companies/1999/documents/862701",
+          "document_id": 862701
+        },
+        {
+          "description": "Inward DR - GIRO OTHR 202019645G SINGAPORE CUSTOMS IG1D170756X, 2021-04-15",
+          "amount": -131.42,
+          "link": "https://agent.osome.team/companies/235367/documents/883150",
+          "document_id": 883150
+        },
+        {
+          "description": "Inward DR - GIRO OTHR 202017241M SINGAPORE CUSTOMS IG1L191522U, 2021-12-07",
+          "amount": -73.68,
+          "link": "https://agent.osome.team/companies/169588/documents/1163164",
+          "document_id": 1163164
+        }
+      ]
+    }
+  ]
+}
