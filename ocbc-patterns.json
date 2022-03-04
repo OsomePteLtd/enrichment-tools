@@ -1,0 +1,2857 @@
+{
+  "totalRows": 180819,
+  "coveredRows": 146700,
+  "percentage": "81.13%",
+  "topPatternsCount": 77,
+  "topPatterns": [
+    {
+      "pattern": "DEBIT PURCHASE",
+      "counter": 20188,
+      "type": "",
+      "examples": [
+        {
+          "description": "USD 963.00 DEBIT PURCHASE, 2021-07-14",
+          "amount": -1348.19,
+          "link": "https://agent.osome.team/companies/98404/documents/754976",
+          "document_id": 754976
+        },
+        {
+          "description": "DEBIT PURCHASE 16/06/20 xx-6446 QUICKBOOKS LON, 2020-06-20",
+          "amount": -3.21,
+          "link": "https://agent.osome.team/companies/171457/documents/560066",
+          "document_id": 560066
+        },
+        {
+          "description": "DEBIT PURCHASE 26/01/21 06-5625 GREENCOUPON SHOP SIN, 2021-01-29",
+          "amount": -18,
+          "link": "https://agent.osome.team/companies/41296/documents/451990",
+          "document_id": 451990
+        },
+        {
+          "description": "DEBIT PURCHASE 27/04/21 xx - 4589 AMAZON RETAIL SIN, 2021-04-29",
+          "amount": -59.78,
+          "link": "https://agent.osome.team/companies/2959/documents/929202",
+          "document_id": 929202
+        },
+        {
+          "description": "DEBIT PURCHASE AUD 165.00 30/05/21 xx-2859 FACEBK *MDXX63KJ6 fb., 2021-06-02",
+          "amount": -174.85,
+          "link": "https://agent.osome.team/companies/131250/documents/924721",
+          "document_id": 924721
+        }
+      ]
+    },
+    {
+      "pattern": "IT DEBIT PURCHASE",
+      "counter": 9687,
+      "type": "",
+      "examples": [
+        {
+          "description": "DEBIT PURCHASE xx-3273 PAYPAL *UPWORK 402 DEBIT PURCHASE, 2016-03-24",
+          "amount": -63.43,
+          "link": "https://agent.osome.team/companies/262794/documents/696332",
+          "document_id": 696332
+        },
+        {
+          "description": "AUD 3.99 DEBIT PURCHASE xx-3431 Amazon Australia Servi MEL DEBIT PURCHASE xx-3431 Amazon Australia Servi MEL, 2021-02-06",
+          "amount": -4.19,
+          "link": "https://agent.osome.team/companies/113685/documents/706132",
+          "document_id": 706132
+        },
+        {
+          "description": "DEBIT PURCHASE xx-8046 EASYSHIP.COM SIN DEBIT PURCHASE xx-8046 EASYSHIP.COM SIN, 2021-06-16",
+          "amount": -39.42,
+          "link": "https://agent.osome.team/companies/169858/documents/898579",
+          "document_id": 898579
+        },
+        {
+          "description": "MYR 418.10 DEBIT PURCHASE xx-5100 REGUS MALAYSIA KUA DEBIT PURCHASE xx-5100 REGUS MALAYSIA KUA, 2021-06-20",
+          "amount": -139.42,
+          "link": "https://agent.osome.team/companies/180085/documents/773519",
+          "document_id": 773519
+        },
+        {
+          "description": "USD 199.00 DEBIT PURCHASE xx-3431 SAMCART.COM FUL DEBIT PURCHASE xx-3431 SAMCART.COM FUL, 2021-06-05",
+          "amount": -272.22,
+          "link": "https://agent.osome.team/companies/113685/documents/706132",
+          "document_id": 706132
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT\/TRANSFER OTHR",
+      "counter": 8526,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT/TRANSFER OTHR S$ SURAYA BINTI ZAINUL via PayNow: Layla Stacey, 2021-06-03",
+          "amount": 70,
+          "link": "https://agent.osome.team/companies/64914/documents/712387",
+          "document_id": 712387
+        },
+        {
+          "description": "PAYMENT/TRANSFER OTHR S$ LISA LIM MEOW SAN via PayNow: order no 1473, 2021-09-17",
+          "amount": 55,
+          "link": "https://agent.osome.team/companies/182811/documents/935912",
+          "document_id": 935912
+        },
+        {
+          "description": "PAYMENT/TRANSFER OTHR S$ MUHAMMAD AIDIL BIN via PayNow: 201941020K, 2021-01-08",
+          "amount": 12,
+          "link": "https://agent.osome.team/companies/125958/documents/1189832",
+          "document_id": 1189832
+        },
+        {
+          "description": "PAYMENT/TRANSFER OTHR S$ OSEU ROSYANI via PayNow: BioFreeze, 2021-10-22",
+          "amount": 50,
+          "link": "https://agent.osome.team/companies/316508/documents/1002894",
+          "document_id": 1002894
+        },
+        {
+          "description": "PAYMENT/TRANSFER OTHR S$ LIM KAH NEE HONEY via PayNow: Janice - Nutcracker Ho, 2021-12-06",
+          "amount": 50,
+          "link": "https://agent.osome.team/companies/64914/documents/1146441",
+          "document_id": 1146441
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT TRANSFER OTHR",
+      "counter": 7973,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT TRANSFER OTHR SS VISHESH VATSA via PayNow : 201926689W, 2020-08-20",
+          "amount": 4500,
+          "link": "https://agent.osome.team/companies/98404/documents/599893",
+          "document_id": 599893
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR AZMIL BIN HAMZAH Order No 12140775, 2021-05-30",
+          "amount": 132,
+          "link": "https://agent.osome.team/companies/192005/documents/642466",
+          "document_id": 642466
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR NG KAI BOON MELVIN order no 13595767, 2021-08-11",
+          "amount": 50,
+          "link": "https://agent.osome.team/companies/192005/documents/833288",
+          "document_id": 833288
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR ABDULLAH BIN IBRAHI Transfer, 2021-06-07",
+          "amount": 1328,
+          "link": "https://agent.osome.team/companies/192005/documents/694288",
+          "document_id": 694288
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR TAN KAR KUAN Transfer, 2020-02-14",
+          "amount": 4740,
+          "link": "https://agent.osome.team/companies/10088/documents/640255",
+          "document_id": 640255
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGES Billing Statement",
+      "counter": 6532,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHARGES 0000001031988302 Txn Charges Billing Billing Statement 0000001031988302, 2021-09-03",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/39420/documents/903880",
+          "document_id": 903880
+        },
+        {
+          "description": "CHARGES 0000001030925783 Txn Charges Billing Billing Statement 0000001030925783, 2021-06-03",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/16193/documents/693771",
+          "document_id": 693771
+        },
+        {
+          "description": "CHARGES 0000001030581684 Txn Charges Billing Billing Statement 0000001030581684, 2021-05-03",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/229327/documents/632966",
+          "document_id": 632966
+        },
+        {
+          "description": "CHARGES 0000001032727672 Txn Charges Billing Billing Statement 0000001032727672, 2021-11-05",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/39420/documents/1067586",
+          "document_id": 1067586
+        },
+        {
+          "description": "CHARGES 0000001029101848 Txn Charges Billing Billing Statement 0000001029101848, 2021-01-04",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/63790/documents/451231",
+          "document_id": 451231
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR PAYMENT TRANSFER PAYMENT\/TRANSFER",
+      "counter": 5599,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER PAYMENT/TRANSFER OTHR S$ ignatius Goh Chan H via PayNow: Tranche 2 via PayNow: Tranche 2, 2021-07-23",
+          "amount": 590,
+          "link": "https://agent.osome.team/companies/140496/documents/1151200",
+          "document_id": 1151200
+        },
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER PAYMENT/TRANSFER OTHR S$ SEOW LILING(XIAO LI via PayNow: 20208607 via PayNow: 20208607, 2020-12-17",
+          "amount": 127,
+          "link": "https://agent.osome.team/companies/13194/documents/663941",
+          "document_id": 663941
+        },
+        {
+          "description": "OTHR PAYMENT/TRANSFER PAYMENT/TRANSFER OTHR HITPAY PAYMENT SOLU 93b950d251bb491aacfd291926cb76d2 93b950d251bb491aacfd291926cb76d2, 2021-06-21",
+          "amount": 935.55,
+          "link": "https://agent.osome.team/companies/112768/documents/1041723",
+          "document_id": 1041723
+        },
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER PAYMENT/TRANSFER OTHR S$ CHAN LIAN CHAI via PayNow: Transfer - UEN via PayNow: Transfer - UEN, 2021-08-18",
+          "amount": 190,
+          "link": "https://agent.osome.team/companies/136423/documents/926950",
+          "document_id": 926950
+        },
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER PAYMENT/TRANSFER OTHR S$ CHAN MEI YI WINNIE via PayNow: WIN03 via PayNow: WIN03, 2021-01-11",
+          "amount": 120,
+          "link": "https://agent.osome.team/companies/174296/documents/495263",
+          "document_id": 495263
+        }
+      ]
+    },
+    {
+      "pattern": "CCY CONVERSION FEE",
+      "counter": 3687,
+      "type": "",
+      "examples": [
+        {
+          "description": "CCY CONVERSION FEE, 2021-12-09",
+          "amount": -13.38,
+          "link": "https://agent.osome.team/companies/224109/documents/1178082",
+          "document_id": 1178082
+        },
+        {
+          "description": "CCY CONVERSION FEE FOR: 16.48 SGD CCY CONVERSION FEE FOR: 16.48 SGD, 2021-05-23",
+          "amount": -0.16,
+          "link": "https://agent.osome.team/companies/113685/documents/706132",
+          "document_id": 706132
+        },
+        {
+          "description": "CCY CONVERSION FEE FOR: 32.08 SGD, 2020-12-07",
+          "amount": -0.32,
+          "link": "https://agent.osome.team/companies/201035/documents/502437",
+          "document_id": 502437
+        },
+        {
+          "description": "CCY CONVERSION FEE FOR : 535.00 SGD, 2021-01-27",
+          "amount": -5.35,
+          "link": "https://agent.osome.team/companies/2959/documents/577875",
+          "document_id": 577875
+        },
+        {
+          "description": "CCY CONVERSION FEE FOR: 32.88 SGD, 2020-10-03",
+          "amount": -0.33,
+          "link": "https://agent.osome.team/companies/154477/documents/559644",
+          "document_id": 559644
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT OTHR",
+      "counter": 3583,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT OTHR DHL EXPRESS(SI SMQR210831178912 via PayNow: DHLMBL1155988, 2021-08-31",
+          "amount": -35.93,
+          "link": "https://agent.osome.team/companies/439786/documents/1122833",
+          "document_id": 1122833
+        },
+        {
+          "description": "FAST PAYMENT OTHR PHILIP FRANTA SM3P210917574522 payroll philip sep, 2021-09-17",
+          "amount": -9001,
+          "link": "https://agent.osome.team/companies/112768/documents/901702",
+          "document_id": 901702
+        },
+        {
+          "description": "FAST PAYMENT OTHR REGINA SM3P211229200397 SG SP cleaning service, 2021-12-29",
+          "amount": -84,
+          "link": "https://agent.osome.team/companies/176677/documents/1139693",
+          "document_id": 1139693
+        },
+        {
+          "description": "FAST PAYMENT OTHR JJ SM3P210811376199 via PayNow : SM3P210811376199, 2021-08-12",
+          "amount": -200,
+          "link": "https://agent.osome.team/companies/410701/documents/1093404",
+          "document_id": 1093404
+        },
+        {
+          "description": "FAST PAYMENT OTHR Parul Rinwa DBSS 0338089436 TGC wholesale, 2018-09-12",
+          "amount": -240,
+          "link": "https://agent.osome.team/companies/3975/documents/525313",
+          "document_id": 525313
+        }
+      ]
+    },
+    {
+      "pattern": "REBATE CASH REBATE",
+      "counter": 3536,
+      "type": "",
+      "examples": [
+        {
+          "description": "CASH REBATE CASH REBATE CASH REBATE CASH REBATE, 2018-07-19",
+          "amount": 2.24,
+          "link": "https://agent.osome.team/companies/262794/documents/696399",
+          "document_id": 696399
+        },
+        {
+          "description": "CASH REBATE CASH REBATE, 2021-05-19",
+          "amount": 0.09,
+          "link": "https://agent.osome.team/companies/256725/documents/782558",
+          "document_id": 782558
+        },
+        {
+          "description": "CASH REBATE CASH REBATE, 2021-03-20",
+          "amount": 0.24,
+          "link": "https://agent.osome.team/companies/132036/documents/725171",
+          "document_id": 725171
+        },
+        {
+          "description": "CASH REBATE CASH REBATE CASH REBATE CASH REBATE, 2020-08-19",
+          "amount": 1.96,
+          "link": "https://agent.osome.team/companies/110570/documents/502316",
+          "document_id": 502316
+        },
+        {
+          "description": "CASH REBATE CASH REBATE, 2021-04-16",
+          "amount": 0.43,
+          "link": "https://agent.osome.team/companies/169959/documents/701753",
+          "document_id": 701753
+        }
+      ]
+    },
+    {
+      "pattern": "COMM \/ COMM IN LIEU",
+      "counter": 3257,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0021752654M001 COMM / COMM IN LIEU, 2021-05-25",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/93154/documents/627997",
+          "document_id": 627997
+        },
+        {
+          "description": "COMM / COMM IN LIEU 2021072000130026 CLICKWIN TECHNO SOL * MDSUSER 000001420, 2021-07-21",
+          "amount": -7.29,
+          "link": "https://agent.osome.team/companies/230572/documents/753253",
+          "document_id": 753253
+        },
+        {
+          "description": "COMM / COMM IN LIEU CT0023262736M001 TARDIS 00003602 * MDSUSER 000006220, 2021-11-05",
+          "amount": -337.69,
+          "link": "https://agent.osome.team/companies/266681/documents/1068787",
+          "document_id": 1068787
+        },
+        {
+          "description": "= COMM / COMM IN LIEU 00160T1281958 LEGATUS GLOBAL PRIV * MDSUSER 000009651, 2021-08-23",
+          "amount": -7.3,
+          "link": "https://agent.osome.team/companies/107010/documents/823925",
+          "document_id": 823925
+        },
+        {
+          "description": "COMM / COMM IN LIEU 2021120200510971 HAI BINH CO . , LTD * MDSUSER 000004746, 2021-12-02",
+          "amount": -7.28,
+          "link": "https://agent.osome.team/companies/198276/documents/1142291",
+          "document_id": 1142291
+        }
+      ]
+    },
+    {
+      "pattern": "CSDB PAYMENT TRANSFER PAYMENT\/TRANSFER",
+      "counter": 2879,
+      "type": "",
+      "examples": [
+        {
+          "description": "CSDB PAYMENT/TRANSFER PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE 2L8w14oHC STRIPE 2L8w14oHC, 2021-09-23",
+          "amount": 10010.04,
+          "link": "https://agent.osome.team/companies/224109/documents/964405",
+          "document_id": 964405
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE nWLpMqebr STRIPE nWLpMqebr, 2021-08-02",
+          "amount": 1207,
+          "link": "https://agent.osome.team/companies/306153/documents/754336",
+          "document_id": 754336
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN Shopify 0LSMJfJ7 Shopify 0LSMJfJ7, 2021-04-12",
+          "amount": 7860.13,
+          "link": "https://agent.osome.team/companies/198048/documents/609526",
+          "document_id": 609526
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE ySxz0IcfG STRIPE ySxz0IcfG, 2021-06-11",
+          "amount": 120.95,
+          "link": "https://agent.osome.team/companies/98404/documents/739304",
+          "document_id": 739304
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN GLOFOX 3KAquTX6z GLOFOX 3KAquTX6z, 2020-07-22",
+          "amount": 233.36,
+          "link": "https://agent.osome.team/companies/37273/documents/599742",
+          "document_id": 599742
+        }
+      ]
+    },
+    {
+      "pattern": "GIRO PAYMENT",
+      "counter": 2871,
+      "type": "",
+      "examples": [
+        {
+          "description": "GIRO PAYMENT OSOME ACCOUNTING, 2021-09-27",
+          "amount": -40,
+          "link": "https://agent.osome.team/companies/10102/documents/925104",
+          "document_id": 925104
+        },
+        {
+          "description": "GIRO PAYMENT 388014/015, 2021-08-04",
+          "amount": -169.58,
+          "link": "https://agent.osome.team/companies/240549/documents/830479",
+          "document_id": 830479
+        },
+        {
+          "description": "GIRO PAYMENT, 2021-08-19",
+          "amount": -760,
+          "link": "https://agent.osome.team/companies/172913/documents/1069572",
+          "document_id": 1069572
+        },
+        {
+          "description": "GIRO PAYMENT PV-002507, 2020-09-16",
+          "amount": -1198.9,
+          "link": "https://agent.osome.team/companies/204210/documents/479524",
+          "document_id": 479524
+        },
+        {
+          "description": "GIRO PAYMENT P13732364, 2021-09-02",
+          "amount": -324.98,
+          "link": "https://agent.osome.team/companies/50982/documents/901814",
+          "document_id": 901814
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT TRANSFER CSDB",
+      "counter": 2543,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT / TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE UiC6wrJHA, 2021-08-11",
+          "amount": 255.23,
+          "link": "https://agent.osome.team/companies/189897/documents/840397",
+          "document_id": 840397
+        },
+        {
+          "description": "PAYMENT TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE 1XHSDStG4, 2020-12-21",
+          "amount": 252.12,
+          "link": "https://agent.osome.team/companies/172877/documents/413231",
+          "document_id": 413231
+        },
+        {
+          "description": "PAYMENT TRANSFER CSDB STRIPE PAYMENTS SIN 12RND UBX T qb9u, 2020-12-14",
+          "amount": 1610.12,
+          "link": "https://agent.osome.team/companies/2959/documents/577874",
+          "document_id": 577874
+        },
+        {
+          "description": "PAYMENT / TRANSFER CSDB STRIPE PAYMENTS SIN Shopify KPRg5j2X, 2019-05-14",
+          "amount": 38.37,
+          "link": "https://agent.osome.team/companies/3830/documents/754271",
+          "document_id": 754271
+        },
+        {
+          "description": "PAYMENT TRANSFER CSDB STRIPE PAYMENTS SIN 12RND UBX G 2w5G, 2021-02-15",
+          "amount": 627.86,
+          "link": "https://agent.osome.team/companies/2959/documents/577869",
+          "document_id": 577869
+        }
+      ]
+    },
+    {
+      "pattern": "FUND TRANSFER OTHR",
+      "counter": 2484,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUND TRANSFER via PayNow-UEN from CHEONG FONG CH OTHR - T558-Jill Cheong, 2021-07-25",
+          "amount": 78.77,
+          "link": "https://agent.osome.team/companies/203501/documents/824459",
+          "document_id": 824459
+        },
+        {
+          "description": "FUND TRANSFER via PayNow-UEN from NOVIYANTI ALIE OTHR - Rent. Oct 2021, 2021-10-02",
+          "amount": 1300,
+          "link": "https://agent.osome.team/companies/176677/documents/989400",
+          "document_id": 989400
+        },
+        {
+          "description": "FUND TRANSFER via PayNow - UEN from TEO PEARLYN OTHR - PayNow Transfer, 2021-12-14",
+          "amount": 32,
+          "link": "https://agent.osome.team/companies/189795/documents/1142784",
+          "document_id": 1142784
+        },
+        {
+          "description": "FUND TRANSFER from Octa UNGKU MUH OTHR - Order No. 9312882, 2021-07-01",
+          "amount": 135,
+          "link": "https://agent.osome.team/companies/192005/documents/753231",
+          "document_id": 753231
+        },
+        {
+          "description": "FUND TRANSFER from 683885 KELVIN OTHR - Order No. 683885, 2021-04-20",
+          "amount": 100,
+          "link": "https://agent.osome.team/companies/192005/documents/581790",
+          "document_id": 581790
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT\/TRANSFER CSDB PAYMENT",
+      "counter": 2152,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN Shopify DlBWmYw3, 2020-08-03",
+          "amount": 261.79,
+          "link": "https://agent.osome.team/companies/11663/documents/575656",
+          "document_id": 575656
+        },
+        {
+          "description": "PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE aTG4RBVL8, 2021-07-12",
+          "amount": 302,
+          "link": "https://agent.osome.team/companies/264896/documents/970075",
+          "document_id": 970075
+        },
+        {
+          "description": "PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE plqlwgNuX, 2021-03-22",
+          "amount": 61.32,
+          "link": "https://agent.osome.team/companies/144550/documents/559973",
+          "document_id": 559973
+        },
+        {
+          "description": "PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN J Edition S EPBF, 2021-11-02",
+          "amount": 597.78,
+          "link": "https://agent.osome.team/companies/413302/documents/1098992",
+          "document_id": 1098992
+        },
+        {
+          "description": "PAYMENT/TRANSFER CSDB STRIPE PAYMENTS SIN STRIPE BConfo0uk, 2021-09-29",
+          "amount": 447.77,
+          "link": "https://agent.osome.team/companies/264896/documents/970091",
+          "document_id": 970091
+        }
+      ]
+    },
+    {
+      "pattern": "SERVICE CHARGE",
+      "counter": 2133,
+      "type": "",
+      "examples": [
+        {
+          "description": "SERVICE CHARGE ZBAT 000000001, 2020-07-01",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/8404/documents/1126767",
+          "document_id": 1126767
+        },
+        {
+          "description": "SERVICE CHARGE ZBAT 000000001, 2021-12-31",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/45770/documents/1142758",
+          "document_id": 1142758
+        },
+        {
+          "description": "SERVICE CHARGE, 2020-03-31",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/36490/documents/693002",
+          "document_id": 693002
+        },
+        {
+          "description": "SERVICE CHARGE ZBAT 000000001, 2021-03-31",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/123124/documents/834305",
+          "document_id": 834305
+        },
+        {
+          "description": "SERVICE CHARGE, 2021-06-30",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/112189/documents/691330",
+          "document_id": 691330
+        }
+      ]
+    },
+    {
+      "pattern": "FUND TRANSFER",
+      "counter": 2126,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0023285569 FUND TRANSFER FUND TRANSFER Fund Transfer to account 713445468001 SGD 250.00@1 Company: Workpass Pte. Ltd., 2021-11-08",
+          "amount": -250,
+          "link": "https://agent.osome.team/companies/430508/documents/1065016",
+          "document_id": 1065016
+        },
+        {
+          "description": "FUND TRANSFER CT0020985730 Q - CS - 02018, 2021-02-26",
+          "amount": -250,
+          "link": "https://agent.osome.team/companies/98085/documents/483423",
+          "document_id": 483423
+        },
+        {
+          "description": "CT0019020336 FUND TRANSFER FUND TRANSFER Fund Transfer to account 713444685001 SGD 1,140.00@1 Osome Invoice 2863, 2020-07-11",
+          "amount": -1140,
+          "link": "https://agent.osome.team/companies/82969/documents/635398",
+          "document_id": 635398
+        },
+        {
+          "description": "FUND TRANSFER CT0021228460 FOOD VENUE, 2021-03-26",
+          "amount": -350,
+          "link": "https://agent.osome.team/companies/193580/documents/1088866",
+          "document_id": 1088866
+        },
+        {
+          "description": "FUND TRANSFER CT0022962386 SEP BIZ EXPENSES, 2021-10-04",
+          "amount": -647.94,
+          "link": "https://agent.osome.team/companies/28824/documents/1120185",
+          "document_id": 1120185
+        }
+      ]
+    },
+    {
+      "pattern": "TT",
+      "counter": 2041,
+      "type": "",
+      "examples": [
+        {
+          "description": "POS SETTLEMENT 13/12/21 57 MEDICA 11152076500, 2021-12-14",
+          "amount": 2317.92,
+          "link": "https://agent.osome.team/companies/204172/documents/1148336",
+          "document_id": 1148336
+        },
+        {
+          "description": "=. 23/12/20 POS SETTLEMENT, 2020-12-24",
+          "amount": 320,
+          "link": "https://agent.osome.team/companies/131456/documents/596358",
+          "document_id": 596358
+        },
+        {
+          "description": "OC210421004826000 TT IN SGD, 2021-04-21",
+          "amount": 15800,
+          "link": "https://agent.osome.team/companies/411881/documents/877835",
+          "document_id": 877835
+        },
+        {
+          "description": "03/12/20 POS SETTLEMENT, 2020-12-04",
+          "amount": 699,
+          "link": "https://agent.osome.team/companies/180004/documents/474618",
+          "document_id": 474618
+        },
+        {
+          "description": "POS SETTLEMENT 19/01/21 NOUSOUND P 11152038900, 2021-01-20",
+          "amount": 475,
+          "link": "https://agent.osome.team/companies/147410/documents/575513",
+          "document_id": 575513
+        }
+      ]
+    },
+    {
+      "pattern": "AGENT FEE",
+      "counter": 1996,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0022471128M001 AGENT FEE, 2021-08-11",
+          "amount": -25,
+          "link": "https://agent.osome.team/companies/121164/documents/876152",
+          "document_id": 876152
+        },
+        {
+          "description": "CT0021475646M001 AGENT FEE, 2021-04-23",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/93154/documents/580695",
+          "document_id": 580695
+        },
+        {
+          "description": "CT0017240426M001 AGENT FEE, 2019-11-20",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/40607/documents/451960",
+          "document_id": 451960
+        },
+        {
+          "description": "AGENT FEE CT0019659149M001 JOSE BANDEIRA * MDSUSER 000002670, 2020-09-29",
+          "amount": -29.5,
+          "link": "https://agent.osome.team/companies/429889/documents/1034258",
+          "document_id": 1034258
+        },
+        {
+          "description": "CT0021489356M001 AGENT FEE AGENT FEE, 2021-04-26",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/127075/documents/695031",
+          "document_id": 695031
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR FAST PAYMENT",
+      "counter": 1952,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR SIMON HAW FAST PAYMENT FAST PAYMENT OTHR SIMON HAW GMS21090740 via PayNow : SM3P210901485721 via PayNow : SM3P210901485721, 2021-09-02",
+          "amount": -700,
+          "link": "https://agent.osome.team/companies/139175/documents/895448",
+          "document_id": 895448
+        },
+        {
+          "description": "OTHR THE S'PORE MAL FAST PAYMENT FAST PAYMENT OTHR THE S'PORE MAL SM3P210318685815 via PayNow: SM3P210318685815 via PayNow: SM3P210318685815, 2021-03-18",
+          "amount": -219.35,
+          "link": "https://agent.osome.team/companies/146302/documents/594206",
+          "document_id": 594206
+        },
+        {
+          "description": "OTHR JOYCE LAW FAST PAYMENT FAST PAYMENT OTHR JOYCE LAW SM3P210401744386 via PayNow: SM3P210401744386 via PayNow: SM3P210401744386, 2021-04-01",
+          "amount": -400,
+          "link": "https://agent.osome.team/companies/172090/documents/644501",
+          "document_id": 644501
+        },
+        {
+          "description": "OTHR T2 ELECTRONICS FAST PAYMENT FAST PAYMENT OTHR T2 ELECTRONICS SM3P201231376909 t2 x reebelo w52 t2 x reebelo w52, 2020-12-31",
+          "amount": -702.25,
+          "link": "https://agent.osome.team/companies/112768/documents/1099442",
+          "document_id": 1099442
+        },
+        {
+          "description": "OTHR WISE ASIA-PACI FAST PAYMENT FAST PAYMENT OTHR WISE ASIA-PACI P23999822 via PayNow: SM3P210322699893 via PayNow: SM3P210322699893, 2021-03-22",
+          "amount": -1000,
+          "link": "https://agent.osome.team/companies/152774/documents/521638",
+          "document_id": 521638
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT REFU FUND",
+      "counter": 1893,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT REFU NIO JOFRI BIN PARTIAL REFUND SG3P210630783884, 2021-06-30",
+          "amount": -134.35,
+          "link": "https://agent.osome.team/companies/192005/documents/694288",
+          "document_id": 694288
+        },
+        {
+          "description": "FAST PAYMENT REFU MUHAMMAD RASYI PARTIAL REFUND SG3P210816207227, 2021-08-16",
+          "amount": -4533.78,
+          "link": "https://agent.osome.team/companies/192005/documents/833288",
+          "document_id": 833288
+        },
+        {
+          "description": "FAST PAYMENT REFU WONG DAI KUAN FULL REFUND SG3P210629780467, 2021-06-29",
+          "amount": -2793.14,
+          "link": "https://agent.osome.team/companies/192005/documents/694288",
+          "document_id": 694288
+        },
+        {
+          "description": "FAST PAYMENT REFU BRYAN SEAH XUE PARTIAL REFUND SG3P210821248080, 2021-08-21",
+          "amount": -448.66,
+          "link": "https://agent.osome.team/companies/192005/documents/833288",
+          "document_id": 833288
+        },
+        {
+          "description": "FAST PAYMENT REFU LIEW JING LE FULL REFUND SG3P210625752359, 2021-06-25",
+          "amount": -268.48,
+          "link": "https://agent.osome.team/companies/192005/documents/694288",
+          "document_id": 694288
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT BEXP",
+      "counter": 1842,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT BEXP SYLVIA CHEN TF_0033_21 TF_0033_21, 2021-12-30",
+          "amount": -5308.9,
+          "link": "https://agent.osome.team/companies/261406/documents/1151542",
+          "document_id": 1151542
+        },
+        {
+          "description": "FAST PAYMENT BEXP WISE ASIA-PACI P23999822 via PayNow: Payment, 2021-04-17",
+          "amount": -12000,
+          "link": "https://agent.osome.team/companies/152774/documents/680259",
+          "document_id": 680259
+        },
+        {
+          "description": "FAST PAYMENT BEXP HCS SCIENTIFIC 101960 101960, 2021-03-02",
+          "amount": -339.73,
+          "link": "https://agent.osome.team/companies/44367/documents/533456",
+          "document_id": 533456
+        },
+        {
+          "description": "FAST PAYMENT BEXP LUI MEI PO MICROSOFT Microsoft, 2021-07-31",
+          "amount": -108,
+          "link": "https://agent.osome.team/companies/192981/documents/916449",
+          "document_id": 916449
+        },
+        {
+          "description": "FAST PAYMENT BEXP WISE ASIA - PACI IDPAYSEP21 01 via PayNow : P3095369, 2021-09-28",
+          "amount": -46757.6,
+          "link": "https://agent.osome.team/companies/89295/documents/905788",
+          "document_id": 905788
+        }
+      ]
+    },
+    {
+      "pattern": "DEBIT PURCHASE IT",
+      "counter": 1681,
+      "type": "",
+      "examples": [
+        {
+          "description": "DEBIT PURCHASE 07/10/20 xx-1686 COMFORT/CITYCAB TAXI SIN, 2020-10-10",
+          "amount": -7.2,
+          "link": "https://agent.osome.team/companies/182277/documents/900046",
+          "document_id": 900046
+        },
+        {
+          "description": "DEBIT PURCHASE 22/03/21 XX - 8138 CAPITALAND VOUCHE SIN, 2021-03-26",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/143601/documents/558673",
+          "document_id": 558673
+        },
+        {
+          "description": "DEBIT PURCHASE 02/10/21 xx-8154 GOOGLE*GSUITE LEASTIMP SIN, 2021-10-06",
+          "amount": -34.24,
+          "link": "https://agent.osome.team/companies/42060/documents/994061",
+          "document_id": 994061
+        },
+        {
+          "description": "DEBIT PURCHASE USD 14.37 01/08/20 06-8429 GOOGLE GSUITE INNAWAY . SIN, 2020-08-05",
+          "amount": -20.41,
+          "link": "https://agent.osome.team/companies/36490/documents/597304",
+          "document_id": 597304
+        },
+        {
+          "description": "DEBIT PURCHASE USD 35.00 16/05/21 XX - 8507 UNITY COP, 2021-05-19",
+          "amount": -48.35,
+          "link": "https://agent.osome.team/companies/197597/documents/633298",
+          "document_id": 633298
+        }
+      ]
+    },
+    {
+      "pattern": "CALL A \/ C TT DEP",
+      "counter": 1640,
+      "type": "",
+      "examples": [
+        {
+          "description": "CALL A / C TT DEP 5380200069 JO UAB CENTRO TECHNOLO * MDSUSER 000000983, 2021-03-11",
+          "amount": 17790,
+          "link": "https://agent.osome.team/companies/132864/documents/531995",
+          "document_id": 531995
+        },
+        {
+          "description": "CALL A / C TT DEP C118469BBK090121 SVB FOR BENEFIT OF * MDSUSER 000000638, 2021-09-02",
+          "amount": 10000,
+          "link": "https://agent.osome.team/companies/152774/documents/903919",
+          "document_id": 903919
+        },
+        {
+          "description": "CALL A / C TT DEP ZD81273Z04151616 MARCELO AGUILAR * MDSUSER 000005372, 2021-09-30",
+          "amount": 30020,
+          "link": "https://agent.osome.team/companies/121164/documents/905771",
+          "document_id": 905771
+        },
+        {
+          "description": "CALL A / C TT DEP F9S2107201032000 DOSSIER DEN TECHNOL * MDSUSER 000001387, 2021-07-21",
+          "amount": 65130.5,
+          "link": "https://agent.osome.team/companies/230572/documents/753253",
+          "document_id": 753253
+        },
+        {
+          "description": "CALL A / C TT DEP 6406622196FS AQUAVET COMPANY LIM * MDSUSER 000008720, 2021-07-15",
+          "amount": 12696,
+          "link": "https://agent.osome.team/companies/198276/documents/751773",
+          "document_id": 751773
+        }
+      ]
+    },
+    {
+      "pattern": "COMM\/COMM IN LIEU",
+      "counter": 1595,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0023398766M001 COMM/COMM IN LIEU, 2021-11-19",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/259871/documents/1134755",
+          "document_id": 1134755
+        },
+        {
+          "description": "CT0016769677M001 COMM/COMM IN LIEU, 2019-09-19",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/40607/documents/451960",
+          "document_id": 451960
+        },
+        {
+          "description": "CT0016934729M001 COMM/COMM IN LIEU, 2019-10-10",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/40607/documents/451960",
+          "document_id": 451960
+        },
+        {
+          "description": "ST10502012301907 COMM/COMM IN LIEU, 2020-12-30",
+          "amount": -7.5,
+          "link": "https://agent.osome.team/companies/39738/documents/678034",
+          "document_id": 678034
+        },
+        {
+          "description": "COMM/COMM IN LIEU CT0022752010M001 SAXO ID 13952972 *MDSUSER 000002106, 2021-09-10",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/240963/documents/1158168",
+          "document_id": 1158168
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGES CHARGE Billing Statement",
+      "counter": 1581,
+      "type": "",
+      "examples": [
+        {
+          "description": "0000001031283917 CHARGES Billing Statement 0000001031283917 CHARGES Billing Statement 0000001031283917, 2021-07-05",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/101027/documents/1004574",
+          "document_id": 1004574
+        },
+        {
+          "description": "0000001031306228 CHARGES Billing Statement 0000001031306228 CHARGES Billing Statement 0000001031306228, 2021-07-05",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/13194/documents/749486",
+          "document_id": 749486
+        },
+        {
+          "description": "0000001031995224 CHARGES Billing Statement 0000001031995224 CHARGES Billing Statement 0000001031995224, 2021-09-03",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/251396/documents/1110767",
+          "document_id": 1110767
+        },
+        {
+          "description": "0000001026762063 CHARGES Billing Statement 0000001026762063 CHARGES Billing Statement 0000001026762063, 2020-06-03",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/40909/documents/602998",
+          "document_id": 602998
+        },
+        {
+          "description": "0000001031670613 CHARGES Billing Statement 0000001031670613 CHARGES Billing Statement 0000001031670613, 2021-08-03",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/306153/documents/754336",
+          "document_id": 754336
+        }
+      ]
+    },
+    {
+      "pattern": "CALL A \/ C WDL",
+      "counter": 1504,
+      "type": "",
+      "examples": [
+        {
+          "description": "CALL A / C WDL CT0022143594M001 TRANCHE III * MDSUSER 000005678, 2021-07-06",
+          "amount": -26000,
+          "link": "https://agent.osome.team/companies/132583/documents/764227",
+          "document_id": 764227
+        },
+        {
+          "description": "CALL A / C WDL CT0023395677M001 INVCNHK1191 * MDSUSER 000003749, 2021-11-19",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/282631/documents/1063528",
+          "document_id": 1063528
+        },
+        {
+          "description": "CALL A / C WDL CT0023649588M001 RT125 * MDSUSER 000002452, 2021-12-15",
+          "amount": -8000,
+          "link": "https://agent.osome.team/companies/132090/documents/1142752",
+          "document_id": 1142752
+        },
+        {
+          "description": "CALL A / C WDL CT0023791504 G - 0252 * MDSUSER 000003304, 2021-12-29",
+          "amount": -120,
+          "link": "https://agent.osome.team/companies/221319/documents/1147327",
+          "document_id": 1147327
+        },
+        {
+          "description": "CALL A / C WDL CT0020872288 BANK DOC DHL FEE \" MDSUSER 000007780, 2021-02-10",
+          "amount": -39.73,
+          "link": "https://agent.osome.team/companies/198276/documents/480743",
+          "document_id": 480743
+        }
+      ]
+    },
+    {
+      "pattern": "COMM COMM\/COMM IN LIEU",
+      "counter": 1469,
+      "type": "",
+      "examples": [
+        {
+          "description": "S0611200491C01 COMM/COMM IN LIEU COMM/COMM IN LIEU, 2021-04-30",
+          "amount": -7.48,
+          "link": "https://agent.osome.team/companies/179834/documents/641508",
+          "document_id": 641508
+        },
+        {
+          "description": "CT0022451880M001 COMM/COMM IN LIEU COMM/COMM IN LIEU, 2021-08-10",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/177338/documents/899865",
+          "document_id": 899865
+        },
+        {
+          "description": "CT0020217246M001 COMM/COMM IN LIEU COMM/COMM IN LIEU, 2020-12-01",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/88180/documents/969411",
+          "document_id": 969411
+        },
+        {
+          "description": "ST10502103012188 COMM/COMM IN LIEU COMM/COMM IN LIEU, 2021-03-01",
+          "amount": -7.47,
+          "link": "https://agent.osome.team/companies/39738/documents/764440",
+          "document_id": 764440
+        },
+        {
+          "description": "S0611441A96201 COMM/COMM IN LIEU COMM/COMM IN LIEU, 2021-05-24",
+          "amount": -7.46,
+          "link": "https://agent.osome.team/companies/186095/documents/838105",
+          "document_id": 838105
+        }
+      ]
+    },
+    {
+      "pattern": "BEXP FAST PAYMENT",
+      "counter": 1444,
+      "type": "",
+      "examples": [
+        {
+          "description": "BEXP WISE ASIA-PACI FAST PAYMENT FAST PAYMENT BEXP WISE ASIA-PACI VOTSALAKIPAYMENT P18847363 P18847363, 2021-09-27",
+          "amount": -13822.29,
+          "link": "https://agent.osome.team/companies/113685/documents/897492",
+          "document_id": 897492
+        },
+        {
+          "description": "BEXP STEVE FAST PAYMENT FAST PAYMENT BEXP STEVE PTDRIVER/22NOV20 via PayNow: SG3P201123013523 via PayNow: SG3P201123013523, 2020-11-23",
+          "amount": -135,
+          "link": "https://agent.osome.team/companies/156131/documents/720961",
+          "document_id": 720961
+        },
+        {
+          "description": "BEXP WISE ASIA-PACI FAST PAYMENT, 2021-05-22",
+          "amount": -6689.56,
+          "link": "https://agent.osome.team/companies/39738/documents/1050337",
+          "document_id": 1050337
+        },
+        {
+          "description": "BEXP DERRICK SIE FAST PAYMENT FAST PAYMENT BEXP DERRICK SIE SEPL-BE202102001 SEPL-BE202102001 SEPL-BE202102001, 2021-02-24",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/191864/documents/484186",
+          "document_id": 484186
+        },
+        {
+          "description": "BEXP RAYMOND YEO KC FAST PAYMENT FAST PAYMENT BEXP RAYMOND YEO KC PTDRIVER/23JAN21 via PayNow: SG3P210210653699 via PayNow: SG3P210210653699, 2021-02-10",
+          "amount": -108,
+          "link": "https://agent.osome.team/companies/156131/documents/733818",
+          "document_id": 733818
+        }
+      ]
+    },
+    {
+      "pattern": "FAST TRANSFER OTHR",
+      "counter": 1398,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST TRANSFER OTHR S$ JUSTMORPH P SM3P210218572645 via PayNow : SM3P210218572645, 2021-02-18",
+          "amount": -4000,
+          "link": "https://agent.osome.team/companies/106481/documents/494179",
+          "document_id": 494179
+        },
+        {
+          "description": "FAST TRANSFER OTHR S $ NOVAXI VENT NVICPF202110 via PayNow : QBECP211029173749382, 2021-10-29",
+          "amount": -1316,
+          "link": "https://agent.osome.team/companies/196775/documents/988814",
+          "document_id": 988814
+        },
+        {
+          "description": "FAST TRANSFER OTHR S$ TWOANDTWO P SMQR211020204495 via PayNow: QBECP211020165327324, 2021-10-20",
+          "amount": -29612,
+          "link": "https://agent.osome.team/companies/196401/documents/999912",
+          "document_id": 999912
+        },
+        {
+          "description": "FAST TRANSFER OTHR S$ HOMLEDJ PTE SM3P201031161387 via PayNow: SM3P201031161387, 2020-10-31",
+          "amount": -4147.15,
+          "link": "https://agent.osome.team/companies/205992/documents/459046",
+          "document_id": 459046
+        },
+        {
+          "description": "FAST TRANSFER OTHR QUISTA TECHNOL SM3P210723274735 mobile city x reebelo w28, 2021-07-23",
+          "amount": -903.04,
+          "link": "https://agent.osome.team/companies/112768/documents/753003",
+          "document_id": 753003
+        }
+      ]
+    },
+    {
+      "pattern": "IBG GIRO OTHR",
+      "counter": 1347,
+      "type": "",
+      "examples": [
+        {
+          "description": "IBG GIRO OTHR NETS (S) PTE LTD 019003210096, 2020-10-20",
+          "amount": 119.24,
+          "link": "https://agent.osome.team/companies/112076/documents/783014",
+          "document_id": 783014
+        },
+        {
+          "description": "IBG GIRO OTHR NETS (S) PTE LTD 113000515480, 2021-11-15",
+          "amount": 706.15,
+          "link": "https://agent.osome.team/companies/64914/documents/1146440",
+          "document_id": 1146440
+        },
+        {
+          "description": "IBG GIRO OTHR NETS (S) PTE LTD 902000515473, 2021-09-03",
+          "amount": 201.34,
+          "link": "https://agent.osome.team/companies/64914/documents/901443",
+          "document_id": 901443
+        },
+        {
+          "description": "IBG GIRO OTHR NETS (S) PTE LTD 201000514576, 2021-02-02",
+          "amount": 30.97,
+          "link": "https://agent.osome.team/companies/64914/documents/630000",
+          "document_id": 630000
+        },
+        {
+          "description": "IBG GIRO OTHR NETS (S) PTE LTD 206000509190, 2020-12-08",
+          "amount": 38.72,
+          "link": "https://agent.osome.team/companies/112076/documents/596393",
+          "document_id": 596393
+        }
+      ]
+    },
+    {
+      "pattern": "DEP IT",
+      "counter": 1338,
+      "type": "",
+      "examples": [
+        {
+          "description": "CASH DEPOSIT CDM OCBC - PARKWAY PARADE SINGAPORE SG, 2021-11-10",
+          "amount": 4881,
+          "link": "https://agent.osome.team/companies/204172/documents/1067194",
+          "document_id": 1067194
+        },
+        {
+          "description": "CASH DEPOSIT, 2018-05-04",
+          "amount": 564.7,
+          "link": "https://agent.osome.team/companies/3975/documents/525312",
+          "document_id": 525312
+        },
+        {
+          "description": "CHEQUE DEPOSIT, 2021-09-28",
+          "amount": 26673,
+          "link": "https://agent.osome.team/companies/259871/documents/1134755",
+          "document_id": 1134755
+        },
+        {
+          "description": "CHEQUE DEPOSIT 000658 MAYBANK SG LTD, 2020-10-06",
+          "amount": 600,
+          "link": "https://agent.osome.team/companies/4298/documents/484196",
+          "document_id": 484196
+        },
+        {
+          "description": "DEPOSIT FR GL SGD 13.41 WAIVER FALL BELOW FEE 3871 000153854, 2021-03-04",
+          "amount": 10,
+          "link": "https://agent.osome.team/companies/189561/documents/502198",
+          "document_id": 502198
+        }
+      ]
+    },
+    {
+      "pattern": "TT PURCHASE",
+      "counter": 1283,
+      "type": "",
+      "examples": [
+        {
+          "description": "TT PURCHASE CT0023308359M001 INV140402, 2021-11-10",
+          "amount": -1083.26,
+          "link": "https://agent.osome.team/companies/33722/documents/1068025",
+          "document_id": 1068025
+        },
+        {
+          "description": "TT PURCHASE CT0021397097M001 EVANSMEDIAPTELTD, 2021-04-14",
+          "amount": -29931.26,
+          "link": "https://agent.osome.team/companies/83325/documents/609096",
+          "document_id": 609096
+        },
+        {
+          "description": "TT PURCHASE €T0023131011M001 SGTT211021650897, 2021-10-22",
+          "amount": -7600,
+          "link": "https://agent.osome.team/companies/111434/documents/988821",
+          "document_id": 988821
+        },
+        {
+          "description": "TT PURCHASE",
+          "amount": -6119.14,
+          "link": "https://agent.osome.team/companies/180085/documents/591040",
+          "document_id": 591040
+        },
+        {
+          "description": "TT PURCHASE CT00205392301001 SGTT210107768404, 2021-01-07",
+          "amount": -4000,
+          "link": "https://agent.osome.team/companies/111434/documents/452899",
+          "document_id": 452899
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT GIRO",
+      "counter": 1261,
+      "type": "",
+      "examples": [
+        {
+          "description": "GIRO PAYMENT GIRO PAYMENT, 2021-01-29",
+          "amount": -133.09,
+          "link": "https://agent.osome.team/companies/4298/documents/1063600",
+          "document_id": 1063600
+        },
+        {
+          "description": "via PayNow GIRO PAYMENT GIRO PAYMENT, 2021-02-05",
+          "amount": -2110,
+          "link": "https://agent.osome.team/companies/4298/documents/1063600",
+          "document_id": 1063600
+        },
+        {
+          "description": "GIRO PAYMENT GIRO PAYMENT, 2021-03-01",
+          "amount": -27025.26,
+          "link": "https://agent.osome.team/companies/204172/documents/770462",
+          "document_id": 770462
+        },
+        {
+          "description": "GIRO PAYMENT GIRO PAYMENT, 2017-06-05",
+          "amount": -1679,
+          "link": "https://agent.osome.team/companies/262794/documents/696371",
+          "document_id": 696371
+        },
+        {
+          "description": "via PayNow GIRO PAYMENT GIRO PAYMENT, 2020-09-22",
+          "amount": -336,
+          "link": "https://agent.osome.team/companies/169858/documents/565250",
+          "document_id": 565250
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR PAYMENT\/TRANSFER",
+      "counter": 1199,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR PAYMENT/TRANSFER 6017 OTHR GOH CHONG TENG Other A182, 2016-01-22",
+          "amount": 500,
+          "link": "https://agent.osome.team/companies/262794/documents/696329",
+          "document_id": 696329
+        },
+        {
+          "description": "OTHR PAYMENT/TRANSFER, 2021-04-06",
+          "amount": 500,
+          "link": "https://agent.osome.team/companies/150882/documents/697534",
+          "document_id": 697534
+        },
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER, 2021-02-22",
+          "amount": 30,
+          "link": "https://agent.osome.team/companies/149196/documents/491986",
+          "document_id": 491986
+        },
+        {
+          "description": "OTHR PAYMENT/TRANSFER, 2020-12-10",
+          "amount": 296.09,
+          "link": "https://agent.osome.team/companies/198048/documents/473905",
+          "document_id": 473905
+        },
+        {
+          "description": "OTHR S$ PAYMENT/TRANSFER, 2020-12-29",
+          "amount": 1.99,
+          "link": "https://agent.osome.team/companies/198048/documents/473905",
+          "document_id": 473905
+        }
+      ]
+    },
+    {
+      "pattern": "COMM IN LIEU",
+      "counter": 1175,
+      "type": "",
+      "examples": [
+        {
+          "description": "COMWCOMM IN LIEU 00310271727301 ESCROW.COM \" MDSUSER 000000679, 2021-01-28",
+          "amount": -7.49,
+          "link": "https://agent.osome.team/companies/93665/documents/453707",
+          "document_id": 453707
+        },
+        {
+          "description": "COMMCOMM IN LIEU 1772557342FS REGAL TALENT SDN BH * MDSUSER 000006906, 2021-12-08",
+          "amount": -7.28,
+          "link": "https://agent.osome.team/companies/34679/documents/1142732",
+          "document_id": 1142732
+        },
+        {
+          "description": "COMWCOMM IN LIEU C0010190911601 IN - STREAM INTERNATI \" MDSUSER 000008448, 2021-01-19",
+          "amount": -7.47,
+          "link": "https://agent.osome.team/companies/37159/documents/453779",
+          "document_id": 453779
+        },
+        {
+          "description": "COMMCOMM IN LIEU CT0018512085M001 RSP RSPET - 2 \" MDSUSER 000006281, 2020-05-04",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/37159/documents/457335",
+          "document_id": 457335
+        },
+        {
+          "description": "COMMCOMM IN LIEU CT0018292087M001 4200063 MDSUSER 000004013, 2020-04-01",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/40644/documents/740610",
+          "document_id": 740610
+        }
+      ]
+    },
+    {
+      "pattern": "CSDB PAYMENT\/TRANSFER",
+      "counter": 1170,
+      "type": "",
+      "examples": [
+        {
+          "description": "CSDB PAYMENT/TRANSFER, 2020-10-15",
+          "amount": 2449.85,
+          "link": "https://agent.osome.team/companies/89615/documents/1016554",
+          "document_id": 1016554
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER, 2021-06-16",
+          "amount": 9999,
+          "link": "https://agent.osome.team/companies/198048/documents/688357",
+          "document_id": 688357
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER, 2021-07-21",
+          "amount": 3157.39,
+          "link": "https://agent.osome.team/companies/98404/documents/739305",
+          "document_id": 739305
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER, 2021-05-05",
+          "amount": 99.46,
+          "link": "https://agent.osome.team/companies/111434/documents/791423",
+          "document_id": 791423
+        },
+        {
+          "description": "CSDB PAYMENT/TRANSFER, 2020-12-09",
+          "amount": 530.8,
+          "link": "https://agent.osome.team/companies/129998/documents/489787",
+          "document_id": 489787
+        }
+      ]
+    },
+    {
+      "pattern": "CHECKING A \/ C WDL",
+      "counter": 1169,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHECKING A / C WDL CT0021912284M001 FTX 27038590 * MDSUSER 000002557, 2021-06-10",
+          "amount": -40000,
+          "link": "https://agent.osome.team/companies/125618/documents/1172465",
+          "document_id": 1172465
+        },
+        {
+          "description": "CHECKING A / C WDL CT0022866230M001 INVJPNCON202109 * MDSUSER 000001875, 2021-09-24",
+          "amount": -4000,
+          "link": "https://agent.osome.team/companies/93154/documents/904952",
+          "document_id": 904952
+        },
+        {
+          "description": "CHECKING A / C WDL CT0020672331M001 INVTHASP2012021 MDSUSER D00005322, 2021-01-22",
+          "amount": -9773.74,
+          "link": "https://agent.osome.team/companies/93154/documents/452678",
+          "document_id": 452678
+        },
+        {
+          "description": "CHECKING A / C WDL CT0022308247 USD TO SGD * MDSUSER 000000105, 2021-07-24",
+          "amount": -16000,
+          "link": "https://agent.osome.team/companies/89355/documents/751449",
+          "document_id": 751449
+        },
+        {
+          "description": "CHECKING A / C WDL CT0022314252M001 CONSULTING FEE * MDSUSER 000003923, 2021-07-26",
+          "amount": -4697.82,
+          "link": "https://agent.osome.team/companies/94407/documents/748960",
+          "document_id": 748960
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT SALA",
+      "counter": 1071,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT SALA EMMA RAHAYU JE SG3P200430696247 SG3P20043D696247, 2020-04-30",
+          "amount": -830,
+          "link": "https://agent.osome.team/companies/111434/documents/451673",
+          "document_id": 451673
+        },
+        {
+          "description": "FAST PAYMENT SALA YONG KWEE LOW SM3P210413799063 SM3P210413799063, 2021-04-13",
+          "amount": -110,
+          "link": "https://agent.osome.team/companies/202180/documents/580985",
+          "document_id": 580985
+        },
+        {
+          "description": "FAST PAYMENT SALA GRAYSON SM3P210202506300 via PayNow: SM3P210202506300, 2021-02-02",
+          "amount": -3500,
+          "link": "https://agent.osome.team/companies/247136/documents/989224",
+          "document_id": 989224
+        },
+        {
+          "description": "FAST PAYMENT SALA BRUEGGEMANN ST SG3P210921524456 SG3P210921524456, 2021-09-22",
+          "amount": -8000,
+          "link": "https://agent.osome.team/companies/111434/documents/903520",
+          "document_id": 903520
+        },
+        {
+          "description": "FAST PAYMENT SALA LOI KOK CHENG SM3P211005677118 kc salary, 2021-10-05",
+          "amount": -8500,
+          "link": "https://agent.osome.team/companies/117096/documents/1015966",
+          "document_id": 1015966
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGE",
+      "counter": 986,
+      "type": "",
+      "examples": [
+        {
+          "description": "OD INT CHARGE ZBAT 000000002, 2019-07-31",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/3813/documents/1096344",
+          "document_id": 1096344
+        },
+        {
+          "description": "OD INT CHARGE, 2021-05-31",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/196615/documents/632910",
+          "document_id": 632910
+        },
+        {
+          "description": "TRANS CHARGE, 2019-10-31",
+          "amount": -0.75,
+          "link": "https://agent.osome.team/companies/98509/documents/436694",
+          "document_id": 436694
+        },
+        {
+          "description": "TRANS CHARGE, 2020-07-31",
+          "amount": -1.5,
+          "link": "https://agent.osome.team/companies/189801/documents/636876",
+          "document_id": 636876
+        },
+        {
+          "description": "TRANS CHARGE, 2021-07-31",
+          "amount": -1.5,
+          "link": "https://agent.osome.team/companies/254470/documents/746177",
+          "document_id": 746177
+        }
+      ]
+    },
+    {
+      "pattern": "CALL A \/ C WDL TT",
+      "counter": 981,
+      "type": "",
+      "examples": [
+        {
+          "description": "CALL A / C WDL CT0022758625M001 SGTT210910523107 * MDSUSER 000007281, 2021-09-10",
+          "amount": -300000,
+          "link": "https://agent.osome.team/companies/230572/documents/945937",
+          "document_id": 945937
+        },
+        {
+          "description": "CALL A / C WDL CT0022837320M001 SGTT210920549325 * MDSUSER 000001616, 2021-09-21",
+          "amount": -4000,
+          "link": "https://agent.osome.team/companies/123124/documents/1165980",
+          "document_id": 1165980
+        },
+        {
+          "description": "CALL A / C WDL CT0021622852M001 SGTT210507133659 * MDSUSER 000008570, 2021-05-07",
+          "amount": -113000,
+          "link": "https://agent.osome.team/companies/185731/documents/632943",
+          "document_id": 632943
+        },
+        {
+          "description": "CALL A / C WDL CT0022689487M001 SGTT210608229331 * MDSUSER 000002171, 2021-09-03",
+          "amount": -600,
+          "link": "https://agent.osome.team/companies/185731/documents/907104",
+          "document_id": 907104
+        },
+        {
+          "description": "CALL A / C WDL CT0022813076M001 SMTT210916138027 * MDSUSER 000001547, 2021-09-17",
+          "amount": -1090.01,
+          "link": "https://agent.osome.team/companies/152774/documents/903919",
+          "document_id": 903919
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR FUND TRANSFER",
+      "counter": 931,
+      "type": "",
+      "examples": [
+        {
+          "description": "via PayNow-UEN FUND TRANSFER OTHR - Pi chunxia FUND TRANSFER OTHR - Pi chunxia, 2021-06-05",
+          "amount": 60,
+          "link": "https://agent.osome.team/companies/204172/documents/770466",
+          "document_id": 770466
+        },
+        {
+          "description": "via PayNow-UEN FUND TRANSFER OTHR - Shanelle_YTP Solo FUND TRANSFER OTHR - Shanelle_YTP Solo, 2021-06-02",
+          "amount": 394,
+          "link": "https://agent.osome.team/companies/64914/documents/656543",
+          "document_id": 656543
+        },
+        {
+          "description": "via PayNow-UEN FUND TRANSFER OTHR - Courier FUND TRANSFER OTHR - Courier, 2021-05-12",
+          "amount": 9,
+          "link": "https://agent.osome.team/companies/198228/documents/1004900",
+          "document_id": 1004900
+        },
+        {
+          "description": "via PayNow-UEN FUND TRANSFER OTHR - WEN06 FUND TRANSFER OTHR - WEN06, 2021-01-10",
+          "amount": 60,
+          "link": "https://agent.osome.team/companies/174296/documents/495263",
+          "document_id": 495263
+        },
+        {
+          "description": "FUND TRANSFER OTHR - Other FUND TRANSFER OTHR - Other, 2021-08-17",
+          "amount": 1200,
+          "link": "https://agent.osome.team/companies/13194/documents/1167642",
+          "document_id": 1167642
+        }
+      ]
+    },
+    {
+      "pattern": "CHECK A \/ C TT DEP",
+      "counter": 912,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHECK A / C TT DEP 3681159251FS REGAL TALENT SDN BH * MDSUSER 000007266, 2021-09-08",
+          "amount": 70000,
+          "link": "https://agent.osome.team/companies/34679/documents/905781",
+          "document_id": 905781
+        },
+        {
+          "description": "CHECK A / C TT DEP 9389727264FS DIGITAL VISION LIMI * MDSUSER 000003863, 2021-09-21",
+          "amount": 10549,
+          "link": "https://agent.osome.team/companies/34679/documents/905781",
+          "document_id": 905781
+        },
+        {
+          "description": "CHECK A / C TT DEP F3S2107028429500 WOOWA BROTHERS VIET * MDSUSER 000000684, 2021-07-06",
+          "amount": 3374,
+          "link": "https://agent.osome.team/companies/28824/documents/751596",
+          "document_id": 751596
+        },
+        {
+          "description": "CHECK A / C TT DEP F1S2105260001800 ARTSA DESIGN DOO * MDSUSER 000011988, 2021-05-27",
+          "amount": 1000,
+          "link": "https://agent.osome.team/companies/104665/documents/636325",
+          "document_id": 636325
+        },
+        {
+          "description": "CHECK A / C TT DEP F7S1911263603600 1 / GLOBAL FOOD 888 C * MDSUSER 000008715, 2019-11-26",
+          "amount": 38685,
+          "link": "https://agent.osome.team/companies/98004/documents/550824",
+          "document_id": 550824
+        }
+      ]
+    },
+    {
+      "pattern": "IBG GIRO SUPP",
+      "counter": 895,
+      "type": "",
+      "examples": [
+        {
+          "description": "IBG GIRO SUPP PAYPAL PTE LTD 1011940735309, 2021-01-19",
+          "amount": 7058.74,
+          "link": "https://agent.osome.team/companies/101683/documents/809337",
+          "document_id": 809337
+        },
+        {
+          "description": "IBG GIRO SUPP CORLISON PTE LTD CORLISON PTE LTD, 2020-07-01",
+          "amount": 5569,
+          "link": "https://agent.osome.team/companies/154477/documents/559641",
+          "document_id": 559641
+        },
+        {
+          "description": "IBG GIRO SUPP SUHAIM ENTERPRISE 00077, 2021-06-22",
+          "amount": 336,
+          "link": "https://agent.osome.team/companies/33722/documents/689568",
+          "document_id": 689568
+        },
+        {
+          "description": "IBG GIRO SUPP PAYPAL PTE LTD 1017594135158, 2021-12-28",
+          "amount": 610.85,
+          "link": "https://agent.osome.team/companies/33722/documents/1145396",
+          "document_id": 1145396
+        },
+        {
+          "description": "IBG GIRO SUPP PAYPAL PTE LTD 1015900187435, 2021-09-28",
+          "amount": 300.56,
+          "link": "https://agent.osome.team/companies/33722/documents/902077",
+          "document_id": 902077
+        }
+      ]
+    },
+    {
+      "pattern": "CALL A\/C WDL",
+      "counter": 887,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0021915447M001 CALL A/C WDL CALL A/C WDL, 2021-06-10",
+          "amount": -1008,
+          "link": "https://agent.osome.team/companies/158600/documents/702805",
+          "document_id": 702805
+        },
+        {
+          "description": "CT0021479205M001 CALL A/C WDL CALL A/C WDL, 2021-04-23",
+          "amount": -18731.54,
+          "link": "https://agent.osome.team/companies/421530/documents/951915",
+          "document_id": 951915
+        },
+        {
+          "description": "CT0021335321 CALL A/C WDL CALL A/C WDL Fund Transfer to account 503266157201 AUD 15,184.00@1.5184 802S2997940 Internal FX, 2021-04-07",
+          "amount": -10000,
+          "link": "https://agent.osome.team/companies/179834/documents/641515",
+          "document_id": 641515
+        },
+        {
+          "description": "CT0022587040 CALL A/C WDL CALL A/C WDL Fund Transfer to account 601349186001 SGD 175.00@1.3461 From USD Account to SGD Account, 2021-08-24",
+          "amount": -130.01,
+          "link": "https://agent.osome.team/companies/187414/documents/1080986",
+          "document_id": 1080986
+        },
+        {
+          "description": "CALL A/C WDL CT0020601685M001 KA200002 *MDSUSER 000002854, 2021-01-14",
+          "amount": -32960,
+          "link": "https://agent.osome.team/companies/263615/documents/892573",
+          "document_id": 892573
+        }
+      ]
+    },
+    {
+      "pattern": "GIRO CHARGES",
+      "counter": 871,
+      "type": "",
+      "examples": [
+        {
+          "description": "GIRO CHARGES INFANTREE, 2021-11-05",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/240549/documents/1069500",
+          "document_id": 1069500
+        },
+        {
+          "description": "GIRO CHARGES AC ESHOPPING PTE, 2021-10-29",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/240549/documents/993898",
+          "document_id": 993898
+        },
+        {
+          "description": "GIRO CHARGES INK-210701SGS, 2021-03-03",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/196780/documents/533132",
+          "document_id": 533132
+        },
+        {
+          "description": "GIRO CHARGES SAL DEC 2020, 2020-12-21",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/196780/documents/533130",
+          "document_id": 533130
+        },
+        {
+          "description": "GIRO CHARGES THE WORK PROJECT, 2021-12-01",
+          "amount": -0.1,
+          "link": "https://agent.osome.team/companies/155618/documents/1151251",
+          "document_id": 1151251
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR FAST TRANSFER",
+      "counter": 854,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR S$ NOAH HEALTH FAST TRANSFER FAST TRANSFER OTHR S$ NOAH HEALTH SMQR211007197157 via PayNow: P30025287 via PayNow: P30025287, 2021-10-07",
+          "amount": -273.53,
+          "link": "https://agent.osome.team/companies/224109/documents/984915",
+          "document_id": 984915
+        },
+        {
+          "description": "OTHR S$ FIGTECH PRI FAST TRANSFER FAST TRANSFER OTHR S$ FIGTECH PRI SMQR211021204774 via PayNow: QBECP211021133013829 via PayNow: QBECP211021133013829, 2021-10-21",
+          "amount": -4995,
+          "link": "https://agent.osome.team/companies/160284/documents/973698",
+          "document_id": 973698
+        },
+        {
+          "description": "OTHR S$ FISHYHUB PT FAST TRANSFER FAST TRANSFER OTHR S$ FISHYHUB PT MARKCPF via PayNow: QBECP211130165446831 via PayNow: QBECP211130165446831, 2021-11-30",
+          "amount": -931,
+          "link": "https://agent.osome.team/companies/264896/documents/1067750",
+          "document_id": 1067750
+        },
+        {
+          "description": "OTHR QUISTA TECHNOL FAST TRANSFER FAST TRANSFER OTHR QUISTA TECHNOL SM3P210903498877 wmart x reebelo w34 wmart x reebelo w34, 2021-09-03",
+          "amount": -8653.56,
+          "link": "https://agent.osome.team/companies/112768/documents/1041723",
+          "document_id": 1041723
+        },
+        {
+          "description": "OTHR QUISTA TECHNOL FAST TRANSFER FAST TRANSFER OTHR QUISTA TECHNOL SM3P201002075057 Mobile Relation x Reebelo W39 Mobile Relation x Reebelo W39, 2020-10-02",
+          "amount": -334.88,
+          "link": "https://agent.osome.team/companies/112768/documents/1099447",
+          "document_id": 1099447
+        }
+      ]
+    },
+    {
+      "pattern": "TRANSFER",
+      "counter": 846,
+      "type": "",
+      "examples": [
+        {
+          "description": "TRANSFER",
+          "amount": 169,
+          "link": "https://agent.osome.team/companies/141969/documents/667813",
+          "document_id": 667813
+        },
+        {
+          "description": "TRANSFER CT0022839536 210921, 2021-09-21",
+          "amount": 107376,
+          "link": "https://agent.osome.team/companies/167277/documents/903881",
+          "document_id": 903881
+        },
+        {
+          "description": "TRANSFER, 2020-09-18",
+          "amount": 5,
+          "link": "https://agent.osome.team/companies/112784/documents/748341",
+          "document_id": 748341
+        },
+        {
+          "description": "IACH TRANSFER CT0022768642M001 INV 67781 * MDSUSER 000004787, 2021-09-13",
+          "amount": -2410.05,
+          "link": "https://agent.osome.team/companies/104665/documents/905783",
+          "document_id": 905783
+        },
+        {
+          "description": "IACH TRANSFER CT0021487621M001 SOLV INV87401, 2021-04-26",
+          "amount": -1366.9,
+          "link": "https://agent.osome.team/companies/168141/documents/667402",
+          "document_id": 667402
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGES",
+      "counter": 821,
+      "type": "",
+      "examples": [
+        {
+          "description": "0000001031293628 CHARGES, 2021-07-05",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/46388/documents/1023754",
+          "document_id": 1023754
+        },
+        {
+          "description": "CHARGES 0000001026196353 Txn Charges Billing Biling Slatement 0000001026196353, 2020-04-24",
+          "amount": -38,
+          "link": "https://agent.osome.team/companies/32743/documents/810305",
+          "document_id": 810305
+        },
+        {
+          "description": "CHARGES 0000001029105639 Txn Charges Bling Bulling Statement 0000001029105639, 2021-01-04",
+          "amount": -13.23,
+          "link": "https://agent.osome.team/companies/161782/documents/451603",
+          "document_id": 451603
+        },
+        {
+          "description": "BILL CHARGES LASTF12103107 001 797LCF2100084, 2021-09-29",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/53382/documents/903804",
+          "document_id": 903804
+        },
+        {
+          "description": "CHARGES",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/180085/documents/591040",
+          "document_id": 591040
+        }
+      ]
+    },
+    {
+      "pattern": "PURCHASE",
+      "counter": 758,
+      "type": "",
+      "examples": [
+        {
+          "description": "POS PURCHASE NETS SINOPEC HO XX - 3421 SINOPEC T, 2021-11-28",
+          "amount": -85.27,
+          "link": "https://agent.osome.team/companies/198909/documents/1083018",
+          "document_id": 1083018
+        },
+        {
+          "description": "POS PURCHASE NETS NTUC FAIRP xx-0793 NTUC FAIRPRICE P, 2021-12-17",
+          "amount": -63.8,
+          "link": "https://agent.osome.team/companies/235348/documents/1138415",
+          "document_id": 1138415
+        },
+        {
+          "description": "POS PURCHASE NETS SING MUI H xx-5247 SING MUI HENG, 2020-12-05",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/99949/documents/490276",
+          "document_id": 490276
+        },
+        {
+          "description": "POS PURCHASE NETS HUPCO P / L XX - 3421 HUPCO PTE LTD 4, 2021-12-21",
+          "amount": -582,
+          "link": "https://agent.osome.team/companies/198909/documents/1142780",
+          "document_id": 1142780
+        },
+        {
+          "description": "POS PURCHASE NETS CLD XX - 5837 CLD 1, 2021-07-28",
+          "amount": -389.6,
+          "link": "https://agent.osome.team/companies/187325/documents/1089888",
+          "document_id": 1089888
+        }
+      ]
+    },
+    {
+      "pattern": "CHECK A\/C TT DEP",
+      "counter": 730,
+      "type": "",
+      "examples": [
+        {
+          "description": "0755092235FS CHECK A/C TT DEP, 2019-08-26",
+          "amount": 16970,
+          "link": "https://agent.osome.team/companies/40607/documents/451960",
+          "document_id": 451960
+        },
+        {
+          "description": "= 3757797118FS CHECK A/C TT DEP, 2020-04-28",
+          "amount": 59990,
+          "link": "https://agent.osome.team/companies/113021/documents/500847",
+          "document_id": 500847
+        },
+        {
+          "description": "CHECK A/C TT DEP 287362424 CTTNHH LD STELLAPHA *MDSUSER 000007271, 2020-10-13",
+          "amount": 254975,
+          "link": "https://agent.osome.team/companies/88180/documents/969418",
+          "document_id": 969418
+        },
+        {
+          "description": "S061183005FF01 CHECK A/C TT DEP, 2021-07-02",
+          "amount": 130000,
+          "link": "https://agent.osome.team/companies/80758/documents/751094",
+          "document_id": 751094
+        },
+        {
+          "description": "7766595115FS CHECK A/C TT DEP, 2020-04-27",
+          "amount": 61990,
+          "link": "https://agent.osome.team/companies/113021/documents/500847",
+          "document_id": 500847
+        }
+      ]
+    },
+    {
+      "pattern": "IBG GIRO",
+      "counter": 716,
+      "type": "",
+      "examples": [
+        {
+          "description": "IBG GIRO, 2021-08-17",
+          "amount": -1878.22,
+          "link": "https://agent.osome.team/companies/177564/documents/901136",
+          "document_id": 901136
+        },
+        {
+          "description": "IBG GIRO GOVT S$ IRAS via PayNow: JSS-116778362, 2021-06-29",
+          "amount": 1620,
+          "link": "https://agent.osome.team/companies/205992/documents/968302",
+          "document_id": 968302
+        },
+        {
+          "description": "GOVT IBG GIRO Jobs Support Scheme IBG GIRO Jobs Support Scheme, 2021-09-30",
+          "amount": 1830,
+          "link": "https://agent.osome.team/companies/143689/documents/967774",
+          "document_id": 967774
+        },
+        {
+          "description": "IBG GIRO GOVT S $ IRAS via PayNow : JGI - 117608630, 2021-12-14",
+          "amount": 2100,
+          "link": "https://agent.osome.team/companies/139175/documents/1143417",
+          "document_id": 1143417
+        },
+        {
+          "description": "IBG GIRO GOVT S$ IRAS via PayNow: JSS-116363737, 2021-03-30",
+          "amount": 2680,
+          "link": "https://agent.osome.team/companies/117953/documents/684941",
+          "document_id": 684941
+        }
+      ]
+    },
+    {
+      "pattern": "SALA FAST PAYMENT",
+      "counter": 712,
+      "type": "",
+      "examples": [
+        {
+          "description": "SALA AMINUL FAST PAYMENT FAST PAYMENT SALA AMINUL AMINUL 7,8,10,11 Aminul and friend 7,8,10,11 June Aminul and friend 7,8,10,11 June, 2021-06-17",
+          "amount": -580,
+          "link": "https://agent.osome.team/companies/143689/documents/967771",
+          "document_id": 967771
+        },
+        {
+          "description": "SALA VUE TECHNOLOGI FAST PAYMENT, 2020-11-09",
+          "amount": -9280,
+          "link": "https://agent.osome.team/companies/166299/documents/911002",
+          "document_id": 911002
+        },
+        {
+          "description": "SALA VATSA VISHESH FAST PAYMENT, 2021-07-28",
+          "amount": -7000,
+          "link": "https://agent.osome.team/companies/98404/documents/754976",
+          "document_id": 754976
+        },
+        {
+          "description": "SALA WONG KOHEI FAST PAYMENT, 2021-03-31",
+          "amount": -1600,
+          "link": "https://agent.osome.team/companies/111434/documents/791422",
+          "document_id": 791422
+        },
+        {
+          "description": "SALA MASUM FAST PAYMENT FAST PAYMENT SALA MASUM MASUM 15/17-06 Masum 15/17-06 Masum 15/17-06, 2021-06-29",
+          "amount": -160,
+          "link": "https://agent.osome.team/companies/143689/documents/967771",
+          "document_id": 967771
+        }
+      ]
+    },
+    {
+      "pattern": "CALL A\/C TT DEP",
+      "counter": 710,
+      "type": "",
+      "examples": [
+        {
+          "description": "F61201117535000 CALL A/C TT DEP, 2020-12-02",
+          "amount": 731.2,
+          "link": "https://agent.osome.team/companies/127318/documents/599383",
+          "document_id": 599383
+        },
+        {
+          "description": "2177600297JO CALL A/C TT DEP, 2020-10-26",
+          "amount": 1589.5,
+          "link": "https://agent.osome.team/companies/127318/documents/599387",
+          "document_id": 599387
+        },
+        {
+          "description": "CALL A/C TT DEP 2021091700078074 MR LI JIAMING *MDSUSER 000003351, 2021-09-17",
+          "amount": 191967,
+          "link": "https://agent.osome.team/companies/264070/documents/965481",
+          "document_id": 965481
+        },
+        {
+          "description": "CALLA/CTT DEP 2021102600379109 RODNEY DEAN CORDICK *MDSUSER 000001594, 2021-10-27",
+          "amount": 12570,
+          "link": "https://agent.osome.team/companies/118655/documents/993875",
+          "document_id": 993875
+        },
+        {
+          "description": "3303180260ES CALL A/C TT DEP, 2020-09-21",
+          "amount": 10242.21,
+          "link": "https://agent.osome.team/companies/127318/documents/599405",
+          "document_id": 599405
+        }
+      ]
+    },
+    {
+      "pattern": "CHECKING A\/C WDL",
+      "counter": 704,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0018471233M001 CHECKING A/C WDL, 2020-04-28",
+          "amount": -30000,
+          "link": "https://agent.osome.team/companies/113021/documents/500847",
+          "document_id": 500847
+        },
+        {
+          "description": "CHECKING A/C WDL CT0022983706M001 VNSEPTOCTSAL45 *MDSUSER 000006927, 2021-10-05",
+          "amount": -2500,
+          "link": "https://agent.osome.team/companies/4834/documents/999120",
+          "document_id": 999120
+        },
+        {
+          "description": "CT0022725319M001 CHECKING A/C WDL, 2021-09-24",
+          "amount": -4000,
+          "link": "https://agent.osome.team/companies/93154/documents/1090437",
+          "document_id": 1090437
+        },
+        {
+          "description": "CHECKING A/C WDL CT0020294880M001 SGMP201209330021 * MDSUSER 000001777, 2020-12-10",
+          "amount": -376.7,
+          "link": "https://agent.osome.team/companies/39328/documents/475479",
+          "document_id": 475479
+        },
+        {
+          "description": "CHECKING A/C WDL 70023208975 OCT EXPENSES “MDSUSER 000010327, 2021-10-29",
+          "amount": -5000,
+          "link": "https://agent.osome.team/companies/36490/documents/993770",
+          "document_id": 993770
+        }
+      ]
+    },
+    {
+      "pattern": "CHECK TT DEP",
+      "counter": 679,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHECK AIC TT DEP 0921407209FS REGAL TALENT SDN BH * MDSUSER 000006251, 2021-07-28",
+          "amount": 20000,
+          "link": "https://agent.osome.team/companies/34679/documents/751762",
+          "document_id": 751762
+        },
+        {
+          "description": "CHECK AC TT DEP 50600071EE1F01 ATCO ATMOSPHERIC AN * MDSUSER 000005586, 2020-01-08",
+          "amount": 9015,
+          "link": "https://agent.osome.team/companies/28900/documents/418631",
+          "document_id": 418631
+        },
+        {
+          "description": "CHECK AC TT DEP F60203314418000 VOTO MOBILE INC MDSUSER 000000554, 2021-02-04",
+          "amount": 18708.85,
+          "link": "https://agent.osome.team/companies/107193/documents/481437",
+          "document_id": 481437
+        },
+        {
+          "description": "CHECK AVC TT DEP 8732902356FS SUTLEJ TEX AND IND MDSUSER 000001123, 2020-12-22",
+          "amount": 17871.2,
+          "link": "https://agent.osome.team/companies/105741/documents/1079333",
+          "document_id": 1079333
+        },
+        {
+          "description": "CHECK AIC TT DEP 2021042200208043 LOKAPALA GLOBAL * MDSUSER 000000444, 2021-04-23",
+          "amount": 26600,
+          "link": "https://agent.osome.team/companies/34842/documents/580846",
+          "document_id": 580846
+        }
+      ]
+    },
+    {
+      "pattern": "SUPP IBG GIRO",
+      "counter": 612,
+      "type": "",
+      "examples": [
+        {
+          "description": "SUPP IBG GIRO 1022 1024 1080 1082 1135 1176 IBG GIRO 1022 1024 1080 1082 1135 1176, 2021-05-06",
+          "amount": 5284,
+          "link": "https://agent.osome.team/companies/184527/documents/944326",
+          "document_id": 944326
+        },
+        {
+          "description": "SUPP IBG GIRO IBG GIRO, 2016-01-25",
+          "amount": 1333.33,
+          "link": "https://agent.osome.team/companies/262794/documents/696329",
+          "document_id": 696329
+        },
+        {
+          "description": "SUPP IBG GIRO TM-202104110005 IBG GIRO TM-202104110005, 2021-08-23",
+          "amount": 306.26,
+          "link": "https://agent.osome.team/companies/270886/documents/1136644",
+          "document_id": 1136644
+        },
+        {
+          "description": "SUPP IBG GIRO 1012949239142 IBG GIRO 1012949239142, 2021-04-05",
+          "amount": 481.9,
+          "link": "https://agent.osome.team/companies/113685/documents/706132",
+          "document_id": 706132
+        },
+        {
+          "description": "SUPP IBG GIRO 1016988620975 IBG GIRO 1016988620975, 2021-11-26",
+          "amount": 3352.61,
+          "link": "https://agent.osome.team/companies/129008/documents/1142797",
+          "document_id": 1142797
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT",
+      "counter": 606,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT",
+          "amount": 34.9,
+          "link": "https://agent.osome.team/companies/112784/documents/748341",
+          "document_id": 748341
+        },
+        {
+          "description": "BILL PAYMENT CMS SGBP211115877842 SGBP211115877842, 2021-11-15",
+          "amount": -43.1,
+          "link": "https://agent.osome.team/companies/251236/documents/1075916",
+          "document_id": 1075916
+        },
+        {
+          "description": "BILL PAYMENT CMS SGBP210817805535 STARHUB, 2021-08-17",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/187325/documents/1089889",
+          "document_id": 1089889
+        },
+        {
+          "description": "BILL PAYMENT CMS SGBP210316681997 IRASCORPORATETAX, 2021-03-16",
+          "amount": -2527.22,
+          "link": "https://agent.osome.team/companies/83325/documents/532146",
+          "document_id": 532146
+        },
+        {
+          "description": "SGBP210222662800 + BILL PAYMENT CMS, 2021-02-22",
+          "amount": -73.1,
+          "link": "https://agent.osome.team/companies/129998/documents/489785",
+          "document_id": 489785
+        }
+      ]
+    },
+    {
+      "pattern": "CHECK A\/C CHECKING CHARGES DETAILS:",
+      "counter": 585,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0020059363M001 CHECKING A/C WDL CHECKING A/C WDL CHARGES DETAILS: (USD) Commission: 43.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 0.00, 2020-11-13",
+          "amount": -59360,
+          "link": "https://agent.osome.team/companies/98004/documents/867899",
+          "document_id": 867899
+        },
+        {
+          "description": "CT0020752446M001 CHECKING A/C WDL CHECKING A/C WDL CHARGES DETAILS: (USD) Commission: 43.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 15.00, 2021-02-01",
+          "amount": -220,
+          "link": "https://agent.osome.team/companies/98404/documents/641740",
+          "document_id": 641740
+        },
+        {
+          "description": "CT0020593041M001 CHECKING A/C WDL CHECKING A/C WDL CHARGES DETAILS: (USD) Commission: 43.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 0.00, 2021-01-13",
+          "amount": -158000,
+          "link": "https://agent.osome.team/companies/88180/documents/969431",
+          "document_id": 969431
+        },
+        {
+          "description": "CT0021472532M001 CHECKING A/C WDL CHECKING A/C WDL CHARGES DETAILS: (USD) Commission: 43.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 0.00, 2021-04-22",
+          "amount": -51000,
+          "link": "https://agent.osome.team/companies/113021/documents/995926",
+          "document_id": 995926
+        },
+        {
+          "description": "CT0021227127M001 CHECKING A/C WDL CHECKING A/C WDL CHARGES DETAILS: (USD) Commission: 43.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 0.00, 2021-03-26",
+          "amount": -8467,
+          "link": "https://agent.osome.team/companies/98004/documents/867980",
+          "document_id": 867980
+        }
+      ]
+    },
+    {
+      "pattern": "IT DEP",
+      "counter": 555,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHEQUE DEPOSIT DBS BANK CHQ300130 CHEQUE DEPOSIT DBS BANK, 2021-09-15",
+          "amount": 55625.09,
+          "link": "https://agent.osome.team/companies/421411/documents/977224",
+          "document_id": 977224
+        },
+        {
+          "description": "CASH DEPOSIT CDM xx-2713 ST-ATM DEP OCBC-UNITED SQU, 2021-12-31",
+          "amount": 382.3,
+          "link": "https://agent.osome.team/companies/438233/documents/1134450",
+          "document_id": 1134450
+        },
+        {
+          "description": "CASH DEPOSIT CDM ST - ATM DEP OCBC - UNITED SQUARE BRAN, 2021-09-13",
+          "amount": 1500,
+          "link": "https://agent.osome.team/companies/260684/documents/904126",
+          "document_id": 904126
+        },
+        {
+          "description": "CHEQUE DEPOSIT CIMB BANK BERHAD CHQ650750 CHEQUE DEPOSIT CIMB BANK BERHAD, 2021-04-06",
+          "amount": 2807.77,
+          "link": "https://agent.osome.team/companies/185003/documents/811482",
+          "document_id": 811482
+        },
+        {
+          "description": "CASH DEPOSIT CDM CASH DEPOSIT CDM, 2021-03-07",
+          "amount": 5565,
+          "link": "https://agent.osome.team/companies/204172/documents/770462",
+          "document_id": 770462
+        }
+      ]
+    },
+    {
+      "pattern": "FUND TRANSFER IT",
+      "counter": 554,
+      "type": "",
+      "examples": [
+        {
+          "description": "FUND TRANSFER CT0023511943 SMIT211201641654, 2021-12-01",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/108474/documents/1143688",
+          "document_id": 1143688
+        },
+        {
+          "description": "CT0021395707 FUND TRANSFER FUND TRANSFER Fund Transfer to account 601358468001 SGD 22,000.00@1 INVEST TO CLOVER SUITES, 2021-04-13",
+          "amount": -22000,
+          "link": "https://agent.osome.team/companies/4298/documents/1063600",
+          "document_id": 1063600
+        },
+        {
+          "description": "FUND TRANSFER CT0021079357 SGIT210309439133, 2021-03-09",
+          "amount": -95,
+          "link": "https://agent.osome.team/companies/34842/documents/548810",
+          "document_id": 548810
+        },
+        {
+          "description": "FUND TRANSFER CT0022603249 SMIT210825578324, 2021-08-26",
+          "amount": -72,
+          "link": "https://agent.osome.team/companies/38326/documents/818268",
+          "document_id": 818268
+        },
+        {
+          "description": "FUND TRANSFER CT0019945230 SMIT201101398546, 2020-11-02",
+          "amount": -7000,
+          "link": "https://agent.osome.team/companies/96549/documents/968966",
+          "document_id": 968966
+        }
+      ]
+    },
+    {
+      "pattern": "TRANSFER IT",
+      "counter": 536,
+      "type": "",
+      "examples": [
+        {
+          "description": "TRANSFER CT0020612965 SGIT210115188422, 2021-01-15",
+          "amount": 132000,
+          "link": "https://agent.osome.team/companies/158430/documents/1020913",
+          "document_id": 1020913
+        },
+        {
+          "description": "TRANSFER CT0022595223 SMIT210825578015, 2021-08-25",
+          "amount": 672.45,
+          "link": "https://agent.osome.team/companies/208140/documents/826697",
+          "document_id": 826697
+        },
+        {
+          "description": "TRANSFER 70023103524 8GIT211019494051, 2021-10-19",
+          "amount": 400.74,
+          "link": "https://agent.osome.team/companies/291359/documents/999230",
+          "document_id": 999230
+        },
+        {
+          "description": "TRANSFER CT0018859911 SMIT200622332146, 2020-06-22",
+          "amount": 11092.8,
+          "link": "https://agent.osome.team/companies/92985/documents/738469",
+          "document_id": 738469
+        },
+        {
+          "description": "TRANSFER CT0023262766 SMIT211103624653, 2021-11-05",
+          "amount": 2680.4,
+          "link": "https://agent.osome.team/companies/87019/documents/1067583",
+          "document_id": 1067583
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT",
+      "counter": 496,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT FAST PAYMENT FEB21 CLAIM Refer to report for breakdown Refer to report for breakdown, 2021-03-24",
+          "amount": -52.97,
+          "link": "https://agent.osome.team/companies/201410/documents/733494",
+          "document_id": 733494
+        },
+        {
+          "description": "FAST PAYMENT SG3S210824779399 Refer to report for breakdown, 2021-08-24",
+          "amount": -1798.08,
+          "link": "https://agent.osome.team/companies/203501/documents/824458",
+          "document_id": 824458
+        },
+        {
+          "description": "FAST PAYMENT P14897099 Refer to report for breakdown, 2020-06-30",
+          "amount": -800,
+          "link": "https://agent.osome.team/companies/97880/documents/455906",
+          "document_id": 455906
+        },
+        {
+          "description": "FAST PAYMENT GODS CHRIS KAN SM3P210215562857 via PayNow : SM3P210215562857, 2021-02-15",
+          "amount": -12822.13,
+          "link": "https://agent.osome.team/companies/169940/documents/480369",
+          "document_id": 480369
+        },
+        {
+          "description": "FAST PAYMENT FAST PAYMENT REIM RS & ALIEX Refer to report for breakdown Refer to report for breakdown, 2020-09-11",
+          "amount": -505.12,
+          "link": "https://agent.osome.team/companies/104459/documents/515117",
+          "document_id": 515117
+        }
+      ]
+    },
+    {
+      "pattern": "TT PURCHASE CHARGES DETAILS:",
+      "counter": 485,
+      "type": "",
+      "examples": [
+        {
+          "description": "CT0021158743M001 TT PURCHASE TT PURCHASE CHARGES DETAILS: (SGD) Commission: 10.00 Commission in lieu: 0.00 Cable charges: 25.00 Agent Bank's Charges: 0.00 Postage: 0.00, 2021-03-18",
+          "amount": -3649.15,
+          "link": "https://agent.osome.team/companies/198048/documents/540437",
+          "document_id": 540437
+        },
+        {
+          "description": "CT0019406686M001 TT PURCHASE TT PURCHASE CHARGES DETAILS: (SGD) Commission: 10.00 Commission in lieu: 0.00 Cable charges: 25.00 Agent Bank's Charges: 0.00 Postage: 0.00, 2020-08-28",
+          "amount": -427.84,
+          "link": "https://agent.osome.team/companies/154045/documents/450914",
+          "document_id": 450914
+        },
+        {
+          "description": "CT0020918014M001 TT PURCHASE TT PURCHASE CHARGES DETAILS: (SGD) Commission: 10.00 Commission in lieu: 0.00 Cable charges: 25.00 Agent Bank's Charges: 0.00 Postage: 0.00, 2021-02-22",
+          "amount": -229.33,
+          "link": "https://agent.osome.team/companies/198228/documents/1004900",
+          "document_id": 1004900
+        },
+        {
+          "description": "CT0022358179M001 TT PURCHASE TT PURCHASE CHARGES DETAILS: (SGD) Commission: 0.00 Commission in lieu: 0.00 Cable charges: 0.00 Agent Bank's Charges: 20.47 Postage: 0.00, 2021-07-29",
+          "amount": -483.96,
+          "link": "https://agent.osome.team/companies/98404/documents/754975",
+          "document_id": 754975
+        },
+        {
+          "description": "CT0020605695M001 TT PURCHASE TT PURCHASE CHARGES DETAILS: (SGD) Commission: 10.00 Commission in lieu: 0.00 Cable charges: 25.00 Agent Bank's Charges: 0.00 Postage: 0.00, 2021-01-14",
+          "amount": -167.33,
+          "link": "https://agent.osome.team/companies/154045/documents/450911",
+          "document_id": 450911
+        }
+      ]
+    },
+    {
+      "pattern": "BEXP FAST TRANSFER",
+      "counter": 469,
+      "type": "",
+      "examples": [
+        {
+          "description": "BEXP S$ BILJONIN PT FAST TRANSFER FAST TRANSFER BEXP S$ BILJONIN PT SCAL REGISTER via PayNow: UEN202006476Z Registra via PayNow: UEN202006476Z Registra, 2021-02-03",
+          "amount": -299.6,
+          "link": "https://agent.osome.team/companies/143689/documents/505987",
+          "document_id": 505987
+        },
+        {
+          "description": "BEXP GLOBAL ACE SHI FAST TRANSFER FAST TRANSFER BEXP GLOBAL ACE SHI GALAXY LOGISTICS INV1326 INV1326, 2021-09-23",
+          "amount": 360,
+          "link": "https://agent.osome.team/companies/139175/documents/895448",
+          "document_id": 895448
+        },
+        {
+          "description": "BEXP S$ SKYLINE CAT FAST TRANSFER, 2021-06-15",
+          "amount": 814.8,
+          "link": "https://agent.osome.team/companies/198048/documents/688357",
+          "document_id": 688357
+        },
+        {
+          "description": "BEXP VUE TECHNOLOGI FAST TRANSFER FAST TRANSFER Accounts payment BEXP VUE TECHNOLOGI JAN ACCOUNTING SG3P210301786926 SG3P210301786926, 2021-03-01",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/166299/documents/1182961",
+          "document_id": 1182961
+        },
+        {
+          "description": "BEXP VUE TECHNOLOGI FAST TRANSFER FAST TRANSFER BEXP VUE TECHNOLOGI STICKER PRINTING Inv. 44697 Inv. 44697, 2021-03-29",
+          "amount": -46.01,
+          "link": "https://agent.osome.team/companies/166299/documents/1182961",
+          "document_id": 1182961
+        }
+      ]
+    },
+    {
+      "pattern": "MEPS RECEIPTS TT",
+      "counter": 467,
+      "type": "",
+      "examples": [
+        {
+          "description": "MEPS RECEIPTS IM210603008942000 GMA TECH CONSULTING TT - SGD15000.00, 2021-06-03",
+          "amount": 15000,
+          "link": "https://agent.osome.team/companies/177433/documents/691395",
+          "document_id": 691395
+        },
+        {
+          "description": "MEPS RECEIPTS IM210831006657000 1/DEUTSCHE POST AG TT - SGD65982.00, 2021-08-31",
+          "amount": 65982,
+          "link": "https://agent.osome.team/companies/290324/documents/869033",
+          "document_id": 869033
+        },
+        {
+          "description": "MEPS RECEIPTS IM210810018951000 GUANGDA SHANGWU CO . TT - SGD1740.00, 2021-08-10",
+          "amount": 1740,
+          "link": "https://agent.osome.team/companies/88180/documents/826849",
+          "document_id": 826849
+        },
+        {
+          "description": "MEPS RECEIPTS IM210709008502000 MCC BUSINESS TT - SGD11383.86, 2021-07-09",
+          "amount": 11383.86,
+          "link": "https://agent.osome.team/companies/180004/documents/867078",
+          "document_id": 867078
+        },
+        {
+          "description": "MEPS RECEIPTS IM210621003441000 PERFORMANCE HORIZON TT - SGD96.91, 2021-06-21",
+          "amount": 96.91,
+          "link": "https://agent.osome.team/companies/190376/documents/690756",
+          "document_id": 690756
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR IBG GIRO",
+      "counter": 464,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR IBG GIRO PEATIX PAYOUT IBG GIRO PEATIX PAYOUT, 2021-04-29",
+          "amount": 1026,
+          "link": "https://agent.osome.team/companies/261545/documents/645745",
+          "document_id": 645745
+        },
+        {
+          "description": "OTHR IBG GIRO 2100046121 IBG GIRO 2100046121, 2021-02-04",
+          "amount": 6200,
+          "link": "https://agent.osome.team/companies/134784/documents/921185",
+          "document_id": 921185
+        },
+        {
+          "description": "OTHR IBG GIRO PEATIX PAYOUT IBG GIRO PEATIX PAYOUT, 2020-12-17",
+          "amount": 950,
+          "link": "https://agent.osome.team/companies/261545/documents/645747",
+          "document_id": 645747
+        },
+        {
+          "description": "OTHR IBG GIRO, 2021-01-19",
+          "amount": 821.66,
+          "link": "https://agent.osome.team/companies/180004/documents/474619",
+          "document_id": 474619
+        },
+        {
+          "description": "OTHR IBG GIRO PEATIX PAYOUT IBG GIRO PEATIX PAYOUT, 2021-05-20",
+          "amount": 114,
+          "link": "https://agent.osome.team/companies/261545/documents/892991",
+          "document_id": 892991
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT TRANSFER OTHR IT",
+      "counter": 446,
+      "type": "",
+      "examples": [
+        {
+          "description": "PAYMENT / TRANSFER OTHR XENDIT PTE . LTD . 671167E005LC, 2021-12-24",
+          "amount": 11200,
+          "link": "https://agent.osome.team/companies/35362/documents/1152783",
+          "document_id": 1152783
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR S $ SITI AISHAH BTE SAI via PayNow : 7jan hainanes chicken, 2020-12-31",
+          "amount": 169,
+          "link": "https://agent.osome.team/companies/141969/documents/504585",
+          "document_id": 504585
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR S $ SITTI NUR FAIZAH B via PayNow : Sushi bakes class, 2021-11-27",
+          "amount": 189,
+          "link": "https://agent.osome.team/companies/141969/documents/1135740",
+          "document_id": 1135740
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR S $ SITI AISHAH BTE SAI via PayNow : Siti Aishah 2 Aug cla, 2020-08-23",
+          "amount": 169,
+          "link": "https://agent.osome.team/companies/141969/documents/522108",
+          "document_id": 522108
+        },
+        {
+          "description": "PAYMENT / TRANSFER OTHR S $ SITI KATIJAH BINTE via PayNow : Ninda @ ikan percel, 2021-10-04",
+          "amount": 130,
+          "link": "https://agent.osome.team/companies/141969/documents/1129104",
+          "document_id": 1129104
+        }
+      ]
+    },
+    {
+      "pattern": "GIRO COLL",
+      "counter": 421,
+      "type": "",
+      "examples": [
+        {
+          "description": "GIRO COLL 18139 CANDID WATER COOLER 4052596, 2020-01-07",
+          "amount": -46.22,
+          "link": "https://agent.osome.team/companies/189801/documents/642927",
+          "document_id": 642927
+        },
+        {
+          "description": "GIRO COLL 200602938H CPF BIZ, 2021-01-19",
+          "amount": -8119,
+          "link": "https://agent.osome.team/companies/319802/documents/812809",
+          "document_id": 812809
+        },
+        {
+          "description": "GIRO COLL 202040271K CPF BIZ, 2021-01-29",
+          "amount": -1048,
+          "link": "https://agent.osome.team/companies/195914/documents/460732",
+          "document_id": 460732
+        },
+        {
+          "description": "GIRO COLL 202002647R CPF BIZ, 2021-03-12",
+          "amount": -604,
+          "link": "https://agent.osome.team/companies/132864/documents/531995",
+          "document_id": 531995
+        },
+        {
+          "description": "GIRO COLL 200602938H CPF BFWL, 2020-12-17",
+          "amount": -650,
+          "link": "https://agent.osome.team/companies/319802/documents/812808",
+          "document_id": 812808
+        }
+      ]
+    },
+    {
+      "pattern": "IT",
+      "counter": 420,
+      "type": "",
+      "examples": [
+        {
+          "description": "CASH WITHDRAWAL ATM xx - 9122 OCBC - OCBC CENTRE S, 2021-01-05",
+          "amount": -5000,
+          "link": "https://agent.osome.team/companies/138614/documents/452436",
+          "document_id": 452436
+        },
+        {
+          "description": "CASH WITHDRAWAL ATM XX - 7568 OCBC - RWS S, 2020-09-17",
+          "amount": -400,
+          "link": "https://agent.osome.team/companies/131124/documents/746210",
+          "document_id": 746210
+        },
+        {
+          "description": "CASH WITHDRAWAL ATM XX - 7568 OCBC - BUKIT PANJAN MRT S, 2020-07-29",
+          "amount": -1000,
+          "link": "https://agent.osome.team/companies/131124/documents/746141",
+          "document_id": 746141
+        },
+        {
+          "description": "CASH WITHDRAWAL ATM XO - 1344 OCBC.FP CITY SQ MALL S, 2019-08-17",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/31941/documents/959619",
+          "document_id": 959619
+        },
+        {
+          "description": "CASH WITHDRAWAL ATM XX - 7568 OCBC - TANG PLAZA S, 2020-04-09",
+          "amount": -500,
+          "link": "https://agent.osome.team/companies/131124/documents/746220",
+          "document_id": 746220
+        }
+      ]
+    },
+    {
+      "pattern": "OTHR GIRO",
+      "counter": 416,
+      "type": "",
+      "examples": [
+        {
+          "description": "OTHR GIRO Nov20_AXA GIRO Nov20_AXA, 2021-03-08",
+          "amount": 138.84,
+          "link": "https://agent.osome.team/companies/204172/documents/770462",
+          "document_id": 770462
+        },
+        {
+          "description": "OTHR HOSPCLAIM GIRO CPF GIRO CPF, 2021-02-11",
+          "amount": 33.5,
+          "link": "https://agent.osome.team/companies/204172/documents/489215",
+          "document_id": 489215
+        },
+        {
+          "description": "OTHR HOSPCLAIM GIRO CPF GIRO CPF, 2021-06-11",
+          "amount": 105.5,
+          "link": "https://agent.osome.team/companies/204172/documents/770466",
+          "document_id": 770466
+        },
+        {
+          "description": "OTHR HOSPCLAIM GIRO CPF GIRO CPF, 2021-06-07",
+          "amount": 269.55,
+          "link": "https://agent.osome.team/companies/204172/documents/770466",
+          "document_id": 770466
+        },
+        {
+          "description": "OTHR S$ GIRO via PayNow: BYKIDO OCT GIRO via PayNow: BYKIDO OCT, 2021-11-09",
+          "amount": 19.2,
+          "link": "https://agent.osome.team/companies/223194/documents/1132612",
+          "document_id": 1132612
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT RENT",
+      "counter": 416,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT RENT SENG LEE DEVEL MARCH 2021 RENT 0304 IN20210346, 2021-02-23",
+          "amount": -2419.27,
+          "link": "https://agent.osome.team/companies/205992/documents/968305",
+          "document_id": 968305
+        },
+        {
+          "description": "FAST PAYMENT RENT LINER SHIPPING 2005/0008 Being Rental for May-Jun, 2020-05-08",
+          "amount": -730,
+          "link": "https://agent.osome.team/companies/14596/documents/481678",
+          "document_id": 481678
+        },
+        {
+          "description": "FAST PAYMENT RENT DANIEL MOSES L SG3P210308844566 TYLER ACOMODATION 8 TO 15 MARCH, 2021-03-08",
+          "amount": -840,
+          "link": "https://agent.osome.team/companies/186340/documents/530025",
+          "document_id": 530025
+        },
+        {
+          "description": "FAST PAYMENT RENT LUCKY REALTY C RENT-6F LUCKYHTS IBN-JAN 2021, 2021-01-21",
+          "amount": -5400,
+          "link": "https://agent.osome.team/companies/319802/documents/812809",
+          "document_id": 812809
+        },
+        {
+          "description": "FAST PAYMENT RENT ONG CHYE HIN RENT INTEREST Rent Interest for July 20, 2020-07-16",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/88848/documents/874572",
+          "document_id": 874572
+        }
+      ]
+    },
+    {
+      "pattern": "FAST TRANSFER BEXP",
+      "counter": 413,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST TRANSFER BEXP S.E.A. TELECOM OSOME Q - AS - 00670 Accounting and Tax Quarterly Start, 2021-01-28",
+          "amount": -1400,
+          "link": "https://agent.osome.team/companies/100852/documents/453757",
+          "document_id": 453757
+        },
+        {
+          "description": "FAST TRANSFER BEXP S $ ADS MARKETI SM3P210531011248 via PayNow : osome, 2021-05-31",
+          "amount": -600,
+          "link": "https://agent.osome.team/companies/204492/documents/632623",
+          "document_id": 632623
+        },
+        {
+          "description": "FAST TRANSFER BEXP TRADING IMPOSS ALGOMERC 1GTFEE 1GT Platform fee SN 787-850/Others, 2021-10-05",
+          "amount": -13490,
+          "link": "https://agent.osome.team/companies/411401/documents/980395",
+          "document_id": 980395
+        },
+        {
+          "description": "FAST TRANSFER BEXP S $ JR MAID AG EO - 010521-2 via PayNow : E0-010521-2, 2020-05-01",
+          "amount": -540,
+          "link": "https://agent.osome.team/companies/5525/documents/1141093",
+          "document_id": 1141093
+        },
+        {
+          "description": "FAST TRANSFER BEXP JETE STUDIOS P ADV20210302 IG Mgmt fee and Design poster - Fe, 2021-04-06",
+          "amount": -545,
+          "link": "https://agent.osome.team/companies/64914/documents/630004",
+          "document_id": 630004
+        }
+      ]
+    },
+    {
+      "pattern": "CHECKING WDL",
+      "counter": 407,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHECKING AVC WDL CT0021928667M001 EX - 210604TR - TJA * MDSUSER 000006982, 2021-06-11",
+          "amount": -12540,
+          "link": "https://agent.osome.team/companies/104268/documents/692548",
+          "document_id": 692548
+        },
+        {
+          "description": "CHECKING AIC WDL CT0016754182M001 65154 1559552510 * MDSUSER 000007509, 2019-09-17",
+          "amount": -6203.57,
+          "link": "https://agent.osome.team/companies/40644/documents/740477",
+          "document_id": 740477
+        },
+        {
+          "description": "CHECKING AVC WDL CT0020366762M001 AV DIVIDEND B \" MDSUSER 000009298, 2020-12-17",
+          "amount": -34288,
+          "link": "https://agent.osome.team/companies/10102/documents/925199",
+          "document_id": 925199
+        },
+        {
+          "description": "CHECKING AVC WDL CT0017296329M001 DISHA 02 * MDSUSER 000005870, 2019-11-27",
+          "amount": -2300,
+          "link": "https://agent.osome.team/companies/40607/documents/552742",
+          "document_id": 552742
+        },
+        {
+          "description": "CHECKING AVC WDL CT0017237238M001 CMA OJFOQR1MA * MDSUSER 000002499, 2019-11-20",
+          "amount": -1924.35,
+          "link": "https://agent.osome.team/companies/40607/documents/552742",
+          "document_id": 552742
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGES GIRO CHARGE",
+      "counter": 402,
+      "type": "",
+      "examples": [
+        {
+          "description": "GIRO CHARGES GIRO CHARGES, 2017-01-31",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/262794/documents/696369",
+          "document_id": 696369
+        },
+        {
+          "description": "via PayNow GIRO CHARGES GIRO CHARGES, 2021-03-23",
+          "amount": -0.1,
+          "link": "https://agent.osome.team/companies/204172/documents/770462",
+          "document_id": 770462
+        },
+        {
+          "description": "GIRO CHARGES GIRO CHARGES, 2017-09-08",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/262794/documents/696364",
+          "document_id": 696364
+        },
+        {
+          "description": "GIRO CHARGES GIRO CHARGES, 2021-03-01",
+          "amount": -0.1,
+          "link": "https://agent.osome.team/companies/204172/documents/770462",
+          "document_id": 770462
+        },
+        {
+          "description": "via PayNow GIRO CHARGES GIRO CHARGES, 2021-08-10",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/204172/documents/893373",
+          "document_id": 893373
+        }
+      ]
+    },
+    {
+      "pattern": "DEBIT CREDIT",
+      "counter": 368,
+      "type": "",
+      "examples": [
+        {
+          "description": "DEBIT CREDIT USD 39 13/01/21 xx-2379 CONNECTCOUNSELLIN SIN, 2021-01-25",
+          "amount": 540.54,
+          "link": "https://agent.osome.team/companies/192668/documents/683590",
+          "document_id": 683590
+        },
+        {
+          "description": "DEBIT CREDIT USD 179.06 16/11/21 XX - 8626 FACEBK 86Z6G6XY32 fb ., 2021-11-18",
+          "amount": 250.17,
+          "link": "https://agent.osome.team/companies/98404/documents/1068805",
+          "document_id": 1068805
+        },
+        {
+          "description": "DEBIT CREDIT 03/12/21 XX - 8976 SAFEWAY.COM # 1662 7/1, 2021-12-04",
+          "amount": 168.12,
+          "link": "https://agent.osome.team/companies/74509/documents/1163060",
+          "document_id": 1163060
+        },
+        {
+          "description": "DEBIT CREDIT USD 1020.00 31/10/21 XX - 1148 ALCHEMER LLC 720, 2021-11-03",
+          "amount": 1421.65,
+          "link": "https://agent.osome.team/companies/175082/documents/1065312",
+          "document_id": 1065312
+        },
+        {
+          "description": "DEBIT CREDIT 29/12/19 XX - 7018 PAYPAL * 78AMYRAH 402, 2020-01-01",
+          "amount": 128.91,
+          "link": "https://agent.osome.team/companies/92888/documents/648833",
+          "document_id": 648833
+        }
+      ]
+    },
+    {
+      "pattern": "FAST PAYMENT IVPT",
+      "counter": 364,
+      "type": "",
+      "examples": [
+        {
+          "description": "FAST PAYMENT IVPT CHEMISTRY TEAM CHEM INV 1008 Tiger Road Inv 1008, 2021-02-22",
+          "amount": -2500,
+          "link": "https://agent.osome.team/companies/125956/documents/1020225",
+          "document_id": 1020225
+        },
+        {
+          "description": "FAST PAYMENT IVPT LOW GIM KEAT KEAT 19-045, 2020-02-13",
+          "amount": -90,
+          "link": "https://agent.osome.team/companies/249187/documents/654283",
+          "document_id": 654283
+        },
+        {
+          "description": "FAST PAYMENT IVPT BOLLANCHORS PO SG3P211006672553 SG3P211006672553, 2021-10-06",
+          "amount": -7406.75,
+          "link": "https://agent.osome.team/companies/201410/documents/1162282",
+          "document_id": 1162282
+        },
+        {
+          "description": "FAST PAYMENT IVPT JMEDGUARD PTE. JMG2021076 via PayNow: JMG2021076, 2021-08-12",
+          "amount": -250,
+          "link": "https://agent.osome.team/companies/254470/documents/824361",
+          "document_id": 824361
+        },
+        {
+          "description": "FAST PAYMENT IVPT IVAN TAN PO2106004TORQUE via PayNow: Inv 101561, 2021-06-22",
+          "amount": -655.66,
+          "link": "https://agent.osome.team/companies/158559/documents/752564",
+          "document_id": 752564
+        }
+      ]
+    }
+  ]
+}

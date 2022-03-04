@@ -7,5 +7,6 @@ const todosController = new TodosController();
 router.get('/', todosController.get);
 router.get('/coverage', todosController.coverage);
 router.get('/ocbc', todosController.ocbc);
+router.get('/dbs', todosController.dbs);
 
 export default router;

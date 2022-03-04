@@ -1,6 +1,7 @@
 import {Request, Response} from 'express';
 import pool from '../dbconfig/dbConnector';
-import {ocbcBank} from "../services/typifyingRegexes.service";
+import {ocbcBank} from "../services/ocbcPatterns.service";
+import {dbsBank} from "../services/dbsPatterns.service";
 
 class TodosController {
 
@@ -32,6 +33,15 @@ class TodosController {
     public async ocbc(req: Request, res: Response) {
         try {
             res.json(await ocbcBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async dbs(req: Request, res: Response) {
+        try {
+            res.json(await dbsBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);
