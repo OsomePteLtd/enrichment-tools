@@ -1,5 +1,6 @@
 import {Request, Response} from 'express';
 import pool from '../dbconfig/dbConnector';
+import {ocbcBank} from "../services/typifyingRegexes.service";
 
 class TodosController {
 
@@ -27,6 +28,16 @@ class TodosController {
             res.status(400).send(error);
         }
     }
+
+    public async ocbc(req: Request, res: Response) {
+        try {
+            res.json(await ocbcBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
 }
 
 type RegExpression = {field: string, regExp: string, bankname: string}
