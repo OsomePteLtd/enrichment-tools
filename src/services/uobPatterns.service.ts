@@ -1,4 +1,5 @@
 import pool from "../dbconfig/dbConnector";
+import {genPatterns, toCSV} from "./utils";
 
 export async function uobBank() {
     const client = await pool.connect();
@@ -76,7 +77,7 @@ export async function uobBank() {
         'Misc Credit BIL', 'Misc Debit', 'Misc Credit', 'Misc DR\-Debit Card', 'Misc DR \- Debit Card',
         'PAYNOW', 'CR Retail', 'IPT',
         'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
-        'Point of Sale Transaction', 'NETS Debit'
+        'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL'
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
@@ -132,7 +133,7 @@ export async function uobBank() {
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 5) {
+            if (examplesList.length < 10) {
                 examplesList.push({
                     description,
                     amount,
@@ -149,7 +150,7 @@ export async function uobBank() {
     const topPatterns = []
     let coveredRows = 0
     for (const [pattern, counter] of map.entries()) {
-        if (counter >= totalRows / 1000) {
+        if (counter >= totalRows / 500) {
             coveredRows += counter
             topPatterns.push({
                 pattern: pattern.replace(/\.\*/g, ' '),
@@ -161,74 +162,13 @@ export async function uobBank() {
     }
     topPatterns.sort((a, b) => b.counter - a.counter)
 
+    await toCSV(topPatterns, './uob-patterns.csv')
+
     return {
         totalRows,
         coveredRows,
         percentage: (coveredRows * 100 / totalRows).toFixed(2) + '%',
         patternsCount: topPatterns.length,
         patterns: topPatterns
-    }
-}
-
-function genPatterns(codes: string[], commands: string[], K: number) {
-    const result: {regExp: RegExp, w: number}[] = []
-    for (let totalLen = 1; totalLen <= K; totalLen++) {
-        if (codes.length === 0) {
-            iter({
-                code: '',
-                commands,
-                arr: result,
-                words: [],
-                codeUsed: true,
-                len: 0,
-                totalLen
-            })
-        }
-        for (const code of codes) {
-            iter({
-                code,
-                commands,
-                arr: result,
-                words: [],
-                codeUsed: false,
-                len: 0,
-                totalLen
-            })
-        }
-    }
-    return result
-}
-
-function iter(
-    { code, commands, arr, words, codeUsed, len, totalLen
-    }: { code: string, commands: string[], arr: {regExp: RegExp, w: number}[], words: string[], codeUsed: boolean, len: number, totalLen: number }
-) {
-    if (len === totalLen) {
-        arr.push({ regExp: new RegExp(`${words.join('.*')}`), w: len })
-        return
-    }
-    if (!codeUsed) {
-        iter({
-            code,
-            commands,
-            arr,
-            words: [...words, code],
-            codeUsed: true,
-            len: len + 1,
-            totalLen
-        })
-    }
-    for (const command of commands) {
-        if (!words.includes(command)) {
-            iter({
-                code,
-                commands,
-                arr,
-                words: [...words, command],
-                codeUsed,
-                len: len + 1,
-                totalLen
-            })
-        }
     }
 }

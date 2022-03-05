@@ -1,4 +1,5 @@
 import pool from "../dbconfig/dbConnector";
+import {genPatterns, toCSV} from "./utils";
 
 export async function ocbcBank() {
     const client = await pool.connect();
@@ -37,7 +38,7 @@ export async function ocbcBank() {
     const totalRows = rows.length
 
     let index = 0
-    for (const {description: originalDescription, document_id, osome_link, amount} of rows) {
+    for (const {description: originalDescription, document_id, osome_link, amount} of rows.reverse()) {
         const description = originalDescription.replace(/\n/g, ' ')
 
         const matchedCodes = []
@@ -78,7 +79,7 @@ export async function ocbcBank() {
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 5) {
+            if (examplesList.length < 10) {
                 examplesList.push({
                     description,
                     amount,
@@ -107,6 +108,8 @@ export async function ocbcBank() {
     }
     topPatterns.sort((a, b) => b.counter - a.counter)
 
+    await toCSV(topPatterns, './ocbc-patterns.csv')
+
     return {
         totalRows,
         coveredRows,
@@ -116,65 +119,3 @@ export async function ocbcBank() {
     }
 }
 
-function genPatterns(codes: string[], commands: string[], K: number) {
-    const result: {regExp: RegExp, w: number}[] = []
-    for (let totalLen = 1; totalLen <= K; totalLen++) {
-        if (codes.length === 0) {
-            iter({
-                code: '',
-                commands,
-                arr: result,
-                words: [],
-                codeUsed: true,
-                len: 0,
-                totalLen
-            })
-        }
-        for (const code of codes) {
-            iter({
-                code,
-                commands,
-                arr: result,
-                words: [],
-                codeUsed: false,
-                len: 0,
-                totalLen
-            })
-        }
-    }
-    return result
-}
-
-function iter(
-    { code, commands, arr, words, codeUsed, len, totalLen
-    }: { code: string, commands: string[], arr: {regExp: RegExp, w: number}[], words: string[], codeUsed: boolean, len: number, totalLen: number }
-) {
-    if (len === totalLen) {
-        arr.push({ regExp: new RegExp(`${words.join('.*')}`), w: len })
-        return
-    }
-    if (!codeUsed) {
-        iter({
-            code,
-            commands,
-            arr,
-            words: [...words, code],
-            codeUsed: true,
-            len: len + 1,
-            totalLen
-        })
-    }
-    for (const command of commands) {
-        if (!words.includes(command)) {
-            iter({
-                code,
-                commands,
-                arr,
-                words: [...words, command],
-                codeUsed,
-                len: len + 1,
-                totalLen
-            })
-        }
-    }
-}

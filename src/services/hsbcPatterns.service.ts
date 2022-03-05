@@ -1,15 +1,20 @@
 import pool from "../dbconfig/dbConnector";
 import {genPatterns, toCSV} from "./utils";
 
-export async function dbsBank() {
+export async function hsbcBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'DBS', 'DBS Bank', 'DBS Bank (Hong Kong) Limited', 'DBS Bank Ltd', 'DBS Bank Ltd.', 'DBS Bank Ltd. ', 'DBS BANK LTD', 'DBS Bank Ltd. STRIPE', 'DBS Eank Ltd', 'DBS(Hong Kong) Limited', 'DBSSSGSGXXX 8850 6500 4482 0483 5'
+        'HSBC', 'HSBC BANK', 'HSBC Bank (China) Company Limited', 'HSBC Bank Limited', 'HSBC Bank Plc', 'HSBC Bank (Singapore) Limited', 'HSBC Business Direct', 'HSBC Offshore', 'HSBC Sprint Account Statement', 'HSBC UK Bank PLC'
     ]
-    const transactionCodes: string[] = []
+    const transactionCodes: string[] = [
+        'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
+        'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
+        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INTE', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
+        'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
+    ]
     const commands = [
-        'CALL', 'A\/C', 'A \/ C', 'TT', 'DEP', 'WDL',
+        'CALL', 'A\/C', 'A \/ C', 'DEP', 'WDL',
         'CHECK', 'CHECKING',
         'FAST', 'PAYMENT', 'FUND', 'TRANSFER', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
         'TRANS CHARGE', 'BILL PAYMENT', 'NETS', 'POS', 'IACH', 'OD INT',
@@ -25,7 +30,7 @@ export async function dbsBank() {
         'REMITTANCE TRANSFER OF FUNDS', 'REMITTANCE TRANSFER OF FUNDS RTF', 'REMITTANCE RTF',
         'TRANSFER REMITTANCE',
         'INWARD TELEGRAPHIC TRANSFER', 'INWARD TELEGRAPHIC TRANSFER AGENT', 'INWARD TELEGRAPHIC TRANSFER COMM IB CHARGES', 'ITT', 'ITT CHG',
-        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES', 'OTT', 'OTT CHG',
+        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES',
         'AUTOSAVE TRANSFER FEE',
         'TRANSFER AGENT CHGS',
         'TRANSFER TO OTHER DBS A\/CS',
@@ -64,7 +69,27 @@ export async function dbsBank() {
         'IDEAL PURCHASE SALE OF GOODS', 'IDEAL MONTHLY SERVICE FEE',
         'PLUS ATM Transaction Cash Withdrawal', 'Service Charge', 'ATM Transaction', 'Cash Withdrawal',
         'FAST Payment \/ Receipt',
-        'Advice Service Charge for Processing of Ideal Transactions'
+        'Advice Service Charge for Processing of Ideal Transactions',
+
+        'FUNDS TRANSFER', 'FUNDS TRF', 'Funds Trf', 'FUNDS TRA', 'FUNDS TRE',
+        'Inward Cr', 'Inward CR', 'Inward DR', 'Inward Credit', 'INWARD TRF', 'Inward TT', 'Outward TT', 'Misc DR',
+        'SERV CHARGE', 'Service Charge',
+        'Misc Credit BIL', 'Misc Debit', 'Misc Credit', 'Misc DR\-Debit Card', 'Misc DR \- Debit Card',
+        'PAYNOW', 'CR Retail', 'IPT',
+        'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
+        'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL',
+
+        'GG', 'HIB', 'REF', 'INTERNET', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
+        'CR', 'Cr', 'Credit', 'DR', 'BP', 'OBP', 'DD',
+        'COMMERCIAL CARD', 'VIS', 'COMMISSION', 'INT\'L',
+        'Visa Rate', 'Non-Sterling', 'Non-Sterling Transaction Fee',
+        'RFLX', 'INSTANT TRF', 'RFLX INSTANT TRF',
+        'BIB',
+        'CREDIT AS ADVISED', 'STS PYT', 'SVC CHGS', 'ACCOUNT SERVICE FEE', 'CMB',
+        'Oversea chrg', 'POST OFFICE COUNTE', 'POSTOFFICE', 'POST OFFICE',
+        'FIRST PAYMENT', 'CORP CARD PAYMENT', 'CREDIT CARD',
+        'MACHINE', 'MACHINE ABR', 'MACHINE AER', 'MACHINE AB',
+        'PYMNT FOR ORDER', 'MONTHLY SERVICE FEE',
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
@@ -137,7 +162,7 @@ export async function dbsBank() {
     const topPatterns = []
     let coveredRows = 0
     for (const [pattern, counter] of map.entries()) {
-        if (counter >= totalRows / 1000) {
+        if (counter >= totalRows / 500) {
             coveredRows += counter
             topPatterns.push({
                 pattern: pattern.replace(/\.\*/g, ' '),
@@ -149,7 +174,7 @@ export async function dbsBank() {
     }
     topPatterns.sort((a, b) => b.counter - a.counter)
 
-    await toCSV(topPatterns, './dbs-patterns.csv')
+    await toCSV(topPatterns, './hsbc-patterns.csv')
 
     return {
         totalRows,

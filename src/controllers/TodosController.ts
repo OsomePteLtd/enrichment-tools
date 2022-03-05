@@ -3,6 +3,7 @@ import pool from '../dbconfig/dbConnector';
 import {ocbcBank} from "../services/ocbcPatterns.service";
 import {dbsBank} from "../services/dbsPatterns.service";
 import {uobBank} from "../services/uobPatterns.service";
+import {hsbcBank} from "../services/hsbcPatterns.service";
 
 class TodosController {
 
@@ -52,6 +53,15 @@ class TodosController {
     public async uob(req: Request, res: Response) {
         try {
             res.json(await uobBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async hsbc(req: Request, res: Response) {
+        try {
+            res.json(await hsbcBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

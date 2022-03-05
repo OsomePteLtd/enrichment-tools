@@ -1,0 +1,2554 @@
+{
+  "totalRows": 6476,
+  "coveredRows": 3191,
+  "percentage": "49.27%",
+  "patternsCount": 38,
+  "patterns": [
+    {
+      "pattern": "CR",
+      "counter": 488,
+      "type": "",
+      "examples": [
+        {
+          "description": "CR DENZEL BOATENG hsbc, 2021-04-19",
+          "amount": 54,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "CR HARMAN FE MAGPIE WEEKEND, 2020-11-03",
+          "amount": 65,
+          "link": "https://agent.osome.team/companies/429166/documents/1080101",
+          "document_id": 1080101
+        },
+        {
+          "description": "CR TO 023-459845-838N20405865116(04FEB21), 2020-02-04",
+          "amount": -3646.95,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "CR TO 614-047322-838 INV0000034 (03FEB21, 2021-02-03",
+          "amount": -97333.13,
+          "link": "https://agent.osome.team/companies/203331/documents/483706",
+          "document_id": 483706
+        },
+        {
+          "description": "CR HUNGRYPANDA LTD HUNGRYPANDA LTD02, 2021-08-26",
+          "amount": 108.3,
+          "link": "https://agent.osome.team/companies/258093/documents/871549",
+          "document_id": 871549
+        },
+        {
+          "description": "TO 19APR2021 CR Stripe Payments UK, 2021-05-12",
+          "amount": -12.5,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "CR Stripe Payments UK SHOPIFY, 2020-07-07",
+          "amount": 246.9,
+          "link": "https://agent.osome.team/companies/185155/documents/736816",
+          "document_id": 736816
+        },
+        {
+          "description": "DENZEL HSBC CR BOATENG DCK, 2021-04-08",
+          "amount": 54,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "CR J ELLINS JULIA MONTHLY, 2020-11-04",
+          "amount": 500,
+          "link": "https://agent.osome.team/companies/208099/documents/703424",
+          "document_id": 703424
+        },
+        {
+          "description": "TO 25JUL2021 CR Stripe Payments UK, 2021-08-17",
+          "amount": -6.5,
+          "link": "https://agent.osome.team/companies/258093/documents/871549",
+          "document_id": 871549
+        }
+      ]
+    },
+    {
+      "pattern": "VIS",
+      "counter": 444,
+      "type": "",
+      "examples": [
+        {
+          "description": "Warlingham VIS EN ROOT, 2020-02-19",
+          "amount": -35.85,
+          "link": "https://agent.osome.team/companies/185155/documents/736817",
+          "document_id": 736817
+        },
+        {
+          "description": "SHOPIFY VIS Transferwise, 2021-02-17",
+          "amount": 153.82,
+          "link": "https://agent.osome.team/companies/185155/documents/658588",
+          "document_id": 658588
+        },
+        {
+          "description": "SHOPIFY VIS SP * ALLCOLOUR ENV, 2020-10-10",
+          "amount": 621.38,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "VIS DIRECTORS HAIR CAMBRIDGE, 2019-10-28",
+          "amount": -33.6,
+          "link": "https://agent.osome.team/companies/208099/documents/703359",
+          "document_id": 703359
+        },
+        {
+          "description": "SHOPIFY VIS SP * ALLCOLOUR ENV, 2021-04-27",
+          "amount": 1811.19,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "VIS WWW.SPAREROOM.CO.U MANCHESTER, 2021-07-01",
+          "amount": -10.99,
+          "link": "https://agent.osome.team/companies/185155/documents/874591",
+          "document_id": 874591
+        },
+        {
+          "description": "TFL.GOV.UK/CP VIS UK VEGAN CAMP-OUT, 2019-07-23",
+          "amount": -8.2,
+          "link": "https://agent.osome.team/companies/208099/documents/703352",
+          "document_id": 703352
+        },
+        {
+          "description": "SKEGNESS VIS BEAUTY OUTLET LTD, 2021-04-23",
+          "amount": -82.99,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "VIS Audible UK adbl.co/pymt, 2021-04-08",
+          "amount": -7.99,
+          "link": "https://agent.osome.team/companies/429166/documents/1080096",
+          "document_id": 1080096
+        },
+        {
+          "description": "VIS SIMPLEHUMAN LTD READING, 2021-05-06",
+          "amount": 39.9,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        }
+      ]
+    },
+    {
+      "pattern": "CHARGES",
+      "counter": 307,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHARGES HC120C2959573791 29DEC, 2020-12-29",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/162459/documents/1049531",
+          "document_id": 1049531
+        },
+        {
+          "description": "APS CHARGES HSBC20210413TRANSACTION, 2021-04-14",
+          "amount": -27.3,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        },
+        {
+          "description": "HK125011BI606320 CHARGES",
+          "amount": -265,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "CHARGES HC12170813744890 08JUL aeRO y",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/268967/documents/862105",
+          "document_id": 862105
+        },
+        {
+          "description": "CHARGES HC12170308820527 03JUL, 2021-06-29",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "CHARGES HC12113083401179 30JAN, 2021-02-01",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/162459/documents/1049530",
+          "document_id": 1049530
+        },
+        {
+          "description": "CHARGES HC121B2444065652 24NOV, 2021-11-24",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/430150/documents/1180945",
+          "document_id": 1180945
+        },
+        {
+          "description": "CHARGES HC12152675420300 26MAY",
+          "amount": -8,
+          "link": "https://agent.osome.team/companies/162459/documents/1049535",
+          "document_id": 1049535
+        },
+        {
+          "description": "APS CHARGES HSBC20210113TRANSACTION, 2021-01-14",
+          "amount": -22720,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "HK122011BI591742 CHARGES, 2020-01-23",
+          "amount": -115,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        }
+      ]
+    },
+    {
+      "pattern": "VIS INT'L",
+      "counter": 260,
+      "type": "",
+      "examples": [
+        {
+          "description": "CHESTER VIS INT'L 0022357463 FINNAIR 105183 VANTAA, 2021-07-28",
+          "amount": -105,
+          "link": "https://agent.osome.team/companies/680/documents/765965",
+          "document_id": 765965
+        },
+        {
+          "description": "VIS GOOGLE *Google Sto g.co/helppay# VIS INT'L 0021951910 KLAVIYO INC. SOFTW KLAVIYO.COM USD 110.00, 2021-07-28",
+          "amount": -1.59,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "VIS AMAZINSELLERS UXBRIDGE VIS INT'L 0055410212 KEAP FKA INFUSIONS CHANDLER USD 179.00, 2021-03-08",
+          "amount": -25,
+          "link": "https://agent.osome.team/companies/185155/documents/658588",
+          "document_id": 658588
+        },
+        {
+          "description": "fb.me/ads VIS INT'L 0071645959, 2021-02-01",
+          "amount": -33.77,
+          "link": "https://agent.osome.team/companies/188876/documents/479306",
+          "document_id": 479306
+        },
+        {
+          "description": "LONDON VIS INT'L 0029794579 SHOPIFY* 81359921 DUBLIN, 2020-06-07",
+          "amount": -13.18,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "MANCHESTER VIS INT'L 0095214817, 2021-03-15",
+          "amount": -115,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "g.co/helppay# VIS INT'L 0076624130 KLAVIYO INC. SOFTW KLAVIYO.COM, 2021-04-28",
+          "amount": -1.59,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "EXETER VIS INT'L 0036257455 SHOPIFY* 114425967 DUBLIN, 2021-07-16",
+          "amount": -41.54,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "))) WHITLINGHAM COUNTR TROWSE VIS INT'L 0024048236 SHOPIFY* 77172714 DUBLIN USD 48.00 @ 1.1527, 2020-03-24",
+          "amount": -6.3,
+          "link": "https://agent.osome.team/companies/185155/documents/736812",
+          "document_id": 736812
+        },
+        {
+          "description": "London VIS INT'L 0057743444 SHOPIFY* 80437672 DUBLIN, 2020-05-22",
+          "amount": -15.99,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        }
+      ]
+    },
+    {
+      "pattern": "DD",
+      "counter": 187,
+      "type": "",
+      "examples": [
+        {
+          "description": "DD O2, 2021-01-06",
+          "amount": -34.59,
+          "link": "https://agent.osome.team/companies/185155/documents/736824",
+          "document_id": 736824
+        },
+        {
+          "description": "DD COUNTRYWIDE PRINCI, 2020-03-25",
+          "amount": -34.86,
+          "link": "https://agent.osome.team/companies/429166/documents/1080108",
+          "document_id": 1080108
+        },
+        {
+          "description": "DD MANGOPAY, 2020-07-23",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703382",
+          "document_id": 703382
+        },
+        {
+          "description": "DD MANGOPAY, 2019-12-12",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703399",
+          "document_id": 703399
+        },
+        {
+          "description": "DD MANGOPAY, 2020-07-16",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703382",
+          "document_id": 703382
+        },
+        {
+          "description": "DD BRIGHT HORIZONS, 2021-01-08",
+          "amount": -1829.6,
+          "link": "https://agent.osome.team/companies/239200/documents/733206",
+          "document_id": 733206
+        },
+        {
+          "description": "DD ROYAL SOCIETY OF A, 2021-05-20",
+          "amount": -15.17,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        },
+        {
+          "description": "DD BANK OF IRELAND, 2020-10-23",
+          "amount": -161.07,
+          "link": "https://agent.osome.team/companies/429166/documents/1080102",
+          "document_id": 1080102
+        },
+        {
+          "description": "DD ROYAL SOCIETY OF A, 2020-05-04",
+          "amount": -14.83,
+          "link": "https://agent.osome.team/companies/429166/documents/1080107",
+          "document_id": 1080107
+        },
+        {
+          "description": "DD EE LIMITED, 2021-08-24",
+          "amount": -169.26,
+          "link": "https://agent.osome.team/companies/258093/documents/871549",
+          "document_id": 871549
+        }
+      ]
+    },
+    {
+      "pattern": "BP",
+      "counter": 142,
+      "type": "",
+      "examples": [
+        {
+          "description": "SHOPIFY BP Cordell Virtual As, 2021-06-04",
+          "amount": 2141.21,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "BP Mr D C Boateng santander, 2021-04-30",
+          "amount": -48,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "SHOPIFY BP A ESCOFFERY COURTE, 2020-07-15",
+          "amount": 838.35,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "BP Dan O Doherty Omnia WooCommerce, 2020-08-07",
+          "amount": -650,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "BP ELLINS CHRISTOPH DAD, 2020-12-29",
+          "amount": 75,
+          "link": "https://agent.osome.team/companies/208099/documents/703394",
+          "document_id": 703394
+        },
+        {
+          "description": "BP Mr D C Boateng santan, 2021-05-06",
+          "amount": -128.05,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "ZOOM.GBP 8887999666, 2020-01-07",
+          "amount": -143.88,
+          "link": "https://agent.osome.team/companies/208099/documents/703399",
+          "document_id": 703399
+        },
+        {
+          "description": "BP Macleod Mrs C M WWR 13 Jul 2020, 2020-07-14",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/429166/documents/1080105",
+          "document_id": 1080105
+        },
+        {
+          "description": "BP A ESCOFFERY COURTE Omnia Thank you, 2020-08-07",
+          "amount": -680.7,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "BP Macleod Mrs C M WWR 6 Jul 2020, 2020-07-07",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/429166/documents/1080105",
+          "document_id": 1080105
+        }
+      ]
+    },
+    {
+      "pattern": "Visa Rate",
+      "counter": 132,
+      "type": "",
+      "examples": [
+        {
+          "description": "EUR 3,500.00 @1.1629 Visa Rate, 2021-09-03",
+          "amount": -3009.51,
+          "link": "https://agent.osome.team/companies/185155/documents/874592",
+          "document_id": 874592
+        },
+        {
+          "description": "USD 22.88 @ 1.3651 Visa Rate, 2021-07-22",
+          "amount": -16.76,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "HKD 54.60 @10.4597 Visa Rate, 2020-12-21",
+          "amount": -5.22,
+          "link": "https://agent.osome.team/companies/208099/documents/703394",
+          "document_id": 703394
+        },
+        {
+          "description": "USD 99.99 @ 1.2910 Visa Rate, 2020-07-31",
+          "amount": -77.45,
+          "link": "https://agent.osome.team/companies/208099/documents/703382",
+          "document_id": 703382
+        },
+        {
+          "description": "Visa Rate, 2020-09-16",
+          "amount": -11.75,
+          "link": "https://agent.osome.team/companies/208099/documents/703427",
+          "document_id": 703427
+        },
+        {
+          "description": "USD 129.00 @1.3047 Visa Rate, 2020-08-07",
+          "amount": -98.87,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "USD 88.99 @ 1.2863 Visa Rate, 2020-09-21",
+          "amount": -69.18,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "@1.3773 Visa Rate, 2021-02-16",
+          "amount": -128.51,
+          "link": "https://agent.osome.team/companies/185155/documents/658588",
+          "document_id": 658588
+        },
+        {
+          "description": "EUR 3,200.00 @1.1492 Visa Rate, 2021-05-13",
+          "amount": -2784.52,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "EUR 12.00 @ 1.1538 Visa Rate, 2021-04-11",
+          "amount": -10.4,
+          "link": "https://agent.osome.team/companies/188876/documents/582909",
+          "document_id": 582909
+        }
+      ]
+    },
+    {
+      "pattern": "DR",
+      "counter": 115,
+      "type": "",
+      "examples": [
+        {
+          "description": "0000001.11646100 DR 28195R0019O7, 2020-05-12",
+          "amount": -8956.87,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "SHOPIFY DR 36465MP005Q7 RBD09129HFVEZPMO ILIJA LAKICEVIC, 2019-12-10",
+          "amount": 46.84,
+          "link": "https://agent.osome.team/companies/185155/documents/736814",
+          "document_id": 736814
+        },
+        {
+          "description": "DR Non - Sterling Transaction Fee, 2020-07-21",
+          "amount": -1.73,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "FROM COIN DRAGON LIM SAVE2CURR (05JAN21), 2021-01-05",
+          "amount": 30000,
+          "link": "https://agent.osome.team/companies/233104/documents/623907",
+          "document_id": 623907
+        },
+        {
+          "description": "SHOPIFY DR 445560E01NVP RBD14041JE9K1M0X ILIJA LAKICEVIC, 2021-04-15",
+          "amount": 7741.39,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "SHOPIFY DR 14065ZU01TKE RBD25031EL7Q49OG, 2021-03-26",
+          "amount": 552.9,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "0000001.10413200 DR 50855R401ZJZ, 2020-05-16",
+          "amount": -9102.17,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "yy SUPERDRUG STORES P CAMBRIDGE, 2019-10-14",
+          "amount": -2.89,
+          "link": "https://agent.osome.team/companies/208099/documents/703359",
+          "document_id": 703359
+        },
+        {
+          "description": "AQUAQUINTA 0000001.13520700 DR 14065ZU01TKE RBD25031EL7Q49OG, 2021-03-26",
+          "amount": -9601.77,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "COIN DRAGON LIMITED HC12110564821628 05JAN, 2021-01-05",
+          "amount": -1200,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        }
+      ]
+    },
+    {
+      "pattern": "STS PYT CREDIT AS ADVISED",
+      "counter": 107,
+      "type": "",
+      "examples": [
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED , 2021-05-04",
+          "amount": 500,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED He",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/862106",
+          "document_id": 862106
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED e, 2021-08-13",
+          "amount": 2582.16,
+          "link": "https://agent.osome.team/companies/279016/documents/827038",
+          "document_id": 827038
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED",
+          "amount": 693.17,
+          "link": "https://agent.osome.team/companies/430150/documents/1180953",
+          "document_id": 1180953
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED 2",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/862105",
+          "document_id": 862105
+        },
+        {
+          "description": "STS PYT-THE BOTTLE S CREDIT AS ADVISED, 2021-11-17",
+          "amount": 864,
+          "link": "https://agent.osome.team/companies/430150/documents/1180945",
+          "document_id": 1180945
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED SRILA, 2021-08-06",
+          "amount": 10083.6,
+          "link": "https://agent.osome.team/companies/279016/documents/827038",
+          "document_id": 827038
+        },
+        {
+          "description": "STS PYT-STRIPE PAYMECREDIT AS ADVISED",
+          "amount": 51385.69,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED, 2021-06-01",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/692347",
+          "document_id": 692347
+        },
+        {
+          "description": "STS PYT-STRIPE PAYME CREDIT AS ADVISED SRILA, 2021-07-27",
+          "amount": 311.93,
+          "link": "https://agent.osome.team/companies/259403/documents/856184",
+          "document_id": 856184
+        }
+      ]
+    },
+    {
+      "pattern": "WITHDRAWAL",
+      "counter": 100,
+      "type": "",
+      "examples": [
+        {
+          "description": "WITHDRAWAL",
+          "amount": -2764.73,
+          "link": "https://agent.osome.team/companies/125277/documents/990561",
+          "document_id": 990561
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -34.19,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "WITHDRAWAL, 2021-04-26",
+          "amount": -34.22,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -1450.53,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "WITHDRAWAL, 2021-07-19",
+          "amount": -544.73,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -2500,
+          "link": "https://agent.osome.team/companies/125277/documents/990561",
+          "document_id": 990561
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -2149.86,
+          "link": "https://agent.osome.team/companies/162459/documents/1049542",
+          "document_id": 1049542
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -40.64,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -34.13,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "WITHDRAWAL",
+          "amount": -34.13,
+          "link": "https://agent.osome.team/companies/125277/documents/990561",
+          "document_id": 990561
+        }
+      ]
+    },
+    {
+      "pattern": "Visa Rate DR Non-Sterling",
+      "counter": 86,
+      "type": "",
+      "examples": [
+        {
+          "description": "Visa Rate DR Non-Sterling, 2020-04-22",
+          "amount": -25.65,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "Visa Rate DR Non-Sterling, 2020-10-16",
+          "amount": -11.66,
+          "link": "https://agent.osome.team/companies/208099/documents/703424",
+          "document_id": 703424
+        },
+        {
+          "description": "@44.9701 Visa Rate DR Non-Sterling, 2021-07-14",
+          "amount": -362.24,
+          "link": "https://agent.osome.team/companies/680/documents/765965",
+          "document_id": 765965
+        },
+        {
+          "description": "@10.2247 Visa Rate DR Non-Sterling, 2020-11-19",
+          "amount": -5.34,
+          "link": "https://agent.osome.team/companies/208099/documents/703390",
+          "document_id": 703390
+        },
+        {
+          "description": "@1.3806 Visa Rate DR Non-Sterling, 2021-03-18",
+          "amount": -128.2,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "@1.0956 Visa Rate DR Non-Sterling, 2020-10-08",
+          "amount": -2433.3,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "@1.3798 Visa Rate DR Non-Sterling, 2021-07-16",
+          "amount": -650.09,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "@1.1191 Visa Rate DR Non-Sterling, 2020-09-07",
+          "amount": -2382.99,
+          "link": "https://agent.osome.team/companies/185155/documents/736823",
+          "document_id": 736823
+        },
+        {
+          "description": "@11.8728 Visa Rate DR Non-Sterling, 2020-08-05",
+          "amount": -26.11,
+          "link": "https://agent.osome.team/companies/208099/documents/703382",
+          "document_id": 703382
+        },
+        {
+          "description": "@1.3319 Visa Rate DR Non-Sterling, 2020-11-30",
+          "amount": -75.08,
+          "link": "https://agent.osome.team/companies/185155/documents/736818",
+          "document_id": 736818
+        }
+      ]
+    },
+    {
+      "pattern": "DR Non-Sterling Transaction Fee",
+      "counter": 78,
+      "type": "",
+      "examples": [
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-08-07",
+          "amount": -2.71,
+          "link": "https://agent.osome.team/companies/185155/documents/736813",
+          "document_id": 736813
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-04-08",
+          "amount": -0.67,
+          "link": "https://agent.osome.team/companies/208099/documents/703380",
+          "document_id": 703380
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2021-05-18",
+          "amount": -3.46,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-10-01",
+          "amount": -3.83,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2021-04-21",
+          "amount": -0.57,
+          "link": "https://agent.osome.team/companies/239200/documents/1124593",
+          "document_id": 1124593
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-07-31",
+          "amount": -2.12,
+          "link": "https://agent.osome.team/companies/208099/documents/703382",
+          "document_id": 703382
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-10-07",
+          "amount": -2.75,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2020-05-26",
+          "amount": -0.29,
+          "link": "https://agent.osome.team/companies/208099/documents/703409",
+          "document_id": 703409
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2021-03-16",
+          "amount": -3.52,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee, 2021-08-31",
+          "amount": -2.21,
+          "link": "https://agent.osome.team/companies/185155/documents/874592",
+          "document_id": 874592
+        }
+      ]
+    },
+    {
+      "pattern": "CHEQUE",
+      "counter": 73,
+      "type": "",
+      "examples": [
+        {
+          "description": " CHEQUE 537256, 2021-04-07",
+          "amount": -1000,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        },
+        {
+          "description": "CHEQUE 537260, 2021-04-07",
+          "amount": -1520,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        },
+        {
+          "description": " CHEQUE 292455, 2021-01-08",
+          "amount": -9087.6,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": " CHEQUE 537193, 2021-02-02",
+          "amount": -550,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "CHEQUE 292442, 2021-01-05",
+          "amount": -30964,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "CHEQUE 537211, 2021-04-16",
+          "amount": -4300,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        },
+        {
+          "description": "CHEQUE RETURNED UNPAID i, 2021-09-02",
+          "amount": -700,
+          "link": "https://agent.osome.team/companies/268967/documents/865852",
+          "document_id": 865852
+        },
+        {
+          "description": "CHEQUE 292437, 2021-01-06",
+          "amount": -1500,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "CHEQUE 292456, 2021-01-08",
+          "amount": -11008.1,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": " CHEQUE 537196, 2021-04-14",
+          "amount": -50,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        }
+      ]
+    },
+    {
+      "pattern": "RFLX INSTANT TRF DR",
+      "counter": 69,
+      "type": "",
+      "examples": [
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-19",
+          "amount": -50,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-09",
+          "amount": -103,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-13",
+          "amount": -483,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-15",
+          "amount": -290,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-05",
+          "amount": -61,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-19",
+          "amount": -43,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-19",
+          "amount": -500,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-06",
+          "amount": -93,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-07",
+          "amount": -173,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        },
+        {
+          "description": "RFLX INSTANT TRF DR, 2021-11-17",
+          "amount": -400,
+          "link": "https://agent.osome.team/companies/202180/documents/1079357",
+          "document_id": 1079357
+        }
+      ]
+    },
+    {
+      "pattern": "CASH DEPOSIT",
+      "counter": 49,
+      "type": "",
+      "examples": [
+        {
+          "description": "CASH DEPOSIT, 2021-01-07",
+          "amount": 59092.9,
+          "link": "https://agent.osome.team/companies/233104/documents/623904",
+          "document_id": 623904
+        },
+        {
+          "description": "CASH DEPOSIT, 2021-04-26",
+          "amount": 39432,
+          "link": "https://agent.osome.team/companies/233104/documents/623882",
+          "document_id": 623882
+        },
+        {
+          "description": "CASH DEPOSIT (14AUG21)",
+          "amount": -1500,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "CASH DEPOSIT, 2021-08-17",
+          "amount": 3000,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": " CASH DEPOSIT , 2021-04-08",
+          "amount": 20312.05,
+          "link": "https://agent.osome.team/companies/233104/documents/623882",
+          "document_id": 623882
+        },
+        {
+          "description": "CASH DEPOSIT, 2021-01-11",
+          "amount": 18463.1,
+          "link": "https://agent.osome.team/companies/233104/documents/623904",
+          "document_id": 623904
+        },
+        {
+          "description": "CASH DEPOSIT, 2021-01-18",
+          "amount": 19359.7,
+          "link": "https://agent.osome.team/companies/233104/documents/623904",
+          "document_id": 623904
+        },
+        {
+          "description": "CASH DEPOSIT , 2021-03-22",
+          "amount": 81112.3,
+          "link": "https://agent.osome.team/companies/233104/documents/623889",
+          "document_id": 623889
+        },
+        {
+          "description": "CASH DEPOSIT (28APR21) EPS009379 (21MAY21)2, 2021-04-28",
+          "amount": 8000,
+          "link": "https://agent.osome.team/companies/183772/documents/658073",
+          "document_id": 658073
+        },
+        {
+          "description": "CASH DEPOSIT (27JUL21), 2021-07-27",
+          "amount": 16500,
+          "link": "https://agent.osome.team/companies/183772/documents/865997",
+          "document_id": 865997
+        }
+      ]
+    },
+    {
+      "pattern": "CREDIT INTEREST",
+      "counter": 48,
+      "type": "",
+      "examples": [
+        {
+          "description": "CREDIT INTEREST, 2020-12-28",
+          "amount": 0.11,
+          "link": "https://agent.osome.team/companies/268967/documents/692346",
+          "document_id": 692346
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-09-28",
+          "amount": 0.61,
+          "link": "https://agent.osome.team/companies/430150/documents/1180954",
+          "document_id": 1180954
+        },
+        {
+          "description": "202CREDIT INTEREST, 2021-01-28",
+          "amount": 0.03,
+          "link": "https://agent.osome.team/companies/233104/documents/623911",
+          "document_id": 623911
+        },
+        {
+          "description": "CREDIT INTEREST , 2021-04-28",
+          "amount": 0.77,
+          "link": "https://agent.osome.team/companies/233104/documents/623882",
+          "document_id": 623882
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-07-28",
+          "amount": 0.02,
+          "link": "https://agent.osome.team/companies/159517/documents/1049806",
+          "document_id": 1049806
+        },
+        {
+          "description": " CREDIT INTEREST, 2021-01-28",
+          "amount": 0.09,
+          "link": "https://agent.osome.team/companies/268967/documents/692349",
+          "document_id": 692349
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-05-28",
+          "amount": 0.01,
+          "link": "https://agent.osome.team/companies/162459/documents/1049535",
+          "document_id": 1049535
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-02-27",
+          "amount": 0.01,
+          "link": "https://agent.osome.team/companies/430150/documents/1180950",
+          "document_id": 1180950
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-01-28",
+          "amount": 0.06,
+          "link": "https://agent.osome.team/companies/159517/documents/737306",
+          "document_id": 737306
+        },
+        {
+          "description": "CREDIT INTEREST, 2021-07-28",
+          "amount": 0.01,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        }
+      ]
+    },
+    {
+      "pattern": "DR Non-Sterling Transaction Fee VIS INT'L",
+      "counter": 38,
+      "type": "",
+      "examples": [
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0033772006 SHIPIT LIMITED HERNE BAY AUD 50.00 @ 1.9493, 2020-04-22",
+          "amount": -1.06,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0016459867 Binance, 2021-04-20",
+          "amount": -5.51,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0056822016 AMAZON.CO.UK*SU4JV, 2020-10-05",
+          "amount": -0.32,
+          "link": "https://agent.osome.team/companies/208099/documents/703427",
+          "document_id": 703427
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0014827988 pcsoftwareco.com, 2021-06-29",
+          "amount": -2.18,
+          "link": "https://agent.osome.team/companies/185155/documents/874591",
+          "document_id": 874591
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0076680105 ADOBE STOCK, 2021-02-19",
+          "amount": -1.56,
+          "link": "https://agent.osome.team/companies/188876/documents/479306",
+          "document_id": 479306
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0051084562 GOOGLE ADS3020545, 2020-11-03",
+          "amount": -0.75,
+          "link": "https://agent.osome.team/companies/185155/documents/736821",
+          "document_id": 736821
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0075142081 MAXIMTRUBITSKI3474 347-475-4486 USD 19.95 @ 1.2862, 2019-11-19",
+          "amount": -3.22,
+          "link": "https://agent.osome.team/companies/208099/documents/703355",
+          "document_id": 703355
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0052051133 LIBERATED SYNDICAT 4126210902 USD 15.00 @ 1.2809, 2020-09-17",
+          "amount": -0.85,
+          "link": "https://agent.osome.team/companies/208099/documents/703427",
+          "document_id": 703427
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0062473843 EIG * Hostgator.com 713-5745287 USD 12.95 @ 1.2182, 2020-05-26",
+          "amount": -0.29,
+          "link": "https://agent.osome.team/companies/208099/documents/703409",
+          "document_id": 703409
+        },
+        {
+          "description": "DR Non-Sterling Transaction Fee VIS INT'L 0009781127 GOOGLE *ADS3020545, 2021-09-07",
+          "amount": -0.58,
+          "link": "https://agent.osome.team/companies/185155/documents/874592",
+          "document_id": 874592
+        }
+      ]
+    },
+    {
+      "pattern": "CR PAYMENT",
+      "counter": 37,
+      "type": "",
+      "examples": [
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2021-03-17",
+          "amount": 1381.78,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "CR AMAZON PAYMENTS EU, 2020-03-19",
+          "amount": 9.67,
+          "link": "https://agent.osome.team/companies/202881/documents/477530",
+          "document_id": 477530
+        },
+        {
+          "description": "CR PRIZE PAYMENT 3, 2020-11-18",
+          "amount": 2.1,
+          "link": "https://agent.osome.team/companies/239200/documents/733168",
+          "document_id": 733168
+        },
+        {
+          "description": "CR AMAZON PAYMENTS EU, 2020-05-14",
+          "amount": 9.55,
+          "link": "https://agent.osome.team/companies/202881/documents/477531",
+          "document_id": 477531
+        },
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2020-03-31",
+          "amount": 294.68,
+          "link": "https://agent.osome.team/companies/202881/documents/477530",
+          "document_id": 477530
+        },
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2021-03-24",
+          "amount": 1076.11,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2020-06-09",
+          "amount": 438.67,
+          "link": "https://agent.osome.team/companies/202881/documents/477532",
+          "document_id": 477532
+        },
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2020-05-27",
+          "amount": 358.72,
+          "link": "https://agent.osome.team/companies/202881/documents/477532",
+          "document_id": 477532
+        },
+        {
+          "description": "CR AMAZON PAYMENTS EU, 2020-04-02",
+          "amount": 18.17,
+          "link": "https://agent.osome.team/companies/202881/documents/477530",
+          "document_id": 477530
+        },
+        {
+          "description": "CR AMAZON PAYMENTS UK, 2021-03-09",
+          "amount": 1100.82,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        }
+      ]
+    },
+    {
+      "pattern": "PAYMENT CHARGE",
+      "counter": 35,
+      "type": "",
+      "examples": [
+        {
+          "description": "RBV070500QBRQ85C PAYMENT CHARGE, 2020-05-08",
+          "amount": -4,
+          "link": "https://agent.osome.team/companies/208099/documents/703417",
+          "document_id": 703417
+        },
+        {
+          "description": "RBD11050H9C3XEKG PAYMENT CHARGE, 2020-05-12",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "RBD27129APX1YCOW PAYMENT CHARGE, 2019-12-30",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/736814",
+          "document_id": 736814
+        },
+        {
+          "description": "PAYMENT CHARGE, 2021-05-25",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "RBD03031EL5N2QRK PAYMENT CHARGE, 2021-03-04",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/658588",
+          "document_id": 658588
+        },
+        {
+          "description": "RBD30030AK89TIF4 PAYMENT CHARGE, 2020-03-31",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/736812",
+          "document_id": 736812
+        },
+        {
+          "description": "RBD14041JE9K1M0X PAYMENT CHARGE, 2021-04-15",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "RBD22119APTUX9S0 PAYMENT CHARGE, 2019-11-25",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/736814",
+          "document_id": 736814
+        },
+        {
+          "description": "RBD22041IVA8779C PAYMENT CHARGE, 2021-04-23",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "RBD16081KHKV1KSG PAYMENT CHARGE, 2021-08-17",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/185155/documents/874592",
+          "document_id": 874592
+        }
+      ]
+    },
+    {
+      "pattern": "REF",
+      "counter": 33,
+      "type": "",
+      "examples": [
+        {
+          "description": "REF YP10-14358 CABLE MATERS 02185X900DUE SGH22120BXWMVQV4 CABLE MATTERS INC 1255258235 ARACION , 2020-12-22",
+          "amount": -464,
+          "link": "https://agent.osome.team/companies/16193/documents/411007",
+          "document_id": 411007
+        },
+        {
+          "description": "FX INR 1786632.38 AT 72.5738590 845932450 ITMS / 2021-06-09T05 : 59 : 37 GMT /MID/73.237900 REF YP15-38360 REDINGTON 607161401TPE, 2021-06-09",
+          "amount": 24618.13,
+          "link": "https://agent.osome.team/companies/16193/documents/693149",
+          "document_id": 693149
+        },
+        {
+          "description": "REF YP15-23672 LIVEACTION PAYM 39255XG021M3 SGH30120EPXCL340 LIVE ACTION SG USA 3301207804 ARACION SINGAPORE , 2020-12-30",
+          "amount": -25870,
+          "link": "https://agent.osome.team/companies/16193/documents/411007",
+          "document_id": 411007
+        },
+        {
+          "description": "QINGDAO AUGOLD FOOD CO.,LTD REF YPI7-31871  019160L01TGR 019160L01TGR CNH22041K9A6QN0G , 2021-04-22",
+          "amount": 2000,
+          "link": "https://agent.osome.team/companies/244329/documents/587343",
+          "document_id": 587343
+        },
+        {
+          "description": "QINGDAO AUGOLD FOOD CO.,LTD REF YPI6-91152  本期结余, 2020-10-09",
+          "amount": -8134.97,
+          "link": "https://agent.osome.team/companies/244329/documents/587346",
+          "document_id": 587346
+        },
+        {
+          "description": "REF YP12-25311 247464681 / 2XXXXX SGS11081GXKEMVGH NEW KEYNES INVESTMENTS LIMITED NEW KEYNES INVESTMENTS LIMITED FOR SOURCY, 2021-08-11",
+          "amount": 200000,
+          "link": "https://agent.osome.team/companies/285644/documents/820743",
+          "document_id": 820743
+        },
+        {
+          "description": "REF YP18-02820 REDINGTON 16255WYO2018 SGH11 REDINGTON DISTRIBUTION PTE . LTD  ARACION PTE .120ILVOE1DS, 2020-12-11",
+          "amount": -36047,
+          "link": "https://agent.osome.team/companies/16193/documents/411007",
+          "document_id": 411007
+        },
+        {
+          "description": "AT 0.75 % P.A. REF N580-15167, 2021-06-30",
+          "amount": 0.01,
+          "link": "https://agent.osome.team/companies/275956/documents/698384",
+          "document_id": 698384
+        },
+        {
+          "description": "650162500JD3 650162500JD3 CNH17061K9FAJ2BK YIKUN LIU unit 2, 7 Louisa Street C 10506520 1.2863550 0848700770 /TMS/2021-06-16T05:21:23 GMT /MID/1.299564 REF YPI8-65041 , 2021-06-17",
+          "amount": -1459,
+          "link": "https://agent.osome.team/companies/244329/documents/682721",
+          "document_id": 682721
+        },
+        {
+          "description": "REF A897-06867, 2021-06-04",
+          "amount": -61.5,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        }
+      ]
+    },
+    {
+      "pattern": "DD CR",
+      "counter": 30,
+      "type": "",
+      "examples": [
+        {
+          "description": "DD O2 CR Stripe Payments UK, 2020-06-07",
+          "amount": -18.06,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "DD BANK OF IRELAND CR LIPS LTD CLIENTS, 2021-01-28",
+          "amount": -161.07,
+          "link": "https://agent.osome.team/companies/429166/documents/1080098",
+          "document_id": 1080098
+        },
+        {
+          "description": "DD MANGOPAY CR H Imran, 2020-01-30",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703396",
+          "document_id": 703396
+        },
+        {
+          "description": "DD MANGOPAY CR J ELLINS, 2020-10-01",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703427",
+          "document_id": 703427
+        },
+        {
+          "description": "DD O2 CR Stripe Payments UK, 2021-09-07",
+          "amount": -18.06,
+          "link": "https://agent.osome.team/companies/185155/documents/874592",
+          "document_id": 874592
+        },
+        {
+          "description": "DD ROYAL SOCIETY OF A CR FROM MOTHER, 2020-08-04",
+          "amount": -14.83,
+          "link": "https://agent.osome.team/companies/429166/documents/1080104",
+          "document_id": 1080104
+        },
+        {
+          "description": "DD O2 CR Stripe Payments UK, 2021-06-08",
+          "amount": -18.06,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "DD BANK OF IRELAND CR LIPS LTD CLIENTS, 2020-11-23",
+          "amount": -161.07,
+          "link": "https://agent.osome.team/companies/429166/documents/1080101",
+          "document_id": 1080101
+        },
+        {
+          "description": "DD GOCARDLESS CR Stripe Payments UK, 2021-04-01",
+          "amount": -660,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "DD LOMBARD NORTH CENT CR Stripe Payments UK, 2021-08-16",
+          "amount": -145.38,
+          "link": "https://agent.osome.team/companies/258093/documents/871549",
+          "document_id": 871549
+        }
+      ]
+    },
+    {
+      "pattern": "CHEQUE DEPOSIT",
+      "counter": 28,
+      "type": "",
+      "examples": [
+        {
+          "description": "LRC CHEQUE DEPOSIT MACHIN, 2021-02-17",
+          "amount": 951,
+          "link": "https://agent.osome.team/companies/203331/documents/483706",
+          "document_id": 483706
+        },
+        {
+          "description": "CHEQUE DEPOSIT, 2021-04-26",
+          "amount": 8932.16,
+          "link": "https://agent.osome.team/companies/233104/documents/592430",
+          "document_id": 592430
+        },
+        {
+          "description": " CHEQUE DEPOSIT, 2021-05-31",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/692347",
+          "document_id": 692347
+        },
+        {
+          "description": "CHEQUE DEPOSIT, 2021-04-28",
+          "amount": 700,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "CHEQUE DEPOSIT ** #, 2021-09-06",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/865852",
+          "document_id": 865852
+        },
+        {
+          "description": "CHEQUE DEPOSIT ###, 2021-09-06",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/865852",
+          "document_id": 865852
+        },
+        {
+          "description": "CHEQUE DEPOSIT, 2021-08-04",
+          "amount": 5670,
+          "link": "https://agent.osome.team/companies/262673/documents/916739",
+          "document_id": 916739
+        },
+        {
+          "description": " CHEQUE DEPOSIT, 2021-05-31",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/692347",
+          "document_id": 692347
+        },
+        {
+          "description": "CHEQUE DEPOSIT, 2021-09-07",
+          "amount": 3900,
+          "link": "https://agent.osome.team/companies/430150/documents/1180955",
+          "document_id": 1180955
+        },
+        {
+          "description": "CHEQUE DEPOSIT",
+          "amount": 23762.4,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        }
+      ]
+    },
+    {
+      "pattern": "DEPOSIT",
+      "counter": 27,
+      "type": "",
+      "examples": [
+        {
+          "description": "DEPOSIT, 2021-06-01",
+          "amount": 2000,
+          "link": "https://agent.osome.team/companies/162459/documents/1049535",
+          "document_id": 1049535
+        },
+        {
+          "description": "DEPOSIT, 2021-02-02",
+          "amount": 66.6,
+          "link": "https://agent.osome.team/companies/158600/documents/927170",
+          "document_id": 927170
+        },
+        {
+          "description": "DEPOSIT, 2021-07-17",
+          "amount": 30000,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "DEPOSIT, 2021-03-02",
+          "amount": 2000,
+          "link": "https://agent.osome.team/companies/162459/documents/1049541",
+          "document_id": 1049541
+        },
+        {
+          "description": "DEPOSIT, 2021-07-26",
+          "amount": 4098.33,
+          "link": "https://agent.osome.team/companies/125277/documents/990560",
+          "document_id": 990560
+        },
+        {
+          "description": "UP OF 29 07 ECQ DEPOSIT 600331 F #",
+          "amount": 550,
+          "link": "https://agent.osome.team/companies/268967/documents/862106",
+          "document_id": 862106
+        },
+        {
+          "description": "DEPOSIT, 2020-12-30",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/162459/documents/1049531",
+          "document_id": 1049531
+        },
+        {
+          "description": "FROM LES POULETS LIM ECQ DEPOSIT 600110 F #, 2021-09-20",
+          "amount": 550,
+          "link": "https://agent.osome.team/companies/268967/documents/865852",
+          "document_id": 865852
+        },
+        {
+          "description": "DEPOSIT, 2021-06-30",
+          "amount": 2000,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "DEPOSIT, 2020-10-30",
+          "amount": 1967.79,
+          "link": "https://agent.osome.team/companies/162459/documents/1049543",
+          "document_id": 1049543
+        }
+      ]
+    },
+    {
+      "pattern": "POST OFFICE COUNTE",
+      "counter": 26,
+      "type": "",
+      "examples": [
+        {
+          "description": "BIRMINGHAM ))) POST OFFICE COUNTE, 2021-03-29",
+          "amount": -82.8,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "SHOPIFY ))) POST OFFICE COUNTE, 2020-10-06",
+          "amount": 148.86,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "LONDON ))) POST OFFICE COUNTE, 2020-05-05",
+          "amount": -33.13,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "amazon.co.uk ))) POST OFFICE COUNTE, 2021-05-13",
+          "amount": -22.33,
+          "link": "https://agent.osome.team/companies/267516/documents/682596",
+          "document_id": 682596
+        },
+        {
+          "description": "EAST SUSSEX ))) POST OFFICE COUNTE, 2020-10-10",
+          "amount": -450,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        },
+        {
+          "description": "SHOPIFY ))) POST OFFICE COUNTE, 2020-05-04",
+          "amount": 240.39,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "))) POST OFFICE COUNTE LONDON, 2021-03-22",
+          "amount": -2.25,
+          "link": "https://agent.osome.team/companies/185155/documents/658586",
+          "document_id": 658586
+        },
+        {
+          "description": "LONDON y) POST OFFICE COUNTE, 2020-11-10",
+          "amount": -56.56,
+          "link": "https://agent.osome.team/companies/185155/documents/736821",
+          "document_id": 736821
+        },
+        {
+          "description": "SHOPIFY ))) POST OFFICE COUNTE, 2020-06-07",
+          "amount": 410.74,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "))) POST OFFICE COUNTE LONDON, 2020-11-27",
+          "amount": -6.9,
+          "link": "https://agent.osome.team/companies/185155/documents/736818",
+          "document_id": 736818
+        }
+      ]
+    },
+    {
+      "pattern": "ATM WITHDRAWAL",
+      "counter": 23,
+      "type": "",
+      "examples": [
+        {
+          "description": "ATM WITHDRAWAL3(13JAN21), 2021-01-13",
+          "amount": -7.15,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "ATM WITHDRAWAL1(23AUG21)",
+          "amount": -200,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(24AUG21), 2021-08-27",
+          "amount": -200,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(21AUG21), 2021-08-24",
+          "amount": -800,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(31AUG21)",
+          "amount": -8800,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(23AUG21), 2021-08-23",
+          "amount": -400,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(24AUG21)",
+          "amount": -800,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL2(20SEP21)",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/430150/documents/1180954",
+          "document_id": 1180954
+        },
+        {
+          "description": "ATM WITHDRAWAL1(09SEP21)",
+          "amount": -300,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        },
+        {
+          "description": "ATM WITHDRAWAL1(10SEP21)",
+          "amount": -800,
+          "link": "https://agent.osome.team/companies/434858/documents/1121502",
+          "document_id": 1121502
+        }
+      ]
+    },
+    {
+      "pattern": "VIS POST OFFICE COUNTE",
+      "counter": 21,
+      "type": "",
+      "examples": [
+        {
+          "description": "VIS POST OFFICE COUNTE LONDON, 2020-04-10",
+          "amount": -47.39,
+          "link": "https://agent.osome.team/companies/185155/documents/736812",
+          "document_id": 736812
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-04-16",
+          "amount": 392.85,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "VIS POST OFFICE COUNTE LONDON, 2020-04-28",
+          "amount": -13.54,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-04-20",
+          "amount": 240.39,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "VIS POST OFFICE COUNTE LONDON, 2020-05-13",
+          "amount": -239.4,
+          "link": "https://agent.osome.team/companies/185155/documents/736819",
+          "document_id": 736819
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-05-05",
+          "amount": 205.18,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-04-15",
+          "amount": 87.82,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-11-10",
+          "amount": 185.9,
+          "link": "https://agent.osome.team/companies/185155/documents/736821",
+          "document_id": 736821
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-04-27",
+          "amount": 93.79,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        },
+        {
+          "description": "SHOPIFY VIS POST OFFICE COUNTE, 2020-04-29",
+          "amount": 99.65,
+          "link": "https://agent.osome.team/companies/185155/documents/736820",
+          "document_id": 736820
+        }
+      ]
+    },
+    {
+      "pattern": "TFR",
+      "counter": 21,
+      "type": "",
+      "examples": [
+        {
+          "description": "hsbc TFR 401804 52664941, 2021-04-24",
+          "amount": 12.46,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "NOTTINGHAM TFR 401804 52664941, 2021-04-07",
+          "amount": -54,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "santander TFR 401804 52664941, 2021-04-13",
+          "amount": -159.4,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "hsbc TFR 401804 52664941, 2021-05-18",
+          "amount": 25.8,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "DENZEL HSBC TFR 401804 52664941, 2021-05-25",
+          "amount": 54,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "DENZEL HSBC TFR 401804 52664941, 2021-04-14",
+          "amount": 159.17,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "hsbc TFR 401804 52664941, 2021-05-08",
+          "amount": 13.67,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "TESCO STORES 6150 LONDON TFR 402326 71599364",
+          "amount": -31.32,
+          "link": "https://agent.osome.team/companies/213586/documents/424648",
+          "document_id": 424648
+        },
+        {
+          "description": "Mark Stannard TFR 401804 52664941, 2021-04-20",
+          "amount": -50,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "DENZEL HSBC TFR 401804 52664941, 2021-04-07",
+          "amount": 345,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        }
+      ]
+    },
+    {
+      "pattern": "DD EASY DIRECT DEBITS",
+      "counter": 20,
+      "type": "",
+      "examples": [
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-11-03",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080101",
+          "document_id": 1080101
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-05-04",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080107",
+          "document_id": 1080107
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-06-15",
+          "amount": -12,
+          "link": "https://agent.osome.team/companies/429166/documents/1080106",
+          "document_id": 1080106
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS SO J R HARVEY, 2021-01-06",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080099",
+          "document_id": 1080099
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-08-17",
+          "amount": -12,
+          "link": "https://agent.osome.team/companies/429166/documents/1080104",
+          "document_id": 1080104
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-12-02",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080100",
+          "document_id": 1080100
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-04-02",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080108",
+          "document_id": 1080108
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-10-15",
+          "amount": -12,
+          "link": "https://agent.osome.team/companies/429166/documents/1080102",
+          "document_id": 1080102
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2021-02-02",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080098",
+          "document_id": 1080098
+        },
+        {
+          "description": "DD EASY DIRECT DEBITS, 2020-09-02",
+          "amount": -15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080103",
+          "document_id": 1080103
+        }
+      ]
+    },
+    {
+      "pattern": "WITHDRAWAL BIB",
+      "counter": 20,
+      "type": "",
+      "examples": [
+        {
+          "description": "WITHDRAWAL BIB- TO 023-459845-838, 2020-02-04",
+          "amount": -151.08,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 801-542515-838, 2021-05-05",
+          "amount": -1182.27,
+          "link": "https://agent.osome.team/companies/162459/documents/1049542",
+          "document_id": 1049542
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 730-302049-833",
+          "amount": -50,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 801-542515-838, 2021-05-04",
+          "amount": -350,
+          "link": "https://agent.osome.team/companies/162459/documents/1049542",
+          "document_id": 1049542
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 801-542515-838",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 801-542515-838",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 801-542515-838",
+          "amount": -10.88,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 741-282677-838, 2021-04-30",
+          "amount": -3031.04,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 741-292874-838, 2021-09-08",
+          "amount": -12883.76,
+          "link": "https://agent.osome.team/companies/125277/documents/990561",
+          "document_id": 990561
+        },
+        {
+          "description": "WITHDRAWAL BIB- TO 741-282677-838, 2021-05-13",
+          "amount": -3000,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        }
+      ]
+    },
+    {
+      "pattern": "CREDIT",
+      "counter": 19,
+      "type": "",
+      "examples": [
+        {
+          "description": "FROM BILTONG CHIEF - GOLD/EXCHANGE CREDIT, 2021-01-04",
+          "amount": 5333.19,
+          "link": "https://agent.osome.team/companies/203331/documents/483706",
+          "document_id": 483706
+        },
+        {
+          "description": "FROM DGTL CONSULTIN- GOLD/EXCHANGE CREDIT U / 14, 2021-07-13",
+          "amount": 5322.21,
+          "link": "https://agent.osome.team/companies/162459/documents/1049533",
+          "document_id": 1049533
+        },
+        {
+          "description": "FROM DGTL CONSULTINGOLD/EXCHANGE CREDIT, 2021-05-04",
+          "amount": 3255.25,
+          "link": "https://agent.osome.team/companies/162459/documents/1049542",
+          "document_id": 1049542
+        },
+        {
+          "description": "FROM BILTONG CHIEF - GOLD/EXCHANGE CREDIT, 2021-02-04",
+          "amount": 13770.42,
+          "link": "https://agent.osome.team/companies/203331/documents/483706",
+          "document_id": 483706
+        },
+        {
+          "description": "FROM BISTROCHAT S LGOLD/EXCHANGE CREDIT, 2021-06-15",
+          "amount": 20000,
+          "link": "https://agent.osome.team/companies/268967/documents/692347",
+          "document_id": 692347
+        },
+        {
+          "description": "FROM BISTROCHAT S LGOLD/EXCHANGE CREDIT, 2021-05-13",
+          "amount": 23252.68,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "FROM DGTL CONSULTINGOLD/EXCHANGE CREDIT, 2021-05-05",
+          "amount": 11000,
+          "link": "https://agent.osome.team/companies/162459/documents/1049542",
+          "document_id": 1049542
+        },
+        {
+          "description": "FROM BILTONG CHIEF - GOLD/EXCHANGE CREDIT",
+          "amount": 13770.42,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "FROM CUTTLEFISH MEDGOLD/EXCHANGE CREDIT, 2021-09-08",
+          "amount": 100000,
+          "link": "https://agent.osome.team/companies/125277/documents/990561",
+          "document_id": 990561
+        },
+        {
+          "description": "FROM BILTONG CHIEF - GOLD/EXCHANGE CREDIT, 2021-02-04",
+          "amount": 890.78,
+          "link": "https://agent.osome.team/companies/203331/documents/483706",
+          "document_id": 483706
+        }
+      ]
+    },
+    {
+      "pattern": "Visa Rate DR",
+      "counter": 19,
+      "type": "",
+      "examples": [
+        {
+          "description": "USD 79.00 @ 1.2860 Visa Rate DR Non - Sterling, 2020-10-20",
+          "amount": -61.43,
+          "link": "https://agent.osome.team/companies/185155/documents/736821",
+          "document_id": 736821
+        },
+        {
+          "description": "USD 29.00 @ 1.2419 Visa Rate DR Non - Sterling, 2020-04-23",
+          "amount": -23.35,
+          "link": "https://agent.osome.team/companies/239200/documents/547148",
+          "document_id": 547148
+        },
+        {
+          "description": "USD 12.00 @ 1.3840 Visa Rate DR Non - Sterling, 2021-02-19",
+          "amount": -8.67,
+          "link": "https://agent.osome.team/companies/188876/documents/479306",
+          "document_id": 479306
+        },
+        {
+          "description": "USD 20.00 @ 1.3736 Visa Rate DR Non - Sterling, 2021-07-29",
+          "amount": -14.56,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "@1.2101 Visa Rate DR Non - Sterling, 2019-08-08",
+          "amount": -1650.25,
+          "link": "https://agent.osome.team/companies/208099/documents/703352",
+          "document_id": 703352
+        },
+        {
+          "description": "USD 300.00 @1.4067 Visa Rate DR Non - Sterling, 2021-06-16",
+          "amount": -213.25,
+          "link": "https://agent.osome.team/companies/185155/documents/874591",
+          "document_id": 874591
+        },
+        {
+          "description": "Visa Rate DR Non - Sterling, 2021-06-11",
+          "amount": -3.97,
+          "link": "https://agent.osome.team/companies/185155/documents/874591",
+          "document_id": 874591
+        },
+        {
+          "description": "Visa Rate DR Non - Sterling, 2021-03-26",
+          "amount": -17.37,
+          "link": "https://agent.osome.team/companies/188876/documents/582909",
+          "document_id": 582909
+        },
+        {
+          "description": "USD 221.00 @1.2356 Visa Rate DR Non - Sterling, 2020-07-03",
+          "amount": -178.85,
+          "link": "https://agent.osome.team/companies/185155/documents/736816",
+          "document_id": 736816
+        },
+        {
+          "description": "@1.2685 Visa Rate DR Non - Sterling, 2020-09-30",
+          "amount": -78.83,
+          "link": "https://agent.osome.team/companies/185155/documents/736822",
+          "document_id": 736822
+        }
+      ]
+    },
+    {
+      "pattern": "DD VIS INT'L",
+      "counter": 18,
+      "type": "",
+      "examples": [
+        {
+          "description": "DD TESCO MOBILE VIS INT'L 0003017552, 2020-05-11",
+          "amount": -30.25,
+          "link": "https://agent.osome.team/companies/429166/documents/1080107",
+          "document_id": 1080107
+        },
+        {
+          "description": "DD AXA GLOBAL HEALTHC VIS INT'L 0029605211 Adobe.com Dublin THB 1,888.00, 2021-07-14",
+          "amount": -134.77,
+          "link": "https://agent.osome.team/companies/680/documents/765965",
+          "document_id": 765965
+        },
+        {
+          "description": "DD COUNTRYWIDE PRINCI VIS INT'L 0008628327 APPLE.COM/BILL, 2020-12-29",
+          "amount": -34.86,
+          "link": "https://agent.osome.team/companies/429166/documents/1080099",
+          "document_id": 1080099
+        },
+        {
+          "description": "MIDDLESEX VIS INT'L 0043309374, 2021-07-17",
+          "amount": -72.59,
+          "link": "https://agent.osome.team/companies/185155/documents/874590",
+          "document_id": 874590
+        },
+        {
+          "description": "DD MARKETFINANCE VIS INT'L 0081107186, 2021-02-01",
+          "amount": -1200,
+          "link": "https://agent.osome.team/companies/188876/documents/479306",
+          "document_id": 479306
+        },
+        {
+          "description": "DD NATIONAL TRUST MEM VIS INT'L 0086915038 Amazon Prime*L28M7, 2020-04-14",
+          "amount": -11.15,
+          "link": "https://agent.osome.team/companies/429166/documents/1080108",
+          "document_id": 1080108
+        },
+        {
+          "description": "DD TESCO MOBILE VIS INT'L 0095447714 Amazon Prime*4W0MQ, 2020-10-08",
+          "amount": -30.25,
+          "link": "https://agent.osome.team/companies/429166/documents/1080102",
+          "document_id": 1080102
+        },
+        {
+          "description": "DD MBNA LIMITED VIS INT'L 0034560087 APPLE.COM/BILL, 2020-11-20",
+          "amount": -91.21,
+          "link": "https://agent.osome.team/companies/429166/documents/1080101",
+          "document_id": 1080101
+        },
+        {
+          "description": "DD MBNA LIMITED VIS INT'L 0055797531, 2021-02-22",
+          "amount": -63.5,
+          "link": "https://agent.osome.team/companies/429166/documents/1080098",
+          "document_id": 1080098
+        },
+        {
+          "description": "DD MANGOPAY VIS INT'L 0073759068, 2020-09-04",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703385",
+          "document_id": 703385
+        }
+      ]
+    },
+    {
+      "pattern": "VIS INTERNET",
+      "counter": 17,
+      "type": "",
+      "examples": [
+        {
+          "description": "VIS HIGHSPEEDTRAINING. INTERNET, 2021-08-18",
+          "amount": -216,
+          "link": "https://agent.osome.team/companies/258093/documents/871549",
+          "document_id": 871549
+        },
+        {
+          "description": "VIS ARGOS LTD INTERNET, 2021-05-13",
+          "amount": -16,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "VIS HOME BARGAINS ONLI INTERNET, 2021-03-23",
+          "amount": -129.31,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS WWW.SIMPLYHEAVENLY INTERNET, 2021-03-10",
+          "amount": -287.76,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS ASDA GROCERIES ONL INTERNET, 2021-03-17",
+          "amount": -136.32,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS WWW.SIMPLYHEAVENLY INTERNET, 2021-03-31",
+          "amount": -1026.91,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS WWW.FLEURTATIONS.U INTERNET, 2021-03-11",
+          "amount": -220,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS ARGOS LTD INTERNET, 2021-05-13",
+          "amount": -18.95,
+          "link": "https://agent.osome.team/companies/185155/documents/658587",
+          "document_id": 658587
+        },
+        {
+          "description": "VIS WWW.JELLYEXPRESS.C INTERNET, 2021-03-24",
+          "amount": -119.9,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "VIS HOME BARGAINS ONLI INTERNET, 2021-03-24",
+          "amount": -129.31,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        }
+      ]
+    },
+    {
+      "pattern": "VIS POS REF",
+      "counter": 16,
+      "type": "",
+      "examples": [
+        {
+          "description": "01 MAY21 21:55:27 MY690554MYR 59.00 VISA POS MADURA STORES REF A895-24893, 2021-05-05",
+          "amount": -59,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "15MAY21 20:55:35 MY620567 MYR 9.90 VISA POS PET LOVERS CTR - RIVERCITY REF A895-32563, 2021-05-18",
+          "amount": -9.9,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "08MAY21 19:42:10 MY505516MYR 62.35 VISA POS PETRONAS BRICKFIELDS REF A895-17817, 2021-05-11",
+          "amount": -62.35,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "06JUN21 18:38:33 MY302119MYR 143.00 VISA POS PET LOVERS CTR - RIVERCITY REF A895-10192, 2021-06-10",
+          "amount": -143,
+          "link": "https://agent.osome.team/companies/275956/documents/698384",
+          "document_id": 698384
+        },
+        {
+          "description": "05MAY21 14:45:04 MY597757 MYR 22.70 VISA POS VILLA JU BAKERY CAFE REF A895-01391, 2021-05-10",
+          "amount": -22.7,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "05MAY21 21:42:05 MY598868 MYR 115.85 VISA POS LULU SUPERMARKET REF A895-10894, 2021-05-09",
+          "amount": -115.85,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "08JUN21 14:02:18 MY970060MYR 11.00 VISA POS GRAB RIDES - EC REF A895-06233, 2021-06-11",
+          "amount": -11,
+          "link": "https://agent.osome.team/companies/275956/documents/698384",
+          "document_id": 698384
+        },
+        {
+          "description": "06MAY21 21:39:03 MY225956MYR 17.00 VISA POS MCDONALDS - NKVE 0020319 REF A895-06403, 2021-05-11",
+          "amount": -17,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "15MAY21 21:48:54 MY922651 MYR = 238.25 VISA POS COLD STRG - M'KIARA - CSMK REF A895-07848, 2021-05-19",
+          "amount": -238.25,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        },
+        {
+          "description": "10MAY21 21:28:16 MY810898MYR 1.00 VISA POS SOLARIS MONT KIARA MC REF A895-06636, 2021-05-16",
+          "amount": -1,
+          "link": "https://agent.osome.team/companies/275956/documents/698385",
+          "document_id": 698385
+        }
+      ]
+    },
+    {
+      "pattern": "FIRST PAYMENT",
+      "counter": 15,
+      "type": "",
+      "examples": [
+        {
+          "description": "FIRST PAYMENT, 2020-09-04",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080103",
+          "document_id": 1080103
+        },
+        {
+          "description": "FIRST PAYMENT, 2020-07-02",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080105",
+          "document_id": 1080105
+        },
+        {
+          "description": "FIRST PAYMENT, 2020-09-01",
+          "amount": -20,
+          "link": "https://agent.osome.team/companies/208099/documents/703385",
+          "document_id": 703385
+        },
+        {
+          "description": "FIRST PAYMENT, 2021-05-06",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        },
+        {
+          "description": "FIRST PAYMENT, 2020-10-02",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080102",
+          "document_id": 1080102
+        },
+        {
+          "description": "GOCARDLESS FIRST PAYMENT, 2021-04-30",
+          "amount": 174,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "FIRST PAYMENT, 2020-04-02",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080108",
+          "document_id": 1080108
+        },
+        {
+          "description": "FIRST PAYMENT, 2021-04-20",
+          "amount": -160,
+          "link": "https://agent.osome.team/companies/239200/documents/1124593",
+          "document_id": 1124593
+        },
+        {
+          "description": "FIRST PAYMENT, 2021-02-03",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080098",
+          "document_id": 1080098
+        },
+        {
+          "description": "FIRST PAYMENT, 2020-12-04",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/429166/documents/1080100",
+          "document_id": 1080100
+        }
+      ]
+    },
+    {
+      "pattern": "DD VIS",
+      "counter": 15,
+      "type": "",
+      "examples": [
+        {
+          "description": "DD ROYAL SOCIETY OF A VIS NATIONAL TRUST CAR, 2020-09-02",
+          "amount": -14.83,
+          "link": "https://agent.osome.team/companies/429166/documents/1080103",
+          "document_id": 1080103
+        },
+        {
+          "description": "DD MBNA LIMITED VIS JUSTPARK, 2021-05-19",
+          "amount": -82.41,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        },
+        {
+          "description": "DD BANK OF IRELAND VIS PREMIER INN4453737, 2021-05-24",
+          "amount": -161.07,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        },
+        {
+          "description": "DD TESCO MOBILE VIS AMZNMktplace, 2020-11-09",
+          "amount": -30.25,
+          "link": "https://agent.osome.team/companies/429166/documents/1080101",
+          "document_id": 1080101
+        },
+        {
+          "description": "DD HSBC CARD PYMT VIS Spotify P0F7D65039, 2020-05-01",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/429166/documents/1080107",
+          "document_id": 1080107
+        },
+        {
+          "description": "DD MANGOPAY VIS QUALITYFORMATIONS, 2020-10-08",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703427",
+          "document_id": 703427
+        },
+        {
+          "description": "HUDDERSFIELD VIS DPD WL, 2021-05-04",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/185155/documents/658589",
+          "document_id": 658589
+        },
+        {
+          "description": "DD B/CARD PLAT VISA, 2020-04-14",
+          "amount": -56.26,
+          "link": "https://agent.osome.team/companies/429166/documents/1080108",
+          "document_id": 1080108
+        },
+        {
+          "description": "DD MANGOPAY VIS INKTHREADABLE, 2020-10-22",
+          "amount": -5,
+          "link": "https://agent.osome.team/companies/208099/documents/703424",
+          "document_id": 703424
+        },
+        {
+          "description": "DD ROYAL BOROUGH KING VIS NATIONAL LOTTERY I, 2021-01-08",
+          "amount": -238,
+          "link": "https://agent.osome.team/companies/239200/documents/733206",
+          "document_id": 733206
+        }
+      ]
+    },
+    {
+      "pattern": "CHEQUE DEPOSIT MACHINE",
+      "counter": 14,
+      "type": "",
+      "examples": [
+        {
+          "description": "INV 0314 0315 CHEQUE DEPOSIT MACHINE 1 (06JUL21)",
+          "amount": 700,
+          "link": "https://agent.osome.team/companies/268967/documents/862105",
+          "document_id": 862105
+        },
+        {
+          "description": " FOCUS MEDIA NOV CHEQUE DEPOSIT MACHINE, 2020-12-30",
+          "amount": 11346.54,
+          "link": "https://agent.osome.team/companies/233104/documents/623910",
+          "document_id": 623910
+        },
+        {
+          "description": "CAFE ROMA BASE BEER CHEQUE DEPOSIT MACHINE (26NOV21), 2021-11-26",
+          "amount": 3600,
+          "link": "https://agent.osome.team/companies/430150/documents/1180945",
+          "document_id": 1180945
+        },
+        {
+          "description": "HELLO INDIA CHEQUE DEPOSIT MACHINE * (12JUL21)",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/862105",
+          "document_id": 862105
+        },
+        {
+          "description": "0271 CHEQUE DEPOSIT MACHINE (12MAY21), 2021-05-12",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "CHEQUE DEPOSIT MACHINE(18FEB21)",
+          "amount": 3058,
+          "link": "https://agent.osome.team/companies/203331/documents/483713",
+          "document_id": 483713
+        },
+        {
+          "description": "INV0382 CHEQUE DEPOSIT MACHINE E (10AUG21)",
+          "amount": 550,
+          "link": "https://agent.osome.team/companies/268967/documents/862106",
+          "document_id": 862106
+        },
+        {
+          "description": "CHEQUE DEPOSIT MACHINE (06MAY21), 2021-05-06",
+          "amount": 350,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "INV 0283 0284 0285 CHEQUE DEPOSIT MACHINE (06MAY21), 2021-05-06",
+          "amount": 5700,
+          "link": "https://agent.osome.team/companies/268967/documents/692345",
+          "document_id": 692345
+        },
+        {
+          "description": "HANDS CHEQUE DEPOSIT MACHINE (04OCT21), 2021-10-04",
+          "amount": 6600,
+          "link": "https://agent.osome.team/companies/430150/documents/1180954",
+          "document_id": 1180954
+        }
+      ]
+    },
+    {
+      "pattern": "CR VIS",
+      "counter": 14,
+      "type": "",
+      "examples": [
+        {
+          "description": "CROYDON VIS HOME BARGAINS ONLI, 2021-03-12",
+          "amount": 4.4,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "CROYDON VIS BOOTS.COM, 2021-05-15",
+          "amount": 60,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "CROYDON VIS AVENUEGROUP, 2021-04-22",
+          "amount": 45.43,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "CROYDON VIS CURRYS ONLINE, 2021-04-01",
+          "amount": -60,
+          "link": "https://agent.osome.team/companies/246394/documents/696836",
+          "document_id": 696836
+        },
+        {
+          "description": "CRAWLEY VIS PREMIER INN4453737, 2021-05-24",
+          "amount": -35,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        },
+        {
+          "description": "CROYDON VIS SP * SOUS CHEF, 2021-05-18",
+          "amount": -44.95,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "CROYDON VIS BOOTS.COM, 2021-04-26",
+          "amount": -26.82,
+          "link": "https://agent.osome.team/companies/246185/documents/618190",
+          "document_id": 618190
+        },
+        {
+          "description": "CROYDON VIS BOOTS.COM, 2021-05-25",
+          "amount": 43.51,
+          "link": "https://agent.osome.team/companies/246185/documents/677262",
+          "document_id": 677262
+        },
+        {
+          "description": "CR HILLSIDE PRIMARY S VIS LOQBOX, 2021-05-28",
+          "amount": 1140.47,
+          "link": "https://agent.osome.team/companies/267123/documents/672735",
+          "document_id": 672735
+        },
+        {
+          "description": "CRAWLEY VIS Just Eat, 2021-05-24",
+          "amount": -3.4,
+          "link": "https://agent.osome.team/companies/429166/documents/1080095",
+          "document_id": 1080095
+        }
+      ]
+    }
+  ]
+}
