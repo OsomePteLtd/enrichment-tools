@@ -4,6 +4,7 @@ import {ocbcBank} from "../services/ocbcPatterns.service";
 import {dbsBank} from "../services/dbsPatterns.service";
 import {uobBank} from "../services/uobPatterns.service";
 import {hsbcBank} from "../services/hsbcPatterns.service";
+import {paypalBank} from "../services/paypalPatterns.service";
 
 class TodosController {
 
@@ -62,6 +63,15 @@ class TodosController {
     public async hsbc(req: Request, res: Response) {
         try {
             res.json(await hsbcBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async paypal(req: Request, res: Response) {
+        try {
+            res.json(await paypalBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

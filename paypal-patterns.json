@@ -1,0 +1,678 @@
+{
+  "totalRows": 174614,
+  "coveredRows": 89022,
+  "percentage": "50.98%",
+  "patternsCount": 10,
+  "patterns": [
+    {
+      "pattern": "Express Checkout Payment",
+      "counter": 65609,
+      "type": "",
+      "examples": [
+        {
+          "description": "Express Checkout Payment ID: 5NK840770W779703E, 2020-12-19",
+          "amount": 96,
+          "link": "https://agent.osome.team/companies/242219/documents/988855",
+          "document_id": 988855
+        },
+        {
+          "description": "Express Checkout Payment",
+          "amount": 84.69,
+          "link": "https://agent.osome.team/companies/101683/documents/870003",
+          "document_id": 870003
+        },
+        {
+          "description": "Express Checkout Payment: Zachary Larkin ID: 16406780EP9119049, 2020-11-12",
+          "amount": 104.94,
+          "link": "https://agent.osome.team/companies/101683/documents/847189",
+          "document_id": 847189
+        },
+        {
+          "description": "Express Checkout Payment ID: 7BA191103E271494V, 2021-01-20",
+          "amount": 30.94,
+          "link": "https://agent.osome.team/companies/101683/documents/809335",
+          "document_id": 809335
+        },
+        {
+          "description": "Express Checkout Payment, 2021-06-30",
+          "amount": 97,
+          "link": "https://agent.osome.team/companies/98404/documents/722733",
+          "document_id": 722733
+        },
+        {
+          "description": "Express Checkout Payment ID: 00P092441P913981T, 2021-11-02",
+          "amount": 25.99,
+          "link": "https://agent.osome.team/companies/199293/documents/654626",
+          "document_id": 654626
+        },
+        {
+          "description": "Express Checkout Payment ID: 1G7485563K691121C, 2021-07-02",
+          "amount": 25.99,
+          "link": "https://agent.osome.team/companies/199293/documents/654626",
+          "document_id": 654626
+        },
+        {
+          "description": "Express Checkout Payment ID: 78777145CX2921157, 2021-06-13",
+          "amount": 3.45,
+          "link": "https://agent.osome.team/companies/155755/documents/812044",
+          "document_id": 812044
+        },
+        {
+          "description": "Express Checkout Payment, 2021-02-10",
+          "amount": 60,
+          "link": "https://agent.osome.team/companies/200304/documents/587103",
+          "document_id": 587103
+        },
+        {
+          "description": "Express Checkout Payment ID: 1X0628276W241354W, 2021-01-18",
+          "amount": 16.94,
+          "link": "https://agent.osome.team/companies/262832/documents/738775",
+          "document_id": 738775
+        }
+      ]
+    },
+    {
+      "pattern": "Website Payment",
+      "counter": 7412,
+      "type": "",
+      "examples": [
+        {
+          "description": "Website Payment ID: 90J720050P258970C, 2021-06-14",
+          "amount": -318.5,
+          "link": "https://agent.osome.team/companies/33996/documents/1184143",
+          "document_id": 1184143
+        },
+        {
+          "description": "Website Payment",
+          "amount": 74.74,
+          "link": "https://agent.osome.team/companies/243272/documents/967668",
+          "document_id": 967668
+        },
+        {
+          "description": "Website Payment ID: 8D8652560N186900L, 2019-09-05",
+          "amount": -500,
+          "link": "https://agent.osome.team/companies/227522/documents/909777",
+          "document_id": 909777
+        },
+        {
+          "description": "Website Payment: Amber Nielsen ID: 28P27755BV3687605, 2020-03-31",
+          "amount": 39.9,
+          "link": "https://agent.osome.team/companies/152318/documents/568887",
+          "document_id": 568887
+        },
+        {
+          "description": "Website Payment: 敬 54 ID: 8WE403682S9460527, 2020-02-11",
+          "amount": 149,
+          "link": "https://agent.osome.team/companies/152318/documents/568887",
+          "document_id": 568887
+        },
+        {
+          "description": "Website Payment ID: 73187367W10757404, 2021-09-17",
+          "amount": 500,
+          "link": "https://agent.osome.team/companies/196394/documents/980931",
+          "document_id": 980931
+        },
+        {
+          "description": "Website Payment: PT Angkasa Pura II persero ID: 3VJ658088L0265801, 2021-04-22",
+          "amount": 3.55,
+          "link": "https://agent.osome.team/companies/244216/documents/666508",
+          "document_id": 666508
+        },
+        {
+          "description": "Website Payment ID: 37M72538LA161142D, 2020-12-18",
+          "amount": 135.72,
+          "link": "https://agent.osome.team/companies/185684/documents/858856",
+          "document_id": 858856
+        },
+        {
+          "description": "Website Payment ID: 1EW91184TH345731Y, 2020-12-02",
+          "amount": 440,
+          "link": "https://agent.osome.team/companies/185684/documents/858856",
+          "document_id": 858856
+        },
+        {
+          "description": "Website Payment ID: 88296424S7930980E, 2021-02-05",
+          "amount": 35,
+          "link": "https://agent.osome.team/companies/195473/documents/1165059",
+          "document_id": 1165059
+        }
+      ]
+    },
+    {
+      "pattern": "Pre-approved Payment Bill User Payment",
+      "counter": 4201,
+      "type": "",
+      "examples": [
+        {
+          "description": "Pre-approved Payment Bill User Payment: Packlink Shipping SL ID: 49U56878FP883691E, 2021-03-07",
+          "amount": -2.89,
+          "link": "https://agent.osome.team/companies/238482/documents/602108",
+          "document_id": 602108
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment, 2020-08-14",
+          "amount": -14.98,
+          "link": "https://agent.osome.team/companies/101683/documents/869884",
+          "document_id": 869884
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment: Facebook ID: 4NE27444SA352633B, 2021-05-24",
+          "amount": -228.36,
+          "link": "https://agent.osome.team/companies/155271/documents/1082533",
+          "document_id": 1082533
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment: Packlink Shipping SL ID: 2M624970Y49433111, 2021-03-03",
+          "amount": -2.89,
+          "link": "https://agent.osome.team/companies/238482/documents/602108",
+          "document_id": 602108
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment, 2020-08-10",
+          "amount": -14.5,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment ID: 10V71046F5714550V, 2021-07-02",
+          "amount": -1568.09,
+          "link": "https://agent.osome.team/companies/199293/documents/654626",
+          "document_id": 654626
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment ID: 3X445467WC393484J, 2021-02-03",
+          "amount": -10.33,
+          "link": "https://agent.osome.team/companies/14067/documents/1032048",
+          "document_id": 1032048
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment, 2021-01-04",
+          "amount": -9,
+          "link": "https://agent.osome.team/companies/101683/documents/869889",
+          "document_id": 869889
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment",
+          "amount": -31.03,
+          "link": "https://agent.osome.team/companies/101683/documents/870002",
+          "document_id": 870002
+        },
+        {
+          "description": "Pre-approved Payment Bill User Payment",
+          "amount": -4.81,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        }
+      ]
+    },
+    {
+      "pattern": "General Payment",
+      "counter": 2947,
+      "type": "",
+      "examples": [
+        {
+          "description": "General Payment: Tim Squire ID: 8VY1607801039140W, 2021-11-02",
+          "amount": 44,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "General Payment ID: 1GK982549J065930N, 2020-09-27",
+          "amount": -119.13,
+          "link": "https://agent.osome.team/companies/3977/documents/447477",
+          "document_id": 447477
+        },
+        {
+          "description": "General Payment: CustomCloud Analytics Limited ID: 0GB64505RD6841232, 2020-06-24",
+          "amount": -1697.86,
+          "link": "https://agent.osome.team/companies/152318/documents/568887",
+          "document_id": 568887
+        },
+        {
+          "description": "General Payment ID: 5WY3261325764225S, 2020-11-15",
+          "amount": -1042.96,
+          "link": "https://agent.osome.team/companies/189041/documents/615443",
+          "document_id": 615443
+        },
+        {
+          "description": "General Payment ID: 5TR06076K36613520",
+          "amount": -24.29,
+          "link": "https://agent.osome.team/companies/243844/documents/588594",
+          "document_id": 588594
+        },
+        {
+          "description": "General Payment ID: 90A634093T591105Y, 2020-01-29",
+          "amount": 100,
+          "link": "https://agent.osome.team/companies/3977/documents/447489",
+          "document_id": 447489
+        },
+        {
+          "description": "General Payment ID: 6TR623339X006382V",
+          "amount": -38.99,
+          "link": "https://agent.osome.team/companies/243844/documents/588594",
+          "document_id": 588594
+        },
+        {
+          "description": "General Payment ID: 8LR12495UD484051G, 2021-03-30",
+          "amount": 600,
+          "link": "https://agent.osome.team/companies/40385/documents/814903",
+          "document_id": 814903
+        },
+        {
+          "description": "General Payment ID: 84H17345AC1122902, 2021-04-13",
+          "amount": 7000,
+          "link": "https://agent.osome.team/companies/104665/documents/837638",
+          "document_id": 837638
+        },
+        {
+          "description": "General Payment ID: 64L74111A18693925, 2020-10-16",
+          "amount": -79.95,
+          "link": "https://agent.osome.team/companies/189041/documents/615440",
+          "document_id": 615440
+        }
+      ]
+    },
+    {
+      "pattern": "General Credit Card Deposit",
+      "counter": 2431,
+      "type": "",
+      "examples": [
+        {
+          "description": "General Credit Card Deposit, 2020-12-06",
+          "amount": 251.93,
+          "link": "https://agent.osome.team/companies/3977/documents/590697",
+          "document_id": 590697
+        },
+        {
+          "description": "General Credit Card Deposit ID: 8BW51498TY706615P, 2020-11-22",
+          "amount": 15,
+          "link": "https://agent.osome.team/companies/97449/documents/604434",
+          "document_id": 604434
+        },
+        {
+          "description": "General Credit Card Deposit",
+          "amount": 10,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        },
+        {
+          "description": "General Credit Card Deposit ID: 1UK34772X7611312P, 2020-06-15",
+          "amount": 783.16,
+          "link": "https://agent.osome.team/companies/222578/documents/524830",
+          "document_id": 524830
+        },
+        {
+          "description": "General Credit Card Deposit",
+          "amount": 41.57,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        },
+        {
+          "description": "General Credit Card Deposit",
+          "amount": 548.47,
+          "link": "https://agent.osome.team/companies/25923/documents/792298",
+          "document_id": 792298
+        },
+        {
+          "description": "General Credit Card Deposit ID: 2MD9545287045591Y, 2021-02-03",
+          "amount": 5.5,
+          "link": "https://agent.osome.team/companies/193487/documents/955692",
+          "document_id": 955692
+        },
+        {
+          "description": "General Credit Card Deposit, 2021-04-29",
+          "amount": 410.9,
+          "link": "https://agent.osome.team/companies/225407/documents/616943",
+          "document_id": 616943
+        },
+        {
+          "description": "General Credit Card Deposit",
+          "amount": 118.34,
+          "link": "https://agent.osome.team/companies/25923/documents/792298",
+          "document_id": 792298
+        },
+        {
+          "description": "General Credit Card Deposit",
+          "amount": 19.15,
+          "link": "https://agent.osome.team/companies/262832/documents/738787",
+          "document_id": 738787
+        }
+      ]
+    },
+    {
+      "pattern": "Payment Refund",
+      "counter": 2065,
+      "type": "",
+      "examples": [
+        {
+          "description": " Payment Refund",
+          "amount": 1.03,
+          "link": "https://agent.osome.team/companies/246388/documents/717493",
+          "document_id": 717493
+        },
+        {
+          "description": "Payment Refund, 2021-01-18",
+          "amount": -130,
+          "link": "https://agent.osome.team/companies/203331/documents/455561",
+          "document_id": 455561
+        },
+        {
+          "description": "input Payment Refund, 2021-07-30",
+          "amount": -106,
+          "link": "https://agent.osome.team/companies/203331/documents/758138",
+          "document_id": 758138
+        },
+        {
+          "description": "Payment Refund: Leigh Neville ID: 1UP18576LU6210358, 2021-06-17",
+          "amount": 55,
+          "link": "https://agent.osome.team/companies/429181/documents/979888",
+          "document_id": 979888
+        },
+        {
+          "description": "Payment Refund",
+          "amount": 71.16,
+          "link": "https://agent.osome.team/companies/233616/documents/884777",
+          "document_id": 884777
+        },
+        {
+          "description": "Payment Refund: Agnieszka Kowalik ID: 9E249521ST423705P, 2021-09-02",
+          "amount": -12.99,
+          "link": "https://agent.osome.team/companies/439611/documents/1099876",
+          "document_id": 1099876
+        },
+        {
+          "description": "Payment Refund ID: 64J68137S48418236, 2021-05-30",
+          "amount": -15.99,
+          "link": "https://agent.osome.team/companies/199293/documents/654622",
+          "document_id": 654622
+        },
+        {
+          "description": "Payment Refund ID: 6UN00935RU7556328, 2020-07-29",
+          "amount": -67,
+          "link": "https://agent.osome.team/companies/155755/documents/474954",
+          "document_id": 474954
+        },
+        {
+          "description": "Payment Refund, 2021-08-09",
+          "amount": -404,
+          "link": "https://agent.osome.team/companies/238940/documents/885988",
+          "document_id": 885988
+        },
+        {
+          "description": "Payment Refund ID: 8NP716296B032083M, 2018-10-15",
+          "amount": -2860,
+          "link": "https://agent.osome.team/companies/227522/documents/909777",
+          "document_id": 909777
+        }
+      ]
+    },
+    {
+      "pattern": "Direct Credit Card Payment",
+      "counter": 1844,
+      "type": "",
+      "examples": [
+        {
+          "description": "Direct Credit Card Payment",
+          "amount": 30.94,
+          "link": "https://agent.osome.team/companies/101683/documents/870006",
+          "document_id": 870006
+        },
+        {
+          "description": "Direct Credit Card Payment",
+          "amount": 51.94,
+          "link": "https://agent.osome.team/companies/101683/documents/870006",
+          "document_id": 870006
+        },
+        {
+          "description": "Direct Credit Card Payment: Lisa Donaldson ID: 85R239258M932863S",
+          "amount": 56.93,
+          "link": "https://agent.osome.team/companies/101683/documents/847511",
+          "document_id": 847511
+        },
+        {
+          "description": "Direct Credit Card Payment ID: 9YV70613VH0435026, 2021-01-26",
+          "amount": 30.94,
+          "link": "https://agent.osome.team/companies/101683/documents/809335",
+          "document_id": 809335
+        },
+        {
+          "description": "Direct Credit Card Payment ID: 3XS48790WU9751710, 2021-01-28",
+          "amount": 31.89,
+          "link": "https://agent.osome.team/companies/101683/documents/809335",
+          "document_id": 809335
+        },
+        {
+          "description": "Direct Credit Card Payment: courtney mckoy ID: 9A88118738602441Y",
+          "amount": 82.92,
+          "link": "https://agent.osome.team/companies/101683/documents/847511",
+          "document_id": 847511
+        },
+        {
+          "description": "Direct Credit Card Payment: Harvey M Watts ID: 7VR56340B3844301H",
+          "amount": 84.69,
+          "link": "https://agent.osome.team/companies/101683/documents/847189",
+          "document_id": 847189
+        },
+        {
+          "description": "Direct Credit Card Payment, 2021-01-15",
+          "amount": 84.69,
+          "link": "https://agent.osome.team/companies/101683/documents/869889",
+          "document_id": 869889
+        },
+        {
+          "description": "Direct Credit Card Payment ID: 2FT67359YC5288113, 2020-12-22",
+          "amount": 30.94,
+          "link": "https://agent.osome.team/companies/101683/documents/847194",
+          "document_id": 847194
+        },
+        {
+          "description": "Direct Credit Card Payment: Regina H Rocha ID: 59U2669634845362D, 2021-10-01",
+          "amount": 30.94,
+          "link": "https://agent.osome.team/companies/101683/documents/847511",
+          "document_id": 847511
+        }
+      ]
+    },
+    {
+      "pattern": "eBay Auction Payment",
+      "counter": 1685,
+      "type": "",
+      "examples": [
+        {
+          "description": "eBay Auction Payment: Eric Pears ID: 72T62557BM749832B, 2021-02-08",
+          "amount": 12.99,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "eBay Auction Payment: Ethan Dalley ID: 9D51915259494561H, 2021-02-16",
+          "amount": 27.99,
+          "link": "https://agent.osome.team/companies/238482/documents/602108",
+          "document_id": 602108
+        },
+        {
+          "description": "eBay Auction Payment: nathaniel willis ID: 2VC0902196812640T, 2021-03-06",
+          "amount": 26.9,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "eBay Auction Payment: david imrie ID: 9UX02189785612924, 2020-12-02",
+          "amount": 11.95,
+          "link": "https://agent.osome.team/companies/262472/documents/1061558",
+          "document_id": 1061558
+        },
+        {
+          "description": "eBay Auction Payment: D.E.K. Cargo ID: 4BL708085M154945R, 2021-02-04",
+          "amount": 29.99,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "eBay Auction Payment: Marcin Majcher ID: 49S79927653436539, 2020-11-19",
+          "amount": 12.95,
+          "link": "https://agent.osome.team/companies/262472/documents/1061558",
+          "document_id": 1061558
+        },
+        {
+          "description": "eBay Auction Payment, 2020-05-08",
+          "amount": 14.5,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        },
+        {
+          "description": "eBay Auction Payment: Rishu Thapar ID: 9KV590456B842830M, 2020-09-04",
+          "amount": 5.99,
+          "link": "https://agent.osome.team/companies/238482/documents/602108",
+          "document_id": 602108
+        },
+        {
+          "description": "eBay Auction Payment: John Payne ID: 8TC32455G9281934E, 2020-11-29",
+          "amount": -1.17,
+          "link": "https://agent.osome.team/companies/448166/documents/1176266",
+          "document_id": 1176266
+        },
+        {
+          "description": "eBay Auction Payment: Reiss Carroll ID: 7RY32470H4953372U, 2021-02-02",
+          "amount": 26.99,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        }
+      ]
+    },
+    {
+      "pattern": "General Credit Card Withdrawal",
+      "counter": 468,
+      "type": "",
+      "examples": [
+        {
+          "description": "General Credit Card Withdrawal ID: 1WF387498Y048381W, 2020-09-11",
+          "amount": -32.35,
+          "link": "https://agent.osome.team/companies/238482/documents/602108",
+          "document_id": 602108
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 75S56064JB268672V, 2019-01-18",
+          "amount": -10,
+          "link": "https://agent.osome.team/companies/262832/documents/738785",
+          "document_id": 738785
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 8HJ1886951791402T, 2020-07-31",
+          "amount": -2812.58,
+          "link": "https://agent.osome.team/companies/98404/documents/871747",
+          "document_id": 871747
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 3FH062626C117592C, 2020-12-17",
+          "amount": -2000,
+          "link": "https://agent.osome.team/companies/189041/documents/615441",
+          "document_id": 615441
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 0M667016G0518830H, 2019-01-17",
+          "amount": -92,
+          "link": "https://agent.osome.team/companies/262832/documents/738785",
+          "document_id": 738785
+        },
+        {
+          "description": "General Credit Card Withdrawal, 2020-04-07",
+          "amount": -25,
+          "link": "https://agent.osome.team/companies/262832/documents/738783",
+          "document_id": 738783
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 3AB70217BG9145343, 2020-04-08",
+          "amount": -164,
+          "link": "https://agent.osome.team/companies/262832/documents/738780",
+          "document_id": 738780
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 9AU07060HL593304L, 2021-01-22",
+          "amount": -39.99,
+          "link": "https://agent.osome.team/companies/262832/documents/738775",
+          "document_id": 738775
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 1N749413YR504091P, 2021-07-06",
+          "amount": -1188,
+          "link": "https://agent.osome.team/companies/155271/documents/1105216",
+          "document_id": 1105216
+        },
+        {
+          "description": "General Credit Card Withdrawal ID: 83U298495C811794M, 2021-01-24",
+          "amount": -50.96,
+          "link": "https://agent.osome.team/companies/262832/documents/738775",
+          "document_id": 738775
+        }
+      ]
+    },
+    {
+      "pattern": "Mobile Payment",
+      "counter": 360,
+      "type": "",
+      "examples": [
+        {
+          "description": "Mobile Payment ID: 1LW35415R34089139, 2020-11-06",
+          "amount": -4.06,
+          "link": "https://agent.osome.team/companies/222684/documents/471271",
+          "document_id": 471271
+        },
+        {
+          "description": "Mobile Payment: Laura Clifton ID: 6C4418726X563052S, 2020-10-21",
+          "amount": 5,
+          "link": "https://agent.osome.team/companies/202915/documents/808272",
+          "document_id": 808272
+        },
+        {
+          "description": "Mobile Payment ID: 6Y487593VA761380S, 2021-08-04",
+          "amount": 270,
+          "link": "https://agent.osome.team/companies/260503/documents/1181096",
+          "document_id": 1181096
+        },
+        {
+          "description": "Mobile Payment: Ross Colcombe ID: 66W37587UA356062C, 2021-07-27",
+          "amount": 5.7,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "Mobile Payment ID: 28187227RF967331M, 2020-11-06",
+          "amount": 213,
+          "link": "https://agent.osome.team/companies/152329/documents/568926",
+          "document_id": 568926
+        },
+        {
+          "description": "Mobile Payment: Michael Dooley ID: 1GA864608G404280H, 2021-02-10",
+          "amount": 150,
+          "link": "https://agent.osome.team/companies/202915/documents/808272",
+          "document_id": 808272
+        },
+        {
+          "description": "Mobile Payment ID: 56H21067BC810040B, 2021-09-03",
+          "amount": -254,
+          "link": "https://agent.osome.team/companies/243844/documents/588594",
+          "document_id": 588594
+        },
+        {
+          "description": "Mobile Payment: Kieran Danaher ID: 17T03566G9401781C, 2021-05-03",
+          "amount": 30,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        },
+        {
+          "description": "Mobile Payment ID: 5DS502421A148525J, 2021-03-09",
+          "amount": 195.8,
+          "link": "https://agent.osome.team/companies/185684/documents/858859",
+          "document_id": 858859
+        },
+        {
+          "description": "Mobile Payment: sion Summers ID: 6RX96942YH353853G, 2021-04-13",
+          "amount": 14.99,
+          "link": "https://agent.osome.team/companies/262472/documents/1061547",
+          "document_id": 1061547
+        }
+      ]
+    }
+  ]
+}
