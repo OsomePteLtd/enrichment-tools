@@ -1,23 +1,22 @@
 import pool from "../dbconfig/dbConnector";
 import {genPatterns, toCSV} from "./utils";
 
-export async function hsbcBank() {
+export async function transferwiseBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'HSBC', 'HSBC BANK', 'HSBC Bank (China) Company Limited', 'HSBC Bank Limited', 'HSBC Bank Plc', 'HSBC Bank (Singapore) Limited', 'HSBC Business Direct', 'HSBC Offshore', 'HSBC Sprint Account Statement', 'HSBC UK Bank PLC', 'The Hongkong and Shanghai Banking Corporation Limited',
-        'The Hongkong and Shanghai Banking Corporation', 'The Hongkong and Shanghai Banking Corporation Limited', 'The Hongkong And Shanghai Banking Corporation Limited', 'The HongKong and Shanghai Banking Corporation Limited', 'The Hongkong & Shanghai Banking Corporation Limited', 'The Hong Kong & Shanghai Banking Corporation Limited'
+        'TransferWise', 'TransferWise Limited', 'TransferWise Ltd', 'TransferWise Ltd.'
     ]
     const transactionCodes: string[] = [
         'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
         'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
-        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INTE', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
+        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
         'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
     ]
     const commands = [
-        'CALL', 'A\/C', 'A \/ C', 'DEP', 'WDL',
+        'CALL', 'A\/C', 'A \/ C', 'DEP',
         'CHECK', 'CHECKING',
-        'FAST', 'PAYMENT', 'FUND', 'TRANSFER', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
+        'FUND', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
         'TRANS CHARGE', 'BILL PAYMENT', 'NETS', 'POS', 'IACH', 'OD INT',
         'DEBIT', 'CREDIT', 'PURCHASE', 'PAYMENT\/TRANSFER', 'STATEMENT', 'SALARY', 'SETTLEMENT', 'PARTIAL REFUND', 'FULL REFUND',
         'CASHCARD\/FLASHPAY', 'CASH REBATE', 'CHARGES DETAILS', 'CASH DEPOSIT', 'CASH DEPOSIT CDM', 'WITHDRAWAL', 'ATM',
@@ -80,8 +79,8 @@ export async function hsbcBank() {
         'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
         'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL',
 
-        'GG', 'HIB', 'REF', 'INTERNET', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
-        'CR', 'Cr', 'Credit', 'DR', 'BP', 'OBP', 'DD',
+        'HIB', 'REF', 'INTERNET', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
+        'Cr', 'Credit', 'DR', 'OBP', 'DD',
         'COMMERCIAL CARD', 'VIS', 'COMMISSION', 'INT\'L',
         'Visa Rate', 'Non-Sterling', 'Non-Sterling Transaction Fee',
         'RFLX', 'INSTANT TRF', 'RFLX INSTANT TRF',
@@ -91,6 +90,16 @@ export async function hsbcBank() {
         'FIRST PAYMENT', 'CORP CARD PAYMENT', 'CREDIT CARD',
         'MACHINE', 'MACHINE ABR', 'MACHINE AER', 'MACHINE AB',
         'PYMNT FOR ORDER', 'MONTHLY SERVICE FEE',
+
+        'Chargeback', 'Direct Credit Card Payment', 'Mobile Payment', 'Payment Refund',
+        'Payment Review Release', 'Website Payment',
+        'General Payment',
+        'Pre-approved Payment Bill User Payment', 'Pre-approved Payment Bill', 'Payment Bill', 'User Payment',
+        'Express Checkout Payment', 'eBay Auction Payment',
+        'Direct Credit Card Payment', 'General Credit Card Deposit', 'General Credit Card Withdrawal',
+
+        'Card transaction', 'Paid to Direct', 'Paid to', 'Received money from', 'Sent money to',
+        'Wise Charges for',
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
@@ -175,7 +184,7 @@ export async function hsbcBank() {
     }
     topPatterns.sort((a, b) => b.counter - a.counter)
 
-    await toCSV(topPatterns, './hsbc-patterns.csv')
+    await toCSV(topPatterns, './transferwise-patterns.csv')
 
     return {
         totalRows,

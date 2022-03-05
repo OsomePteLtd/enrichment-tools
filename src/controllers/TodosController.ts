@@ -5,6 +5,7 @@ import {dbsBank} from "../services/dbsPatterns.service";
 import {uobBank} from "../services/uobPatterns.service";
 import {hsbcBank} from "../services/hsbcPatterns.service";
 import {paypalBank} from "../services/paypalPatterns.service";
+import {transferwiseBank} from "../services/transferwisePatterns.service";
 
 class TodosController {
 
@@ -72,6 +73,15 @@ class TodosController {
     public async paypal(req: Request, res: Response) {
         try {
             res.json(await paypalBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async transferwise(req: Request, res: Response) {
+        try {
+            res.json(await transferwiseBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

@@ -1,0 +1,343 @@
+{
+  "totalRows": 65765,
+  "coveredRows": 45156,
+  "percentage": "68.66%",
+  "patternsCount": 5,
+  "patterns": [
+    {
+      "pattern": "Card transaction",
+      "counter": 19053,
+      "type": "",
+      "examples": [
+        {
+          "description": "Card transaction of 30.00 USD issued by Callhippo.com - Teleph +17408482535",
+          "amount": -30,
+          "link": "https://agent.osome.team/companies/256149/documents/1068999",
+          "document_id": 1068999
+        },
+        {
+          "description": "Card transaction of 40.00 USD issued by Xero Global In-2060427 WELLINGTION, 2020-05-16",
+          "amount": -37.12,
+          "link": "https://agent.osome.team/companies/9309/documents/577227",
+          "document_id": 577227
+        },
+        {
+          "description": "Card transaction of 1.00 EUR issued by Facebk Ads fb.me/ads, 2020-12-04",
+          "amount": -1,
+          "link": "https://agent.osome.team/companies/161367/documents/1183675",
+          "document_id": 1183675
+        },
+        {
+          "description": "Card transaction of 39.90 CHF issued by Customweb Gmbh / Marke Winterthur, 2020-11-29",
+          "amount": -37.04,
+          "link": "https://agent.osome.team/companies/36036/documents/920084",
+          "document_id": 920084
+        },
+        {
+          "description": "Card transaction of 24.59 EUR issued by Caruana Ironmongery BIRZEBBUGIA, 2021-03-27",
+          "amount": -39.19,
+          "link": "https://agent.osome.team/companies/131598/documents/1185523",
+          "document_id": 1185523
+        },
+        {
+          "description": " Card transaction of MYR issued by Yaqeeninstitute.org +, 2021-05-06",
+          "amount": -45.75,
+          "link": "https://agent.osome.team/companies/239752/documents/666662",
+          "document_id": 666662
+        },
+        {
+          "description": "Card transaction of USD issued by Paypro Software, 2021-07-16",
+          "amount": -53.5,
+          "link": "https://agent.osome.team/companies/97449/documents/907535",
+          "document_id": 907535
+        },
+        {
+          "description": "Card transaction of INR issued by The Aures Aurangabad AURANGABAD | ID: CARD-105315688, 2020-12-23",
+          "amount": -1453,
+          "link": "https://agent.osome.team/companies/92985/documents/795696",
+          "document_id": 795696
+        },
+        {
+          "description": "Card transaction of SGD issued by Osome +, 2020-10-20",
+          "amount": -106.79,
+          "link": "https://agent.osome.team/companies/97449/documents/592164",
+          "document_id": 592164
+        },
+        {
+          "description": "Card transaction of 4000000 VND issued by Google Ads7087837515 Singapore, 2021-09-01",
+          "amount": -4000000,
+          "link": "https://agent.osome.team/companies/152774/documents/1087677",
+          "document_id": 1087677
+        }
+      ]
+    },
+    {
+      "pattern": "Sent money to",
+      "counter": 10412,
+      "type": "",
+      "examples": [
+        {
+          "description": "Sent money to Btbo Llc |, 2021-04-02",
+          "amount": -671.81,
+          "link": "https://agent.osome.team/companies/40020/documents/698294",
+          "document_id": 698294
+        },
+        {
+          "description": "Sent money to Natthapol Musikaparn, 2020-11-12",
+          "amount": -75,
+          "link": "https://agent.osome.team/companies/238039/documents/953630",
+          "document_id": 953630
+        },
+        {
+          "description": "Sent money to VO CHI HIEU, 2021-04-08",
+          "amount": -1030.45,
+          "link": "https://agent.osome.team/companies/113734/documents/590997",
+          "document_id": 590997
+        },
+        {
+          "description": "Sent money to TRAN MINH PHUONG THAO, 2021-02-19",
+          "amount": -234.94,
+          "link": "https://agent.osome.team/companies/152774/documents/701507",
+          "document_id": 701507
+        },
+        {
+          "description": "Sent money to Azamat Kushmanov, 2021-02-26",
+          "amount": -3000,
+          "link": "https://agent.osome.team/companies/170296/documents/648304",
+          "document_id": 648304
+        },
+        {
+          "description": "Sent money to Changsha Xinkang Advanced Materials Co.,Ltd, 2021-03-25",
+          "amount": -2852,
+          "link": "https://agent.osome.team/companies/183748/documents/869635",
+          "document_id": 869635
+        },
+        {
+          "description": "Sent money to Alice Baxadonne, 2021-10-01",
+          "amount": -1200.28,
+          "link": "https://agent.osome.team/companies/223250/documents/987960",
+          "document_id": 987960
+        },
+        {
+          "description": "Sent money to Anja Delic 13 August 2020 | Wise ID: TRANSFER-162796439, 2020-08-13",
+          "amount": -303.57,
+          "link": "https://agent.osome.team/companies/159891/documents/519878",
+          "document_id": 519878
+        },
+        {
+          "description": "Sent money to SİNAN ARIK October 2, 2021 | Transaction: TRANSFER-301307222, 2021-10-02",
+          "amount": -883,
+          "link": "https://agent.osome.team/companies/260113/documents/1025572",
+          "document_id": 1025572
+        },
+        {
+          "description": "Sent money to Volodymyr Berezhniy, 2021-07-31",
+          "amount": -100,
+          "link": "https://agent.osome.team/companies/112601/documents/1173356",
+          "document_id": 1173356
+        }
+      ]
+    },
+    {
+      "pattern": "Wise Charges for",
+      "counter": 9363,
+      "type": "",
+      "examples": [
+        {
+          "description": "Wise Charges for : TRANSFER - 281143906, 2021-08-13",
+          "amount": -7.5,
+          "link": "https://agent.osome.team/companies/426599/documents/1070617",
+          "document_id": 1070617
+        },
+        {
+          "description": "Wise Charges for: CARD-201763861, 2021-11-01",
+          "amount": -1.08,
+          "link": "https://agent.osome.team/companies/262398/documents/1105313",
+          "document_id": 1105313
+        },
+        {
+          "description": "Wise Charges for: TRANSFER-234847413, 2021-04-08",
+          "amount": -0.28,
+          "link": "https://agent.osome.team/companies/132388/documents/595256",
+          "document_id": 595256
+        },
+        {
+          "description": "Wise Charges for: CARD-180688181, 2021-09-12",
+          "amount": -0.12,
+          "link": "https://agent.osome.team/companies/106607/documents/1121257",
+          "document_id": 1121257
+        },
+        {
+          "description": "Wise Charges for: CARD-117356787 15 February 2021 | Wise ID: CARD-117356787, 2021-02-15",
+          "amount": -0.02,
+          "link": "https://agent.osome.team/companies/221870/documents/536817",
+          "document_id": 536817
+        },
+        {
+          "description": "Wise Charges for: CARD-105694793, 2020-12-25",
+          "amount": -0.53,
+          "link": "https://agent.osome.team/companies/175012/documents/784619",
+          "document_id": 784619
+        },
+        {
+          "description": "Wise Charges for: CARD-149365708, 2021-06-17",
+          "amount": -3.09,
+          "link": "https://agent.osome.team/companies/97449/documents/907535",
+          "document_id": 907535
+        },
+        {
+          "description": "Wise Charges for: BALANCE-230212008, 2021-07-10",
+          "amount": -0.08,
+          "link": "https://agent.osome.team/companies/187774/documents/913619",
+          "document_id": 913619
+        },
+        {
+          "description": "Wise Charges for: CARD-180721952, 2021-09-12",
+          "amount": -0.2,
+          "link": "https://agent.osome.team/companies/106607/documents/1121257",
+          "document_id": 1121257
+        },
+        {
+          "description": "Wise Charges for: TRANSFER-236191508, 2021-04-13",
+          "amount": -1.65,
+          "link": "https://agent.osome.team/companies/190016/documents/1078888",
+          "document_id": 1078888
+        }
+      ]
+    },
+    {
+      "pattern": "Received money from",
+      "counter": 6131,
+      "type": "",
+      "examples": [
+        {
+          "description": "Received money from EVIL MARTIANS INC with reference LEGAL SERVICES*INV-0049 1 JUNE 2020*, 2020-06-02",
+          "amount": 5784.74,
+          "link": "https://agent.osome.team/companies/9309/documents/577226",
+          "document_id": 577226
+        },
+        {
+          "description": "Received money from STRIPE with reference TRANSFER, 2021-06-29",
+          "amount": 432.62,
+          "link": "https://agent.osome.team/companies/158870/documents/686884",
+          "document_id": 686884
+        },
+        {
+          "description": "Received money from VOWS INTERNATIONAL PTE. LTD. with reference ICC FAST Vows Funding SG3P201214188728 VOWS INTERNATIONAL PTE LTD, 2020-12-14",
+          "amount": 1000,
+          "link": "https://agent.osome.team/companies/101683/documents/847607",
+          "document_id": 847607
+        },
+        {
+          "description": "Received money from Amazon Payments Europe S.C.A. with reference 4455749976847386 Amazon Svcs DE/4455749976847386, 2021-01-15",
+          "amount": 925.32,
+          "link": "https://agent.osome.team/companies/205796/documents/449155",
+          "document_id": 449155
+        },
+        {
+          "description": "Received money from explido GmbH with reference RG 20-06-21 / 30.06.20 / PL Management Singapur, 2020-07-09",
+          "amount": -6000,
+          "link": "https://agent.osome.team/companies/36036/documents/776009",
+          "document_id": 776009
+        },
+        {
+          "description": "Received money from LUXUS SOCIEDADE DE MEDIACAO IMOB IL with reference INVOICES WB005945 AND 5947/INVOICES WB005945 AND 5947, 2021-05-04",
+          "amount": 331.5,
+          "link": "https://agent.osome.team/companies/157610/documents/592811",
+          "document_id": 592811
+        },
+        {
+          "description": "Received money from PAYPAL with reference PPWDL4TX222233S768",
+          "amount": -812.23,
+          "link": "https://agent.osome.team/companies/221870/documents/837376",
+          "document_id": 837376
+        },
+        {
+          "description": "Received money from Lev Krivoshein with reference To Hask, 2021-11-02",
+          "amount": 9366.11,
+          "link": "https://agent.osome.team/companies/418304/documents/1051913",
+          "document_id": 1051913
+        },
+        {
+          "description": "Received money from JD EXPRESS INVESTMENT I (HONGKONG) with reference 74778104, 2021-06-01",
+          "amount": 16776.56,
+          "link": "https://agent.osome.team/companies/421530/documents/985341",
+          "document_id": 985341
+        },
+        {
+          "description": "Received money from NEO ELEMENTUM OU with reference Invoice Nr. NEO/16/688, 2021-05-05",
+          "amount": 1418,
+          "link": "https://agent.osome.team/companies/150683/documents/638893",
+          "document_id": 638893
+        }
+      ]
+    },
+    {
+      "pattern": "Paid to",
+      "counter": 197,
+      "type": "",
+      "examples": [
+        {
+          "description": "Paid to GoCardless Ltd, 2021-04-29",
+          "amount": -182.4,
+          "link": "https://agent.osome.team/companies/158870/documents/576620",
+          "document_id": 576620
+        },
+        {
+          "description": "Paid to GoCardless Ltd, 2021-05-28",
+          "amount": -259.2,
+          "link": "https://agent.osome.team/companies/158870/documents/634982",
+          "document_id": 634982
+        },
+        {
+          "description": "Paid to GoCardless Ltd, 2020-10-15",
+          "amount": -390,
+          "link": "https://agent.osome.team/companies/230424/documents/558872",
+          "document_id": 558872
+        },
+        {
+          "description": "Paid to OPTUS BILLING SERVI, 2021-04-27",
+          "amount": -57,
+          "link": "https://agent.osome.team/companies/189192/documents/697880",
+          "document_id": 697880
+        },
+        {
+          "description": "Paid to GoCardless Ltd, 2020-09-11",
+          "amount": -130.8,
+          "link": "https://agent.osome.team/companies/158870/documents/1080353",
+          "document_id": 1080353
+        },
+        {
+          "description": "Paid to JPMC RE PAYPAL INTL LTD, 2021-10-29",
+          "amount": -4.68,
+          "link": "https://agent.osome.team/companies/432378/documents/1179410",
+          "document_id": 1179410
+        },
+        {
+          "description": "Paid to VODAFONE LTD, 2021-06-02",
+          "amount": -287.06,
+          "link": "https://agent.osome.team/companies/125443/documents/1055005",
+          "document_id": 1055005
+        },
+        {
+          "description": "Paid to GoCardless Ltd",
+          "amount": -234,
+          "link": "https://agent.osome.team/companies/221870/documents/837376",
+          "document_id": 837376
+        },
+        {
+          "description": "Paid to HSBC ONLINE, 2020-09-10",
+          "amount": -0.95,
+          "link": "https://agent.osome.team/companies/167088/documents/684517",
+          "document_id": 684517
+        },
+        {
+          "description": "Paid to Facebook Ireland Limited, 2020-05-05",
+          "amount": -36.4,
+          "link": "https://agent.osome.team/companies/221870/documents/837373",
+          "document_id": 837373
+        }
+      ]
+    }
+  ]
+}
