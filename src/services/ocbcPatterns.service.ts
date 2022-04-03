@@ -79,7 +79,7 @@ export async function ocbcBank() {
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 10) {
+            if (examplesList.length < 1) {
                 examplesList.push({
                     description,
                     amount,
@@ -100,6 +100,7 @@ export async function ocbcBank() {
             coveredRows += counter
             topPatterns.push({
                 pattern: pattern.replace(/\.\*/g, ' '),
+                regExp: pattern,
                 counter,
                 type: '',
                 examples: examples.get(pattern)

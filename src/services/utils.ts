@@ -5,7 +5,12 @@ export function toCSV(topPatterns: any[], path: string) {
     const patternsRows = topPatterns.reduce((prev, current) => {
         if (current.examples) {
             for (const example of current.examples) {
-                prev.push({ pattern: current.pattern, ...example, type: ''})
+
+                console.log(`      INSERT INTO public."bankTransactionTemplates" ("deletedAt",
+                                                                                  "bankContactId", "transactionTypeRegExp", "transactionType")
+                                   VALUES (null, 75, '${current.regExp}', '');`)
+
+                prev.push({ pattern: current.pattern, regExp: current.regExp, ...example})
             }
         }
         return prev

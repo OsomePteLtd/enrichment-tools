@@ -64,7 +64,10 @@ export async function dbsBank() {
         'IDEAL PURCHASE SALE OF GOODS', 'IDEAL MONTHLY SERVICE FEE',
         'PLUS ATM Transaction Cash Withdrawal', 'Service Charge', 'ATM Transaction', 'Cash Withdrawal',
         'FAST Payment \/ Receipt',
-        'Advice Service Charge for Processing of Ideal Transactions'
+        'Advice Service Charge for Processing of Ideal Transactions',
+
+        'FAST PAYMENT', 'GIRO PAYMENT', 'GIRO PAYROLL', 'INTERBANK GIRO NETS', 'SERVICE CHARGE FOR PAYNOW',
+        'SERVICE CHARGE FOR PAYNOW PAYMENTS'
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
@@ -120,7 +123,7 @@ export async function dbsBank() {
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 10) {
+            if (examplesList.length < 1) {
                 examplesList.push({
                     description,
                     amount,
@@ -141,6 +144,7 @@ export async function dbsBank() {
             coveredRows += counter
             topPatterns.push({
                 pattern: pattern.replace(/\.\*/g, ' '),
+                regExp: pattern,
                 counter,
                 type: '',
                 examples: examples.get(pattern)

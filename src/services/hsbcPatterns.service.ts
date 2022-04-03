@@ -91,6 +91,8 @@ export async function hsbcBank() {
         'FIRST PAYMENT', 'CORP CARD PAYMENT', 'CREDIT CARD',
         'MACHINE', 'MACHINE ABR', 'MACHINE AER', 'MACHINE AB',
         'PYMNT FOR ORDER', 'MONTHLY SERVICE FEE',
+
+        'INTERNATIONAL',
     ]
 
     const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
@@ -146,7 +148,7 @@ export async function hsbcBank() {
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 10) {
+            if (examplesList.length < 1) {
                 examplesList.push({
                     description,
                     amount,
@@ -167,6 +169,7 @@ export async function hsbcBank() {
             coveredRows += counter
             topPatterns.push({
                 pattern: pattern.replace(/\.\*/g, ' '),
+                regExp: pattern,
                 counter,
                 type: '',
                 examples: examples.get(pattern)
