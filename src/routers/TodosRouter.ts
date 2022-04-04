@@ -12,5 +12,6 @@ router.get('/uob', todosController.uob);
 router.get('/hsbc', todosController.hsbc);
 router.get('/paypal', todosController.paypal);
 router.get('/wise', todosController.transferwise);
+router.get('/aspire', todosController.aspire);
 
 export default router;
