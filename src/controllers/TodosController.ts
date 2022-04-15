@@ -7,6 +7,7 @@ import {hsbcBank} from "../services/hsbcPatterns.service";
 import {paypalBank} from "../services/paypalPatterns.service";
 import {transferwiseBank} from "../services/transferwisePatterns.service";
 import {aspireBank} from "../services/aspirePatterns.service";
+import {starlingBank} from "../services/starlingPatterns.service";
 
 class TodosController {
 
@@ -92,6 +93,15 @@ class TodosController {
     public async aspire(req: Request, res: Response) {
         try {
             res.json(await aspireBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async starling(req: Request, res: Response) {
+        try {
+            res.json(await starlingBank());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

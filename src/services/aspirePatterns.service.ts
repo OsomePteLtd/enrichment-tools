@@ -107,7 +107,7 @@ export async function aspireBank() {
 
     const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
 
-    await toCSV(topPatterns, './transferwise-patterns.csv')
+    await toCSV(topPatterns, './aspire-patterns.csv')
 
     return {
         totalRows,
