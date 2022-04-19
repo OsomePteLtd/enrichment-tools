@@ -1,5 +1,5 @@
-import pool from "../dbconfig/dbConnector";
-import {genPatterns, toCSV} from "./utils";
+import pool from "../../dbconfig/dbConnector";
+import {getTopPatterns, toCSV} from "../patterns.service";
 
 export async function hsbcBank() {
     const client = await pool.connect();
@@ -95,88 +95,7 @@ export async function hsbcBank() {
         'INTERNATIONAL',
     ]
 
-    const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
-
-    const {rows} = await client.query(sql);
-
-    client.release();
-
-    // const result: any[] = []
-    const map: Map<string, number> = new Map<string, number>()
-    const examples: Map<string, any[]> = new Map<string, any[]>()
-    const totalRows = rows.length
-
-    let index = 0
-    for (const {description: originalDescription, document_id, osome_link, amount} of rows) {
-        const description = originalDescription.replace(/\n/g, ' ')
-
-        const matchedCodes = []
-        for (const code of transactionCodes) {
-            const result = description.match(new RegExp(code), 'i')
-            if (result) {
-                matchedCodes.push(code)
-            }
-        }
-        const matchedCommands = []
-        for (const command of commands) {
-            const result = description.match(new RegExp(command), 'i')
-            if (result) {
-                matchedCommands.push(command)
-            }
-        }
-        const K = Math.min(matchedCommands.length + matchedCodes.length, 4)
-        const patterns = genPatterns(matchedCodes, matchedCommands, K)
-
-        let topMatch: {regExp: RegExp, w: number} | undefined = undefined
-        for (const {regExp, w} of patterns) {
-            const result = description.match(regExp, 'i')
-            if (result) {
-                if (!topMatch || topMatch.regExp.source.length < regExp.source.length || topMatch.regExp.source.length === regExp.source.length && topMatch.w > w) {
-                    topMatch = {regExp, w}
-                }
-            }
-        }
-
-        if (topMatch) {
-            // result.push({description, topMatch: { regExp: topMatch.regExp.source, w: topMatch.w }, matchedCodes, matchedCommands})
-            const pattern = topMatch.regExp.source
-
-            const currentCounter = map.get(pattern) ?? 0
-            map.set(pattern, currentCounter + 1)
-
-            if (!examples.has(pattern)) {
-                examples.set(pattern, [])
-            }
-            const examplesList = examples.get(pattern)!
-            if (examplesList.length < 1) {
-                examplesList.push({
-                    description,
-                    amount,
-                    link: osome_link,
-                    document_id,
-                })
-                examples.set(pattern, examplesList)
-            }
-        }
-
-        index++
-    }
-
-    const topPatterns = []
-    let coveredRows = 0
-    for (const [pattern, counter] of map.entries()) {
-        if (counter >= totalRows / 500) {
-            coveredRows += counter
-            topPatterns.push({
-                pattern: pattern.replace(/\.\*/g, ' '),
-                regExp: pattern,
-                counter,
-                type: '',
-                examples: examples.get(pattern)
-            })
-        }
-    }
-    topPatterns.sort((a, b) => b.counter - a.counter)
+    const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
 
     await toCSV(topPatterns, './hsbc-patterns.csv')
 

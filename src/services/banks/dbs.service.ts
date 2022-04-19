@@ -1,22 +1,17 @@
-import pool from "../dbconfig/dbConnector";
-import {genPatterns, getTopPatterns, toCSV} from "./utils";
+import pool from "../../dbconfig/dbConnector";
+import {getTopPatterns, toCSV} from "../patterns.service";
 
-export async function aspireBank() {
+export async function dbsBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'Aspire', 'Aspire Bank', 'Aspire FT Pte. Ltd.'
+        'DBS', 'DBS Bank', 'DBS Bank (Hong Kong) Limited', 'DBS Bank Ltd', 'DBS Bank Ltd.', 'DBS Bank Ltd. ', 'DBS BANK LTD', 'DBS Bank Ltd. STRIPE', 'DBS Eank Ltd', 'DBS(Hong Kong) Limited', 'DBSSSGSGXXX 8850 6500 4482 0483 5'
     ]
-    const transactionCodes: string[] = [
-        'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
-        'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
-        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
-        'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
-    ]
+    const transactionCodes: string[] = []
     const commands = [
-        'CALL', 'A\/C', 'A \/ C', 'DEP',
+        'CALL', 'A\/C', 'A \/ C', 'TT', 'DEP', 'WDL',
         'CHECK', 'CHECKING',
-        'FUND', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
+        'FAST', 'PAYMENT', 'FUND', 'TRANSFER', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
         'TRANS CHARGE', 'BILL PAYMENT', 'NETS', 'POS', 'IACH', 'OD INT',
         'DEBIT', 'CREDIT', 'PURCHASE', 'PAYMENT\/TRANSFER', 'STATEMENT', 'SALARY', 'SETTLEMENT', 'PARTIAL REFUND', 'FULL REFUND',
         'CASHCARD\/FLASHPAY', 'CASH REBATE', 'CHARGES DETAILS', 'CASH DEPOSIT', 'CASH DEPOSIT CDM', 'WITHDRAWAL', 'ATM',
@@ -30,7 +25,7 @@ export async function aspireBank() {
         'REMITTANCE TRANSFER OF FUNDS', 'REMITTANCE TRANSFER OF FUNDS RTF', 'REMITTANCE RTF',
         'TRANSFER REMITTANCE',
         'INWARD TELEGRAPHIC TRANSFER', 'INWARD TELEGRAPHIC TRANSFER AGENT', 'INWARD TELEGRAPHIC TRANSFER COMM IB CHARGES', 'ITT', 'ITT CHG',
-        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES',
+        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES', 'OTT', 'OTT CHG',
         'AUTOSAVE TRANSFER FEE',
         'TRANSFER AGENT CHGS',
         'TRANSFER TO OTHER DBS A\/CS',
@@ -71,43 +66,13 @@ export async function aspireBank() {
         'FAST Payment \/ Receipt',
         'Advice Service Charge for Processing of Ideal Transactions',
 
-        'FUNDS TRANSFER', 'FUNDS TRF', 'Funds Trf', 'FUNDS TRA', 'FUNDS TRE',
-        'Inward Cr', 'Inward CR', 'Inward DR', 'Inward Credit', 'INWARD TRF', 'Inward TT', 'Outward TT', 'Misc DR',
-        'SERV CHARGE', 'Service Charge',
-        'Misc Credit BIL', 'Misc Debit', 'Misc Credit', 'Misc DR\-Debit Card', 'Misc DR \- Debit Card',
-        'PAYNOW', 'CR Retail', 'IPT',
-        'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
-        'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL',
-
-        'HIB', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
-        'Cr', 'Credit', 'OBP',
-        'COMMERCIAL CARD', 'VIS', 'COMMISSION', 'INT\'L',
-        'Visa Rate', 'Non-Sterling', 'Non-Sterling Transaction Fee',
-        'RFLX', 'INSTANT TRF', 'RFLX INSTANT TRF',
-        'BIB',
-        'CREDIT AS ADVISED', 'STS PYT', 'SVC CHGS', 'ACCOUNT SERVICE FEE', 'CMB',
-        'Oversea chrg', 'POST OFFICE COUNTE', 'POSTOFFICE', 'POST OFFICE',
-        'FIRST PAYMENT', 'CORP CARD PAYMENT', 'CREDIT CARD',
-        'MACHINE', 'MACHINE ABR', 'MACHINE AER', 'MACHINE AB',
-        'PYMNT FOR ORDER', 'MONTHLY SERVICE FEE',
-
-        'Chargeback', 'Direct Credit Card Payment', 'Mobile Payment', 'Payment Refund',
-        'Payment Review Release', 'Website Payment',
-        'General Payment',
-        'Pre-approved Payment Bill User Payment', 'Pre-approved Payment Bill', 'Payment Bill', 'User Payment',
-        'Express Checkout Payment', 'eBay Auction Payment',
-        'Direct Credit Card Payment', 'General Credit Card Deposit', 'General Credit Card Withdrawal',
-
-        'Card transaction', 'Paid to Direct', 'Paid to', 'Received money from', 'Sent money to',
-        'Wise Charges for',
-
-        'Charged on card', 'Refund on card', 'credit', 'debit', 'Fee', 'Fees', 'Fee for transaction', 'Transfer Completed',
-        'Outbound FX transfer', 'transfer', 'Outbound', 'FX', 'Card payment', 'Cashback for debit account'
+        'FAST PAYMENT', 'GIRO PAYMENT', 'GIRO PAYROLL', 'INTERBANK GIRO NETS', 'SERVICE CHARGE FOR PAYNOW',
+        'SERVICE CHARGE FOR PAYNOW PAYMENTS'
     ]
 
     const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
 
-    await toCSV(topPatterns, './aspire-patterns.csv')
+    await toCSV(topPatterns, './dbs-patterns.csv')
 
     return {
         totalRows,

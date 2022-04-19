@@ -2,10 +2,6 @@ import { writeFileSync } from 'fs'
 import {PoolClient} from "pg";
 const converter = require('json-2-csv');
 
-function isNumeric(value: any) {
-    return /^-?\d+$/.test(value);
-}
-
 export function getMostFrequentWords(str: string) {
     return `|${str}|`
         .replace(/[:=,]+/g, ' ')
@@ -171,7 +167,13 @@ export function toCSV(topPatterns: any[], path: string) {
     })
 }
 
-export function genPatterns(codes: string[], commands: string[], K: number) {
+// private
+
+function isNumeric(value: any) {
+    return /^-?\d+$/.test(value);
+}
+
+function genPatterns(codes: string[], commands: string[], K: number) {
     const result: {regExp: RegExp, w: number}[] = []
     for (let totalLen = 1; totalLen <= K; totalLen++) {
         if (codes.length === 0) {

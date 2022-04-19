@@ -1,22 +1,22 @@
-import pool from "../dbconfig/dbConnector";
-import {genPatterns, getTopPatterns, toCSV} from "./utils";
+import pool from "../../dbconfig/dbConnector";
+import {getTopPatterns, toCSV} from "../patterns.service";
 
-export async function transferwiseBank() {
+export async function paypalBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'TransferWise', 'TransferWise Limited', 'TransferWise Ltd', 'TransferWise Ltd.'
+        'Paypal', 'PayPal', 'Paypal Inc', 'PayPal Inc', 'PayPal Inc,', 'PayPal Inc.', 'PayPal, Inc', 'PayPal, Inc.'
     ]
     const transactionCodes: string[] = [
         'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
         'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
-        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
+        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INTE', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
         'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
     ]
     const commands = [
-        'CALL', 'A\/C', 'A \/ C', 'DEP',
+        'CALL', 'A\/C', 'A \/ C', 'DEP', 'WDL',
         'CHECK', 'CHECKING',
-        'FUND', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
+        'FAST', 'PAYMENT', 'FUND', 'TRANSFER', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
         'TRANS CHARGE', 'BILL PAYMENT', 'NETS', 'POS', 'IACH', 'OD INT',
         'DEBIT', 'CREDIT', 'PURCHASE', 'PAYMENT\/TRANSFER', 'STATEMENT', 'SALARY', 'SETTLEMENT', 'PARTIAL REFUND', 'FULL REFUND',
         'CASHCARD\/FLASHPAY', 'CASH REBATE', 'CHARGES DETAILS', 'CASH DEPOSIT', 'CASH DEPOSIT CDM', 'WITHDRAWAL', 'ATM',
@@ -80,7 +80,7 @@ export async function transferwiseBank() {
         'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL',
 
         'HIB', 'REF', 'INTERNET', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
-        'Cr', 'Credit', 'DR', 'OBP', 'DD',
+        'Cr', 'Credit', 'DR', 'BP', 'OBP', 'DD',
         'COMMERCIAL CARD', 'VIS', 'COMMISSION', 'INT\'L',
         'Visa Rate', 'Non-Sterling', 'Non-Sterling Transaction Fee',
         'RFLX', 'INSTANT TRF', 'RFLX INSTANT TRF',
@@ -97,14 +97,11 @@ export async function transferwiseBank() {
         'Pre-approved Payment Bill User Payment', 'Pre-approved Payment Bill', 'Payment Bill', 'User Payment',
         'Express Checkout Payment', 'eBay Auction Payment',
         'Direct Credit Card Payment', 'General Credit Card Deposit', 'General Credit Card Withdrawal',
-
-        'Card transaction', 'Paid to Direct', 'Paid to', 'Received money from', 'Sent money to',
-        'Wise Charges for',
     ]
 
     const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
 
-    await toCSV(topPatterns, './transferwise-patterns.csv')
+    await toCSV(topPatterns, './paypal-patterns.csv')
 
     return {
         totalRows,

@@ -1,16 +1,18 @@
 import {Request, Response} from 'express';
-import {ocbcBank} from "../services/ocbcPatterns.service";
-import {dbsBank} from "../services/dbsPatterns.service";
-import {uobBank} from "../services/uobPatterns.service";
-import {hsbcBank} from "../services/hsbcPatterns.service";
-import {paypalBank} from "../services/paypalPatterns.service";
-import {transferwiseBank} from "../services/transferwisePatterns.service";
-import {aspireBank} from "../services/aspirePatterns.service";
-import {starlingBank} from "../services/starlingPatterns.service";
+import {ocbcBank} from "../services/banks/ocbc.service";
+import {dbsBank} from "../services/banks/dbs.service";
+import {uobBank} from "../services/banks/uob.service";
+import {hsbcBank} from "../services/banks/hsbc.service";
+import {paypalBank} from "../services/banks/paypal.service";
+import {transferwiseBank} from "../services/banks/transferwise.service";
+import {aspireBank} from "../services/banks/aspire.service";
+import {starlingBank} from "../services/banks/starling.service";
 import {coverage, getMatchedRows} from "../services/regexes.service";
 import {coverageByNER} from "../services/ner.service";
 
 class TodosController {
+
+    // manual regexes
 
     public async get(req: Request, res: Response) {
         try {
@@ -37,6 +39,8 @@ class TodosController {
         }
     }
 
+    // NER
+
     public async nerCoverage(req: Request, res: Response) {
         try {
             res.json(await coverageByNER());
@@ -45,6 +49,8 @@ class TodosController {
             res.status(400).send(error);
         }
     }
+
+    // banks patterns
 
     public async ocbc(req: Request, res: Response) {
         try {
@@ -119,7 +125,5 @@ class TodosController {
     }
 
 }
-
-type RegExpression = {field: string, regExp: string, bankname: string}
 
 export default TodosController;

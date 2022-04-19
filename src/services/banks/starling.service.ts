@@ -1,5 +1,5 @@
-import pool from "../dbconfig/dbConnector";
-import {genPatterns, getTopPatterns, toCSV} from "./utils";
+import pool from "../../dbconfig/dbConnector";
+import {getTopPatterns, toCSV} from "../patterns.service";
 
 export async function starlingBank() {
     const client = await pool.connect();

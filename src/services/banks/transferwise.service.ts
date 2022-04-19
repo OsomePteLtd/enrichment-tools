@@ -1,22 +1,22 @@
-import pool from "../dbconfig/dbConnector";
-import {genPatterns, toCSV} from "./utils";
+import pool from "../../dbconfig/dbConnector";
+import {getTopPatterns, toCSV} from "../patterns.service";
 
-export async function uobBank() {
+export async function transferwiseBank() {
     const client = await pool.connect();
 
     const bankNames = [
-        'United Overseas Bank', 'United Overseas Bank imited', 'United Overseas Bank limited', 'United Overseas Bank Limited', 'United Overseas Bank Limited, Singapore', 'UNITED OVERSEAS BANK LIMITED SINGAPORE', 'UOB Bank'
+        'TransferWise', 'TransferWise Limited', 'TransferWise Ltd', 'TransferWise Ltd.'
     ]
     const transactionCodes: string[] = [
         'BEXP', 'BONU', 'CBTV', 'CCRD', 'CHAR', 'COLL', 'COMM', 'CPKC', 'CSDB', 'DCRD', 'DIVD',
         'DNTS', 'EDUC', 'FCPM', 'OTHR', 'PHON', 'PTXP', 'RDTX', 'REBT', 'REFU', 'RENT', 'SALA', 'STDY', 'FWLV', 'GDDS',
-        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INTE', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
+        'GOVI', 'GSTX', 'HSPC', 'IHRP', 'INSU', 'INTC', 'INVS', 'IVPT', 'LOAN', 'MDCS', 'NITX', 'SUPP', 'TAXS',
         'TBIL', 'TCSC', 'TRAD', 'TREA', 'TRPT', 'UBIL', 'WHLD',
     ]
     const commands = [
-        'CALL', 'A\/C', 'A \/ C', 'TT', 'DEP', 'WDL',
+        'CALL', 'A\/C', 'A \/ C', 'DEP',
         'CHECK', 'CHECKING',
-        'FAST', 'PAYMENT', 'FUND', 'TRANSFER', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
+        'FUND', 'CHARGES', 'REVERSAL', 'REBATE', 'CHARGE', 'CHEQUE', 'DEPOSIT', 'DISBURSEMENT',
         'TRANS CHARGE', 'BILL PAYMENT', 'NETS', 'POS', 'IACH', 'OD INT',
         'DEBIT', 'CREDIT', 'PURCHASE', 'PAYMENT\/TRANSFER', 'STATEMENT', 'SALARY', 'SETTLEMENT', 'PARTIAL REFUND', 'FULL REFUND',
         'CASHCARD\/FLASHPAY', 'CASH REBATE', 'CHARGES DETAILS', 'CASH DEPOSIT', 'CASH DEPOSIT CDM', 'WITHDRAWAL', 'ATM',
@@ -30,7 +30,7 @@ export async function uobBank() {
         'REMITTANCE TRANSFER OF FUNDS', 'REMITTANCE TRANSFER OF FUNDS RTF', 'REMITTANCE RTF',
         'TRANSFER REMITTANCE',
         'INWARD TELEGRAPHIC TRANSFER', 'INWARD TELEGRAPHIC TRANSFER AGENT', 'INWARD TELEGRAPHIC TRANSFER COMM IB CHARGES', 'ITT', 'ITT CHG',
-        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES', 'OTT', 'OTT CHG',
+        'OUTWARD TELEGRAPHIC TRANSFER', 'OUTWARD TELEGRAPHIC TRANSFER COMM \& CHARGES', 'OUTWARD TELEGRAPHIC TRANSFER AGENT CHARGES',
         'AUTOSAVE TRANSFER FEE',
         'TRANSFER AGENT CHGS',
         'TRANSFER TO OTHER DBS A\/CS',
@@ -77,93 +77,34 @@ export async function uobBank() {
         'Misc Credit BIL', 'Misc Debit', 'Misc Credit', 'Misc DR\-Debit Card', 'Misc DR \- Debit Card',
         'PAYNOW', 'CR Retail', 'IPT',
         'SVC Chg', 'Serv Charge', 'Debit Adj', 'Funds Transfer-IB', 'Salary', 'Transaction Rebate',
-        'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL'
+        'Point of Sale Transaction', 'NETS Debit', 'Single Svc Reb', 'Cash Disb', 'WDRL',
+
+        'HIB', 'REF', 'INTERNET', 'INTERNET TRANSFER', 'TFR', 'CREDIT INTEREST', 'DD EASY DIRECT DEBITS',
+        'Cr', 'Credit', 'DR', 'OBP', 'DD',
+        'COMMERCIAL CARD', 'VIS', 'COMMISSION', 'INT\'L',
+        'Visa Rate', 'Non-Sterling', 'Non-Sterling Transaction Fee',
+        'RFLX', 'INSTANT TRF', 'RFLX INSTANT TRF',
+        'BIB',
+        'CREDIT AS ADVISED', 'STS PYT', 'SVC CHGS', 'ACCOUNT SERVICE FEE', 'CMB',
+        'Oversea chrg', 'POST OFFICE COUNTE', 'POSTOFFICE', 'POST OFFICE',
+        'FIRST PAYMENT', 'CORP CARD PAYMENT', 'CREDIT CARD',
+        'MACHINE', 'MACHINE ABR', 'MACHINE AER', 'MACHINE AB',
+        'PYMNT FOR ORDER', 'MONTHLY SERVICE FEE',
+
+        'Chargeback', 'Direct Credit Card Payment', 'Mobile Payment', 'Payment Refund',
+        'Payment Review Release', 'Website Payment',
+        'General Payment',
+        'Pre-approved Payment Bill User Payment', 'Pre-approved Payment Bill', 'Payment Bill', 'User Payment',
+        'Express Checkout Payment', 'eBay Auction Payment',
+        'Direct Credit Card Payment', 'General Credit Card Deposit', 'General Credit Card Withdrawal',
+
+        'Card transaction', 'Paid to Direct', 'Paid to', 'Received money from', 'Sent money to',
+        'Wise Charges for',
     ]
 
-    const sql = `SELECT * FROM "MY_TABLE" where bankname in ('${bankNames.join("', '")}')`
+    const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
 
-    const {rows} = await client.query(sql);
-
-    client.release();
-
-    // const result: any[] = []
-    const map: Map<string, number> = new Map<string, number>()
-    const examples: Map<string, any[]> = new Map<string, any[]>()
-    const totalRows = rows.length
-
-    let index = 0
-    for (const {description: originalDescription, document_id, osome_link, amount} of rows) {
-        const description = originalDescription.replace(/\n/g, ' ')
-
-        const matchedCodes = []
-        for (const code of transactionCodes) {
-            const result = description.match(new RegExp(code), 'i')
-            if (result) {
-                matchedCodes.push(code)
-            }
-        }
-        const matchedCommands = []
-        for (const command of commands) {
-            const result = description.match(new RegExp(command), 'i')
-            if (result) {
-                matchedCommands.push(command)
-            }
-        }
-        const K = Math.min(matchedCommands.length + matchedCodes.length, 4)
-        const patterns = genPatterns(matchedCodes, matchedCommands, K)
-
-        let topMatch: {regExp: RegExp, w: number} | undefined = undefined
-        for (const {regExp, w} of patterns) {
-            const result = description.match(regExp, 'i')
-            if (result) {
-                if (!topMatch || topMatch.regExp.source.length < regExp.source.length || topMatch.regExp.source.length === regExp.source.length && topMatch.w > w) {
-                    topMatch = {regExp, w}
-                }
-            }
-        }
-
-        if (topMatch) {
-            // result.push({description, topMatch: { regExp: topMatch.regExp.source, w: topMatch.w }, matchedCodes, matchedCommands})
-            const pattern = topMatch.regExp.source
-
-            const currentCounter = map.get(pattern) ?? 0
-            map.set(pattern, currentCounter + 1)
-
-            if (!examples.has(pattern)) {
-                examples.set(pattern, [])
-            }
-            const examplesList = examples.get(pattern)!
-            if (examplesList.length < 1) {
-                examplesList.push({
-                    description,
-                    amount,
-                    link: osome_link,
-                    document_id,
-                })
-                examples.set(pattern, examplesList)
-            }
-        }
-
-        index++
-    }
-
-    const topPatterns = []
-    let coveredRows = 0
-    for (const [pattern, counter] of map.entries()) {
-        if (counter >= totalRows / 500) {
-            coveredRows += counter
-            topPatterns.push({
-                pattern: pattern.replace(/\.\*/g, ' '),
-                regExp: pattern,
-                counter,
-                type: '',
-                examples: examples.get(pattern)
-            })
-        }
-    }
-    topPatterns.sort((a, b) => b.counter - a.counter)
-
-    await toCSV(topPatterns, './uob-patterns.csv')
+    await toCSV(topPatterns, './transferwise-patterns.csv')
 
     return {
         totalRows,
