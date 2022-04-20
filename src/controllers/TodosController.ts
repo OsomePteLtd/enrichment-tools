@@ -8,7 +8,7 @@ import {transferwiseBank} from "../services/banks/transferwise.service";
 import {aspireBank} from "../services/banks/aspire.service";
 import {starlingBank} from "../services/banks/starling.service";
 import {coverage, getMatchedRows} from "../services/regexes.service";
-import {coverageByNER} from "../services/ner.service";
+import {coverageByNER, processBatch} from "../services/ner.service";
 
 class TodosController {
 
@@ -44,6 +44,17 @@ class TodosController {
     public async nerCoverage(req: Request, res: Response) {
         try {
             res.json(await coverageByNER());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async nerBatch(req: Request, res: Response) {
+        const input: string[] = req.body.input
+        try {
+            await processBatch(input)
+            res.json({ok: 1});
         } catch (error) {
             console.log(error)
             res.status(400).send(error);

@@ -7,6 +7,7 @@ const todosController = new TodosController();
 router.get('/', todosController.get);
 router.get('/coverage', todosController.coverage);
 router.get('/ner', todosController.nerCoverage);
+router.post('/ner-batch', todosController.nerBatch);
 router.get('/ocbc', todosController.ocbc);
 router.get('/dbs', todosController.dbs);
 router.get('/uob', todosController.uob);

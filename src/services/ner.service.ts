@@ -55,6 +55,17 @@ export async function coverageByNER() {
     }
 }
 
+export async function processBatch(descriptions: string[]) {
+    for (const description of descriptions) {
+        const entities = await getResponseFromNER(description)
+        entities.sort((a, b) => b.score - a.score)
+        const res = entities
+            // .filter(({entity_group}) => entity_group === 'PER' || entity_group === 'ORG')
+            .map(({word, score,entity_group}) => ({type: entity_group, word, score}))
+        console.log(JSON.stringify(res))
+    }
+}
+
 type NerEntity = {
     entity_group: string
     score: number
@@ -79,9 +90,13 @@ async function processOneRow(client: PoolClient, {
 }
 
 async function getResponseFromNER(description: string) {
-    const url = `http://localhost:5000/?s=${encodeURI(description)}`
-    const {data} = await axios.get(url)
-    // console.log('data', data)
+    const url = `http://localhost/invocations`
+    const {data} = await axios.post(url, {
+        text: description,
+    })
+    if (data === '[]' || Array.isArray(data) && data.length === 0) {
+        return []
+    }
 
     // const dataToParse = data.replace(/\'[\,\}\]]/g, '"')
     // // console.log('dataToParse', dataToParse)
