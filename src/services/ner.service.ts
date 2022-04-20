@@ -56,14 +56,18 @@ export async function coverageByNER() {
 }
 
 export async function processBatch(descriptions: string[]) {
+    const allResults = []
     for (const description of descriptions) {
+        // console.log(description)
         const entities = await getResponseFromNER(description)
         entities.sort((a, b) => b.score - a.score)
         const res = entities
             // .filter(({entity_group}) => entity_group === 'PER' || entity_group === 'ORG')
             .map(({word, score,entity_group}) => ({type: entity_group, word, score}))
-        console.log(JSON.stringify(res))
+        // console.log(JSON.stringify(res))
+        allResults.push(res)
     }
+    return allResults
 }
 
 type NerEntity = {

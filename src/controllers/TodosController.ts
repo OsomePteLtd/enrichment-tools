@@ -53,8 +53,8 @@ class TodosController {
     public async nerBatch(req: Request, res: Response) {
         const input: string[] = req.body.input
         try {
-            await processBatch(input)
-            res.json({ok: 1});
+            const results = await processBatch(input)
+            res.json({ results });
         } catch (error) {
             console.log(error)
             res.status(400).send(error);
