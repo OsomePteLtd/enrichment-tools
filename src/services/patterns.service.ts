@@ -108,7 +108,7 @@ export async function getTopPatterns(client: PoolClient, bankNames: string[], tr
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 10) {
+            if (examplesList.length < 1) {
                 examplesList.push({
                     description,
                     amount,
@@ -146,9 +146,9 @@ export function toCSV(topPatterns: any[], path: string) {
         if (current.examples) {
             for (const example of current.examples) {
 
-                // console.log(`      INSERT INTO public."bankTransactionTemplates" ("deletedAt",
-                //                                                                   "bankContactId", "transactionTypeRegExp", "transactionType")
-                //                    VALUES (null, 54, '${current.regExp}', '');`)
+                console.log(`      INSERT INTO public."bankTransactionTemplates" ("deletedAt",
+                                                                                   "bankContactId", "transactionTypeRegExp", "transactionType")
+                                    VALUES (null, 54, '${current.regExp}', 'purchase');`)
 
                 prev.push({ pattern: current.pattern, regExp: current.regExp, ...example})
             }

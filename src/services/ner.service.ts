@@ -2,6 +2,8 @@ import {PoolClient} from "pg";
 import pool from "../dbconfig/dbConnector";
 import axios from 'axios';
 
+import jaroWinkler from 'jaro-winkler';
+
 export async function coverageByNER() {
     const client = await pool.connect();
 
@@ -69,6 +71,67 @@ export async function processBatch(descriptions: string[]) {
     }
     return allResults
 }
+
+export async function compareNER() {
+    const client = await pool.connect();
+
+    const totalCount = 100;
+
+    const sql = `
+        SELECT 
+            description, response
+        FROM 
+            "NER" t 
+        WHERE 
+            org_score is not null
+        ORDER BY
+            random()
+        LIMIT ${totalCount}
+        `;
+    let {rows} = await client.query(sql);
+
+    // rows = [{
+    //     description: 'OTHR\n' +
+    //         'PAYMENT/TRANSFER\n' +
+    //         'PAYMENT/TRANSFER\n' +
+    //         'OTHR\n' +
+    //         'COURTIN JEAN-FRANCO\n' +
+    //         'Transfer\n' +
+    //         'Transfer, 2021-01-05',
+    //     response: []
+    // }]
+
+    const samples = rows.map(({description}) => ({
+        description,
+        sample: description.replace(/\n/g, '</s>')
+    }))
+
+    const allSamplesStr = samples.map(({sample}) => sample).join('</s>')
+    const response = await getResponseFromNER(allSamplesStr)
+    const filtered = response.filter(({entity_group}) => entity_group === 'PER' || entity_group === 'ORG')
+
+    let prefixLength = 0
+    let count = 0
+    for (const { sample } of samples) {
+        const r1 = filtered.filter(({start, end}) => start >= prefixLength && end < prefixLength + sample.length)
+        r1.sort((a, b) => b.score - a.score)
+        const r2 = (await getResponseFromNER(sample)).filter(({entity_group}) => entity_group === 'PER' || entity_group === 'ORG')
+        r2.sort((a, b) => b.score - a.score)
+        // console.log('r1', r1)
+        // console.log('r2', r2)
+        prefixLength += sample.length
+        if (r1.length === 0 && r2.length === 0) {
+            count++
+        } else {
+            if (r1.length > 0 && r2.length > 0) {
+                count += Number(jaroWinkler(r1[0].word, r2[0].word) >= 0.9)
+            }
+        }
+    }
+    return {totalCount, count}
+}
+
+// private
 
 type NerEntity = {
     entity_group: string

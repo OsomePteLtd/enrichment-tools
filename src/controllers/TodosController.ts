@@ -8,7 +8,7 @@ import {transferwiseBank} from "../services/banks/transferwise.service";
 import {aspireBank} from "../services/banks/aspire.service";
 import {starlingBank} from "../services/banks/starling.service";
 import {coverage, getMatchedRows} from "../services/regexes.service";
-import {coverageByNER, processBatch} from "../services/ner.service";
+import {compareNER, coverageByNER, processBatch} from "../services/ner.service";
 
 class TodosController {
 
@@ -55,6 +55,15 @@ class TodosController {
         try {
             const results = await processBatch(input)
             res.json({ results });
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async nerCompare(req: Request, res: Response) {
+        try {
+            res.json(await compareNER());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);
