@@ -7,9 +7,9 @@ import {paypalBank} from "../services/banks/paypal.service";
 import {transferwiseBank} from "../services/banks/transferwise.service";
 import {aspireBank} from "../services/banks/aspire.service";
 import {starlingBank} from "../services/banks/starling.service";
+import {neatBank} from "../services/banks/neat.service";
 import {coverage, getMatchedRows} from "../services/regexes.service";
 import {compareNER, coverageByNER, processBatch} from "../services/ner.service";
-import pool from '../dbconfig/dbConnector';
 import {matchContacts} from "../services/matchContacts.service";
 
 class TodosController {
@@ -145,6 +145,17 @@ class TodosController {
             res.status(400).send(error);
         }
     }
+
+    public async neat(req: Request, res: Response) {
+        try {
+            res.json(await neatBank());
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    // misc
 
     public async aho(req: Request, res: Response) {
         try {

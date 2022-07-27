@@ -148,7 +148,7 @@ export function toCSV(topPatterns: any[], path: string) {
 
                 console.log(`      INSERT INTO public."bankTransactionTemplates" ("deletedAt",
                                                                                    "bankContactId", "transactionTypeRegExp", "transactionType")
-                                    VALUES (null, 54, '${current.regExp}', 'purchase');`)
+                                    VALUES (null, 80, '${current.regExp}', 'sale');`)
 
                 prev.push({ pattern: current.pattern, regExp: current.regExp, ...example})
             }
