@@ -108,7 +108,7 @@ export async function getTopPatterns(client: PoolClient, bankNames: string[], tr
                 examples.set(pattern, [])
             }
             const examplesList = examples.get(pattern)!
-            if (examplesList.length < 1) {
+            if (examplesList.length < 10) {
                 examplesList.push({
                     description,
                     amount,
