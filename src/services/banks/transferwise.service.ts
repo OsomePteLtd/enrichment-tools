@@ -100,6 +100,7 @@ export async function transferwiseBank() {
 
         'Card transaction', 'Paid to Direct', 'Paid to', 'Received money from', 'Sent money to',
         'Wise Charges for',
+        'Topped up account',
     ]
 
     const {totalRows, topPatterns, coveredRows} = await getTopPatterns(client, bankNames, transactionCodes, commands)
