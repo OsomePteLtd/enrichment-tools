@@ -19,5 +19,6 @@ router.get('/aspire', todosController.aspire);
 router.get('/starling', todosController.starling);
 router.get('/neat', todosController.neat);
 router.get('/aho', todosController.aho);
+router.get('/knapsack', todosController.knapsack);
 
 export default router;
