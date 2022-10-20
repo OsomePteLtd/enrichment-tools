@@ -89,8 +89,15 @@ function detectBranch({registrationNumber, registrationCountryCode}: Contact) {
 }
 
 async function getContacts(client: PoolClient) {
-    const sql2 = `SELECT id,name,type,"registrationNumber","registrationCountryCode" FROM "contacts" t`;
-    const {rows: contactsRows} = await client.query(sql2);
+    const sql = `
+        SELECT 
+            id,name,type,"registrationNumber","registrationCountryCode" 
+        FROM 
+            "contacts" t 
+        WHERE
+            "deletedAt" is null AND "companyId" is not null
+    `;
+    const {rows: contactsRows} = await client.query(sql);
 
     const contactIdToContact = new Map<number, Contact>(contactsRows.map(contact => ([contact.id, {
         ...contact,
