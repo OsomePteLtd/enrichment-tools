@@ -20,5 +20,6 @@ router.get('/starling', todosController.starling);
 router.get('/neat', todosController.neat);
 router.get('/aho', todosController.aho);
 router.get('/knapsack', todosController.knapsack);
+router.get('/references', todosController.references);
 
 export default router;

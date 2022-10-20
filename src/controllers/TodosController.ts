@@ -12,6 +12,7 @@ import {coverage, getMatchedRows} from "../services/regexes.service";
 import {compareNER, coverageByNER, processBatch} from "../services/ner.service";
 import {matchContacts} from "../services/matchContacts.service";
 import {execute} from "../services/knapsack.service";
+import {search} from "../services/searchReference.service";
 
 class TodosController {
 
@@ -173,6 +174,16 @@ class TodosController {
         const sum = parseInt(req.query.sum as string, 10) || 0
         try {
             res.json(await execute(sum));
+        } catch (error) {
+            console.log(error)
+            res.status(400).send(error);
+        }
+    }
+
+    public async references(req: Request, res: Response) {
+        // const sum = parseInt(req.query.sum as string, 10) || 0
+        try {
+            res.json(await search());
         } catch (error) {
             console.log(error)
             res.status(400).send(error);
