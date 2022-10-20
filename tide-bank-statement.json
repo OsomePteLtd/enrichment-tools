@@ -1,0 +1,3105 @@
+{
+  "category": [
+    {
+      "name": "accounting",
+      "confidence": 1
+    }
+  ],
+  "subcategory": [
+    {
+      "name": "bankStatement",
+      "confidence": 1
+    }
+  ],
+  "type": "bankStatement",
+  "template": "bankStatement_Tide_PDF",
+  "bankName": "Tide",
+  "bankAccountNumber": "14588925",
+  "accountName": "ZKI LDN LTD",
+  "accountAddress": "Flat 42 Keele House The Midway Newcastle Stafordshire ST5 1LD",
+  "dateFrom": "2021-08-01",
+  "dateTo": "2021-08-31",
+  "openingBalance": 699.84,
+  "closingBalance": 454.62,
+  "currency": "GBP",
+  "lineItems": [
+    {
+      "description": " 31 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -2.5,
+      "date": "2021-08-31",
+      "balance": 454.62,
+      "depositAmount": null,
+      "withdrawalAmount": 2.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 31 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 28.92,
+      "date": "2021-08-31",
+      "balance": 457.12,
+      "depositAmount": 28.92,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 31 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 424.16,
+      "date": "2021-08-31",
+      "balance": 428.2,
+      "depositAmount": 424.16,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment TESCO STORES 5430 - 41  MILLHARBOUR, ISLE OF DOGS Tide card: **** **** **** 3078",
+      "amount": -4.8,
+      "date": "2021-08-30",
+      "balance": 4.04,
+      "depositAmount": null,
+      "withdrawalAmount": 4.8,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment CURRYS PC WORLD - 28 CANADA  SQUARE, LONDON Tide card: **** **** **** 3078",
+      "amount": -35.98,
+      "date": "2021-08-30",
+      "balance": 8.84,
+      "depositAmount": null,
+      "withdrawalAmount": 35.98,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment YIFANG FRUIT TEA - KIOSK 4,  LONDON Tide card: **** **** **** 3078",
+      "amount": -9.1,
+      "date": "2021-08-30",
+      "balance": 44.82,
+      "depositAmount": null,
+      "withdrawalAmount": 9.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment SHAKE SHACK - CANARY W - PARK  PAVILION, LONDONO Tide card: **** **** **** 3078",
+      "amount": -25.8,
+      "date": "2021-08-30",
+      "balance": 53.92,
+      "depositAmount": null,
+      "withdrawalAmount": 25.8,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.89,
+      "date": "2021-08-30",
+      "balance": 79.72,
+      "depositAmount": null,
+      "withdrawalAmount": 10.89,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.07,
+      "date": "2021-08-30",
+      "balance": 403.82,
+      "depositAmount": null,
+      "withdrawalAmount": 7.07,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.28,
+      "date": "2021-08-30",
+      "balance": 395.54,
+      "depositAmount": null,
+      "withdrawalAmount": 8.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.65,
+      "date": "2021-08-30",
+      "balance": 324.66,
+      "depositAmount": null,
+      "withdrawalAmount": 7.65,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 314.33,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 304.0,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.06,
+      "date": "2021-08-30",
+      "balance": 332.31,
+      "depositAmount": null,
+      "withdrawalAmount": 10.06,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.06,
+      "date": "2021-08-30",
+      "balance": 385.48,
+      "depositAmount": null,
+      "withdrawalAmount": 10.06,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -32.49,
+      "date": "2021-08-30",
+      "balance": 352.99,
+      "depositAmount": null,
+      "withdrawalAmount": 32.49,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 342.37,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 115.97,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 159.63,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -20.56,
+      "date": "2021-08-30",
+      "balance": 139.07,
+      "depositAmount": null,
+      "withdrawalAmount": 20.56,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 131.43,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -4.84,
+      "date": "2021-08-30",
+      "balance": 126.59,
+      "depositAmount": null,
+      "withdrawalAmount": 4.84,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 180.58,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 191.37,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 234.07,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 262.17,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 202.16,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 105.35,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 98.25,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 170.25,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 90.61,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -0.72,
+      "date": "2021-08-30",
+      "balance": 303.28,
+      "depositAmount": null,
+      "withdrawalAmount": 0.72,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 223.28,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.23,
+      "date": "2021-08-30",
+      "balance": 241.71,
+      "depositAmount": null,
+      "withdrawalAmount": 10.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.23,
+      "date": "2021-08-30",
+      "balance": 272.96,
+      "depositAmount": null,
+      "withdrawalAmount": 10.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 212.49,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -20.09,
+      "date": "2021-08-30",
+      "balance": 283.19,
+      "depositAmount": null,
+      "withdrawalAmount": 20.09,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.23,
+      "date": "2021-08-30",
+      "balance": 251.94,
+      "depositAmount": null,
+      "withdrawalAmount": 10.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.79,
+      "date": "2021-08-30",
+      "balance": 456.62,
+      "depositAmount": null,
+      "withdrawalAmount": 7.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 431.55,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.89,
+      "date": "2021-08-30",
+      "balance": 464.41,
+      "depositAmount": null,
+      "withdrawalAmount": 10.89,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 501.2,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 482.94,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 410.89,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 493.56,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 421.22,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 439.19,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 449.52,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.9,
+      "date": "2021-08-30",
+      "balance": 602.02,
+      "depositAmount": null,
+      "withdrawalAmount": 9.9,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 594.38,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.21,
+      "date": "2021-08-30",
+      "balance": 580.17,
+      "depositAmount": null,
+      "withdrawalAmount": 14.21,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 511.99,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 522.61,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 544.02,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.62,
+      "date": "2021-08-30",
+      "balance": 551.66,
+      "depositAmount": null,
+      "withdrawalAmount": 10.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 533.23,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 562.28,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.79,
+      "date": "2021-08-30",
+      "balance": 569.38,
+      "depositAmount": null,
+      "withdrawalAmount": 10.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 475.3,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 611.92,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 634.3,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 619.02,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 626.66,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 656.86,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.36,
+      "date": "2021-08-30",
+      "balance": 663.96,
+      "depositAmount": null,
+      "withdrawalAmount": 10.36,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.98,
+      "date": "2021-08-30",
+      "balance": 648.88,
+      "depositAmount": null,
+      "withdrawalAmount": 7.98,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.48,
+      "date": "2021-08-30",
+      "balance": 641.4,
+      "depositAmount": null,
+      "withdrawalAmount": 7.48,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 731.85,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 760.05,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.33,
+      "date": "2021-08-30",
+      "balance": 739.49,
+      "depositAmount": null,
+      "withdrawalAmount": 10.33,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 681.42,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.23,
+      "date": "2021-08-30",
+      "balance": 749.82,
+      "depositAmount": null,
+      "withdrawalAmount": 10.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.37,
+      "date": "2021-08-30",
+      "balance": 767.69,
+      "depositAmount": null,
+      "withdrawalAmount": 7.37,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.89,
+      "date": "2021-08-30",
+      "balance": 706.22,
+      "depositAmount": null,
+      "withdrawalAmount": 10.89,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 775.06,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 724.21,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 790.34,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 689.06,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 797.98,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 717.11,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.06,
+      "date": "2021-08-30",
+      "balance": 696.16,
+      "depositAmount": null,
+      "withdrawalAmount": 10.06,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.64,
+      "date": "2021-08-30",
+      "balance": 782.7,
+      "depositAmount": null,
+      "withdrawalAmount": 7.64,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 30 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.1,
+      "date": "2021-08-30",
+      "balance": 674.32,
+      "depositAmount": null,
+      "withdrawalAmount": 7.1,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 28 Aug 2021 Payment out THAWBAN ZAKI ref: Product Cosr  Payme",
+      "amount": -50.0,
+      "date": "2021-08-28",
+      "balance": 805.62,
+      "depositAmount": null,
+      "withdrawalAmount": 50.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 27 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -130.0,
+      "date": "2021-08-27",
+      "balance": 855.62,
+      "depositAmount": null,
+      "withdrawalAmount": 130.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 27 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -2.5,
+      "date": "2021-08-27",
+      "balance": 985.62,
+      "depositAmount": null,
+      "withdrawalAmount": 2.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 27 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 322.72,
+      "date": "2021-08-27",
+      "balance": 988.12,
+      "depositAmount": 322.72,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 27 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 43.95,
+      "date": "2021-08-27",
+      "balance": 665.4,
+      "depositAmount": 43.95,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 27 Aug 2021 Card payment UBER   * EATS PENDING - Mr  Treublaan 7, AMSTERDAM Tide card: **** **** **** 3078",
+      "amount": -10.46,
+      "date": "2021-08-27",
+      "balance": 621.45,
+      "depositAmount": null,
+      "withdrawalAmount": 10.46,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 27 Aug 2021 Card payment UBER   *TRIP - Mr Treublaan 7,  AMSTERDAM Tide card: **** **** **** 3078",
+      "amount": -5.87,
+      "date": "2021-08-27",
+      "balance": 631.91,
+      "depositAmount": null,
+      "withdrawalAmount": 5.87,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 483.96,
+      "date": "2021-08-26",
+      "balance": 637.78,
+      "depositAmount": 483.96,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment SELFRIDGES MANCHESTER - 1  EXCHANGE SQUARE, MCHSTR  EXCHAN Tide card: **** **** **** 3078",
+      "amount": -65.0,
+      "date": "2021-08-26",
+      "balance": 153.82,
+      "depositAmount": null,
+      "withdrawalAmount": 65.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment UBER   *TRIP - Mr Treublaan 7,  AMSTERDAM Tide card: **** **** **** 3078",
+      "amount": -12.3,
+      "date": "2021-08-26",
+      "balance": 218.82,
+      "depositAmount": null,
+      "withdrawalAmount": 12.3,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment UK.VAPIANO.CO* VAPIANO - East  HouseBrunton Lane, NEWCASTLE UPO Tide card: **** **** **** 3078",
+      "amount": -63.55,
+      "date": "2021-08-26",
+      "balance": 231.12,
+      "depositAmount": null,
+      "withdrawalAmount": 63.55,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.63,
+      "date": "2021-08-26",
+      "balance": 305.24,
+      "depositAmount": null,
+      "withdrawalAmount": 7.63,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -1.79,
+      "date": "2021-08-26",
+      "balance": 294.67,
+      "depositAmount": null,
+      "withdrawalAmount": 1.79,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 26 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.78,
+      "date": "2021-08-26",
+      "balance": 296.46,
+      "depositAmount": null,
+      "withdrawalAmount": 8.78,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 25 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment",
+      "amount": -1000.0,
+      "date": "2021-08-25",
+      "balance": 312.87,
+      "depositAmount": null,
+      "withdrawalAmount": 1000.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 25 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 1271.91,
+      "date": "2021-08-25",
+      "balance": 1312.87,
+      "depositAmount": 1271.91,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 24 Aug 2021 Payment out ALISHA AFZAL ref: Order Fulfllment ",
+      "amount": -300.0,
+      "date": "2021-08-24",
+      "balance": 40.96,
+      "depositAmount": null,
+      "withdrawalAmount": 300.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 24 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -30.0,
+      "date": "2021-08-24",
+      "balance": 340.96,
+      "depositAmount": null,
+      "withdrawalAmount": 30.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 24 Aug 2021 Card payment POUNDLAND LTD - WELLMANS  ROAD, WILLENHALL Tide card: **** **** **** 3078",
+      "amount": -3.2,
+      "date": "2021-08-24",
+      "balance": 370.96,
+      "depositAmount": null,
+      "withdrawalAmount": 3.2,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 24 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 340.13,
+      "date": "2021-08-24",
+      "balance": 374.16,
+      "depositAmount": 340.13,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 23 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment",
+      "amount": -600.0,
+      "date": "2021-08-23",
+      "balance": 34.03,
+      "depositAmount": null,
+      "withdrawalAmount": 600.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 23 Aug 2021 Payment in ZAKI T ref: BUSINESS EXPENSES",
+      "amount": 50.0,
+      "date": "2021-08-23",
+      "balance": 634.03,
+      "depositAmount": 50.0,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 23 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 445.05,
+      "date": "2021-08-23",
+      "balance": 584.03,
+      "depositAmount": 445.05,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 23 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -34.34,
+      "date": "2021-08-23",
+      "balance": 138.98,
+      "depositAmount": null,
+      "withdrawalAmount": 34.34,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 23 Aug 2021 Card payment RYMAN - 43 HIGH STREET,  NEWCASTLE Tide card: **** **** **** 3078",
+      "amount": -15.98,
+      "date": "2021-08-23",
+      "balance": 173.32,
+      "depositAmount": null,
+      "withdrawalAmount": 15.98,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 23 Aug 2021 Card payment VAPE CASTLE - HIGH STREET,  NEWCASTLE UND Tide card: **** **** **** 3078",
+      "amount": -20.0,
+      "date": "2021-08-23",
+      "balance": 189.3,
+      "depositAmount": null,
+      "withdrawalAmount": 20.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 23 Aug 2021 Direct Debit GOCARDLESS         ref: OSOMELTD- NWZ53YYPZ",
+      "amount": -198.0,
+      "date": "2021-08-23",
+      "balance": 209.3,
+      "depositAmount": null,
+      "withdrawalAmount": 198.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -2.5,
+      "date": "2021-08-21",
+      "balance": 407.3,
+      "depositAmount": null,
+      "withdrawalAmount": 2.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment WH SMITH - MAIN BOOK STALL,  EUSTON Tide card: **** **** **** 3078",
+      "amount": -2.98,
+      "date": "2021-08-21",
+      "balance": 409.8,
+      "depositAmount": null,
+      "withdrawalAmount": 2.98,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.28,
+      "date": "2021-08-21",
+      "balance": 412.78,
+      "depositAmount": null,
+      "withdrawalAmount": 10.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -10.28,
+      "date": "2021-08-21",
+      "balance": 443.62,
+      "depositAmount": null,
+      "withdrawalAmount": 10.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -6.84,
+      "date": "2021-08-21",
+      "balance": 436.78,
+      "depositAmount": null,
+      "withdrawalAmount": 6.84,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -13.72,
+      "date": "2021-08-21",
+      "balance": 423.06,
+      "depositAmount": null,
+      "withdrawalAmount": 13.72,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 21 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -100.0,
+      "date": "2021-08-21",
+      "balance": 453.9,
+      "depositAmount": null,
+      "withdrawalAmount": 100.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 20 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 451.14,
+      "date": "2021-08-20",
+      "balance": 553.9,
+      "depositAmount": 451.14,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 20 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 58.29,
+      "date": "2021-08-20",
+      "balance": 102.76,
+      "depositAmount": 58.29,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 20 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -48.0,
+      "date": "2021-08-20",
+      "balance": 44.47,
+      "depositAmount": null,
+      "withdrawalAmount": 48.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 19 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment ",
+      "amount": -3850.0,
+      "date": "2021-08-19",
+      "balance": 92.47,
+      "depositAmount": null,
+      "withdrawalAmount": 3850.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 19 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -60.0,
+      "date": "2021-08-19",
+      "balance": 3942.47,
+      "depositAmount": null,
+      "withdrawalAmount": 60.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 19 Aug 2021 Fee Fees: Bank transfer and Direct Debit for  last month (20p per transacton)",
+      "amount": -16.2,
+      "date": "2021-08-19",
+      "balance": 4002.47,
+      "depositAmount": null,
+      "withdrawalAmount": 16.2,
+      "transactionType": "bankCharge"
+    },
+    {
+      "description": " 19 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 868.82,
+      "date": "2021-08-19",
+      "balance": 4018.67,
+      "depositAmount": 868.82,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 19 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 48.33,
+      "date": "2021-08-19",
+      "balance": 3149.85,
+      "depositAmount": 48.33,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 18 Aug 2021 Payment out THAWBAN ZAKI ref: Product Cost",
+      "amount": -100.0,
+      "date": "2021-08-18",
+      "balance": 3101.52,
+      "depositAmount": null,
+      "withdrawalAmount": 100.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 18 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -50.0,
+      "date": "2021-08-18",
+      "balance": 3201.52,
+      "depositAmount": null,
+      "withdrawalAmount": 50.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 18 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 1255.03,
+      "date": "2021-08-18",
+      "balance": 3251.52,
+      "depositAmount": 1255.03,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 18 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 133.51,
+      "date": "2021-08-18",
+      "balance": 1996.49,
+      "depositAmount": 133.51,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 17 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 38.62,
+      "date": "2021-08-17",
+      "balance": 1862.98,
+      "depositAmount": 38.62,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 17 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 363.18,
+      "date": "2021-08-17",
+      "balance": 1824.36,
+      "depositAmount": 363.18,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment AMZNMktplace - 1 Principal Pl,  Worship St, amazon.co.uk Tide card: **** **** **** 3078",
+      "amount": -46.97,
+      "date": "2021-08-16",
+      "balance": 1461.18,
+      "depositAmount": null,
+      "withdrawalAmount": 46.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 650.2,
+      "date": "2021-08-16",
+      "balance": 1508.15,
+      "depositAmount": 650.2,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 16 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 29.37,
+      "date": "2021-08-16",
+      "balance": 857.95,
+      "depositAmount": 29.37,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 16 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 53.81,
+      "date": "2021-08-16",
+      "balance": 828.58,
+      "depositAmount": 53.81,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 16 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 53.44,
+      "date": "2021-08-16",
+      "balance": 774.77,
+      "depositAmount": 53.44,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment AMZNMktplace - 1 Principal Pl,  Worship St, amazon.co.uk Tide card: **** **** **** 3078",
+      "amount": -215.14,
+      "date": "2021-08-16",
+      "balance": 721.33,
+      "depositAmount": null,
+      "withdrawalAmount": 215.14,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 983.45,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1024.54,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.99,
+      "date": "2021-08-16",
+      "balance": 1105.59,
+      "depositAmount": null,
+      "withdrawalAmount": 8.99,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1093.67,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.99,
+      "date": "2021-08-16",
+      "balance": 936.47,
+      "depositAmount": null,
+      "withdrawalAmount": 8.99,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 968.95,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1036.46,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 976.2,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1062.84,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.28,
+      "date": "2021-08-16",
+      "balance": 1045.54,
+      "depositAmount": null,
+      "withdrawalAmount": 8.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 945.46,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.99,
+      "date": "2021-08-16",
+      "balance": 959.96,
+      "depositAmount": null,
+      "withdrawalAmount": 8.99,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.02,
+      "date": "2021-08-16",
+      "balance": 1053.82,
+      "depositAmount": null,
+      "withdrawalAmount": 9.02,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -19.04,
+      "date": "2021-08-16",
+      "balance": 1005.5,
+      "depositAmount": null,
+      "withdrawalAmount": 19.04,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1070.09,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 952.71,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1086.42,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 992.53,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1079.17,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.28,
+      "date": "2021-08-16",
+      "balance": 1172.31,
+      "depositAmount": null,
+      "withdrawalAmount": 8.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.99,
+      "date": "2021-08-16",
+      "balance": 1163.32,
+      "depositAmount": null,
+      "withdrawalAmount": 8.99,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -22.07,
+      "date": "2021-08-16",
+      "balance": 1222.78,
+      "depositAmount": null,
+      "withdrawalAmount": 22.07,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1244.85,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -34.94,
+      "date": "2021-08-16",
+      "balance": 1180.59,
+      "depositAmount": null,
+      "withdrawalAmount": 34.94,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1215.53,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1252.1,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.28,
+      "date": "2021-08-16",
+      "balance": 1114.58,
+      "depositAmount": null,
+      "withdrawalAmount": 8.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1122.86,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1135.83,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1151.4,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -3.65,
+      "date": "2021-08-16",
+      "balance": 1147.75,
+      "depositAmount": null,
+      "withdrawalAmount": 3.65,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.74,
+      "date": "2021-08-16",
+      "balance": 1259.35,
+      "depositAmount": null,
+      "withdrawalAmount": 11.74,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1333.76,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1319.26,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1326.51,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1312.01,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1285.59,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1292.84,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1271.09,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1278.34,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1300.09,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1394.92,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1406.84,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.31,
+      "date": "2021-08-16",
+      "balance": 1414.09,
+      "depositAmount": null,
+      "withdrawalAmount": 9.31,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1365.62,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1358.37,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1349.29,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.28,
+      "date": "2021-08-16",
+      "balance": 1341.01,
+      "depositAmount": null,
+      "withdrawalAmount": 8.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1372.87,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1381.95,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1423.4,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1473.75,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1583.43,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1490.08,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1503.05,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1535.19,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1523.27,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -23.96,
+      "date": "2021-08-16",
+      "balance": 1559.47,
+      "depositAmount": null,
+      "withdrawalAmount": 23.96,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.36,
+      "date": "2021-08-16",
+      "balance": 1547.11,
+      "depositAmount": null,
+      "withdrawalAmount": 12.36,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -13.54,
+      "date": "2021-08-16",
+      "balance": 1460.21,
+      "depositAmount": null,
+      "withdrawalAmount": 13.54,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1447.24,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.25,
+      "date": "2021-08-16",
+      "balance": 1482.83,
+      "depositAmount": null,
+      "withdrawalAmount": 7.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1435.32,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.08,
+      "date": "2021-08-16",
+      "balance": 1596.4,
+      "depositAmount": null,
+      "withdrawalAmount": 9.08,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1510.3,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.62,
+      "date": "2021-08-16",
+      "balance": 1635.23,
+      "depositAmount": null,
+      "withdrawalAmount": 11.62,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.97,
+      "date": "2021-08-16",
+      "balance": 1666.27,
+      "depositAmount": null,
+      "withdrawalAmount": 12.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.5,
+      "date": "2021-08-16",
+      "balance": 1658.77,
+      "depositAmount": null,
+      "withdrawalAmount": 7.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -11.92,
+      "date": "2021-08-16",
+      "balance": 1646.85,
+      "depositAmount": null,
+      "withdrawalAmount": 11.92,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.36,
+      "date": "2021-08-16",
+      "balance": 1605.48,
+      "depositAmount": null,
+      "withdrawalAmount": 12.36,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 16 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -17.39,
+      "date": "2021-08-16",
+      "balance": 1617.84,
+      "depositAmount": null,
+      "withdrawalAmount": 17.39,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 14 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -2.5,
+      "date": "2021-08-14",
+      "balance": 1679.24,
+      "depositAmount": null,
+      "withdrawalAmount": 2.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 13 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -50.0,
+      "date": "2021-08-13",
+      "balance": 1681.74,
+      "depositAmount": null,
+      "withdrawalAmount": 50.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 13 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 61.92,
+      "date": "2021-08-13",
+      "balance": 1731.74,
+      "depositAmount": 61.92,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 13 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 305.97,
+      "date": "2021-08-13",
+      "balance": 1669.82,
+      "depositAmount": 305.97,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 13 Aug 2021 Card payment PAYPAL *FACEBOOK FACEB - Hanover Reach 5 - 7 Hanover Quay,  35314369001 Tide card: **** **** **** 3078",
+      "amount": -56.65,
+      "date": "2021-08-13",
+      "balance": 1363.85,
+      "depositAmount": null,
+      "withdrawalAmount": 56.65,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 12 Aug 2021 Payment out THAWBAN ZAKI ref: Reference - Loan",
+      "amount": -240.0,
+      "date": "2021-08-12",
+      "balance": 1420.5,
+      "depositAmount": null,
+      "withdrawalAmount": 240.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 12 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 525.35,
+      "date": "2021-08-12",
+      "balance": 1660.5,
+      "depositAmount": 525.35,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 12 Aug 2021 Refund Card refund Tide card: **** **** **** 3078",
+      "amount": 13.47,
+      "date": "2021-08-12",
+      "balance": 1135.15,
+      "depositAmount": 13.47,
+      "withdrawalAmount": null,
+      "transactionType": "refund"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -2.5,
+      "date": "2021-08-11",
+      "balance": 1121.68,
+      "depositAmount": null,
+      "withdrawalAmount": 2.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -60.0,
+      "date": "2021-08-11",
+      "balance": 1124.18,
+      "depositAmount": null,
+      "withdrawalAmount": 60.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment GOSTOS GRILL - London Road,  Newcastle Tide card: **** **** **** 3078",
+      "amount": -38.55,
+      "date": "2021-08-11",
+      "balance": 1184.18,
+      "depositAmount": null,
+      "withdrawalAmount": 38.55,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 1060.77,
+      "date": "2021-08-11",
+      "balance": 1222.73,
+      "depositAmount": 1060.77,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -33.6,
+      "date": "2021-08-11",
+      "balance": 415.66,
+      "depositAmount": null,
+      "withdrawalAmount": 33.6,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -15.21,
+      "date": "2021-08-11",
+      "balance": 473.3,
+      "depositAmount": null,
+      "withdrawalAmount": 15.21,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.22,
+      "date": "2021-08-11",
+      "balance": 504.4,
+      "depositAmount": null,
+      "withdrawalAmount": 7.22,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.22,
+      "date": "2021-08-11",
+      "balance": 497.18,
+      "depositAmount": null,
+      "withdrawalAmount": 7.22,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -25.23,
+      "date": "2021-08-11",
+      "balance": 194.85,
+      "depositAmount": null,
+      "withdrawalAmount": 25.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.67,
+      "date": "2021-08-11",
+      "balance": 488.51,
+      "depositAmount": null,
+      "withdrawalAmount": 8.67,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.25,
+      "date": "2021-08-11",
+      "balance": 407.41,
+      "depositAmount": null,
+      "withdrawalAmount": 8.25,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.22,
+      "date": "2021-08-11",
+      "balance": 449.26,
+      "depositAmount": null,
+      "withdrawalAmount": 7.22,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -25.23,
+      "date": "2021-08-11",
+      "balance": 345.32,
+      "depositAmount": null,
+      "withdrawalAmount": 25.23,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -33.4,
+      "date": "2021-08-11",
+      "balance": 311.92,
+      "depositAmount": null,
+      "withdrawalAmount": 33.4,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -23.01,
+      "date": "2021-08-11",
+      "balance": 288.91,
+      "depositAmount": null,
+      "withdrawalAmount": 23.01,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.3,
+      "date": "2021-08-11",
+      "balance": 548.48,
+      "depositAmount": null,
+      "withdrawalAmount": 7.3,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.86,
+      "date": "2021-08-11",
+      "balance": 511.62,
+      "depositAmount": null,
+      "withdrawalAmount": 36.86,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -16.82,
+      "date": "2021-08-11",
+      "balance": 456.48,
+      "depositAmount": null,
+      "withdrawalAmount": 16.82,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.86,
+      "date": "2021-08-11",
+      "balance": 370.55,
+      "depositAmount": null,
+      "withdrawalAmount": 36.86,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -31.97,
+      "date": "2021-08-11",
+      "balance": 256.94,
+      "depositAmount": null,
+      "withdrawalAmount": 31.97,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.86,
+      "date": "2021-08-11",
+      "balance": 220.08,
+      "depositAmount": null,
+      "withdrawalAmount": 36.86,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 11 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -32.89,
+      "date": "2021-08-11",
+      "balance": 161.96,
+      "depositAmount": null,
+      "withdrawalAmount": 32.89,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 10 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 120.32,
+      "date": "2021-08-10",
+      "balance": 555.78,
+      "depositAmount": 120.32,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 10 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 29.37,
+      "date": "2021-08-10",
+      "balance": 435.46,
+      "depositAmount": 29.37,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 9 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment ",
+      "amount": -40.0,
+      "date": "2021-08-09",
+      "balance": 406.09,
+      "depositAmount": null,
+      "withdrawalAmount": 40.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 9 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -1.55,
+      "date": "2021-08-09",
+      "balance": 446.09,
+      "depositAmount": null,
+      "withdrawalAmount": 1.55,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 9 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 9.44,
+      "date": "2021-08-09",
+      "balance": 447.64,
+      "depositAmount": 9.44,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 9 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 433.31,
+      "date": "2021-08-09",
+      "balance": 438.2,
+      "depositAmount": 433.31,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 9 Aug 2021 Card payment PAYPAL *FACEBOOK FACEB - Hanover Reach 5 - 7 Hanover Quay,  35314369001 Tide card: **** **** **** 3078",
+      "amount": -3.84,
+      "date": "2021-08-09",
+      "balance": 4.89,
+      "depositAmount": null,
+      "withdrawalAmount": 3.84,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 7 Aug 2021 Card payment SAINSBURYS SACAT (4342 -  GOODMANS FIELD, GOODMANS FIEL Tide card: **** **** **** 3078",
+      "amount": -1.0,
+      "date": "2021-08-07",
+      "balance": 8.73,
+      "depositAmount": null,
+      "withdrawalAmount": 1.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 7 Aug 2021 Card payment KAPWING PRO PLAN - 2035 Sunset  Lake RoadSuite B-2, NEWARK Tide card: **** **** **** 3078",
+      "amount": -14.42,
+      "date": "2021-08-07",
+      "balance": 9.73,
+      "depositAmount": null,
+      "withdrawalAmount": 14.42,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment ",
+      "amount": -1200.0,
+      "date": "2021-08-06",
+      "balance": 24.15,
+      "depositAmount": null,
+      "withdrawalAmount": 1200.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 312.47,
+      "date": "2021-08-06",
+      "balance": 1224.15,
+      "depositAmount": 312.47,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 6 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 133.31,
+      "date": "2021-08-06",
+      "balance": 911.68,
+      "depositAmount": 133.31,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -84.0,
+      "date": "2021-08-06",
+      "balance": 778.37,
+      "depositAmount": null,
+      "withdrawalAmount": 84.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment FACEBK *ZKGNT6K4F2 - 5-7 Hanover  Quay, f.me/ads Tide card: **** **** **** 3078",
+      "amount": -1.13,
+      "date": "2021-08-06",
+      "balance": 862.37,
+      "depositAmount": null,
+      "withdrawalAmount": 1.13,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *FACEBOOK FACEB - Hanover Reach 5 - 7 Hanover Quay,  35314369001 Tide card: **** **** **** 3078",
+      "amount": -5.14,
+      "date": "2021-08-06",
+      "balance": 863.5,
+      "depositAmount": null,
+      "withdrawalAmount": 5.14,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *FACEBOOK FACEB - Hanover Reach 5 - 7 Hanover Quay,  35314369001 Tide card: **** **** **** 3078",
+      "amount": -18.76,
+      "date": "2021-08-06",
+      "balance": 868.64,
+      "depositAmount": null,
+      "withdrawalAmount": 18.76,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.68,
+      "date": "2021-08-06",
+      "balance": 923.9,
+      "depositAmount": null,
+      "withdrawalAmount": 36.68,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.5,
+      "date": "2021-08-06",
+      "balance": 960.58,
+      "depositAmount": null,
+      "withdrawalAmount": 36.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.5,
+      "date": "2021-08-06",
+      "balance": 887.4,
+      "depositAmount": null,
+      "withdrawalAmount": 36.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.5,
+      "date": "2021-08-06",
+      "balance": 997.08,
+      "depositAmount": null,
+      "withdrawalAmount": 36.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -31.82,
+      "date": "2021-08-06",
+      "balance": 1033.58,
+      "depositAmount": null,
+      "withdrawalAmount": 31.82,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -16.61,
+      "date": "2021-08-06",
+      "balance": 1290.8,
+      "depositAmount": null,
+      "withdrawalAmount": 16.61,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -18.19,
+      "date": "2021-08-06",
+      "balance": 1223.26,
+      "depositAmount": null,
+      "withdrawalAmount": 18.19,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -31.05,
+      "date": "2021-08-06",
+      "balance": 1138.4,
+      "depositAmount": null,
+      "withdrawalAmount": 31.05,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -31.82,
+      "date": "2021-08-06",
+      "balance": 1245.16,
+      "depositAmount": null,
+      "withdrawalAmount": 31.82,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -18.19,
+      "date": "2021-08-06",
+      "balance": 1307.41,
+      "depositAmount": null,
+      "withdrawalAmount": 18.19,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.5,
+      "date": "2021-08-06",
+      "balance": 1101.9,
+      "depositAmount": null,
+      "withdrawalAmount": 36.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.5,
+      "date": "2021-08-06",
+      "balance": 1065.4,
+      "depositAmount": null,
+      "withdrawalAmount": 36.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -36.68,
+      "date": "2021-08-06",
+      "balance": 1186.58,
+      "depositAmount": null,
+      "withdrawalAmount": 36.68,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.4,
+      "date": "2021-08-06",
+      "balance": 1179.18,
+      "depositAmount": null,
+      "withdrawalAmount": 7.4,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -3.71,
+      "date": "2021-08-06",
+      "balance": 1241.45,
+      "depositAmount": null,
+      "withdrawalAmount": 3.71,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.73,
+      "date": "2021-08-06",
+      "balance": 1169.45,
+      "depositAmount": null,
+      "withdrawalAmount": 9.73,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -13.82,
+      "date": "2021-08-06",
+      "balance": 1276.98,
+      "depositAmount": null,
+      "withdrawalAmount": 13.82,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 6 Aug 2021 Payment in Stripe Payments UK Ltd ref: Camulet  Jeweller",
+      "amount": 198.64,
+      "date": "2021-08-06",
+      "balance": 1325.6,
+      "depositAmount": 198.64,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment TFL TRAVEL CH - VICTORIA STREET,  TFL.GOV.UK/CP Tide card: **** **** **** 3078",
+      "amount": -5.5,
+      "date": "2021-08-05",
+      "balance": 1126.96,
+      "depositAmount": null,
+      "withdrawalAmount": 5.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -30.0,
+      "date": "2021-08-05",
+      "balance": 1132.46,
+      "depositAmount": null,
+      "withdrawalAmount": 30.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 360.62,
+      "date": "2021-08-05",
+      "balance": 1162.46,
+      "depositAmount": 360.62,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment TIAN TIAN MARKET - TIAN TIAN  MARKET, London Tide card: **** **** **** 3078",
+      "amount": -1.98,
+      "date": "2021-08-05",
+      "balance": 801.84,
+      "depositAmount": null,
+      "withdrawalAmount": 1.98,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 146.07,
+      "date": "2021-08-05",
+      "balance": 803.82,
+      "depositAmount": 146.07,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -84.0,
+      "date": "2021-08-05",
+      "balance": 657.75,
+      "depositAmount": null,
+      "withdrawalAmount": 84.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -84.0,
+      "date": "2021-08-05",
+      "balance": 741.75,
+      "depositAmount": null,
+      "withdrawalAmount": 84.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment SAINSBURYS SACAT (4342 -  GOODMANS FIELD, GOODMANS FIEL Tide card: **** **** **** 3078",
+      "amount": -1.0,
+      "date": "2021-08-05",
+      "balance": 825.75,
+      "depositAmount": null,
+      "withdrawalAmount": 1.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Direct Debit BWD BACS CTAX PYTS ref: 3393411X",
+      "amount": -57.87,
+      "date": "2021-08-05",
+      "balance": 826.75,
+      "depositAmount": null,
+      "withdrawalAmount": 57.87,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -22.46,
+      "date": "2021-08-05",
+      "balance": 884.62,
+      "depositAmount": null,
+      "withdrawalAmount": 22.46,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 5 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -55.86,
+      "date": "2021-08-05",
+      "balance": 907.08,
+      "depositAmount": null,
+      "withdrawalAmount": 55.86,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Payment out  ref: 1 chargeable expense card(s)",
+      "amount": -6.0,
+      "date": "2021-08-04",
+      "balance": 962.94,
+      "depositAmount": null,
+      "withdrawalAmount": 6.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Card payment SUBWAY - 185 MARSH WALL,  LONDON  E14 Tide card: **** **** **** 3078",
+      "amount": -15.8,
+      "date": "2021-08-04",
+      "balance": 968.94,
+      "depositAmount": null,
+      "withdrawalAmount": 15.8,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Card payment FACEBK *4BXSC7B4F2 - 5-7 Hanover  Quay, f.me/ads Tide card: **** **** **** 3078",
+      "amount": -2.0,
+      "date": "2021-08-04",
+      "balance": 984.74,
+      "depositAmount": null,
+      "withdrawalAmount": 2.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 599.91,
+      "date": "2021-08-04",
+      "balance": 986.74,
+      "depositAmount": 599.91,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 4 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 117.0,
+      "date": "2021-08-04",
+      "balance": 386.83,
+      "depositAmount": 117.0,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 4 Aug 2021 Card payment FACEBK *JWWZV6P4F2 - 5-7 Hanover Quay, f.me/ads Tide card: **** **** **** 3078",
+      "amount": -1.5,
+      "date": "2021-08-04",
+      "balance": 269.83,
+      "depositAmount": null,
+      "withdrawalAmount": 1.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Card payment FACEBK *9DUA56T3F2 - 5-7 Hanover  Quay, f.me/ads Tide card: **** **** **** 3078",
+      "amount": -1.5,
+      "date": "2021-08-04",
+      "balance": 271.33,
+      "depositAmount": null,
+      "withdrawalAmount": 1.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 4 Aug 2021 Card payment FACEBK *TY37S6K4F2 - 5-7 Hanover  Quay, f.me/ads Tide card: **** **** **** 3078",
+      "amount": -1.5,
+      "date": "2021-08-04",
+      "balance": 272.83,
+      "depositAmount": null,
+      "withdrawalAmount": 1.5,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out ALISHA AFZAL ref: Order Fulfllment ",
+      "amount": -300.0,
+      "date": "2021-08-03",
+      "balance": 274.33,
+      "depositAmount": null,
+      "withdrawalAmount": 300.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment in ZAKI T ref: BUSINESS REVENUE",
+      "amount": 300.0,
+      "date": "2021-08-03",
+      "balance": 574.33,
+      "depositAmount": 300.0,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment",
+      "amount": -500.0,
+      "date": "2021-08-03",
+      "balance": 274.33,
+      "depositAmount": null,
+      "withdrawalAmount": 500.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -20.0,
+      "date": "2021-08-03",
+      "balance": 774.33,
+      "depositAmount": null,
+      "withdrawalAmount": 20.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -100.0,
+      "date": "2021-08-03",
+      "balance": 794.33,
+      "depositAmount": null,
+      "withdrawalAmount": 100.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -20.0,
+      "date": "2021-08-03",
+      "balance": 894.33,
+      "depositAmount": null,
+      "withdrawalAmount": 20.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Repayment",
+      "amount": -50.0,
+      "date": "2021-08-03",
+      "balance": 914.33,
+      "depositAmount": null,
+      "withdrawalAmount": 50.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 93.08,
+      "date": "2021-08-03",
+      "balance": 964.33,
+      "depositAmount": 93.08,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 3 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 325.74,
+      "date": "2021-08-03",
+      "balance": 871.25,
+      "depositAmount": 325.74,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -7.15,
+      "date": "2021-08-03",
+      "balance": 550.1,
+      "depositAmount": null,
+      "withdrawalAmount": 7.15,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -7.15,
+      "date": "2021-08-03",
+      "balance": 565.79,
+      "depositAmount": null,
+      "withdrawalAmount": 7.15,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -5.24,
+      "date": "2021-08-03",
+      "balance": 572.94,
+      "depositAmount": null,
+      "withdrawalAmount": 5.24,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -5.24,
+      "date": "2021-08-03",
+      "balance": 557.25,
+      "depositAmount": null,
+      "withdrawalAmount": 5.24,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -4.59,
+      "date": "2021-08-03",
+      "balance": 545.51,
+      "depositAmount": null,
+      "withdrawalAmount": 4.59,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment MLCLUS - AN POST FINANCE  CUSTOM UNIT, DUBLIN 12 Tide card: **** **** **** 3078",
+      "amount": -3.3,
+      "date": "2021-08-03",
+      "balance": 562.49,
+      "depositAmount": null,
+      "withdrawalAmount": 3.3,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.53,
+      "date": "2021-08-03",
+      "balance": 624.02,
+      "depositAmount": null,
+      "withdrawalAmount": 14.53,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.3,
+      "date": "2021-08-03",
+      "balance": 614.72,
+      "depositAmount": null,
+      "withdrawalAmount": 9.3,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.91,
+      "date": "2021-08-03",
+      "balance": 638.55,
+      "depositAmount": null,
+      "withdrawalAmount": 14.91,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -12.11,
+      "date": "2021-08-03",
+      "balance": 709.49,
+      "depositAmount": null,
+      "withdrawalAmount": 12.11,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -26.59,
+      "date": "2021-08-03",
+      "balance": 667.99,
+      "depositAmount": null,
+      "withdrawalAmount": 26.59,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.53,
+      "date": "2021-08-03",
+      "balance": 653.46,
+      "depositAmount": null,
+      "withdrawalAmount": 14.53,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.91,
+      "date": "2021-08-03",
+      "balance": 694.58,
+      "depositAmount": null,
+      "withdrawalAmount": 14.91,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.53,
+      "date": "2021-08-03",
+      "balance": 736.25,
+      "depositAmount": null,
+      "withdrawalAmount": 8.53,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -16.05,
+      "date": "2021-08-03",
+      "balance": 598.67,
+      "depositAmount": null,
+      "withdrawalAmount": 16.05,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -20.49,
+      "date": "2021-08-03",
+      "balance": 578.18,
+      "depositAmount": null,
+      "withdrawalAmount": 20.49,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.65,
+      "date": "2021-08-03",
+      "balance": 721.6,
+      "depositAmount": null,
+      "withdrawalAmount": 14.65,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.3,
+      "date": "2021-08-03",
+      "balance": 770.77,
+      "depositAmount": null,
+      "withdrawalAmount": 9.3,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -17.68,
+      "date": "2021-08-03",
+      "balance": 744.78,
+      "depositAmount": null,
+      "withdrawalAmount": 17.68,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.31,
+      "date": "2021-08-03",
+      "balance": 762.46,
+      "depositAmount": null,
+      "withdrawalAmount": 8.31,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -5.56,
+      "date": "2021-08-03",
+      "balance": 787.43,
+      "depositAmount": null,
+      "withdrawalAmount": 5.56,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.46,
+      "date": "2021-08-03",
+      "balance": 792.99,
+      "depositAmount": null,
+      "withdrawalAmount": 9.46,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 3 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -7.36,
+      "date": "2021-08-03",
+      "balance": 780.07,
+      "depositAmount": null,
+      "withdrawalAmount": 7.36,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -15.0,
+      "date": "2021-08-02",
+      "balance": 802.45,
+      "depositAmount": null,
+      "withdrawalAmount": 15.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Payment out THAWBAN ZAKI ref: Personal  Allowance",
+      "amount": -90.0,
+      "date": "2021-08-02",
+      "balance": 817.45,
+      "depositAmount": null,
+      "withdrawalAmount": 90.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Payment out THAWBAN ZAKI ref: Ad Account  Purchas",
+      "amount": -230.0,
+      "date": "2021-08-02",
+      "balance": 907.45,
+      "depositAmount": null,
+      "withdrawalAmount": 230.0,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Payment in Stripe Payments UK Ltd ref: Camulet  Jeweller",
+      "amount": 200.0,
+      "date": "2021-08-02",
+      "balance": 1137.45,
+      "depositAmount": 200.0,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment TIKTOK ADS - WEWORK, LONDON Tide card: **** **** **** 3078",
+      "amount": -22.28,
+      "date": "2021-08-02",
+      "balance": 937.45,
+      "depositAmount": null,
+      "withdrawalAmount": 22.28,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -15.42,
+      "date": "2021-08-02",
+      "balance": 959.73,
+      "depositAmount": null,
+      "withdrawalAmount": 15.42,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -23.71,
+      "date": "2021-08-02",
+      "balance": 975.15,
+      "depositAmount": null,
+      "withdrawalAmount": 23.71,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -15.01,
+      "date": "2021-08-02",
+      "balance": 1013.77,
+      "depositAmount": null,
+      "withdrawalAmount": 15.01,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.4,
+      "date": "2021-08-02",
+      "balance": 1037.22,
+      "depositAmount": null,
+      "withdrawalAmount": 8.4,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -14.91,
+      "date": "2021-08-02",
+      "balance": 998.86,
+      "depositAmount": null,
+      "withdrawalAmount": 14.91,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -8.44,
+      "date": "2021-08-02",
+      "balance": 1028.78,
+      "depositAmount": null,
+      "withdrawalAmount": 8.44,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Payment in Stripe Payments UK Ltd ref: STRIPE",
+      "amount": 29.37,
+      "date": "2021-08-02",
+      "balance": 1045.62,
+      "depositAmount": 29.37,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 2 Aug 2021 Payment in Stripe Payments UK Ltd ref: SHOPIFY  LIGHTERIOR",
+      "amount": 340.41,
+      "date": "2021-08-02",
+      "balance": 1016.25,
+      "depositAmount": 340.41,
+      "withdrawalAmount": null,
+      "transactionType": "sale"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment NEURAL.LOVE - Mannimae/1,  PUDISOO KULA Tide card: **** **** **** 3078",
+      "amount": -0.85,
+      "date": "2021-08-02",
+      "balance": 675.84,
+      "depositAmount": null,
+      "withdrawalAmount": 0.85,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment NEURAL.LOVE - Mannimae/1,  PUDISOO KULA Tide card: **** **** **** 3078",
+      "amount": -0.85,
+      "date": "2021-08-02",
+      "balance": 676.69,
+      "depositAmount": null,
+      "withdrawalAmount": 0.85,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment WWW.ALIEXPRESS.COM - 3RD  FLOOR., LONDON Tide card: **** **** **** 3078",
+      "amount": -12.63,
+      "date": "2021-08-02",
+      "balance": 677.54,
+      "depositAmount": null,
+      "withdrawalAmount": 12.63,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -30.99,
+      "date": "2021-08-02",
+      "balance": 733.21,
+      "depositAmount": null,
+      "withdrawalAmount": 30.99,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -33.37,
+      "date": "2021-08-02",
+      "balance": 699.84,
+      "depositAmount": null,
+      "withdrawalAmount": 33.37,
+      "transactionType": "purchase"
+    },
+    {
+      "description": " 2 Aug 2021 Card payment PAYPAL *ALIPAYSINGA AL - 2  Whitaker Avenue, 35314369001 Tide card: **** **** **** 3078",
+      "amount": -9.67,
+      "date": "2021-08-02",
+      "balance": 690.17,
+      "depositAmount": null,
+      "withdrawalAmount": 9.67,
+      "transactionType": "purchase"
+    }
+  ]
+}
