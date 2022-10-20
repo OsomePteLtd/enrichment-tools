@@ -48,3 +48,42 @@ Approximate list of developed functions in this repo:
   - roBERTa-NER model is used
   - model should be built in Docker and run on port `https://localhost:80`
   - `src/services/ner.service.ts` - all code is here
+
+## How to start?
+
+1. Initialize SQL DB according to the connection params in `src/dbconfig/dbConnector.ts`
+
+2. "MY_TABLE" stores the list of bank statements' transactions:
+```postgresql
+create table "MY_TABLE"
+(
+  bankname    text,
+  description text,
+  amount      double precision,
+  direction   text,
+  osome_link  text,
+  document_id serial
+);
+```
+3. To get actual list of bank statements' transactions from Core DB:
+```postgresql
+select details ->> 'bankName' as bankName,
+       lineitems.description,
+       lineitems.amount,
+       case
+           when lineitems.amount >= 0 then 'out' else 'in' end as direction,
+       'https://agent.osome.team/companies/' || "companyId" || '/documents/' || id osome_link,
+       id as document_id
+from documents,
+  jsonb_to_recordset(documents.details -> 'lineItems') AS lineitems(description text, amount float)
+where true
+    and subcategory = 'bankStatement'
+    and details -> 'externalDetails' ->> 'source' = 'bluesheets'
+    and "createdAt" between '2022-6-11' and now()
+    and details ->> 'bankName' is not null
+    and lineitems.description is not null
+    and lineitems.amount != 0
+    and details -> 'lineItems' -> 0 ->> 'description' is not null
+order by 1 desc, 4 desc, 2 desc;
+```
+4. ```npm i && npm start```
